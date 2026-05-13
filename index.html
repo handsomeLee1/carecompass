@@ -1,1 +1,107 @@
-<h1>carecompass</h1>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케어컴퍼스 - 노인 케어의 모든 것</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; color: #2C2C2A; }
+
+/* 헤더 */
+header { background: #fff; border-bottom: 1px solid #E1F5EE; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+.logo { font-size: 20px; font-weight: 700; color: #1D9E75; }
+.logo span { color: #2C2C2A; }
+nav a { margin-left: 24px; text-decoration: none; color: #555; font-size: 14px; }
+nav a:hover { color: #1D9E75; }
+
+/* 히어로 */
+.hero { background: linear-gradient(135deg, #E1F5EE 0%, #fff 100%); padding: 80px 24px; text-align: center; }
+.hero h1 { font-size: 32px; font-weight: 700; line-height: 1.4; margin-bottom: 16px; }
+.hero h1 span { color: #1D9E75; }
+.hero p { font-size: 16px; color: #666; margin-bottom: 32px; line-height: 1.7; }
+.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn-primary { background: #1D9E75; color: #fff; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
+.btn-secondary { background: #fff; color: #1D9E75; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; border: 2px solid #1D9E75; }
+
+/* 기능 카드 */
+.features { padding: 60px 24px; background: #fff; }
+.features h2 { text-align: center; font-size: 24px; margin-bottom: 40px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
+.card { border: 1px solid #E1F5EE; border-radius: 12px; padding: 28px; transition: box-shadow 0.2s; }
+.card:hover { box-shadow: 0 4px 20px rgba(29,158,117,0.1); }
+.card-icon { font-size: 36px; margin-bottom: 16px; }
+.card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; color: #1D9E75; }
+.card p { font-size: 14px; color: #666; line-height: 1.6; }
+.card-badge { display: inline-block; background: #E1F5EE; color: #0F6E56; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin-top: 12px; }
+
+/* 케어몰 배너 */
+.caremall-banner { background: #0F6E56; color: #fff; padding: 48px 24px; text-align: center; }
+.caremall-banner h2 { font-size: 22px; margin-bottom: 12px; }
+.caremall-banner p { font-size: 14px; opacity: 0.85; margin-bottom: 24px; }
+.btn-white { background: #fff; color: #0F6E56; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
+
+/* 푸터 */
+footer { background: #2C2C2A; color: #aaa; padding: 32px 24px; text-align: center; font-size: 13px; line-height: 2; }
+footer a { color: #aaa; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Care<span>Compass</span></div>
+  <nav>
+    <a href="#calculator">비용계산</a>
+    <a href="#finder">기관찾기</a>
+    <a href="#caremall">복지용구</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>부모님 케어,<br><span>방향을 잡아드립니다</span></h1>
+  <p>장기요양 비용 계산부터 가까운 요양기관 찾기까지<br>케어컴퍼스가 한번에 안내해드립니다</p>
+  <div class="hero-buttons">
+    <a href="#calculator" class="btn-primary">비용 계산하기</a>
+    <a href="#finder" class="btn-secondary">요양기관 찾기</a>
+  </div>
+</section>
+
+<section class="features" id="calculator">
+  <h2>케어컴퍼스 주요 서비스</h2>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-icon">🧮</div>
+      <h3>복지용구 견적 계산기</h3>
+      <p>필요한 복지용구를 선택하면 장기요양 급여 적용 후 실제 본인부담금을 계산해드립니다</p>
+      <span class="card-badge">준비 중</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">💰</div>
+      <h3>장기요양 본인부담금 계산기</h3>
+      <p>요양등급과 서비스 종류에 따른 월 본인부담금을 간편하게 계산해보세요</p>
+      <span class="card-badge">준비 중</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">🗺️</div>
+      <h3>가까운 요양기관 찾기</h3>
+      <p>전국 요양원, 주간보호센터, 방문요양 기관을 지도에서 쉽게 찾아보세요</p>
+      <span class="card-badge">준비 중</span>
+    </div>
+  </div>
+</section>
+
+<section class="caremall-banner" id="caremall">
+  <h2>복지용구가 필요하신가요?</h2>
+  <p>전동침대, 휠체어, 욕창예방매트 등 장기요양 급여 복지용구<br>케어몰 운정복지용구에서 렌탈 및 구매 상담해드립니다</p>
+  <a href="https://caremall.kr" target="_blank" class="btn-white">케어몰 바로가기 →</a>
+</section>
+
+<footer>
+  <p>케어컴퍼스 | 노인 케어 정보 포털</p>
+  <p>데이터 출처: 국민건강보험공단 공공데이터</p>
+  <p><a href="#">개인정보처리방침</a> | <a href="#">이용약관</a></p>
+  <p style="margin-top:8px; font-size:12px;">© 2026 CareCompass. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
