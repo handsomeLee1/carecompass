@@ -1,3 +1,4 @@
+cat > index.html << 'HTMLEOF'
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -6,44 +7,55 @@
 <title>케어컴퍼스 - 노인 케어의 모든 것</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; color: #2C2C2A; }
+body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; color: #2C2C2A; background: #fff; }
 
 /* 헤더 */
-header { background: #fff; border-bottom: 1px solid #E1F5EE; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
-.logo { font-size: 20px; font-weight: 700; color: #1D9E75; }
+header { background: #fff; border-bottom: 1px solid #d4f0e4; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+.logo { font-size: 20px; font-weight: 700; color: #3DBE8A; }
 .logo span { color: #2C2C2A; }
 nav a { margin-left: 24px; text-decoration: none; color: #555; font-size: 14px; }
-nav a:hover { color: #1D9E75; }
+nav a:hover { color: #3DBE8A; }
 
 /* 히어로 */
-.hero { background: linear-gradient(135deg, #E1F5EE 0%, #fff 100%); padding: 80px 24px; text-align: center; }
-.hero h1 { font-size: 32px; font-weight: 700; line-height: 1.4; margin-bottom: 16px; }
-.hero h1 span { color: #1D9E75; }
-.hero p { font-size: 16px; color: #666; margin-bottom: 32px; line-height: 1.7; }
-.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-.btn-primary { background: #1D9E75; color: #fff; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
-.btn-secondary { background: #fff; color: #1D9E75; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; border: 2px solid #1D9E75; }
+.hero { background: #F0FBF6; padding: 64px 24px 48px; text-align: center; }
+.hero h1 { font-size: 30px; font-weight: 700; line-height: 1.5; margin-bottom: 12px; }
+.hero h1 span { color: #3DBE8A; }
+.hero p { font-size: 15px; color: #666; margin-bottom: 0; line-height: 1.7; }
 
-/* 기능 카드 */
-.features { padding: 60px 24px; background: #fff; }
-.features h2 { text-align: center; font-size: 24px; margin-bottom: 40px; }
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
-.card { border: 1px solid #E1F5EE; border-radius: 12px; padding: 28px; transition: box-shadow 0.2s; }
-.card:hover { box-shadow: 0 4px 20px rgba(29,158,117,0.1); }
-.card-icon { font-size: 36px; margin-bottom: 16px; }
-.card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; color: #1D9E75; }
-.card p { font-size: 14px; color: #666; line-height: 1.6; }
-.card-badge { display: inline-block; background: #E1F5EE; color: #0F6E56; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin-top: 12px; }
+/* 검색 섹션 */
+.search-section { background: #F0FBF6; padding: 0 24px 56px; }
+.search-box { max-width: 640px; margin: 0 auto; background: #fff; border-radius: 16px; padding: 28px; box-shadow: 0 4px 24px rgba(61,190,138,0.12); }
+.search-box h2 { font-size: 17px; font-weight: 600; margin-bottom: 16px; color: #1a6645; }
+.search-row { display: flex; gap: 10px; flex-wrap: wrap; }
+select { flex: 1; min-width: 120px; padding: 10px 12px; border: 1.5px solid #d4f0e4; border-radius: 8px; font-size: 14px; color: #2C2C2A; background: #fff; appearance: none; }
+select:focus { outline: none; border-color: #3DBE8A; }
+.search-btn { background: #3DBE8A; color: #fff; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.search-btn:hover { background: #2fa876; }
+.type-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 14px; }
+.type-btn { background: #F0FBF6; border: 1.5px solid #d4f0e4; border-radius: 8px; padding: 10px 6px; font-size: 13px; color: #1a6645; cursor: pointer; text-align: center; font-weight: 500; transition: all 0.15s; }
+.type-btn:hover, .type-btn.active { background: #3DBE8A; color: #fff; border-color: #3DBE8A; }
 
-/* 케어몰 배너 */
-.caremall-banner { background: #0F6E56; color: #fff; padding: 48px 24px; text-align: center; }
-.caremall-banner h2 { font-size: 22px; margin-bottom: 12px; }
-.caremall-banner p { font-size: 14px; opacity: 0.85; margin-bottom: 24px; }
-.btn-white { background: #fff; color: #0F6E56; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
+/* 지도 영역 */
+.map-section { padding: 0 24px 48px; max-width: 900px; margin: 0 auto; }
+.map-placeholder { background: #F0FBF6; border-radius: 12px; height: 320px; display: flex; align-items: center; justify-content: center; border: 1.5px dashed #b2e4ce; flex-direction: column; gap: 12px; }
+.map-placeholder p { color: #3DBE8A; font-size: 15px; font-weight: 600; }
+.map-placeholder span { color: #999; font-size: 13px; }
+
+/* 서브 기능 */
+.sub-features { background: #F8FFFE; padding: 48px 24px; }
+.sub-features h2 { text-align: center; font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+.sub-features p { text-align: center; font-size: 14px; color: #888; margin-bottom: 32px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; max-width: 800px; margin: 0 auto; }
+.card { background: #fff; border: 1.5px solid #d4f0e4; border-radius: 12px; padding: 24px; transition: box-shadow 0.2s; cursor: pointer; }
+.card:hover { box-shadow: 0 4px 16px rgba(61,190,138,0.12); }
+.card-icon { font-size: 28px; margin-bottom: 12px; }
+.card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #1a6645; }
+.card p { font-size: 13px; color: #777; line-height: 1.6; }
+.card-badge { display: inline-block; background: #F0FBF6; color: #3DBE8A; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin-top: 10px; border: 1px solid #d4f0e4; }
 
 /* 푸터 */
-footer { background: #2C2C2A; color: #aaa; padding: 32px 24px; text-align: center; font-size: 13px; line-height: 2; }
-footer a { color: #aaa; text-decoration: none; }
+footer { background: #F0FBF6; border-top: 1px solid #d4f0e4; color: #888; padding: 28px 24px; text-align: center; font-size: 13px; line-height: 2; }
+footer a { color: #3DBE8A; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -51,57 +63,98 @@ footer a { color: #aaa; text-decoration: none; }
 <header>
   <div class="logo">Care<span>Compass</span></div>
   <nav>
-    <a href="#calculator">비용계산</a>
     <a href="#finder">기관찾기</a>
-    <a href="#caremall">복지용구</a>
+    <a href="#calculator">비용계산</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h1>부모님 케어,<br><span>방향을 잡아드립니다</span></h1>
-  <p>장기요양 비용 계산부터 가까운 요양기관 찾기까지<br>케어컴퍼스가 한번에 안내해드립니다</p>
-  <div class="hero-buttons">
-    <a href="#calculator" class="btn-primary">비용 계산하기</a>
-    <a href="#finder" class="btn-secondary">요양기관 찾기</a>
+  <h1>우리 동네<br><span>요양기관 찾기</span></h1>
+  <p>가까운 요양원, 주간보호센터, 방문요양 기관을<br>지금 바로 확인해보세요</p>
+</section>
+
+<section class="search-section" id="finder">
+  <div class="search-box">
+    <h2>🗺️ 지역으로 기관 찾기</h2>
+    <div class="search-row">
+      <select>
+        <option>시/도 선택</option>
+        <option>서울시</option>
+        <option>경기도</option>
+        <option>인천시</option>
+        <option>부산시</option>
+        <option>대전시</option>
+        <option>대구시</option>
+        <option>광주시</option>
+        <option>강원도</option>
+        <option>충청북도</option>
+        <option>충청남도</option>
+        <option>경상북도</option>
+        <option>경상남도</option>
+        <option>전라북도</option>
+        <option>전라남도</option>
+        <option>제주도</option>
+      </select>
+      <select>
+        <option>시/군/구 선택</option>
+      </select>
+      <button class="search-btn">검색</button>
+    </div>
+    <div class="type-grid">
+      <button class="type-btn active">전체</button>
+      <button class="type-btn">요양원</button>
+      <button class="type-btn">주간보호</button>
+      <button class="type-btn">방문요양</button>
+      <button class="type-btn">방문목욕</button>
+      <button class="type-btn">방문간호</button>
+      <button class="type-btn">단기보호</button>
+      <button class="type-btn">치매전담</button>
+    </div>
   </div>
 </section>
 
-<section class="features" id="calculator">
-  <h2>케어컴퍼스 주요 서비스</h2>
+<div class="map-section">
+  <div class="map-placeholder">
+    <p>🗺️ 지역을 선택하면 지도가 표시됩니다</p>
+    <span>카카오맵 API 연동 예정</span>
+  </div>
+</div>
+
+<section class="sub-features" id="calculator">
+  <h2>더 알아보기</h2>
+  <p>요양 비용이 궁금하신가요? 간편하게 계산해보세요</p>
   <div class="card-grid">
     <div class="card">
       <div class="card-icon">🧮</div>
       <h3>복지용구 견적 계산기</h3>
-      <p>필요한 복지용구를 선택하면 장기요양 급여 적용 후 실제 본인부담금을 계산해드립니다</p>
+      <p>필요한 용구를 선택하면 급여 적용 후 실제 본인부담금을 계산해드립니다</p>
       <span class="card-badge">준비 중</span>
     </div>
     <div class="card">
       <div class="card-icon">💰</div>
       <h3>장기요양 본인부담금 계산기</h3>
-      <p>요양등급과 서비스 종류에 따른 월 본인부담금을 간편하게 계산해보세요</p>
-      <span class="card-badge">준비 중</span>
-    </div>
-    <div class="card">
-      <div class="card-icon">🗺️</div>
-      <h3>가까운 요양기관 찾기</h3>
-      <p>전국 요양원, 주간보호센터, 방문요양 기관을 지도에서 쉽게 찾아보세요</p>
+      <p>요양등급과 서비스 종류에 따른 월 본인부담금을 계산해보세요</p>
       <span class="card-badge">준비 중</span>
     </div>
   </div>
 </section>
 
-<section class="caremall-banner" id="caremall">
-  <h2>복지용구가 필요하신가요?</h2>
-  <p>전동침대, 휠체어, 욕창예방매트 등 장기요양 급여 복지용구<br>케어몰 운정복지용구에서 렌탈 및 구매 상담해드립니다</p>
-  <a href="https://caremall.kr" target="_blank" class="btn-white">케어몰 바로가기 →</a>
-</section>
-
 <footer>
   <p>케어컴퍼스 | 노인 케어 정보 포털</p>
-  <p>데이터 출처: 국민건강보험공단 공공데이터</p>
-  <p><a href="#">개인정보처리방침</a> | <a href="#">이용약관</a></p>
-  <p style="margin-top:8px; font-size:12px;">© 2026 CareCompass. All rights reserved.</p>
+  <p>데이터 출처: <a href="#">국민건강보험공단 공공데이터</a></p>
+  <p><a href="#">개인정보처리방침</a> &nbsp;|&nbsp; <a href="#">이용약관</a></p>
+  <p style="margin-top:6px; font-size:12px; color:#bbb;">© 2026 CareCompass. All rights reserved.</p>
 </footer>
+
+<script>
+document.querySelectorAll('.type-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+</script>
 
 </body>
 </html>
+HTMLEOF
