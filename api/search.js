@@ -60,6 +60,7 @@ export default async function handler(req, res) {
 
     const [xml1, xml2] = await Promise.all([res1.text(), res2.text()]);
 
+    console.log('XML2 sample:', xml2.substring(0, 500));
     const items1 = parseItems(xml1);
     const items2 = parseItems(xml2);
 
