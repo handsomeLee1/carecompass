@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>케어컴퍼스 - 우리 동네 요양기관 찾기</title>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services&autoload=false"></script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; color: #2C2C2A; background: #fff; }
@@ -157,7 +157,7 @@ const API_KEY = '3097212a7319caf4dd8b9b52b3eb53ee88768616811b57cb7d870a418af57d9
 let map, geocoder, markers = [], currentType = '';
 
 // 지도 초기화
-window.onload = function() {
+function initMap() {
   const container = document.getElementById('map');
   const options = { center: new kakao.maps.LatLng(37.566826, 126.978656), level: 10 };
   map = new kakao.maps.Map(container, options);
@@ -304,6 +304,10 @@ function moveToInst(idx) {
     map.setLevel(5);
   }
 }
+</script>
+
+<script>
+kakao.maps.load(initMap);
 </script>
 
 </body>
