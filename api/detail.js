@@ -62,12 +62,15 @@ export default async function handler(req, res) {
     if (general && general.siDoCd && general.gunmulMlno) {
       try {
         var sigunguNm = {'110':'종로구','140':'중구','170':'용산구','480':'파주시','281':'고양시','271':'안산시','461':'용인시','521':'김포시','131':'성남시','150':'의정부시','220':'평택시','192':'부천시','360':'남양주시','590':'화성시','111':'수원시','610':'광주시','310':'구리시','630':'양주시','650':'포천시','210':'광명시','370':'오산시','390':'시흥시','410':'군포시','430':'의왕시','450':'하남시','171':'안양시','250':'동두천시','290':'과천시','500':'이천시','510':'안성시','670':'여주시','800':'연천군','820':'가평군','830':'양평군'};
-        var searchKeyword = (sidoNm[general.siDoCd] || '') + ' ' + (sigunguNm[general.siGunGuCd] || '') + ' ' + general.gunmulMlno;
-        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=1&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
+        var bldNo = general.gunmulMlno + (general.gunmulSlno && general.gunmulSlno !== '0' ? '-' + general.gunmulSlno : '');
+        var searchKeyword = (sidoNm[general.siDoCd] || '') + ' ' + (sigunguNm[general.siGunGuCd] || '') + ' ' + bldNo;
+        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=10&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
         var jusoRes = await fetch(jusoUrl);
         var jusoData = await jusoRes.json();
         if (jusoData.results && jusoData.results.juso && jusoData.results.juso.length > 0) {
-          address = jusoData.results.juso[0];
+          var jusoList = jusoData.results.juso;
+          var matched = jusoList.find(function(j) { return j.rnMgtSn === general.roadNmCd; });
+          address = matched || jusoList[0];
         }
       } catch(e) {}
     }
