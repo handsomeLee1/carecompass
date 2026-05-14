@@ -25,7 +25,7 @@ select { flex: 1; min-width: 120px; padding: 10px 12px; border: 1.5px solid #d4f
 select:focus { outline: none; border-color: #3DBE8A; }
 .search-btn { background: #3DBE8A; color: #fff; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
 .search-btn:hover { background: #2fa876; }
-.type-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+.type-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
 .type-btn { background: #F0FBF6; border: 1.5px solid #d4f0e4; border-radius: 8px; padding: 8px 6px; font-size: 13px; color: #1a6645; cursor: pointer; text-align: center; font-weight: 500; transition: all 0.15s; }
 .type-btn:hover, .type-btn.active { background: #3DBE8A; color: #fff; border-color: #3DBE8A; }
 .main-content { display: flex; max-width: 1100px; margin: 0 auto; padding: 24px; gap: 20px; }
@@ -102,16 +102,16 @@ footer a { color: #3DBE8A; text-decoration: none; }
     </div>
     <div class="type-grid">
       <button class="type-btn active" onclick="setType(this,'')">전체</button>
-      <button class="type-btn" onclick="setType(this,'A01')">요양원</button>
-      <button class="type-btn" onclick="setType(this,'A02')">주간보호</button>
-      <button class="type-btn" onclick="setType(this,'A03')">방문요양</button>
-      <button class="type-btn" onclick="setType(this,'A04')">방문목욕</button>
-      <button class="type-btn" onclick="setType(this,'A05')">방문간호</button>
-      <button class="type-btn" onclick="setType(this,'A06')">단기보호</button>
-      <button class="type-btn" onclick="setType(this,'A07')">치매전담</button>
+      <button class="type-btn" onclick="setType(this,'A01')">요양시설</button>
+      <button class="type-btn" onclick="setType(this,'A02')">요양공동생활</button>
+      <button class="type-btn" onclick="setType(this,'C01')">방문요양</button>
+      <button class="type-btn" onclick="setType(this,'C02')">방문목욕</button>
+      <button class="type-btn" onclick="setType(this,'C03')">방문간호</button>
+      <button class="type-btn" onclick="setType(this,'C04')">주간보호</button>
+      <button class="type-btn" onclick="setType(this,'C05')">단기보호</button>
+      <button class="type-btn" onclick="setType(this,'C06')">복지용구</button>
     </div>
-  </div>
-</section>
+  </section>
 
 <div class="main-content">
   <div id="map"></div>
