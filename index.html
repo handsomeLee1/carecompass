@@ -459,6 +459,8 @@ function renderDetail(data,name,type){
         });
       }catch(e){console.log('map error:',e)}
     },500);
+
+      
 }
 
 function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null)});markers=[]}
