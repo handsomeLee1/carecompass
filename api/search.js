@@ -15,12 +15,13 @@ export default async function handler(req, res) {
   if (type) params.append('longTermCareInstGbCd', type);
 
   const apiUrl = `https://apis.data.go.kr/B550928/searchLtcInsService/getLtcInsInfo?${params.toString()}`;
-  
+
   try {
     const response = await fetch(apiUrl);
-    const text = await response.text();
-    res.status(200).send(text);
+    const data = await response.json();
+    res.status(200).json(data);
   } catch(e) {
+    console.error('API Error:', e);
     res.status(500).json({ error: e.message });
   }
 }
