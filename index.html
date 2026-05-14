@@ -91,118 +91,225 @@ footer a{color:#3DBE8A;text-decoration:none}
 </style>
 </head>
 <body>
+
 <header>
-<div class="logo" onclick="showMain()">Care<span>Compass</span></div>
-<nav><a href="#" onclick="showMain()">기관찾기</a><a href="#calculator">비용계산</a></nav>
+  <div class="logo" onclick="showMain()">Care<span>Compass</span></div>
+  <nav>
+    <a href="#" onclick="showMain()">기관찾기</a>
+    <a href="#calculator">비용계산</a>
+  </nav>
 </header>
+
 <div id="mainView">
 <section class="hero">
-<h1>우리 동네<br><span>요양기관 찾기</span></h1>
-<p>가까운 요양원, 주간보호센터, 방문요양 기관을 지금 바로 확인해보세요</p>
+  <h1>우리 동네<br><span>요양기관 찾기</span></h1>
+  <p>가까운 요양원, 주간보호센터, 방문요양 기관을 지금 바로 확인해보세요</p>
 </section>
+
 <section class="search-section" id="finder">
-<div class="search-box">
-<h2>🗺️ 지역으로 기관 찾기</h2>
-<div class="search-row">
-<select id="sido" onchange="loadSigungu()">
-<option value="">시/도 선택</option>
-<option value="11">서울시</option><option value="41">경기도</option><option value="28">인천시</option><option value="26">부산시</option><option value="30">대전시</option><option value="27">대구시</option><option value="31">울산시</option><option value="36">세종시</option><option value="29">광주시</option><option value="42">강원도</option><option value="43">충청북도</option><option value="44">충청남도</option><option value="47">경상북도</option><option value="48">경상남도</option><option value="45">전라북도</option><option value="46">전라남도</option><option value="50">제주도</option>
-</select>
-<select id="sigungu"><option value="">시/군/구 선택</option></select>
-<button class="search-btn" onclick="searchInstitutions()">검색</button>
-</div>
-<div class="filter-row">
-<label>기관유형</label>
-<select id="typeFilter" onchange="filterAndDisplay()">
-<option value="">전체</option><option value="A">요양시설</option><option value="B03,C03">주간보호</option><option value="B01,C01">방문요양</option><option value="B02,C02">방문목욕</option><option value="B05,C05">방문간호</option><option value="B04,C04">단기보호</option><option value="C06">복지용구</option><option value="G,M,H,I,S">치매전담</option>
-</select>
-<label>읍면동</label>
-<select id="dongFilter" onchange="filterAndDisplay()"><option value="">전체</option></select>
-</div>
-<div class="name-search">
-<input type="text" id="nameSearch" placeholder="기관명으로 검색 (예: 운정, 금촌)" onkeydown="if(event.key==='Enter')searchInstitutions()">
-</div>
-</div>
+  <div class="search-box">
+    <h2>🗺️ 지역으로 기관 찾기</h2>
+    <div class="search-row">
+      <select id="sido" onchange="loadSigungu()">
+        <option value="">시/도 선택</option>
+        <option value="11">서울시</option>
+        <option value="41">경기도</option>
+        <option value="28">인천시</option>
+        <option value="26">부산시</option>
+        <option value="30">대전시</option>
+        <option value="27">대구시</option>
+        <option value="31">울산시</option>
+        <option value="36">세종시</option>
+        <option value="29">광주시</option>
+        <option value="42">강원도</option>
+        <option value="43">충청북도</option>
+        <option value="44">충청남도</option>
+        <option value="47">경상북도</option>
+        <option value="48">경상남도</option>
+        <option value="45">전라북도</option>
+        <option value="46">전라남도</option>
+        <option value="50">제주도</option>
+      </select>
+      <select id="sigungu">
+        <option value="">시/군/구 선택</option>
+      </select>
+      <button class="search-btn" onclick="searchInstitutions()">검색</button>
+    </div>
+    <div class="filter-row">
+      <label>기관유형</label>
+      <select id="typeFilter" onchange="filterAndDisplay()">
+        <option value="">전체</option>
+        <option value="A">요양시설</option>
+        <option value="B03,C03">주간보호</option>
+        <option value="B01,C01">방문요양</option>
+        <option value="B02,C02">방문목욕</option>
+        <option value="B05,C05">방문간호</option>
+        <option value="B04,C04">단기보호</option>
+        <option value="C06">복지용구</option>
+        <option value="G,M,H,I,S">치매전담</option>
+      </select>
+      <label>읍면동</label>
+      <select id="dongFilter" onchange="filterAndDisplay()">
+        <option value="">전체</option>
+      </select>
+    </div>
+    <div class="name-search">
+      <input type="text" id="nameSearch" placeholder="기관명으로 검색 (예: 운정, 금촌)" onkeydown="if(event.key==='Enter')searchInstitutions()">
+    </div>
+  </div>
 </section>
+
 <div class="main-content">
-<div id="map"></div>
-<div class="list-panel">
-<div class="list-header" id="list-header">지역을 선택하고 검색해주세요</div>
-<div id="inst-list"><div class="empty-state">🗺️ 시/도와 시/군/구를 선택한 후<br>검색 버튼을 눌러주세요</div></div>
+  <div id="map"></div>
+  <div class="list-panel">
+    <div class="list-header" id="list-header">지역을 선택하고 검색해주세요</div>
+    <div id="inst-list">
+      <div class="empty-state">🗺️ 시/도와 시/군/구를 선택한 후<br>검색 버튼을 눌러주세요</div>
+    </div>
+  </div>
 </div>
-</div>
+
 <section class="sub-features" id="calculator">
-<h2>더 알아보기</h2>
-<p>요양 비용이 궁금하신가요? 간편하게 계산해보세요</p>
-<div class="card-grid">
-<div class="card"><div class="card-icon">🧮</div><h3>복지용구 견적 계산기</h3><p>필요한 용구를 선택하면 급여 적용 후 실제 본인부담금을 계산해드립니다</p><span class="card-badge">준비 중</span></div>
-<div class="card"><div class="card-icon">💰</div><h3>장기요양 본인부담금 계산기</h3><p>요양등급과 서비스 종류에 따른 월 본인부담금을 계산해보세요</p><span class="card-badge">준비 중</span></div>
-</div>
+  <h2>더 알아보기</h2>
+  <p>요양 비용이 궁금하신가요? 간편하게 계산해보세요</p>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-icon">🧮</div>
+      <h3>복지용구 견적 계산기</h3>
+      <p>필요한 용구를 선택하면 급여 적용 후 실제 본인부담금을 계산해드립니다</p>
+      <span class="card-badge">준비 중</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">💰</div>
+      <h3>장기요양 본인부담금 계산기</h3>
+      <p>요양등급과 서비스 종류에 따른 월 본인부담금을 계산해보세요</p>
+      <span class="card-badge">준비 중</span>
+    </div>
+  </div>
 </section>
 </div>
 <div class="detail-page" id="detailView">
-<div class="detail-back" onclick="showMain()">← 목록으로 돌아가기</div>
-<div id="detailContent"><div class="loading-spinner">데이터를 불러오는 중...</div></div>
-<div id="detailMap"></div>
+  <div class="detail-back" onclick="showMain()">← 목록으로 돌아가기</div>
+  <div id="detailContent">
+    <div class="loading-spinner">데이터를 불러오는 중...</div>
+  </div>
+  <div id="detailMap"></div>
 </div>
+
 <footer>
-<p>케어컴퍼스 | 노인 케어 정보 포털</p>
-<p>데이터 출처: <a href="https://www.data.go.kr">국민건강보험공단 공공데이터</a></p>
-<p><a href="#">개인정보처리방침</a> &nbsp;|&nbsp; <a href="#">이용약관</a></p>
-<p style="margin-top:6px;font-size:12px;color:#bbb;">© 2026 CareCompass. All rights reserved.</p>
+  <p>케어컴퍼스 | 노인 케어 정보 포털</p>
+  <p>데이터 출처: <a href="https://www.data.go.kr">국민건강보험공단 공공데이터</a></p>
+  <p><a href="#">개인정보처리방침</a> &nbsp;|&nbsp; <a href="#">이용약관</a></p>
+  <p style="margin-top:6px;font-size:12px;color:#bbb;">© 2026 CareCompass. All rights reserved.</p>
 </footer>
 <script>
-var map=null,geocoder=null,markers=[],allItems=[],detailMap=null,mapReady=false;
+var map,geocoder,markers=[],allItems=[],detailMap;
 
-var sigunguData={'11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],'41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],'28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],'26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],'30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],'27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'}],'31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],'36':[{code:'110',name:'세종시'}],'29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],'42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],'43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],'44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],'47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'720',name:'군위군'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],'48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],'45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],'46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],'50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]};
+var sigunguData={
+'11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],
+'41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],
+'28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],
+'26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],
+'30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],
+'27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'}],
+'31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],
+'36':[{code:'110',name:'세종시'}],
+'29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],
+'42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],
+'43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],
+'44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],
+'47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'720',name:'군위군'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],
+'48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],
+'45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],
+'46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],
+'50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]
+};
 
 var typeNames={'A01':'노인요양시설','A02':'노인전문요양시설','A03':'노인요양시설','A04':'노인요양공동생활가정','A05':'노인요양시설','AAA':'입소시설','B01':'방문요양','B02':'방문목욕','B03':'주간보호','B04':'단기보호','B05':'방문간호','C01':'방문요양','C02':'방문목욕','C03':'주간보호','C04':'단기보호','C05':'방문간호','C06':'복지용구','Z01':'기타','S41':'치매전담형'};
 
-function getTypeName(cd){if(typeNames[cd])return typeNames[cd];if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';return cd||'기관';}
+function getTypeName(cd){
+  if(typeNames[cd])return typeNames[cd];
+  if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';
+  if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';
+  return cd||'기관';
+}
 
-function initMap(){map=new kakao.maps.Map(document.getElementById('map'),{center:new kakao.maps.LatLng(37.566826,126.978656),level:10});geocoder=new kakao.maps.services.Geocoder();mapReady=true;}
+function initMap(){
+  map=new kakao.maps.Map(document.getElementById('map'),{center:new kakao.maps.LatLng(37.566826,126.978656),level:10});
+  geocoder=new kakao.maps.services.Geocoder();
+}
 
-function showMain(){document.getElementById('mainView').style.display='';document.getElementById('detailView').classList.remove('show');window.scrollTo(0,0);}
+function showMain(){
+  document.getElementById('mainView').style.display='';
+  document.getElementById('detailView').classList.remove('show');
+  window.scrollTo(0,0);
+}
 
-function loadSigungu(){var v=document.getElementById('sido').value;var s=document.getElementById('sigungu');s.innerHTML='<option value="">시/군/구 선택</option>';if(!v||!sigunguData[v])return;sigunguData[v].forEach(function(i){var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o);});}
+function loadSigungu(){
+  var v=document.getElementById('sido').value;
+  var s=document.getElementById('sigungu');
+  s.innerHTML='<option value="">시/군/구 선택</option>';
+  if(!v||!sigunguData[v])return;
+  sigunguData[v].forEach(function(i){var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o)});
+}
 
-function searchInstitutions(){
+async function searchInstitutions(){
   var sido=document.getElementById('sido');
   var sigungu=document.getElementById('sigungu');
   var nameVal=document.getElementById('nameSearch').value.trim();
-  if(!sido.value){alert('시/도를 선택해주세요');return;}
+  if(!sido.value){alert('시/도를 선택해주세요');return}
+
   document.getElementById('list-header').textContent='검색 중...';
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
   document.getElementById('dongFilter').innerHTML='<option value="">전체</option>';
+
   var url='/api/search?sidoCd='+sido.value;
   if(sigungu.value)url+='&sigunguCd='+sigungu.value;
   if(nameVal)url+='&name='+encodeURIComponent(nameVal);
-  fetch(url).then(function(r){return r.json();}).then(function(data){
+
+  try{
+    var res=await fetch(url);
+    var data=await res.json();
     allItems=data.items||[];
-    if(allItems.length===0){document.getElementById('list-header').textContent='검색 결과 없음';document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';return;}
-    filterAndDisplay();
-    loadAddresses();
-  }).catch(function(){
+    if(allItems.length===0){
+      document.getElementById('list-header').textContent='검색 결과 없음';
+      document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
+      return;
+    }
+    loadAddressesAndDisplay();
+  }catch(e){
     document.getElementById('list-header').textContent='오류 발생';
     document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오지 못했습니다</div>';
-  });
+  }
 }
 
-function loadAddresses(){
+async function loadAddressesAndDisplay(){
+  filterAndDisplay();
+
   var batch=allItems.slice(0,20);
   var promises=batch.map(function(inst){
-    return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd).then(function(r){return r.json();}).then(function(d){
-      if(d.address&&d.address.roadAddr){inst.roadAddr=d.address.roadAddr;inst.emdNm=d.address.emdNm||'';}
-    }).catch(function(){});
+    return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd)
+      .then(function(r){return r.json()})
+      .then(function(d){
+        if(d.address&&d.address.roadAddr){
+          inst.roadAddr=d.address.roadAddr;
+          inst.emdNm=d.address.emdNm||'';
+        }
+      })
+      .catch(function(){});
   });
-  Promise.all(promises).then(function(){
-    var dongs=new Set();
-    allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm);});
-    var dongSel=document.getElementById('dongFilter');
-    dongSel.innerHTML='<option value="">전체</option>';
-    Array.from(dongs).sort().forEach(function(d){var o=document.createElement('option');o.value=d;o.textContent=d;dongSel.appendChild(o);});
-    filterAndDisplay();
+
+  await Promise.all(promises);
+
+  var dongs=new Set();
+  allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm)});
+  var dongSel=document.getElementById('dongFilter');
+  dongSel.innerHTML='<option value="">전체</option>';
+  Array.from(dongs).sort().forEach(function(d){
+    var o=document.createElement('option');o.value=d;o.textContent=d;dongSel.appendChild(o);
   });
+
+  filterAndDisplay();
 }
 
 function filterAndDisplay(){
@@ -212,40 +319,77 @@ function filterAndDisplay(){
   var sigunguName=sigungu.selectedIndex>0?sigungu.options[sigungu.selectedIndex].text:'';
   var typeVal=document.getElementById('typeFilter').value;
   var dongVal=document.getElementById('dongFilter').value;
+
   var filtered=allItems;
-  if(typeVal){var types=typeVal.split(',');filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});}
-  if(dongVal){filtered=filtered.filter(function(i){return i.emdNm===dongVal;});}
+  if(typeVal){
+    var types=typeVal.split(',');
+    filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t)})});
+  }
+  if(dongVal){
+    filtered=filtered.filter(function(i){return i.emdNm===dongVal});
+  }
+
   document.getElementById('list-header').textContent=sidoName+' '+sigunguName+' '+filtered.length+'곳';
   clearMarkers();
+
   var html='';
-  filtered.forEach(function(inst){
-    html+='<div class="inst-card" onclick="openDetail(\''+inst.longTermAdminSym+'\',\''+inst.adminPttnCd+'\',\''+inst.longTermCareInstNm.replace(/'/g,"\\'")+'\')">'+'<span class="inst-type">'+getTypeName(inst.adminPttnCd)+'</span>'+'<h3>'+inst.longTermCareInstNm+'</h3>'+(inst.roadAddr?'<p class="inst-addr">📍 '+inst.roadAddr+'</p>':'')+'</div>';
-    if(inst.roadAddr&&mapReady&&geocoder){
-      (function(address,name){geocoder.addressSearch(address,function(result,status){if(status===kakao.maps.services.Status.OK){var coords=new kakao.maps.LatLng(result[0].y,result[0].x);var marker=new kakao.maps.Marker({map:map,position:coords,title:name});markers.push(marker);if(markers.length===1){map.setCenter(coords);map.setLevel(7);}}});})(inst.roadAddr,inst.longTermCareInstNm);
+  filtered.forEach(function(inst,idx){
+    html+='<div class="inst-card" onclick="openDetail(\''+inst.longTermAdminSym+'\',\''+inst.adminPttnCd+'\',\''+inst.longTermCareInstNm.replace(/'/g,"\\'")+'\')">'+
+      '<span class="inst-type">'+getTypeName(inst.adminPttnCd)+'</span>'+
+      '<h3>'+inst.longTermCareInstNm+'</h3>'+
+      (inst.roadAddr?'<p class="inst-addr">📍 '+inst.roadAddr+'</p>':'')+
+      '</div>';
+
+    if(inst.roadAddr&&geocoder&&idx<20){
+      (function(address,name){
+        geocoder.addressSearch(address,function(result,status){
+          if(status===kakao.maps.services.Status.OK){
+            var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
+            var marker=new kakao.maps.Marker({map:map,position:coords,title:name});
+            var iw=new kakao.maps.InfoWindow({content:'<div style="padding:6px 10px;font-size:12px;font-weight:600;color:#1a6645;white-space:nowrap">'+name+'</div>'});
+            kakao.maps.event.addListener(marker,'click',function(){iw.open(map,marker)});
+            markers.push(marker);
+            if(markers.length===1)map.setCenter(coords);
+          }
+        });
+      })(inst.roadAddr,inst.longTermCareInstNm);
     }
   });
   document.getElementById('inst-list').innerHTML=html||'<div class="empty-state">조건에 맞는 기관이 없습니다</div>';
 }
 
-function openDetail(sym,type,name){
+async function openDetail(sym,type,name){
   document.getElementById('mainView').style.display='none';
   document.getElementById('detailView').classList.add('show');
   document.getElementById('detailContent').innerHTML='<div class="loading-spinner">🏥 '+name+' 정보를 불러오는 중...</div>';
-  document.getElementById('detailMap').style.display='none';
   window.scrollTo(0,0);
-  fetch('/api/detail?sym='+sym+'&type='+type).then(function(r){return r.json();}).then(function(data){renderDetail(data,name,type);}).catch(function(){document.getElementById('detailContent').innerHTML='<div class="empty-state">상세 정보를 불러오지 못했습니다</div>';});
+
+  try{
+    var res=await fetch('/api/detail?sym='+sym+'&type='+type);
+    var data=await res.json();
+    renderDetail(data,name,type);
+  }catch(e){
+    document.getElementById('detailContent').innerHTML='<div class="empty-state">상세 정보를 불러오지 못했습니다</div>';
+  }
 }
 
 function renderDetail(data,name,type){
   var g=data.general||{};var s=data.staff||{};var f=data.facility||{};
   var c=data.capacity||{};var e=data.etc||{};var nb=data.nonBenefit||[];
   var wf=data.welfare||[];var addr=data.address||{};
+
   var roadAddr=addr.roadAddr||g.detailAddr||'정보 없음';
+  var emdNm=addr.emdNm||'';
   var tel='';
-  if(g.locTelNo_1||g.locTelNo1){tel=(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3);}
-  var totalPer=parseInt(c.totPer)||0;var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);var waitPer=(parseInt(c.maRsvPer)||0)+(parseInt(c.fmRsvPer)||0);var fillRate=totalPer>0?Math.round(nowPer/totalPer*100):0;
+  if(g.locTelNo_1||g.locTelNo1){tel=(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3)}
+
+  var totalPer=parseInt(c.totPer)||0;
+  var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);
+  var waitPer=(parseInt(c.maRsvPer)||0)+(parseInt(c.fmRsvPer)||0);
+  var fillRate=totalPer>0?Math.round(nowPer/totalPer*100):0;
 
   var h='<div class="detail-header"><span class="detail-type">'+getTypeName(type)+'</span><h2>'+name+'</h2></div>';
+
   h+='<div class="detail-section"><h3>📋 기본 정보</h3><div class="info-grid">';
   h+='<div class="info-item"><div class="label">주소</div><div class="value">'+roadAddr+'</div></div>';
   h+='<div class="info-item"><div class="label">전화번호</div><div class="value">'+(tel||'정보 없음')+'</div></div>';
@@ -256,43 +400,63 @@ function renderDetail(data,name,type){
   if(e.pkngEquip)h+='<div class="info-item"><div class="label">주차시설</div><div class="value">'+e.pkngEquip+'</div></div>';
   h+='</div></div>';
 
-  if(totalPer>0){h+='<div class="detail-section"><h3>👥 입소 현황</h3><div class="capacity-bar"><div class="bar-label">정원 '+totalPer+'명</div><div class="bar-wrap"><div class="bar-fill" style="width:'+fillRate+'%"></div></div><div class="bar-label">현원 '+nowPer+'명 ('+fillRate+'%)</div></div>';if(waitPer>0)h+='<div style="text-align:center;color:#e67e22;font-size:13px;font-weight:600">대기 '+waitPer+'명</div>';h+='</div>';}
+  if(totalPer>0){
+    h+='<div class="detail-section"><h3>👥 입소 현황</h3>';
+    h+='<div class="capacity-bar"><div class="bar-label">정원 '+totalPer+'명</div><div class="bar-wrap"><div class="bar-fill" style="width:'+fillRate+'%"></div></div><div class="bar-label">현원 '+nowPer+'명 ('+fillRate+'%)</div></div>';
+    if(waitPer>0)h+='<div style="text-align:center;color:#e67e22;font-size:13px;font-weight:600">대기 '+waitPer+'명</div>';
+    h+='</div>';
+  }
 
   var staffItems=[{k:'recuProt_1',n:'요양보호사'},{k:'nur',n:'간호사'},{k:'nurArticle',n:'간호조무사'},{k:'socWel',n:'사회복지사'},{k:'physicalMTret',n:'물리치료사'},{k:'wrkMTret',n:'작업치료사'},{k:'chrgDoc',n:'의사(전임)'},{k:'chargeDoc',n:'의사(촉탁)'},{k:'nut',n:'영양사'},{k:'cook',n:'조리원'},{k:'equipLong',n:'시설장'},{k:'ofceEmp',n:'사무원'}];
-  var hasStaff=staffItems.some(function(si){return parseInt(s[si.k])>0;});
-  if(hasStaff){h+='<div class="detail-section"><h3>👨‍⚕️ 인력 현황</h3><div class="staff-grid">';staffItems.forEach(function(si){var v=parseInt(s[si.k])||0;if(v>0)h+='<div class="staff-item"><div class="num">'+v+'</div><div class="name">'+si.n+'</div></div>';});h+='</div></div>';}
+  var hasStaff=staffItems.some(function(si){return parseInt(s[si.k])>0});
+  if(hasStaff){
+    h+='<div class="detail-section"><h3>👨‍⚕️ 인력 현황</h3><div class="staff-grid">';
+    staffItems.forEach(function(si){var v=parseInt(s[si.k])||0;if(v>0)h+='<div class="staff-item"><div class="num">'+v+'</div><div class="name">'+si.n+'</div></div>'});
+    h+='</div></div>';
+  }
 
   var facItems=[{k:'prsnRoomreal1',n:'1인실'},{k:'prsnRoomreal2',n:'2인실'},{k:'prsnRoomreal3',n:'3인실'},{k:'prsnRoomreal4',n:'4인실'},{k:'spcAcupRoomreal',n:'특수침실'},{k:'medRoomreal',n:'의료/간호사실'},{k:'funcTrnRoomreal',n:'작업/훈련실'},{k:'pgmRoomreal',n:'프로그램실'},{k:'batRoom',n:'화장실'},{k:'ofce',n:'사무실'}];
-  var hasFac=facItems.some(function(fi){return parseInt(f[fi.k])>0;});
-  if(hasFac){h+='<div class="detail-section"><h3>🏠 시설 현황</h3><div class="info-grid">';facItems.forEach(function(fi){var v=parseInt(f[fi.k])||0;if(v>0)h+='<div class="info-item"><div class="label">'+fi.n+'</div><div class="value">'+v+'개</div></div>';});h+='</div></div>';}
+  var hasFac=facItems.some(function(fi){return parseInt(f[fi.k])>0});
+  if(hasFac){
+    h+='<div class="detail-section"><h3>🏠 시설 현황</h3><div class="info-grid">';
+    facItems.forEach(function(fi){var v=parseInt(f[fi.k])||0;if(v>0)h+='<div class="info-item"><div class="label">'+fi.n+'</div><div class="value">'+v+'개</div></div>'});
+    h+='</div></div>';
+  }
 
-  if(nb.length>0){var nbNames={'1':'식재료비','2':'상급침실사용료','3':'이미용비','4':'경관영양유동식비','5':'간식비','6':'상급침실(2인실)','7':'기타'};h+='<div class="detail-section"><h3>💰 비급여 현황</h3><table class="info-table"><tr><th>항목</th><th>금액</th><th>산출근거</th></tr>';nb.forEach(function(i){h+='<tr><td>'+(nbNames[i.nonpayKind]||i.nonpayKind)+'</td><td>'+(parseInt(i.nonpayTgtAmt)||0).toLocaleString()+'원</td><td>'+(i.prodBase||'')+'</td></tr>';});h+='</table></div>';}
+  if(nb.length>0){
+    var nbNames={'1':'식재료비','2':'상급침실사용료','3':'이미용비','4':'경관영양유동식비','5':'간식비','6':'상급침실(2인실)','7':'기타'};
+    h+='<div class="detail-section"><h3>💰 비급여 현황</h3><table class="info-table"><tr><th>항목</th><th>금액</th><th>산출근거</th></tr>';
+    nb.forEach(function(i){h+='<tr><td>'+(nbNames[i.nonpayKind]||i.nonpayKind)+'</td><td>'+(parseInt(i.nonpayTgtAmt)||0).toLocaleString()+'원</td><td>'+(i.prodBase||'')+'</td></tr>'});
+    h+='</table></div>';
+  }
 
-  if(wf.length>0){h+='<div class="detail-section"><h3>🔧 복지용구 현황</h3><table class="info-table"><tr><th>장비명</th><th>제조사</th><th>모델명</th><th>용도</th></tr>';wf.forEach(function(i){h+='<tr><td>'+(i.itemName||'')+'</td><td>'+(i.mnfCo||'')+'</td><td>'+(i.modelNm||'')+'</td><td>'+(i.usage||'')+'</td></tr>';});h+='</table></div>';}
+  if(wf.length>0){
+    h+='<div class="detail-section"><h3>🔧 복지용구 현황</h3><table class="info-table"><tr><th>장비명</th><th>제조사</th><th>모델명</th><th>용도</th></tr>';
+    wf.forEach(function(i){h+='<tr><td>'+(i.itemName||'')+'</td><td>'+(i.mnfCo||'')+'</td><td>'+(i.modelNm||'')+'</td><td>'+(i.usage||'')+'</td></tr>'});
+    h+='</table></div>';
+  }
 
   document.getElementById('detailContent').innerHTML=h;
 
-  if(roadAddr&&roadAddr!=='정보 없음'&&mapReady){
-    var dContainer=document.getElementById('detailMap');
-    dContainer.style.display='block';
+  if(roadAddr&&roadAddr!=='정보 없음'&&typeof kakao!=='undefined'&&geocoder){
     setTimeout(function(){
-      try{
-        if(!detailMap){detailMap=new kakao.maps.Map(dContainer,{center:new kakao.maps.LatLng(37.566826,126.978656),level:5});}
-        else{detailMap.relayout();}
-        var gc=new kakao.maps.services.Geocoder();
-        gc.addressSearch(roadAddr,function(result,status){
-          if(status===kakao.maps.services.Status.OK){
-            var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
-            detailMap.setCenter(coords);detailMap.relayout();
-            new kakao.maps.Marker({map:detailMap,position:coords,title:name});
-          }
-        });
-      }catch(err){console.log('map error:',err);}
-    },500);
+      var dContainer=document.getElementById('detailMap');
+      if(!detailMap){
+        detailMap=new kakao.maps.Map(dContainer,{center:new kakao.maps.LatLng(37.566826,126.978656),level:5});
+      }
+      geocoder.addressSearch(roadAddr,function(result,status){
+        if(status===kakao.maps.services.Status.OK){
+          var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
+          detailMap.setCenter(coords);
+          detailMap.relayout();
+          new kakao.maps.Marker({map:detailMap,position:coords,title:name});
+        }
+      });
+    },300);
   }
 }
 
-function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null);});markers=[];}
+function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null)});markers=[]}
 </script>
 </body>
 </html>
