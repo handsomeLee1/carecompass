@@ -8,7 +8,8 @@ export default async function handler(req, res) {
     'A01':'노인요양시설','A02':'노인전문요양시설','A03':'노인요양시설','A04':'노인요양공동생활가정','A05':'노인요양시설','AAA':'입소시설',
     'B01':'방문요양','B02':'방문목욕','B03':'주간보호','B04':'단기보호','B05':'방문간호','B06':'복지용구',
     'C01':'방문요양','C02':'방문목욕','C03':'주간보호','C04':'단기보호','C05':'방문간호','C06':'복지용구',
-    'Z01':'기타','S41':'치매전담형'
+    'Z01':'기타','S41':'치매전담형',
+    '001':'방문요양','002':'방문목욕','003':'주간보호','004':'단기보호','005':'방문간호','006':'복지용구'
   };
 
   function getTypeName(cd) {
@@ -29,7 +30,7 @@ export default async function handler(req, res) {
         return m ? m[1] : '';
       };
       const sym = get('longTermAdminSym');
-      const pttnCd = get('adminPttnCd');
+      const pttnCd = get('adminPttnCd') || get('serviceKind');
       const key = sym + '_' + pttnCd;
       if (seen.has(key)) continue;
       seen.add(key);
