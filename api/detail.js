@@ -57,13 +57,12 @@ export default async function handler(req, res) {
     var welfare = parseList(wfXml);
 
     var address = null;
-    if (general && general.roadNmCd && general.gunmulMlno) {
-      var sidoNames = {'11':'서울','21':'부산','22':'대구','23':'인천','24':'광주','25':'대전','26':'울산','29':'세종','31':'경기','32':'강원','33':'충북','34':'충남','35':'전북','36':'전남','37':'경북','38':'경남','39':'제주','41':'경기'};
-      var rn = general.roadNmCd;
-      var bldNo = general.gunmulMlno + (general.gunmulSlno && general.gunmulSlno !== '0' ? '-' + general.gunmulSlno : '');
+    var sidoNm = {'11':'서울특별시','26':'부산광역시','27':'대구광역시','28':'인천광역시','29':'광주광역시','30':'대전광역시','31':'울산광역시','36':'세종특별자치시','41':'경기도','42':'강원특별자치도','43':'충청북도','44':'충청남도','45':'전라북도','46':'전라남도','47':'경상북도','48':'경상남도','50':'제주특별자치도'};
 
+    if (general && general.adminNm) {
       try {
-        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=1&keyword=${encodeURIComponent(rn + ' ' + bldNo)}&confmKey=${JUSO_KEY}&resultType=json`;
+        var searchKeyword = (sidoNm[general.siDoCd] || '') + ' ' + (general.adminNm || '');
+        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=1&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
         var jusoRes = await fetch(jusoUrl);
         var jusoData = await jusoRes.json();
         if (jusoData.results && jusoData.results.juso && jusoData.results.juso.length > 0) {
@@ -73,7 +72,6 @@ export default async function handler(req, res) {
     }
 
     if (!address && general) {
-      var sidoNm = {'11':'서울특별시','26':'부산광역시','27':'대구광역시','28':'인천광역시','29':'광주광역시','30':'대전광역시','31':'울산광역시','36':'세종특별자치시','41':'경기도','42':'강원특별자치도','43':'충청북도','44':'충청남도','45':'전라북도','46':'전라남도','47':'경상북도','48':'경상남도','50':'제주특별자치도'};
       address = {
         roadAddr: (sidoNm[general.siDoCd] || '') + ' ' + (general.detailAddr || ''),
         siNm: sidoNm[general.siDoCd] || '',
