@@ -11,8 +11,9 @@ export default async function handler(req, res) {
 
   if (sidoCd) params.append('siDoCd', sidoCd);
   if (sigunguCd) params.append('siGunGuCd', sigunguCd);
-  if (type) params.append('adminPttnCd', type);
-  if (name) params.append('adminNm', name);
+  // type이 여러개인 경우 첫번째만 사용 (API 제한)
+  // 클라이언트에서 필터링하므로 type 없이 전체 검색
+  // if (type) params.append('adminPttnCd', type);  if (name) params.append('adminNm', name);
 
   const apiUrl = `https://apis.data.go.kr/B550928/searchLtcInsttService02/getLtcInsttSeachList02?${params.toString()}`;
 
