@@ -4,62 +4,95 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>케어컴퍼스 - 우리 동네 요양기관 찾기</title>
+<meta name="description" content="전국 요양원, 주간보호센터, 방문요양 기관 검색. 장기요양 비용 계산기. 케어컴퍼스">
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services&onload=initMap"></script>
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; color: #2C2C2A; background: #fff; }
-header { background: #fff; border-bottom: 1px solid #d4f0e4; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
-.logo { font-size: 20px; font-weight: 700; color: #3DBE8A; }
-.logo span { color: #2C2C2A; }
-nav a { margin-left: 24px; text-decoration: none; color: #555; font-size: 14px; }
-nav a:hover { color: #3DBE8A; }
-.hero { background: #F0FBF6; padding: 48px 24px 32px; text-align: center; }
-.hero h1 { font-size: 28px; font-weight: 700; line-height: 1.5; margin-bottom: 10px; }
-.hero h1 span { color: #3DBE8A; }
-.hero p { font-size: 14px; color: #666; line-height: 1.7; }
-.search-section { background: #F0FBF6; padding: 20px 24px 40px; }
-.search-box { max-width: 700px; margin: 0 auto; background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 4px 24px rgba(61,190,138,0.12); }
-.search-box h2 { font-size: 16px; font-weight: 600; margin-bottom: 14px; color: #1a6645; }
-.search-row { display: flex; gap: 10px; flex-wrap: wrap; }
-select { flex: 1; min-width: 120px; padding: 10px 12px; border: 1.5px solid #d4f0e4; border-radius: 8px; font-size: 14px; color: #2C2C2A; background: #fff; }
-select:focus { outline: none; border-color: #3DBE8A; }
-.search-btn { background: #3DBE8A; color: #fff; border: none; padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
-.search-btn:hover { background: #2fa876; }
-.type-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
-.type-btn { background: #F0FBF6; border: 1.5px solid #d4f0e4; border-radius: 8px; padding: 8px 6px; font-size: 13px; color: #1a6645; cursor: pointer; text-align: center; font-weight: 500; transition: all 0.15s; }
-.type-btn:hover, .type-btn.active { background: #3DBE8A; color: #fff; border-color: #3DBE8A; }
-.main-content { display: flex; max-width: 1100px; margin: 0 auto; padding: 24px; gap: 20px; }
-#map { width: 60%; height: 520px; border-radius: 12px; border: 1.5px solid #d4f0e4; flex-shrink: 0; }
-.list-panel { flex: 1; overflow-y: auto; max-height: 520px; }
-.list-header { font-size: 15px; font-weight: 600; color: #1a6645; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1.5px solid #d4f0e4; }
-.inst-card { background: #fff; border: 1.5px solid #d4f0e4; border-radius: 10px; padding: 14px; margin-bottom: 10px; cursor: pointer; transition: all 0.15s; }
-.inst-card:hover { border-color: #3DBE8A; box-shadow: 0 2px 12px rgba(61,190,138,0.1); }
-.inst-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; color: #1a6645; }
-.inst-card p { font-size: 12px; color: #777; line-height: 1.6; }
-.inst-type { display: inline-block; background: #F0FBF6; color: #3DBE8A; font-size: 11px; padding: 2px 8px; border-radius: 20px; margin-bottom: 6px; border: 1px solid #d4f0e4; }
-.empty-state { text-align: center; padding: 40px 20px; color: #aaa; font-size: 14px; line-height: 2; }
-.sub-features { background: #F8FFFE; padding: 48px 24px; }
-.sub-features h2 { text-align: center; font-size: 18px; font-weight: 600; margin-bottom: 8px; }
-.sub-features p { text-align: center; font-size: 14px; color: #888; margin-bottom: 32px; }
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; max-width: 800px; margin: 0 auto; }
-.card { background: #fff; border: 1.5px solid #d4f0e4; border-radius: 12px; padding: 24px; transition: box-shadow 0.2s; cursor: pointer; }
-.card:hover { box-shadow: 0 4px 16px rgba(61,190,138,0.12); }
-.card-icon { font-size: 28px; margin-bottom: 12px; }
-.card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #1a6645; }
-.card p { font-size: 13px; color: #777; line-height: 1.6; }
-.card-badge { display: inline-block; background: #F0FBF6; color: #3DBE8A; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin-top: 10px; border: 1px solid #d4f0e4; }
-footer { background: #F0FBF6; border-top: 1px solid #d4f0e4; color: #888; padding: 28px 24px; text-align: center; font-size: 13px; line-height: 2; }
-footer a { color: #3DBE8A; text-decoration: none; }
-@media (max-width: 768px) {
-  .main-content { flex-direction: column; padding: 16px; }
-  #map { width: 100%; height: 300px; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:#2C2C2A;background:#fff}
+header{background:#fff;border-bottom:1px solid #d4f0e4;padding:0 24px;height:60px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.logo{font-size:20px;font-weight:700;color:#3DBE8A;cursor:pointer}
+.logo span{color:#2C2C2A}
+nav a{margin-left:24px;text-decoration:none;color:#555;font-size:14px}
+nav a:hover{color:#3DBE8A}
+.hero{background:#F0FBF6;padding:48px 24px 32px;text-align:center}
+.hero h1{font-size:28px;font-weight:700;line-height:1.5;margin-bottom:10px}
+.hero h1 span{color:#3DBE8A}
+.hero p{font-size:14px;color:#666;line-height:1.7}
+.search-section{background:#F0FBF6;padding:20px 24px 40px}
+.search-box{max-width:700px;margin:0 auto;background:#fff;border-radius:16px;padding:24px;box-shadow:0 4px 24px rgba(61,190,138,0.12)}
+.search-box h2{font-size:16px;font-weight:600;margin-bottom:14px;color:#1a6645}
+.search-row{display:flex;gap:10px;flex-wrap:wrap}
+select,input[type=text]{flex:1;min-width:120px;padding:10px 12px;border:1.5px solid #d4f0e4;border-radius:8px;font-size:14px;color:#2C2C2A;background:#fff}
+select:focus,input:focus{outline:none;border-color:#3DBE8A}
+.search-btn{background:#3DBE8A;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
+.search-btn:hover{background:#2fa876}
+.type-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.type-btn{background:#F0FBF6;border:1.5px solid #d4f0e4;border-radius:8px;padding:8px 6px;font-size:13px;color:#1a6645;cursor:pointer;text-align:center;font-weight:500;transition:all 0.15s}
+.type-btn:hover,.type-btn.active{background:#3DBE8A;color:#fff;border-color:#3DBE8A}
+.name-search{margin-top:10px}
+.name-search input{width:100%;padding:10px 12px;border:1.5px solid #d4f0e4;border-radius:8px;font-size:14px}
+.main-content{display:flex;max-width:1100px;margin:0 auto;padding:24px;gap:20px}
+#map{width:60%;height:520px;border-radius:12px;border:1.5px solid #d4f0e4;flex-shrink:0}
+.list-panel{flex:1;overflow-y:auto;max-height:520px}
+.list-header{font-size:15px;font-weight:600;color:#1a6645;margin-bottom:12px;padding-bottom:8px;border-bottom:1.5px solid #d4f0e4}
+.inst-card{background:#fff;border:1.5px solid #d4f0e4;border-radius:10px;padding:14px;margin-bottom:10px;cursor:pointer;transition:all 0.15s}
+.inst-card:hover{border-color:#3DBE8A;box-shadow:0 2px 12px rgba(61,190,138,0.1)}
+.inst-card h3{font-size:14px;font-weight:600;margin-bottom:4px;color:#1a6645}
+.inst-card p{font-size:12px;color:#777;line-height:1.6}
+.inst-type{display:inline-block;background:#F0FBF6;color:#3DBE8A;font-size:11px;padding:2px 8px;border-radius:20px;margin-bottom:6px;border:1px solid #d4f0e4}
+.empty-state{text-align:center;padding:40px 20px;color:#aaa;font-size:14px;line-height:2}
+.detail-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:200;overflow-y:auto;padding:20px}
+.detail-overlay.show{display:flex;justify-content:center;align-items:flex-start}
+.detail-page{background:#fff;border-radius:16px;max-width:800px;width:100%;padding:28px;margin:20px auto;position:relative}
+.detail-close{position:absolute;top:16px;right:16px;background:#f5f5f5;border:none;width:36px;height:36px;border-radius:50%;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.detail-close:hover{background:#eee}
+.detail-header{margin-bottom:24px}
+.detail-header h2{font-size:22px;font-weight:700;color:#1a6645;margin-bottom:8px}
+.detail-header .detail-type{display:inline-block;background:#F0FBF6;color:#3DBE8A;font-size:13px;padding:4px 12px;border-radius:20px;border:1px solid #d4f0e4}
+.detail-section{margin-bottom:24px}
+.detail-section h3{font-size:16px;font-weight:600;color:#1a6645;margin-bottom:12px;padding-bottom:8px;border-bottom:1.5px solid #d4f0e4}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.info-item{background:#F8FFFE;border-radius:8px;padding:12px}
+.info-item .label{font-size:12px;color:#888;margin-bottom:4px}
+.info-item .value{font-size:14px;font-weight:500;color:#2C2C2A}
+.info-table{width:100%;border-collapse:collapse;font-size:13px}
+.info-table th{background:#F0FBF6;color:#1a6645;padding:8px 12px;text-align:left;font-weight:600;border-bottom:1.5px solid #d4f0e4}
+.info-table td{padding:8px 12px;border-bottom:1px solid #f0f0f0;color:#555}
+.staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.staff-item{background:#F8FFFE;border-radius:8px;padding:10px;text-align:center}
+.staff-item .num{font-size:20px;font-weight:700;color:#3DBE8A}
+.staff-item .name{font-size:12px;color:#888;margin-top:2px}
+.capacity-bar{display:flex;align-items:center;gap:16px;margin-bottom:12px}
+.capacity-bar .bar-wrap{flex:1;background:#e8e8e8;border-radius:8px;height:24px;overflow:hidden}
+.capacity-bar .bar-fill{height:100%;background:#3DBE8A;border-radius:8px;transition:width 0.5s}
+.capacity-bar .bar-label{font-size:13px;color:#555;min-width:80px}
+.loading-spinner{text-align:center;padding:40px;color:#3DBE8A;font-size:14px}
+.sub-features{background:#F8FFFE;padding:48px 24px}
+.sub-features h2{text-align:center;font-size:18px;font-weight:600;margin-bottom:8px}
+.sub-features p{text-align:center;font-size:14px;color:#888;margin-bottom:32px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;max-width:800px;margin:0 auto}
+.card{background:#fff;border:1.5px solid #d4f0e4;border-radius:12px;padding:24px;transition:box-shadow 0.2s;cursor:pointer}
+.card:hover{box-shadow:0 4px 16px rgba(61,190,138,0.12)}
+.card-icon{font-size:28px;margin-bottom:12px}
+.card h3{font-size:15px;font-weight:600;margin-bottom:6px;color:#1a6645}
+.card p{font-size:13px;color:#777;line-height:1.6}
+.card-badge{display:inline-block;background:#F0FBF6;color:#3DBE8A;font-size:11px;padding:3px 8px;border-radius:20px;margin-top:10px;border:1px solid #d4f0e4}
+footer{background:#F0FBF6;border-top:1px solid #d4f0e4;color:#888;padding:28px 24px;text-align:center;font-size:13px;line-height:2}
+footer a{color:#3DBE8A;text-decoration:none}
+@media(max-width:768px){
+.main-content{flex-direction:column;padding:16px}
+#map{width:100%;height:300px}
+.info-grid{grid-template-columns:1fr}
+.staff-grid{grid-template-columns:repeat(2,1fr)}
+.detail-page{padding:20px;margin:10px}
+.type-grid{grid-template-columns:repeat(3,1fr)}
 }
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">Care<span>Compass</span></div>
+  <div class="logo" onclick="location.href='/'">Care<span>Compass</span></div>
   <nav>
     <a href="#finder">기관찾기</a>
     <a href="#calculator">비용계산</a>
@@ -102,16 +135,20 @@ footer a { color: #3DBE8A; text-decoration: none; }
     </div>
     <div class="type-grid">
       <button class="type-btn active" onclick="setType(this,'')">전체</button>
-      <button class="type-btn" onclick="setType(this,'A01')">요양시설</button>
-      <button class="type-btn" onclick="setType(this,'A02')">요양공동생활</button>
-      <button class="type-btn" onclick="setType(this,'C01')">방문요양</button>
-      <button class="type-btn" onclick="setType(this,'C02')">방문목욕</button>
-      <button class="type-btn" onclick="setType(this,'C03')">방문간호</button>
-      <button class="type-btn" onclick="setType(this,'C04')">주간보호</button>
-      <button class="type-btn" onclick="setType(this,'C05')">단기보호</button>
+      <button class="type-btn" onclick="setType(this,'A')">요양시설</button>
+      <button class="type-btn" onclick="setType(this,'B03,C03')">주간보호</button>
+      <button class="type-btn" onclick="setType(this,'B01,C01')">방문요양</button>
+      <button class="type-btn" onclick="setType(this,'B02,C02')">방문목욕</button>
+      <button class="type-btn" onclick="setType(this,'B05,C05')">방문간호</button>
+      <button class="type-btn" onclick="setType(this,'B04,C04')">단기보호</button>
       <button class="type-btn" onclick="setType(this,'C06')">복지용구</button>
+      <button class="type-btn" onclick="setType(this,'G,M,H,I,S')">치매전담</button>
     </div>
-  </section>
+    <div class="name-search">
+      <input type="text" id="nameSearch" placeholder="기관명으로 검색 (예: 운정, 금촌)" onkeydown="if(event.key==='Enter')searchInstitutions()">
+    </div>
+  </div>
+</section>
 
 <div class="main-content">
   <div id="map"></div>
@@ -119,6 +156,15 @@ footer a { color: #3DBE8A; text-decoration: none; }
     <div class="list-header" id="list-header">지역을 선택하고 검색해주세요</div>
     <div id="inst-list">
       <div class="empty-state">🗺️ 시/도와 시/군/구를 선택한 후<br>검색 버튼을 눌러주세요</div>
+    </div>
+  </div>
+</div>
+
+<div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this)closeDetail()">
+  <div class="detail-page" id="detailPage">
+    <button class="detail-close" onclick="closeDetail()">✕</button>
+    <div id="detailContent">
+      <div class="loading-spinner">데이터를 불러오는 중...</div>
     </div>
   </div>
 </div>
@@ -144,137 +190,242 @@ footer a { color: #3DBE8A; text-decoration: none; }
 
 <footer>
   <p>케어컴퍼스 | 노인 케어 정보 포털</p>
-  <p>데이터 출처: <a href="#">국민건강보험공단 공공데이터</a></p>
+  <p>데이터 출처: <a href="https://www.data.go.kr">국민건강보험공단 공공데이터</a></p>
   <p><a href="#">개인정보처리방침</a> &nbsp;|&nbsp; <a href="#">이용약관</a></p>
-  <p style="margin-top:6px; font-size:12px; color:#bbb;">© 2026 CareCompass. All rights reserved.</p>
+  <p style="margin-top:6px;font-size:12px;color:#bbb;">© 2026 CareCompass. All rights reserved.</p>
 </footer>
 
 <script>
-var map, geocoder, markers = [], currentType = '';
+var map, geocoder, markers = [], currentType = '', allItems = [];
 
 var sigunguData = {
-  '11': [{'code':'110','name':'종로구'},{'code':'140','name':'중구'},{'code':'170','name':'용산구'},{'code':'200','name':'성동구'},{'code':'215','name':'광진구'},{'code':'230','name':'동대문구'},{'code':'260','name':'중랑구'},{'code':'290','name':'성북구'},{'code':'305','name':'강북구'},{'code':'320','name':'도봉구'},{'code':'350','name':'노원구'},{'code':'380','name':'은평구'},{'code':'410','name':'서대문구'},{'code':'440','name':'마포구'},{'code':'470','name':'양천구'},{'code':'500','name':'강서구'},{'code':'530','name':'구로구'},{'code':'545','name':'금천구'},{'code':'560','name':'영등포구'},{'code':'590','name':'동작구'},{'code':'620','name':'관악구'},{'code':'650','name':'서초구'},{'code':'680','name':'강남구'},{'code':'710','name':'송파구'},{'code':'740','name':'강동구'}],
-  '41': [{'code':'111','name':'수원시'},{'code':'131','name':'성남시'},{'code':'150','name':'의정부시'},{'code':'171','name':'안양시'},{'code':'192','name':'부천시'},{'code':'210','name':'광명시'},{'code':'220','name':'평택시'},{'code':'250','name':'동두천시'},{'code':'271','name':'안산시'},{'code':'281','name':'고양시'},{'code':'290','name':'과천시'},{'code':'310','name':'구리시'},{'code':'360','name':'남양주시'},{'code':'370','name':'오산시'},{'code':'390','name':'시흥시'},{'code':'410','name':'군포시'},{'code':'430','name':'의왕시'},{'code':'450','name':'하남시'},{'code':'461','name':'용인시'},{'code':'480','name':'파주시'},{'code':'500','name':'이천시'},{'code':'510','name':'안성시'},{'code':'521','name':'김포시'},{'code':'590','name':'화성시'},{'code':'610','name':'광주시'},{'code':'630','name':'양주시'},{'code':'650','name':'포천시'},{'code':'670','name':'여주시'},{'code':'800','name':'연천군'},{'code':'820','name':'가평군'},{'code':'830','name':'양평군'}],
-  '28': [{'code':'110','name':'중구'},{'code':'140','name':'동구'},{'code':'177','name':'미추홀구'},{'code':'185','name':'연수구'},{'code':'200','name':'남동구'},{'code':'237','name':'부평구'},{'code':'245','name':'계양구'},{'code':'260','name':'서구'},{'code':'710','name':'강화군'},{'code':'720','name':'옹진군'}],
-  '26': [{'code':'110','name':'중구'},{'code':'140','name':'서구'},{'code':'170','name':'동구'},{'code':'200','name':'영도구'},{'code':'230','name':'부산진구'},{'code':'260','name':'동래구'},{'code':'290','name':'남구'},{'code':'320','name':'북구'},{'code':'350','name':'해운대구'},{'code':'380','name':'사하구'},{'code':'410','name':'금정구'},{'code':'440','name':'강서구'},{'code':'470','name':'연제구'},{'code':'500','name':'수영구'},{'code':'530','name':'사상구'},{'code':'710','name':'기장군'}],
-  '30': [{'code':'110','name':'동구'},{'code':'140','name':'중구'},{'code':'170','name':'서구'},{'code':'200','name':'유성구'},{'code':'230','name':'대덕구'}],
-  '27': [{'code':'110','name':'중구'},{'code':'140','name':'동구'},{'code':'170','name':'서구'},{'code':'200','name':'남구'},{'code':'230','name':'북구'},{'code':'260','name':'수성구'},{'code':'290','name':'달서구'},{'code':'710','name':'달성군'}],
-  '31': [{'code':'110','name':'중구'},{'code':'140','name':'남구'},{'code':'170','name':'동구'},{'code':'200','name':'북구'},{'code':'710','name':'울주군'}],
-  '36': [{'code':'110','name':'세종시'}],
-  '29': [{'code':'110','name':'동구'},{'code':'140','name':'서구'},{'code':'170','name':'남구'},{'code':'200','name':'북구'},{'code':'230','name':'광산구'}],
-  '42': [{'code':'110','name':'춘천시'},{'code':'130','name':'원주시'},{'code':'150','name':'강릉시'},{'code':'170','name':'동해시'},{'code':'190','name':'태백시'},{'code':'210','name':'속초시'},{'code':'230','name':'삼척시'},{'code':'720','name':'홍천군'},{'code':'730','name':'횡성군'},{'code':'750','name':'영월군'},{'code':'760','name':'평창군'},{'code':'770','name':'정선군'},{'code':'780','name':'철원군'},{'code':'790','name':'화천군'},{'code':'800','name':'양구군'},{'code':'810','name':'인제군'},{'code':'820','name':'고성군'},{'code':'830','name':'양양군'}],
-  '43': [{'code':'111','name':'청주시'},{'code':'130','name':'충주시'},{'code':'150','name':'제천시'},{'code':'720','name':'보은군'},{'code':'730','name':'옥천군'},{'code':'740','name':'영동군'},{'code':'745','name':'증평군'},{'code':'750','name':'진천군'},{'code':'770','name':'괴산군'},{'code':'800','name':'음성군'},{'code':'820','name':'단양군'}],
-  '44': [{'code':'131','name':'천안시'},{'code':'150','name':'공주시'},{'code':'180','name':'보령시'},{'code':'200','name':'아산시'},{'code':'210','name':'서산시'},{'code':'230','name':'논산시'},{'code':'250','name':'계룡시'},{'code':'270','name':'당진시'},{'code':'710','name':'금산군'},{'code':'760','name':'부여군'},{'code':'770','name':'서천군'},{'code':'790','name':'청양군'},{'code':'800','name':'홍성군'},{'code':'810','name':'예산군'},{'code':'825','name':'태안군'}],
-  '47': [{'code':'111','name':'포항시'},{'code':'130','name':'경주시'},{'code':'150','name':'김천시'},{'code':'170','name':'안동시'},{'code':'190','name':'구미시'},{'code':'210','name':'영주시'},{'code':'230','name':'영천시'},{'code':'250','name':'상주시'},{'code':'280','name':'문경시'},{'code':'290','name':'경산시'},{'code':'720','name':'군위군'},{'code':'730','name':'의성군'},{'code':'740','name':'청송군'},{'code':'750','name':'영양군'},{'code':'760','name':'영덕군'},{'code':'770','name':'청도군'},{'code':'780','name':'고령군'},{'code':'790','name':'성주군'},{'code':'800','name':'칠곡군'},{'code':'820','name':'예천군'},{'code':'830','name':'봉화군'},{'code':'840','name':'울진군'},{'code':'850','name':'울릉군'}],
-  '48': [{'code':'121','name':'창원시'},{'code':'170','name':'진주시'},{'code':'220','name':'통영시'},{'code':'240','name':'사천시'},{'code':'250','name':'김해시'},{'code':'270','name':'밀양시'},{'code':'310','name':'거제시'},{'code':'330','name':'양산시'},{'code':'720','name':'의령군'},{'code':'730','name':'함안군'},{'code':'740','name':'창녕군'},{'code':'820','name':'고성군'},{'code':'840','name':'남해군'},{'code':'850','name':'하동군'},{'code':'860','name':'산청군'},{'code':'870','name':'함양군'},{'code':'880','name':'거창군'},{'code':'890','name':'합천군'}],
-  '45': [{'code':'111','name':'전주시'},{'code':'130','name':'군산시'},{'code':'140','name':'익산시'},{'code':'180','name':'정읍시'},{'code':'190','name':'남원시'},{'code':'210','name':'김제시'},{'code':'710','name':'완주군'},{'code':'720','name':'진안군'},{'code':'730','name':'무주군'},{'code':'740','name':'장수군'},{'code':'750','name':'임실군'},{'code':'770','name':'순창군'},{'code':'790','name':'고창군'},{'code':'800','name':'부안군'}],
-  '46': [{'code':'110','name':'목포시'},{'code':'130','name':'여수시'},{'code':'150','name':'순천시'},{'code':'170','name':'나주시'},{'code':'230','name':'광양시'},{'code':'710','name':'담양군'},{'code':'720','name':'곡성군'},{'code':'730','name':'구례군'},{'code':'770','name':'고흥군'},{'code':'780','name':'보성군'},{'code':'790','name':'화순군'},{'code':'800','name':'장흥군'},{'code':'810','name':'강진군'},{'code':'820','name':'해남군'},{'code':'830','name':'영암군'},{'code':'840','name':'무안군'},{'code':'860','name':'함평군'},{'code':'870','name':'영광군'},{'code':'880','name':'장성군'},{'code':'890','name':'완도군'},{'code':'900','name':'진도군'},{'code':'910','name':'신안군'}],
-  '50': [{'code':'110','name':'제주시'},{'code':'130','name':'서귀포시'}]
+  '11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],
+  '41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],
+  '28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],
+  '26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],
+  '30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],
+  '27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'}],
+  '31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],
+  '36':[{code:'110',name:'세종시'}],
+  '29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],
+  '42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],
+  '43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],
+  '44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],
+  '47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'720',name:'군위군'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],
+  '48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],
+  '45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],
+  '46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],
+  '50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]
 };
 
-function initMap() {
-  var container = document.getElementById('map');
-  var options = { center: new kakao.maps.LatLng(37.566826, 126.978656), level: 10 };
-  map = new kakao.maps.Map(container, options);
-  geocoder = new kakao.maps.services.Geocoder();
+function initMap(){
+  var container=document.getElementById('map');
+  map=new kakao.maps.Map(container,{center:new kakao.maps.LatLng(37.566826,126.978656),level:10});
+  geocoder=new kakao.maps.services.Geocoder();
 }
 
-function setType(btn, type) {
-  document.querySelectorAll('.type-btn').forEach(function(b) { b.classList.remove('active'); });
+function setType(btn,type){
+  document.querySelectorAll('.type-btn').forEach(function(b){b.classList.remove('active')});
   btn.classList.add('active');
-  currentType = type;
+  currentType=type;
+  if(allItems.length>0) filterAndDisplay();
 }
 
-function loadSigungu() {
-  var sidoVal = document.getElementById('sido').value;
-  var sigungu = document.getElementById('sigungu');
-  sigungu.innerHTML = '<option value="">시/군/구 선택</option>';
-  if (!sidoVal || !sigunguData[sidoVal]) return;
-  sigunguData[sidoVal].forEach(function(item) {
-    var opt = document.createElement('option');
-    opt.value = item.code;
-    opt.textContent = item.name;
+function loadSigungu(){
+  var sidoVal=document.getElementById('sido').value;
+  var sigungu=document.getElementById('sigungu');
+  sigungu.innerHTML='<option value="">시/군/구 선택</option>';
+  if(!sidoVal||!sigunguData[sidoVal])return;
+  sigunguData[sidoVal].forEach(function(item){
+    var opt=document.createElement('option');
+    opt.value=item.code;opt.textContent=item.name;
     sigungu.appendChild(opt);
   });
 }
 
-async function searchInstitutions() {
-  var sido = document.getElementById('sido');
-  var sigungu = document.getElementById('sigungu');
-  if (!sido.value) { alert('시/도를 선택해주세요'); return; }
-  if (!sigungu.value) { alert('시/군/구를 선택해주세요'); return; }
+async function searchInstitutions(){
+  var sido=document.getElementById('sido');
+  var sigungu=document.getElementById('sigungu');
+  var nameVal=document.getElementById('nameSearch').value.trim();
+  if(!sido.value){alert('시/도를 선택해주세요');return}
 
-  document.getElementById('list-header').textContent = '검색 중...';
-  document.getElementById('inst-list').innerHTML = '<div class="empty-state">데이터를 불러오는 중...</div>';
+  document.getElementById('list-header').textContent='검색 중...';
+  document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
 
-  var url = '/api/search?sidoCd=' + sido.value + '&sigunguCd=' + sigungu.value + (currentType ? '&type=' + currentType : '');
+  var url='/api/search?sidoCd='+sido.value;
+  if(sigungu.value)url+='&sigunguCd='+sigungu.value;
+  if(nameVal)url+='&name='+encodeURIComponent(nameVal);
 
-  try {
-    var res = await fetch(url);
-    var data = await res.json();
-    var items = data.items;
-
-    if (!items || items.length === 0) {
-      document.getElementById('list-header').textContent = '검색 결과 없음';
-      document.getElementById('inst-list').innerHTML = '<div class="empty-state">검색 결과가 없습니다.<br>다른 지역이나 기관 유형을 선택해보세요</div>';
+  try{
+    var res=await fetch(url);
+    var data=await res.json();
+    allItems=data.items||[];
+    if(allItems.length===0){
+      document.getElementById('list-header').textContent='검색 결과 없음';
+      document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
       return;
     }
-
-    displayResults(items, sido.options[sido.selectedIndex].text, sigungu.options[sigungu.selectedIndex].text);
-  } catch(e) {
-    document.getElementById('list-header').textContent = '오류 발생';
-    document.getElementById('inst-list').innerHTML = '<div class="empty-state">데이터를 불러오지 못했습니다.</div>';
+    filterAndDisplay();
+  }catch(e){
+    document.getElementById('list-header').textContent='오류 발생';
+    document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오지 못했습니다</div>';
   }
 }
 
-function displayResults(list, sidoName, sigunguName) {
+function filterAndDisplay(){
+  var sido=document.getElementById('sido');
+  var sigungu=document.getElementById('sigungu');
+  var sidoName=sido.options[sido.selectedIndex].text;
+  var sigunguName=sigungu.options[sigungu.selectedIndex]?sigungu.options[sigungu.selectedIndex].text:'';
+
+  var filtered=allItems;
+  if(currentType){
+    var types=currentType.split(',');
+    filtered=allItems.filter(function(item){
+      return types.some(function(t){
+        return item.adminPttnCd.startsWith(t);
+      });
+    });
+  }
+
+  document.getElementById('list-header').textContent=sidoName+' '+sigunguName+' '+filtered.length+'곳';
   clearMarkers();
-  document.getElementById('list-header').textContent = sidoName + ' ' + sigunguName + ' 요양기관 ' + list.length + '곳';
 
-  var html = '';
-  list.forEach(function(inst, idx) {
-    html += '<div class="inst-card" onclick="moveToInst(' + idx + ')">' +
-      '<span class="inst-type">' + (inst.adminPttnNm || '기관') + '</span>' +
-      '<h3>' + (inst.longTermCareInstNm || '') + '</h3>' +
-      '<p>📍 ' + (inst.addr || '주소 정보 없음') + '</p>' +
-      '<p>📞 ' + (inst.telno || '전화번호 없음') + '</p>' +
+  var html='';
+  filtered.forEach(function(inst,idx){
+    html+='<div class="inst-card" onclick="openDetail(\''+inst.longTermAdminSym+'\',\''+inst.adminPttnCd+'\',\''+inst.longTermCareInstNm.replace(/'/g,"\\'")+'\')">'+
+      '<span class="inst-type">'+inst.adminPttnNm+'</span>'+
+      '<h3>'+inst.longTermCareInstNm+'</h3>'+
       '</div>';
-
-    if (inst.addr && geocoder) {
-      (function(i, address, name) {
-        geocoder.addressSearch(address, function(result, status) {
-          if (status === kakao.maps.services.Status.OK) {
-            var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
-            var marker = new kakao.maps.Marker({ map: map, position: coords, title: name });
-            var infowindow = new kakao.maps.InfoWindow({
-              content: '<div style="padding:8px;font-size:12px;font-weight:600;color:#1a6645">' + name + '</div>'
-            });
-            kakao.maps.event.addListener(marker, 'click', function() {
-              infowindow.open(map, marker);
-            });
-            markers[i] = marker;
-            if (i === 0) map.setCenter(coords);
-          }
-        });
-      })(idx, inst.addr, inst.longTermCareInstNm);
-    }
   });
-
-  document.getElementById('inst-list').innerHTML = html;
+  document.getElementById('inst-list').innerHTML=html;
 }
 
-function clearMarkers() {
-  markers.forEach(function(m) { if(m) m.setMap(null); });
-  markers = [];
-}
+async function openDetail(sym,type,name){
+  document.getElementById('detailOverlay').classList.add('show');
+  document.getElementById('detailContent').innerHTML='<div class="loading-spinner">🏥 '+name+' 정보를 불러오는 중...</div>';
+  document.body.style.overflow='hidden';
 
-function moveToInst(idx) {
-  if (markers[idx]) {
-    map.setCenter(markers[idx].getPosition());
-    map.setLevel(5);
+  try{
+    var res=await fetch('/api/detail?sym='+sym+'&type='+type);
+    var data=await res.json();
+    renderDetail(data,name,type,sym);
+  }catch(e){
+    document.getElementById('detailContent').innerHTML='<div class="empty-state">상세 정보를 불러오지 못했습니다</div>';
   }
 }
-</script>
 
+function closeDetail(){
+  document.getElementById('detailOverlay').classList.remove('show');
+  document.body.style.overflow='';
+}
+
+function renderDetail(data,name,type,sym){
+  var g=data.general||{};
+  var s=data.staff||{};
+  var f=data.facility||{};
+  var c=data.capacity||{};
+  var e=data.etc||{};
+  var nb=data.nonBenefit||[];
+  var wf=data.welfare||[];
+
+  var addr='';
+  if(g.siDoCd||g.siGunGuCd){
+    addr=(g.detailAddr||'주소 정보 없음');
+  }
+  var tel='';
+  if(g.locTelNo_1||g.locTelNo1){
+    tel=(g.locTelNo_1||g.locTelNo1||'')+'-'+(g.locTelNo_2||g.locTelNo2||'')+'-'+(g.locTelNo_3||g.locTelNo3||'');
+  }
+
+  var totalPer=parseInt(c.totPer)||0;
+  var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);
+  var waitPer=(parseInt(c.maRsvPer)||0)+(parseInt(c.fmRsvPer)||0);
+  var fillRate=totalPer>0?Math.round(nowPer/totalPer*100):0;
+
+  var html='<div class="detail-header">';
+  html+='<span class="detail-type">'+type+'</span>';
+  html+='<h2>'+name+'</h2>';
+  html+='</div>';
+
+  html+='<div class="detail-section"><h3>📋 기본 정보</h3><div class="info-grid">';
+  html+='<div class="info-item"><div class="label">주소</div><div class="value">'+(addr||'정보 없음')+'</div></div>';
+  html+='<div class="info-item"><div class="label">전화번호</div><div class="value">'+(tel||'정보 없음')+'</div></div>';
+  html+='<div class="info-item"><div class="label">기관지정일</div><div class="value">'+(g.longTermPeribRgtDt?g.longTermPeribRgtDt.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3'):'정보 없음')+'</div></div>';
+  html+='<div class="info-item"><div class="label">설치신고일</div><div class="value">'+(g.stpRptDt?g.stpRptDt.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3'):'정보 없음')+'</div></div>';
+  if(e.hmpgAddr)html+='<div class="info-item"><div class="label">홈페이지</div><div class="value"><a href="'+(e.hmpgAddr.startsWith('http')?e.hmpgAddr:'http://'+e.hmpgAddr)+'" target="_blank" style="color:#3DBE8A">'+e.hmpgAddr+'</a></div></div>';
+  if(e.tfMth)html+='<div class="info-item"><div class="label">교통편</div><div class="value">'+e.tfMth+'</div></div>';
+  if(e.pkngEquip)html+='<div class="info-item"><div class="label">주차시설</div><div class="value">'+e.pkngEquip+'</div></div>';
+  html+='</div></div>';
+
+  if(totalPer>0){
+    html+='<div class="detail-section"><h3>👥 입소 현황</h3>';
+    html+='<div class="capacity-bar"><div class="bar-label">정원 '+totalPer+'명</div><div class="bar-wrap"><div class="bar-fill" style="width:'+fillRate+'%"></div></div><div class="bar-label">현원 '+nowPer+'명 ('+fillRate+'%)</div></div>';
+    if(waitPer>0)html+='<div style="text-align:center;color:#e67e22;font-size:13px;font-weight:600">대기 '+waitPer+'명</div>';
+    html+='</div>';
+  }
+
+  var staffItems=[
+    {k:'recuProt_1',n:'요양보호사'},{k:'nur',n:'간호사'},{k:'nurArticle',n:'간호조무사'},
+    {k:'socWel',n:'사회복지사'},{k:'physicalMTret',n:'물리치료사'},{k:'wrkMTret',n:'작업치료사'},
+    {k:'chrgDoc',n:'의사(전임)'},{k:'chargeDoc',n:'의사(촉탁)'},{k:'nut',n:'영양사'},
+    {k:'cook',n:'조리원'},{k:'equipLong',n:'시설장'},{k:'ofceEmp',n:'사무원'}
+  ];
+  var hasStaff=staffItems.some(function(si){return parseInt(s[si.k])>0});
+  if(hasStaff){
+    html+='<div class="detail-section"><h3>👨‍⚕️ 인력 현황</h3><div class="staff-grid">';
+    staffItems.forEach(function(si){
+      var v=parseInt(s[si.k])||0;
+      if(v>0)html+='<div class="staff-item"><div class="num">'+v+'</div><div class="name">'+si.n+'</div></div>';
+    });
+    html+='</div></div>';
+  }
+
+  var facItems=[
+    {k:'prsnRoomreal1',n:'1인실'},{k:'prsnRoomreal2',n:'2인실'},{k:'prsnRoomreal3',n:'3인실'},{k:'prsnRoomreal4',n:'4인실'},
+    {k:'spcAcupRoomreal',n:'특수침실'},{k:'medRoomreal',n:'의료/간호사실'},{k:'funcTrnRoomreal',n:'작업/훈련실'},
+    {k:'pgmRoomreal',n:'프로그램실'},{k:'batRoom',n:'화장실'},{k:'ofce',n:'사무실'}
+  ];
+  var hasFac=facItems.some(function(fi){return parseInt(f[fi.k])>0});
+  if(hasFac){
+    html+='<div class="detail-section"><h3>🏠 시설 현황</h3><div class="info-grid">';
+    facItems.forEach(function(fi){
+      var v=parseInt(f[fi.k])||0;
+      if(v>0)html+='<div class="info-item"><div class="label">'+fi.n+'</div><div class="value">'+v+'개</div></div>';
+    });
+    html+='</div></div>';
+  }
+
+  if(nb.length>0){
+    html+='<div class="detail-section"><h3>💰 비급여 현황</h3><table class="info-table"><tr><th>항목</th><th>금액</th><th>산출근거</th></tr>';
+    var nbNames={'1':'식재료비','2':'상급침실사용료','3':'이미용비','4':'경관영양유동식비','5':'간식비','6':'상급침실(2인실)','7':'기타'};
+    nb.forEach(function(item){
+      html+='<tr><td>'+(nbNames[item.nonpayKind]||item.nonpayKind)+'</td><td>'+(parseInt(item.nonpayTgtAmt)||0).toLocaleString()+'원</td><td>'+(item.prodBase||'')+'</td></tr>';
+    });
+    html+='</table></div>';
+  }
+
+  if(wf.length>0){
+    html+='<div class="detail-section"><h3>🔧 복지용구 현황</h3><table class="info-table"><tr><th>장비명</th><th>제조사</th><th>모델명</th><th>용도</th></tr>';
+    wf.forEach(function(item){
+      html+='<tr><td>'+(item.itemName||'')+'</td><td>'+(item.mnfCo||'')+'</td><td>'+(item.modelNm||'')+'</td><td>'+(item.usage||'')+'</td></tr>';
+    });
+    html+='</table></div>';
+  }
+
+  if(addr&&geocoder){
+    geocoder.addressSearch(addr,function(result,status){
+      if(status===kakao.maps.services.Status.OK){
+        map.setCenter(new kakao.maps.LatLng(result[0].y,result[0].x));
+        map.setLevel(5);
+      }
+    });
+  }
+
+  document.getElementById('detailContent').innerHTML=html;
+}
+
+function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null)});markers=[]}
+</script>
 </body>
 </html>
