@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   const params = new URLSearchParams({
     serviceKey: API_KEY,
     pageNo: '1',
-    numOfRows: '50',
+    numOfRows: '100',
   });
 
   if (sidoCd) params.append('siDoCd', sidoCd);
