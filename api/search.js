@@ -15,15 +15,17 @@ export default async function handler(req, res) {
 
   const apiUrl = `https://apis.data.go.kr/B550928/searchLtcInsttService02/getLtcInsttSeachList02?${params.toString()}`;
 
+  const typeNames = {
+    'C01': '방문요양', 'C02': '방문목욕', 'C03': '방문간호',
+    'C04': '주간보호', 'C05': '단기보호', 'C06': '복지용구',
+    'A01': '노인요양시설', 'A02': '노인요양공동생활가정'
+  };
+
   try {
     const response = await fetch(apiUrl);
     const xmlText = await response.text();
-    
-    const firstItem = xmlText.match(/<item>([\s\S]*?)<\/item>/);
-    if (firstItem) {
-      console.log('ITEM:', firstItem[0]);
-    }
 
+    const seen = new Set();
     const items = [];
     const itemMatches = xmlText.matchAll(/<item>([\s\S]*?)<\/item>/g);
     
@@ -33,12 +35,16 @@ export default async function handler(req, res) {
         const m = item.match(new RegExp(`<${tag}>(.*?)<\/${tag}>`));
         return m ? m[1] : '';
       };
+      const sym = get('longTermAdminSym');
+      if (seen.has(sym)) continue;
+      seen.add(sym);
+      
+      const pttnCd = get('adminPttnCd');
       items.push({
         longTermCareInstNm: get('adminNm'),
-        addr: get('addr'),
-        telno: get('telno'),
-        adminPttnCd: get('adminPttnCd'),
-        adminPttnNm: get('adminPttnNm'),
+        longTermAdminSym: sym,
+        adminPttnCd: pttnCd,
+        adminPttnNm: typeNames[pttnCd] || pttnCd,
       });
     }
 
