@@ -362,6 +362,8 @@ async function openDetail(sym,type,name){
   document.getElementById('mainView').style.display='none';
   document.getElementById('detailView').classList.add('show');
   document.getElementById('detailContent').innerHTML='<div class="loading-spinner">🏥 '+name+' 정보를 불러오는 중...</div>';
+  document.getElementById('detailMap').style.display='none';
+  detailMap=null;
   window.scrollTo(0,0);
 
   try{
