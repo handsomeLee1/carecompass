@@ -438,7 +438,7 @@ function renderDetail(data,name,type){
 
   document.getElementById('detailContent').innerHTML=h;
 
-  if(roadAddr&&roadAddr!=='정보 없음'){
+  if(roadAddr&&roadAddr!=='정보 없음'&&typeof kakao!=='undefined'&&geocoder){
     setTimeout(function(){
       var dContainer=document.getElementById('detailMap');
       if(!detailMap){
