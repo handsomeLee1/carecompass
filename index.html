@@ -446,19 +446,20 @@ function renderDetail(data,name,type){
         detailMap=new kakao.maps.Map(dContainer,{center:new kakao.maps.LatLng(37.566826,126.978656),level:5});
       }
       detailMap.relayout();
-      var gc=new kakao.maps.services.Geocoder();
-      gc.addressSearch(roadAddr,function(result,status){
-        if(status===kakao.maps.services.Status.OK){
-          var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
-          detailMap.setCenter(coords);
-          detailMap.setLevel(4);
-          detailMap.relayout();
-          new kakao.maps.Marker({map:detailMap,position:coords,title:name});
-        }
-      });
+      setTimeout(function(){
+        var gc=new kakao.maps.services.Geocoder();
+        gc.addressSearch(roadAddr,function(result,status){
+          if(status===kakao.maps.services.Status.OK){
+            var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
+            detailMap.setCenter(coords);
+            detailMap.setLevel(4);
+            detailMap.relayout();
+            new kakao.maps.Marker({map:detailMap,position:coords,title:name});
+          }
+        });
+      },500);
     },800);
   }
-}
 
 function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null)});markers=[]}
 </script>
