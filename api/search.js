@@ -1,9 +1,19 @@
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  const { sido, sigungu, type } = req.query;
+  const { sidoCd, sigunguCd, type } = req.query;
   const API_KEY = '3097212a7319caf4dd8b9b52b3eb53ee88768616811b57cb7d870a418af57d99';
 
-  const apiUrl = `https://apis.data.go.kr/B550928/searchLtcInsttService02/getLtcInsttSeachList02?serviceKey=${API_KEY}&pageNo=1&numOfRows=50&addrSido=${encodeURIComponent(sido||'')}&addrSigungu=${encodeURIComponent(sigungu||'')}${type ? '&longTermCareInstGbCd='+type : ''}`;
+  const params = new URLSearchParams({
+    serviceKey: API_KEY,
+    pageNo: '1',
+    numOfRows: '50',
+  });
+
+  if (sidoCd) params.append('siDoCd', sidoCd);
+  if (sigunguCd) params.append('siGunGuCd', sigunguCd);
+  if (type) params.append('adminPttnCd', type);
+
+  const apiUrl = `https://apis.data.go.kr/B550928/searchLtcInsttService02/getLtcInsttSeachList02?${params.toString()}`;
 
   try {
     const response = await fetch(apiUrl);
@@ -23,8 +33,8 @@ export default async function handler(req, res) {
         longTermCareInstNm: get('longTermCareInstNm'),
         addr: get('addr'),
         telno: get('telno'),
-        longTermCareInstGbCd: get('longTermCareInstGbCd'),
-        longTermCareInstGbNm: get('longTermCareInstGbNm'),
+        adminPttnCd: get('adminPttnCd'),
+        adminPttnNm: get('adminPttnNm'),
       });
     }
 
