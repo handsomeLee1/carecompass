@@ -18,7 +18,11 @@ export default async function handler(req, res) {
   try {
     const response = await fetch(apiUrl);
     const xmlText = await response.text();
-    console.log('XML:', xmlText.substring(0, 300));
+    
+    const firstItem = xmlText.match(/<item>([\s\S]*?)<\/item>/);
+    if (firstItem) {
+      console.log('ITEM:', firstItem[0]);
+    }
 
     const items = [];
     const itemMatches = xmlText.matchAll(/<item>([\s\S]*?)<\/item>/g);
@@ -30,7 +34,7 @@ export default async function handler(req, res) {
         return m ? m[1] : '';
       };
       items.push({
-        longTermCareInstNm: get('longTermCareInstNm'),
+        longTermCareInstNm: get('adminNm'),
         addr: get('addr'),
         telno: get('telno'),
         adminPttnCd: get('adminPttnCd'),
