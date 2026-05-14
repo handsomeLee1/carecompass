@@ -232,7 +232,7 @@ async function searchInstitutions() {
   if (currentType) params.append('longTermCareInstGbCd', currentType);
 
   try {
-    const url = `https://apis.data.go.kr/B550928/searchLtcInsService/getLtcInsInfo?${params}&_type=json`;
+    const url = `/api/search?sido=${encodeURIComponent(sidoName)}&sigungu=${encodeURIComponent(sigungu.value)}${currentType ? '&type='+currentType : ''}`;
     const res = await fetch(url);
     const data = await res.json();
     const items = data?.response?.body?.items?.item;
