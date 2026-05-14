@@ -60,7 +60,8 @@ export default async function handler(req, res) {
 
     const [xml1, xml2] = await Promise.all([res1.text(), res2.text()]);
 
-    console.log('XML2 sample:', xml2.substring(0, 500));
+    const firstItem2 = xml2.match(/<item>([\s\S]*?)<\/item>/);
+    console.log('XML2 first item:', firstItem2 ? firstItem2[0] : 'no item');
     const items1 = parseItems(xml1);
     const items2 = parseItems(xml2);
 
