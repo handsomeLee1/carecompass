@@ -64,7 +64,7 @@ export default async function handler(req, res) {
     const totalCount2 = xml2.match(/<totalCount>(\d+)<\/totalCount>/);
     console.log('XML2 totalCount:', totalCount2 ? totalCount2[1] : '0');
     const firstItem2 = xml2.match(/<item>([\s\S]*?)<\/item>/);
-    console.log('XML2 first item:', firstItem2 ? firstItem2[0] : 'no item');ㅁ
+    console.log('XML2 first item:', firstItem2 ? firstItem2[0] : 'no item');
     const items1 = parseItems(xml1);
     const items2 = parseItems(xml2);
 
