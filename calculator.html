@@ -245,6 +245,7 @@ const getSimpleVal = (opts, sel, days) => {
 function ReGaCalc() {
   const [grade, setGrade] = useState("선택");
   const [recipientType, setRecipientType] = useState("선택");
+  const [visitCount, setVisitCount] = useState("1일 1회");
   const [visitRows, setVisitRows] = useState([
     { count: "1일 1회", sel1: "선택", sel2: "선택", sel3: "선택", days1: "선택", days2: "선택", days3: "선택" },
     { count: "1일 2회", sel1: "선택", sel2: "선택", sel3: "선택", days1: "선택", days2: "선택", days3: "선택" },
@@ -334,8 +335,24 @@ function ReGaCalc() {
             </tr>
           </thead>
           <tbody>
+            {/* 방문횟수 선택 */}
+            <tr>
+              <td style={tdLabelStyle}>방문요양<br/><span style={{fontSize:11,color:"#aaa",fontWeight:400}}>1일 방문횟수</span></td>
+              <td colSpan={3} style={{padding:12}}>
+                <select style={selStyle} value={visitCount} onChange={e => setVisitCount(e.target.value)}>
+                  <option>1일 1회</option>
+                  <option>1일 2회</option>
+                  <option>1일 3회</option>
+                </select>
+              </td>
+            </tr>
+
             {/* 방문요양 */}
-            {visitRows.map((row, idx) => {
+            {visitRows.filter((row) => {
+                if (visitCount === "1일 1회") return row.count === "1일 1회";
+                if (visitCount === "1일 2회") return row.count !== "1일 3회";
+                return true;
+            }).map((row, idx) => {
               const subTotals = [1, 2, 3].map(n => {
                 const sel = row[`sel${n}`]; const days = row[`days${n}`];
                 return (sel !== "선택" && days !== "선택") ? getVal(VISIT_CARE_OPTIONS, sel) * Number(days) : 0;
@@ -343,7 +360,6 @@ function ReGaCalc() {
               const rowTotal = subTotals.reduce((a, b) => a + b, 0);
               return (
                 <tr key={idx} style={{ borderTop: idx === 0 ? "none" : "1px solid #eee" }}>
-                  {idx === 0 && <td rowSpan={3} style={tdLabelStyle}>방문요양<br /><span style={{ fontSize: 11, color: "#aaa", fontWeight: 400 }}>1일 방문횟수</span></td>}
                   <td style={{ padding: 12, background: "#fafafa", borderRight: "1px solid #eee", fontSize: 13, fontWeight: 500 }}>{row.count}</td>
                   <td style={{ padding: 12 }}>
                     {[1, 2, 3].map(n => (
