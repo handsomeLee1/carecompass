@@ -6,7 +6,7 @@
 <title>케어컴퍼스 - 전국 장기요양기관 찾기</title>
 <meta name="description" content="전국 요양원, 주간보호센터, 방문요양, 복지용구 기관 검색. 국민건강보험공단 공공데이터 기반.">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services&onload=initMap"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-size:15px}
@@ -661,6 +661,13 @@ function renderDetail(data,name,type){
 }
 
 function clearMarkers(){markers.forEach(function(m){if(m)m.setMap(null);});markers=[];}
+</script>
+<script>
+window.addEventListener('load', function(){
+  if(typeof kakao !== 'undefined' && kakao.maps){
+    initMap();
+  }
+});
 </script>
 </body>
 </html>
