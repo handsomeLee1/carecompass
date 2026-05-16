@@ -1,8 +1,8 @@
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   const { sym, type } = req.query;
-  const API_KEY = '3097212a7319caf4dd8b9b52b3eb53ee88768616811b57cb7d870a418af57d99';
-  const JUSO_KEY = 'U01TX0FVVEgyMDI2MDUxNDE2MDEzNDExODE2NTU=';
+  const API_KEY = process.env.API_KEY;
+  const JUSO_KEY = process.env.JUSO_KEY;
   const BASE = 'https://apis.data.go.kr/B550928/getLtcInsttDetailInfoService02';
 
   if (!sym || !type) {
