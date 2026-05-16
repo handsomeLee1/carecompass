@@ -273,11 +273,13 @@ var typeNames={'A01':'노인요양시설','A02':'노인전문요양시설','A03'
 function getTypeName(cd){if(typeNames[cd])return typeNames[cd];if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';return cd||'기관';}
 
 function initMap(){
-  map=new kakao.maps.Map(document.getElementById('map'),{
-    center:new kakao.maps.LatLng(37.5663,126.9779), // 서울시청
+  var container=document.getElementById('map');
+  map=new kakao.maps.Map(container,{
+    center:new kakao.maps.LatLng(37.5663,126.9779),
     level:8
   });
   geocoder=new kakao.maps.services.Geocoder();
+  setTimeout(function(){map.relayout();},300);
 }
 
 function showMap(){
@@ -538,7 +540,7 @@ function filterAndDisplay(){
   if(currentPage>totalPages&&totalPages>0)currentPage=1;
   var start=(currentPage-1)*pageSize;
   var pageItems=filtered.slice(start,start+pageSize);
-  document.getElementById('list-count').textContent=sidoName+' '+sigunguName+' '+(filtered.length>0?'<strong>'+filtered.length+'곳</strong>':'검색 결과 없음');
+  document.getElementById('list-count').innerHTML=sidoName+' '+sigunguName+' '+(filtered.length>0?'<strong>'+filtered.length+'곳</strong>':'검색 결과 없음');
   clearMarkers();
   var html='';
   pageItems.forEach(function(inst,idx){
