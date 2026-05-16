@@ -478,30 +478,103 @@ function ReGaCalc() {
 }
 
 // ===================== 시설급여 계산기 =====================
+const FACILITY_GRADES = {
+  요양시설: [
+    { label: "노인요양시설(현행법) 1등급 (1일당) 88,520원", value: 88520 },
+    { label: "노인요양시설(현행법) 1등급 (1일당) 93,070원", value: 93070 },
+    { label: "노인요양시설(현행법) 2등급 (1일당) 82,120원", value: 82120 },
+    { label: "노인요양시설(현행법) 2등급 (1일당) 86,340원", value: 86340 },
+    { label: "노인요양시설(현행법) 3등급 (1일당) 77,540원", value: 77540 },
+    { label: "노인요양시설(현행법) 3등급 (1일당) 81,540원", value: 81540 },
+    { label: "노인요양시설(현행법) 4등급 (1일당) 77,540원", value: 77540 },
+    { label: "노인요양시설(현행법) 4등급 (1일당) 81,540원", value: 81540 },
+    { label: "노인요양시설(현행법) 5등급 (1일당) 77,540원", value: 77540 },
+    { label: "노인요양시설(현행법) 5등급 (1일당) 81,540원", value: 81540 },
+  ],
+  치매가형: [
+    { label: "노인요양시설(치매전담_가형) 2등급 (1일당) 96,950원", value: 96950 },
+    { label: "노인요양시설(치매전담_가형) 3등급 (1일당) 89,400원", value: 89400 },
+    { label: "노인요양시설(치매전담_가형_유예) 1등급 (1일당) 93,070원", value: 93070 },
+    { label: "노인요양시설(치매전담_가형_유예) 2등급 (1일당) 86,340원", value: 86340 },
+    { label: "노인요양시설(치매전담_가형) 4등급 (1일당) 89,400원", value: 89400 },
+    { label: "노인요양시설(치매전담_가형) 5등급 (1일당) 89,400원", value: 89400 },
+  ],
+  치매나형: [
+    { label: "노인요양시설(치매전담_나형) 2등급 (1일당) 90,160원", value: 90160 },
+    { label: "노인요양시설(치매전담_나형) 3등급 (1일당) 83,140원", value: 83140 },
+    { label: "노인요양시설(치매전담_나형_유예) 1등급 (1일당) 93,070원", value: 93070 },
+    { label: "노인요양시설(치매전담_나형_유예) 2등급 (1일당) 86,340원", value: 86340 },
+    { label: "노인요양시설(치매전담_나형) 4등급 (1일당) 83,140원", value: 83140 },
+    { label: "노인요양시설(치매전담_나형) 5등급 (1일당) 83,140원", value: 83140 },
+  ],
+  공동생활: [
+    { label: "노인요양공동생활가정 1등급 (1일당) 74,590원", value: 74590 },
+    { label: "노인요양공동생활가정 2등급 (1일당) 69,210원", value: 69210 },
+    { label: "노인요양공동생활가정 3등급 (1일당) 63,800원", value: 63800 },
+    { label: "노인요양공동생활가정 4등급 (1일당) 63,800원", value: 63800 },
+    { label: "노인요양공동생활가정 5등급 (1일당) 63,800원", value: 63800 },
+  ],
+  치매공동: [
+    { label: "치매전담형_노인요양공동생활가정 2등급 (1일당) 85,790원", value: 85790 },
+    { label: "치매전담형_노인요양공동생활가정 3등급 (1일당) 79,100원", value: 79100 },
+    { label: "치매전담형(유예)_노인요양공동생활가정 1등급 (1일당) 74,590원", value: 74590 },
+    { label: "치매전담형(유예)_노인요양공동생활가정 2등급 (1일당) 69,210원", value: 69210 },
+    { label: "치매전담형_노인요양공동생활가정 4등급 (1일당) 79,100원", value: 79100 },
+    { label: "치매전담형_노인요양공동생활가정 5등급 (1일당) 79,100원", value: 79100 },
+  ],
+};
+
+const FACILITY_TYPES = [
+  { value: "", label: "-선택-" },
+  { value: "요양시설", label: "노인요양시설" },
+  { value: "치매가형", label: "노인요양시설내 치매전담실 가형" },
+  { value: "치매나형", label: "노인요양시설내 치매전담실 나형" },
+  { value: "공동생활", label: "노인요양공동생활가정" },
+  { value: "치매공동", label: "치매전담형 노인요양공동생활가정" },
+];
+
+const RECIPIENT_FACILITY = [
+  { label: "선택", rate: null },
+  { label: "일반대상자 (20%)", rate: 0.20 },
+  { label: "본인부담금 40%경감자 (12%)", rate: 0.12 },
+  { label: "본인부담금 60%경감자 (8%)", rate: 0.08 },
+  { label: "의료급여수급자 (0%)", rate: 0.00 },
+];
+
+const DAYS_OPTIONS_FACILITY = ["선택", ...Array.from({ length: 31 }, (_, i) => String(i + 1))];
+
 function SiSeolCalc() {
+  const [facility, setFacility] = useState("");
+  const [recipient, setRecipient] = useState("선택");
   const [grade, setGrade] = useState("선택");
-  const [rateType, setRateType] = useState("일반 (20%)");
-  const [days, setDays] = useState(30);
-  const grades = [
-    { label: "선택", daily: 0 },
-    { label: "1등급", daily: 92930 },
-    { label: "2등급", daily: 86190 },
-    { label: "3~5등급", daily: 79680 },
-  ];
-  const rates = [
-    { label: "일반 (20%)", rate: 0.20 },
-    { label: "경감 1 (12%)", rate: 0.12 },
-    { label: "경감 2 (8%)", rate: 0.08 },
-    { label: "의료급여 (0%)", rate: 0.00 },
-  ];
-  const gradeInfo = grades.find(g => g.label === grade);
-  const rateInfo = rates.find(r => r.label === rateType);
-  const daily = gradeInfo?.daily || 0;
-  const rate = rateInfo?.rate || 0;
-  const dailySelf = Math.round(daily * rate);
-  const monthlySelf = dailySelf * days;
-  const monthlyTotal = daily * days;
-  const selStyle = { width: "100%", padding: "8px 10px", border: "1px solid #ddd", borderRadius: 4, fontSize: 14, background: "#fff", fontFamily: "'Noto Sans KR',sans-serif" };
+  const [days, setDays] = useState("선택");
+  const [result, setResult] = useState(null);
+
+  const gradeOptions = facility && FACILITY_GRADES[facility]
+    ? [{ label: "-선택-", value: 0 }, ...FACILITY_GRADES[facility]]
+    : [{ label: "-선택-", value: 0 }];
+
+  const handleFacilityChange = (val) => {
+    setFacility(val);
+    setGrade("선택");
+    setResult(null);
+  };
+
+  const handleCalc = () => {
+    if (!facility) { alert("시설을 선택해 주세요."); return; }
+    if (recipient === "선택") { alert("수급자 유형을 선택해 주세요."); return; }
+    if (grade === "선택" || grade === "-선택-") { alert("수급자 등급을 선택해 주세요."); return; }
+    if (days === "선택") { alert("이용일수를 선택해 주세요."); return; }
+    const dailyRate = gradeOptions.find(g => g.label === grade)?.value || 0;
+    const daysNum = parseInt(days);
+    const rate = RECIPIENT_FACILITY.find(r => r.label === recipient)?.rate ?? 0;
+    const total = dailyRate * daysNum;
+    const selfPay = Math.floor(total * rate);
+    const publicPay = Math.ceil(total * (1 - rate));
+    setResult({ total, selfPay, publicPay });
+  };
+
+  const selStyle = { width: "100%", padding: "8px 10px", border: "1px solid #ddd", borderRadius: 4, fontSize: 13, background: "#fff", fontFamily: "'Noto Sans KR',sans-serif", cursor: "pointer" };
 
   return (
     <div>
@@ -509,60 +582,84 @@ function SiSeolCalc() {
         <h1 style={{ fontSize: 20, fontWeight: 600, color: "#222", marginBottom: 4 }}>시설급여 간편 계산</h1>
         <p style={{ fontSize: 13, color: "#888" }}>2026년 수가 기준 · 노인요양시설 입소 비용</p>
       </div>
-      <div style={{ background: "#f0faf5", border: "1px solid #c8e6c9", borderRadius: 6, padding: "10px 14px", marginBottom: 16, fontSize: 13, color: "#555", lineHeight: 1.7 }}>
-        시설급여는 노인요양시설 입소 시 적용됩니다. 본인부담률은 소득 수준에 따라 다릅니다.<br />
-        <strong style={{ color: "#1D9E75" }}>일반 20% / 경감1 12% / 경감2 8% / 의료급여 0%</strong>
-      </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, marginBottom: 20 }}>
-        <div>
-          <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>장기요양 등급</div>
-          <select style={selStyle} value={grade} onChange={e => setGrade(e.target.value)}>
-            {grades.map(g => <option key={g.label}>{g.label}{g.daily ? ` (${fmt(g.daily)}원/일)` : ""}</option>)}
-          </select>
-        </div>
-        <div>
-          <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>본인부담률</div>
-          <select style={selStyle} value={rateType} onChange={e => setRateType(e.target.value)}>
-            {rates.map(r => <option key={r.label}>{r.label}</option>)}
-          </select>
-        </div>
-        <div>
-          <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>이용 일수</div>
-          <select style={selStyle} value={days} onChange={e => setDays(Number(e.target.value))}>
-            {[28,29,30,31].map(d => <option key={d} value={d}>{d}일</option>)}
+
+      {/* 시설 선택 */}
+      <div style={{ background: "#fff", border: "1px solid #eee", borderRadius: 8, padding: 16, marginBottom: 12 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#888", marginBottom: 10, paddingBottom: 6, borderBottom: "1px solid #eee", letterSpacing: "0.05em" }}>기본 설정</div>
+        <div style={{ marginBottom: 0 }}>
+          <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>시설</div>
+          <select style={selStyle} value={facility} onChange={e => handleFacilityChange(e.target.value)}>
+            {FACILITY_TYPES.map(f => <option key={f.value} value={f.value}>{f.label}</option>)}
           </select>
         </div>
       </div>
 
-      {grade !== "선택" && (
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 20 }}>
-          {[
-            { label: "1일 급여비용 (총)", value: fmt(daily) + "원" },
-            { label: "1일 본인부담금", value: fmt(dailySelf) + "원", highlight: true },
-            { label: `월 총 급여비용 (${days}일)`, value: fmt(monthlyTotal) + "원" },
-            { label: `월 본인부담금 (${days}일)`, value: fmt(monthlySelf) + "원", highlight: true },
-          ].map(({ label, value, highlight }) => (
-            <div key={label} style={{ background: highlight ? "#1D9E75" : "#f8f8f8", border: `1px solid ${highlight ? "#1D9E75" : "#eee"}`, borderRadius: 8, padding: 16, textAlign: "center" }}>
-              <div style={{ fontSize: 12, color: highlight ? "rgba(255,255,255,0.8)" : "#888", marginBottom: 6 }}>{label}</div>
-              <div style={{ fontSize: 22, fontWeight: 600, color: highlight ? "#fff" : "#222" }}>{value}</div>
+      {/* 수급자 정보 */}
+      <div style={{ background: "#fff", border: "1px solid #eee", borderRadius: 8, padding: 16, marginBottom: 12 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#888", marginBottom: 10, paddingBottom: 6, borderBottom: "1px solid #eee", letterSpacing: "0.05em" }}>수급자 정보</div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12 }}>
+          <div>
+            <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>수급자 유형</div>
+            <select style={selStyle} value={recipient} onChange={e => setRecipient(e.target.value)}>
+              {RECIPIENT_FACILITY.map(r => <option key={r.label}>{r.label}</option>)}
+            </select>
+          </div>
+          <div>
+            <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>수급자 등급</div>
+            <select style={selStyle} value={grade} onChange={e => setGrade(e.target.value)} disabled={!facility}>
+              {gradeOptions.map(g => <option key={g.label} value={g.label}>{g.label}</option>)}
+            </select>
+          </div>
+          <div>
+            <div style={{ fontSize: 13, color: "#555", marginBottom: 6, fontWeight: 500 }}>이용일수</div>
+            <select style={selStyle} value={days} onChange={e => setDays(e.target.value)}>
+              {DAYS_OPTIONS_FACILITY.map((d, i) => <option key={i} value={d}>{d === "선택" ? "선택" : d + "일"}</option>)}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* 유의사항 */}
+      <div style={{ background: "#f8f8f8", border: "1px solid #e0e0e0", borderRadius: 8, padding: 16, marginBottom: 16, fontSize: 12, color: "#444", lineHeight: 1.8 }}>
+        <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
+          <span style={{ display: "inline-flex", width: 20, height: 20, background: "#444", color: "#fff", borderRadius: "50%", fontSize: 11, alignItems: "center", justifyContent: "center", fontWeight: 700, flexShrink: 0 }}>i</span>
+          시설급여 간편 계산 유의사항
+        </div>
+        <p style={{ marginBottom: 8 }}>노인요양시설 수가는 장기요양 등급 및 급여제공일수를 기준으로 산정합니다.<br />노인요양시설의 급여비용은 시설에 배치된 요양보호사 인력에 따라 다르게 적용됩니다.</p>
+        <p style={{ fontWeight: 700, marginBottom: 4 }}>시설급여에는 본인이 전액 부담해야 할 비급여 항목이 별도로 있습니다.</p>
+        <p style={{ color: "#e53935", fontSize: 12 }}>※ (비급여 항목) 식사재료비, 이·미용비, 상급침실(1~2인실) 이용에 따른 추가 비용 등</p>
+        <p style={{ color: "#e53935", fontSize: 12 }}>※ 장기요양급여비용 계산프로그램은 예상 비용이므로 실제 차액이 발생할 수 있습니다.</p>
+      </div>
+
+      {/* 계산하기 + 결과 */}
+      <div style={{ background: "#f9f9f9", border: "1px solid #ddd", borderRadius: 8, padding: 20 }}>
+        <div style={{ display: "flex", gap: 16, alignItems: "center", flexWrap: "wrap" }}>
+          <button onClick={handleCalc} style={{ minWidth: 120, minHeight: 80, background: "#1D9E75", color: "#fff", border: "none", borderRadius: 8, fontSize: 16, fontWeight: 700, cursor: "pointer", fontFamily: "'Noto Sans KR',sans-serif" }}>
+            계산하기
+          </button>
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 10 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <div style={{ fontSize: 13, fontWeight: 600, color: "#444", minWidth: 80 }}>총급여비용</div>
+              <input readOnly value={result ? fmt(result.total) : ""} placeholder="-" style={{ flex: 1, padding: "8px 10px", border: "1px solid #ddd", borderRadius: 4, fontSize: 13, background: "#ebebeb", textAlign: "right", fontFamily: "'Noto Sans KR',sans-serif" }} />
+              <span style={{ fontSize: 13 }}>원</span>
             </div>
-          ))}
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <div style={{ fontSize: 13, fontWeight: 600, color: "#444", minWidth: 80 }}>공단부담금</div>
+              <input readOnly value={result ? fmt(result.publicPay) : ""} placeholder="-" style={{ flex: 1, padding: "8px 10px", border: "1px solid #ddd", borderRadius: 4, fontSize: 13, background: "#ebebeb", textAlign: "right", fontFamily: "'Noto Sans KR',sans-serif" }} />
+              <span style={{ fontSize: 13, marginRight: 16 }}>원</span>
+              <div style={{ fontSize: 13, fontWeight: 600, color: "#444", minWidth: 80 }}>본인부담금</div>
+              <input readOnly value={result ? fmt(result.selfPay) : ""} placeholder="-" style={{ flex: 1, padding: "8px 10px", border: "1px solid #ddd", borderRadius: 4, fontSize: 13, background: "#ebebeb", textAlign: "right", fontFamily: "'Noto Sans KR',sans-serif" }} />
+              <span style={{ fontSize: 13 }}>원</span>
+            </div>
+          </div>
         </div>
-      )}
-
-      <div style={{ background: "#fff8e1", border: "1px solid #ffe082", borderRadius: 8, padding: 16, fontSize: 12, color: "#5d4037", lineHeight: 1.8 }}>
-        <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 8 }}>시설급여 유의사항</div>
-        <ul style={{ paddingLeft: 18 }}>
-          <li>위 금액은 급여비용 기준이며, 식사재료비·이미용비·상급침실 이용료 등 비급여 항목은 별도입니다.</li>
-          <li>비급여 항목은 요양원마다 다르며 월 10~30만원 수준입니다.</li>
-          <li>3~5등급은 등급 외 판정 없이 시설급여 이용이 가능합니다.</li>
-        </ul>
-        <div style={{ fontSize: 11, color: "#888", marginTop: 8 }}>※ 2026년 수가 기준 간편 계산이며, 실제 비용과 차이가 있을 수 있습니다.</div>
+        <div style={{ fontSize: 12, color: "#e53935", marginTop: 10 }}>
+          ※ 본인부담금 = 총급여비용 × 수급자 유형 (본인부담율은 수급자 유형에 따라 다릅니다.)
+        </div>
       </div>
     </div>
   );
 }
-
 // ===================== 등급예상 점수 계산기 =====================
 function GradeCalc() {
   const categories = [
