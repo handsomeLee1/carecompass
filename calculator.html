@@ -771,12 +771,12 @@ function GradeCalc() {
     return {pr,cr,br,nr,rr,pc,cc,bc,nc,rc};
   };
 
-  const treeClean=(a,s)=>{if(a.p04<=2){if(a.p02<=2){return a.p03<=2?5.9:8.6;}if(s.nc===0)return 10.8;return 11.8;}if(s.pc<=61.71){if(a.p11<=2)return 9.7;return 12.8;}if(a.p02===1)return 8.4;return 9.0;};
-  const treeExcrete=(a,s)=>{if(a.p12<=2){if(a.p10<=2){return a.p11<=2?5.3:7.8;}if(a.p11<=2)return 8.6;return 10.2;}if(s.pc<=44.18){if(a.p07<=2)return 8.6;return 11.6;}if(a.p11===1)return 8.5;return 13.5;};
-  const treeMeal=(a,s)=>{if(a.p05<=2){if(s.nc===0){return a.p08<=2?7.3:9.7;}return a.p06<=2?11.2:14.0;}if(s.pc<=61.71){if(a.p06<=2)return 12.7;return 16.2;}if(a.n05===0)return 15.1;return 22.5;};
-  const treeFunc=(a,s)=>{if(s.pc<=41.68){if(a.p09<=2){return a.p08<=2?3.6:4.9;}return a.p07<=2?5.5:6.4;}if(s.pc<=66.59){if(a.p08===1)return 4.9;return 6.4;}if(a.p07===1)return 5.6;return 7.5;};
-  const treeBeh=(a,s)=>{if(s.bc===0)return 0.4;if(s.bc<=37.29){return a.b04===0?1.8:2.9;}if(s.bc<=62.59){if(a.b14===0)return 3.3;return 4.9;}if(a.b08===0)return 5.5;return 8.2;};
-  const treeIndirect=(a,s)=>{if(s.pc<=41.68){if(a.c01===0){return a.p09<=2?9.8:12.4;}return a.p08<=2?12.9:16.3;}if(s.pc<=61.71){if(a.p06<=2)return 14.9;return 19.7;}if(a.p02===1){return a.c01===0?14.8:18.9;}return a.b03===0?19.7:24.1;};
+  const treeClean=(a,s)=>{const P=s.pc,C=s.cc,B=s.bc,R=s.rc;if(P<=34.15){if(P<=17.72){if(P<=6.59)return 1.2;if(C<=9.86)return 3.0;if(C<=39.21)return 2.9;return 4.1;}return a.c04===0?5.3:8.0;}if(a.p03<=2){if(a.p10===1)return 8.6;return a.c02===0?9.0:13.0;}if(a.p10===1)return 11.6;if(R<=40.16)return 16.4;return B<=60.34?15.4:19.6;};
+  const treeExcrete=(a,s)=>{const B=s.bc;if(a.p06===1){if(a.p12===1){if(a.p01===1)return 0.9;if(a.c06===0){return a.c02===0?1.2:2.5;}return 1.2;}if(a.p12===2){if(a.p08===1){return B<=15.58?0.3:0.7;}if(B<=15.58){return a.r09===1?0.5:1.3;}return a.c02===0?1.2:2.5;}if(a.p10===1){return a.p02===1?9.0:15.0;}if(a.p11<=2)return 11.8;return 15.8;}if(a.p05===1){return a.p11<=2?5.3:10.2;}if(a.p02===1){return a.b09===0?8.8:12.5;}return a.b03===0?12.8:18.7;};
+  const treeMeal=(a,s)=>{const P=s.pc,R=s.rc;if(a.p05<=2){if(a.p03<=2){if(a.p10===1){return P<=6.59?7.1:9.4;}return a.p11<=2?11.5:15.1;}if(a.b09===0){if(a.p11<=2){return a.p10===1?12.2:13.9;}return R<=30.77?14.3:21.4;}return 23.4;}return R<=41.21?31.7:37.6;};
+  const treeFunc=(a,s)=>{const P=s.pc,B=s.bc;if(P<=47.64){if(P<=25.14){return P<=6.59?1.2:2.7;}if(a.p03===1){return a.r03===1?3.6:6.0;}if(a.p10<=2){return B<=28.83?6.4:9.3;}return a.p07===1?4.9:7.8;}if(a.p03<=2){if(a.p10<=2){return B<=28.83?6.4:9.3;}return 14.0;}if(a.n04===0){return a.b11===0?4.3:6.8;}return 18.7;};
+  const treeBeh=(a,s)=>{if(s.bc<=34.69){if(s.bc<=7.79)return s.pc<=17.71?0.6:0.4;return s.cc<=60.24?0.9:1.3;}if(s.cc<=39.21)return a.b09===0?1.6:2.6;return a.p02<=2?2.2:3.2;};
+  const treeIndirect=(a,s)=>{if(s.pc<=25.14)return s.pc<=6.59?12.5:16.9;if(a.b09===0){if(a.p12===1)return s.bc<=56.0?17.3:21.0;return a.p05===1?19.7:23.6;}if(a.b03===0)return a.b04===0?19.8:23.0;return 28.4;};
   const treeNursing=(a,s)=>{if(a.n04===0){if(s.nc===0){return a.b04===0?7.6:9.7;}if(s.nc<=19.84){return a.p03<=2?9.6:14.7;}return 14.6;}if(a.p05<=2){if(a.p03<=2){return a.b07===0?6.7:8.1;}return a.r02===1?9.5:7.1;}return 22.5;};
   const treeRehab=(a,s)=>{const R=s.rc;if(R===0){return a.b07===0?2.5:3.7;}if(R<=39.46){if(a.p02<=2){return a.p08===1?2.1:4.2;}if(a.p07===1)return 4.8;return a.p03===1?4.0:5.7;}if(a.b03===0){if(a.p02<=2)return 3.2;return 4.8;}if(a.p02===1)return 4.1;return 6.3;};
 
@@ -794,8 +794,10 @@ function GradeCalc() {
     const a = answers;
     const t1=treeClean(a,s),t2=treeExcrete(a,s),t3=treeMeal(a,s),t4=treeFunc(a,s);
     const t5=treeBeh(a,s),t6=treeIndirect(a,s),t7=treeNursing(a,s),t8=treeRehab(a,s);
-    const tot=Math.round((t1+t2+t3+t4+t5+t6+t7+t8)*10)/10;
-    setResult({s,tot,services:[
+    const rawTot=Math.round((t1+t2+t3+t4+t5+t6+t7+t8)*10)/10;
+    const tot=Math.min(rawTot,95);
+    const totDisplay=rawTot>95?'95점 이상 (1등급)':tot+'점';
+    setResult({s,tot,totDisplay,rawTot,services:[
       {n:'① 청결',v:t1},{n:'② 배설',v:t2},{n:'③ 식사',v:t3},{n:'④ 기능보조',v:t4},
       {n:'⑤ 행동변화대응',v:t5},{n:'⑥ 간접지원',v:t6},{n:'⑦ 간호처치',v:t7},{n:'⑧ 재활훈련',v:t8}
     ]});
@@ -811,7 +813,7 @@ function GradeCalc() {
       <div>
         <div style={{background:'linear-gradient(135deg,#0c2340,#1D9E75)',borderRadius:12,padding:28,textAlign:'center',marginBottom:16,color:'#fff'}}>
           <div style={{fontSize:13,color:'rgba(255,255,255,0.7)',marginBottom:6}}>장기요양인정 예상점수</div>
-          <div style={{fontSize:52,fontWeight:800,letterSpacing:-2}}>{result.tot}<span style={{fontSize:22,fontWeight:400}}>점</span></div>
+          <div style={{fontSize:result.rawTot>95?36:52,fontWeight:800,letterSpacing:-2}}>{result.totDisplay}</div>
           <div style={{display:'inline-block',background:'rgba(255,255,255,0.2)',padding:'6px 20px',borderRadius:20,fontSize:14,fontWeight:700,marginTop:8}}>{gr.g}</div>
         </div>
 
