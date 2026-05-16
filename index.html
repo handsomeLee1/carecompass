@@ -5,33 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>케어컴퍼스 - 전국 장기요양기관 찾기</title>
 <meta name="description" content="전국 요양원, 주간보호센터, 방문요양, 복지용구 기관 검색. 국민건강보험공단 공공데이터 기반.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa&libraries=services&onload=initMap"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-size:15px}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-size:15px}
 
-/* 상단 네비 - full width 다크 */
+/* 상단 네비 */
 .topnav{background:#1a1a1a;width:100%;position:sticky;top:0;z-index:100}
 .topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
 .logo{color:#4ade80;font-size:16px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0}
 .logo span{color:#fff}
 .nav-links{display:flex;gap:20px;flex:1}
-.nav-links a{color:#ccc;font-size:14px;font-weight:400;text-decoration:none;white-space:nowrap}
+.nav-links a{color:#ccc;font-size:14px;text-decoration:none;white-space:nowrap}
 .nav-links a:hover,.nav-links a.active{color:#4ade80}
 .nav-right{color:#777;font-size:12px;white-space:nowrap}
 
 /* 가운데 정렬 래퍼 */
-.wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px)}
+.wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px);box-shadow:0 0 20px rgba(0,0,0,0.08)}
 
 /* 검색 영역 */
 .search-area{background:#1D9E75;padding:14px 16px}
 .search-inputs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
 .search-inputs select,
 .search-inputs input[type=text]{height:36px;padding:0 10px;border:1px solid #ccc;border-radius:4px;font-size:14px;font-family:'Noto Sans KR',sans-serif;background:#fff;color:#333;flex:1;min-width:90px}
-.search-inputs select:focus,
-.search-inputs input:focus{outline:none;border-color:#9FE1CB}
+.search-inputs select:focus,.search-inputs input:focus{outline:none;border-color:#9FE1CB}
 .search-btn{height:36px;padding:0 18px;background:#085041;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
 .search-btn:hover{background:#063d30}
 .search-tabs{display:flex;gap:4px;flex-wrap:wrap}
@@ -40,120 +38,112 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-si
 .tab-btn:hover:not(.active){background:rgba(255,255,255,0.2)}
 
 /* 3단 레이아웃 */
-.three-col{display:flex;min-height:calc(100vh - 44px - 100px)}
+.three-col{display:flex;height:calc(100vh - 44px - 102px)}
 
-/* 좌 사이드바 */
-.sidebar-left{width:120px;flex-shrink:0;background:#f8f8f8;border-right:1px solid #e8e8e8;padding:12px 0}
-.side-title{font-size:11px;color:#999;padding:0 12px 8px;font-weight:500;letter-spacing:0.5px;border-bottom:1px solid #eee;margin-bottom:4px}
-.side-item{display:block;padding:9px 12px;font-size:13px;color:#444;cursor:pointer;border-left:3px solid transparent;line-height:1.3;width:100%;text-align:left;background:none;border-top:none;border-right:none;border-bottom:none;font-family:'Noto Sans KR',sans-serif}
+/* 좌 사이드바 - 계산기 메뉴 */
+.sidebar-left{width:120px;flex-shrink:0;background:#f8f8f8;border-right:1px solid #e0e0e0;overflow-y:auto}
+.side-section{padding:12px 0;border-bottom:1px solid #e8e8e8}
+.side-title{font-size:11px;color:#999;padding:0 10px 8px;font-weight:500;letter-spacing:0.3px}
+.side-item{display:block;width:100%;padding:8px 10px;font-size:12px;color:#444;cursor:pointer;border:none;background:none;text-align:left;font-family:'Noto Sans KR',sans-serif;line-height:1.4;border-left:3px solid transparent}
 .side-item:hover{background:#f0f0f0;color:#1D9E75}
 .side-item.active{color:#1D9E75;font-weight:600;border-left:3px solid #1D9E75;background:#f0faf5}
+.side-badge{display:inline-block;background:#fef3c7;color:#92400e;font-size:10px;padding:1px 4px;border-radius:2px;margin-left:2px}
 
-/* 중앙 메인 */
-.main-center{flex:1;min-width:0;display:flex;flex-direction:column;border-right:1px solid #e8e8e8}
+/* 중앙 */
+.main-center{flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden}
 
 /* 결과 헤더 */
-.result-header{padding:10px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
+.result-header{padding:9px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
 .result-count{font-size:14px;color:#333}
-.result-count strong{font-weight:600;color:#1D9E75;font-size:15px}
-.result-sort select{height:32px;padding:0 8px;border:1px solid #ddd;border-radius:4px;font-size:13px;color:#555;background:#fff;font-family:'Noto Sans KR',sans-serif}
+.result-count strong{font-weight:600;color:#1D9E75}
+.result-sort select{height:30px;padding:0 8px;border:1px solid #ddd;border-radius:4px;font-size:13px;color:#555;background:#fff;font-family:'Noto Sans KR',sans-serif}
 
-/* 목록+지도 영역 */
-.content-area{display:flex;flex:1;overflow:hidden;height:calc(100vh - 44px - 100px - 45px)}
+/* 콘텐츠 영역 */
+.content-area{display:flex;flex:1;overflow:hidden}
 
 /* 목록 */
-.list-area{width:300px;flex-shrink:0;overflow-y:auto;border-right:1px solid #eee;display:flex;flex-direction:column}
-.list-area::-webkit-scrollbar{width:4px}
-.list-area::-webkit-scrollbar-thumb{background:#d0e8dc;border-radius:4px}
-.list-scroll{flex:1}
-.inst-card{padding:13px 14px;border-bottom:1px solid #f0f0f0;cursor:pointer;transition:background 0.1s}
+.list-area{width:280px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid #eee;overflow:hidden}
+.list-scroll{flex:1;overflow-y:auto}
+.list-scroll::-webkit-scrollbar{width:3px}
+.list-scroll::-webkit-scrollbar-thumb{background:#d0e8dc;border-radius:3px}
+.inst-card{padding:12px 14px;border-bottom:1px solid #f0f0f0;cursor:pointer;transition:background 0.1s}
 .inst-card:hover{background:#f8fffe}
 .inst-card.active{background:#f0faf5;border-left:3px solid #1D9E75;padding-left:11px}
-.inst-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:12px;padding:2px 8px;border-radius:3px;margin-bottom:6px;font-weight:500}
-.inst-name{font-size:15px;font-weight:600;color:#222;margin-bottom:5px;line-height:1.3}
-.inst-addr{font-size:13px;color:#666;margin-bottom:3px;line-height:1.5}
-.inst-tel{font-size:13px;color:#666}
-.ad-slot-list{padding:10px 14px;background:#f9f9f9;border-bottom:1px solid #eee;text-align:center;font-size:11px;color:#bbb;min-height:60px;display:flex;align-items:center;justify-content:center}
-.pagination{padding:10px;border-top:1px solid #eee;display:flex;justify-content:center;gap:3px;flex-shrink:0}
-.page-btn{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border:1px solid #ddd;border-radius:4px;font-size:13px;cursor:pointer;color:#666;background:#fff}
+.inst-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:11px;padding:2px 7px;border-radius:3px;margin-bottom:5px;font-weight:500}
+.inst-name{font-size:14px;font-weight:600;color:#222;margin-bottom:4px;line-height:1.3}
+.inst-addr{font-size:12px;color:#666;line-height:1.5}
+.ad-slot-list{padding:8px 14px;background:#f9f9f9;border-bottom:1px solid #eee;text-align:center;font-size:11px;color:#bbb;min-height:50px;display:flex;align-items:center;justify-content:center}
+.pagination{padding:8px;border-top:1px solid #eee;display:flex;justify-content:center;gap:3px;flex-shrink:0}
+.page-btn{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border:1px solid #ddd;border-radius:4px;font-size:12px;cursor:pointer;color:#666;background:#fff}
 .page-btn.active{background:#1D9E75;color:#fff;border-color:#1D9E75}
 .page-btn:hover:not(.active):not(.disabled){border-color:#1D9E75;color:#1D9E75}
 .page-btn.disabled{opacity:0.35;cursor:default;pointer-events:none}
 
+/* 오른쪽 패널 (지도 or 상세정보) */
+.right-panel{flex:1;position:relative;overflow:hidden;display:flex;flex-direction:column}
+
 /* 지도 */
-.map-area{flex:1;position:relative;overflow:hidden}
+.map-view{flex:1;position:relative}
 #map{width:100%;height:100%}
-.map-popup{display:none;position:absolute;bottom:16px;right:16px;width:230px;background:#fff;border:1px solid #ddd;border-radius:6px;padding:14px;z-index:10;box-shadow:0 2px 16px rgba(0,0,0,0.1)}
-.map-popup.show{display:block}
-.popup-close{position:absolute;top:10px;right:10px;font-size:14px;cursor:pointer;color:#aaa;background:none;border:none;line-height:1}
-.popup-close:hover{color:#555}
-.popup-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:11px;padding:2px 8px;border-radius:3px;margin-bottom:6px}
-.popup-name{font-size:15px;font-weight:600;color:#222;margin-bottom:5px}
-.popup-addr{font-size:13px;color:#666;margin-bottom:4px;line-height:1.5}
-.popup-tel{font-size:13px;color:#666;margin-bottom:10px}
-.popup-btn{display:block;width:100%;height:36px;background:#1D9E75;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;font-family:'Noto Sans KR',sans-serif}
-.popup-btn:hover{background:#085041}
+
+/* 상세정보 패널 */
+.detail-panel{display:none;flex:1;overflow-y:auto;background:#fff}
+.detail-panel.show{display:block}
+.detail-panel-inner{padding:20px}
+.detail-back{display:inline-flex;align-items:center;gap:5px;border:1px solid #ddd;border-radius:4px;padding:6px 12px;font-size:13px;color:#555;cursor:pointer;margin-bottom:16px;background:#fff;font-family:'Noto Sans KR',sans-serif}
+.detail-back:hover{background:#f5f5f5}
+.detail-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:12px;padding:3px 10px;border-radius:3px;margin-bottom:8px}
+.detail-name{font-size:20px;font-weight:600;color:#222;margin-bottom:16px;line-height:1.3}
+.detail-section{margin-bottom:20px}
+.detail-section h3{font-size:14px;font-weight:600;color:#1D9E75;margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid #e8f5ee}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.info-item{background:#f8fffe;border:1px solid #e8f5ee;border-radius:4px;padding:10px}
+.info-item .lbl{font-size:11px;color:#888;margin-bottom:3px}
+.info-item .val{font-size:13px;font-weight:500;color:#222;line-height:1.4}
+.staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.staff-item{background:#f8fffe;border:1px solid #e8f5ee;border-radius:4px;padding:8px;text-align:center}
+.staff-num{font-size:18px;font-weight:600;color:#1D9E75}
+.staff-name{font-size:11px;color:#888;margin-top:2px}
+.cap-bar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.cap-bar-bg{flex:1;background:#eee;border-radius:4px;height:18px;overflow:hidden}
+.cap-bar-fill{height:100%;background:#1D9E75;border-radius:4px}
+.cap-lbl{font-size:12px;color:#555;min-width:80px}
+.info-table{width:100%;border-collapse:collapse;font-size:13px}
+.info-table th{background:#f0faf5;color:#1D9E75;padding:7px 10px;text-align:left;font-weight:600;border-bottom:1px solid #e8f5ee}
+.info-table td{padding:7px 10px;border-bottom:1px solid #f5f5f5;color:#555}
+#detailMap{width:100%;height:220px;border-radius:6px;border:1px solid #ddd;margin-top:10px}
+
+/* 계산기 패널 */
+.calc-panel{display:none;flex:1;overflow-y:auto;background:#fff}
+.calc-panel.show{display:block}
+.calc-panel-inner{padding:20px}
+.calc-back{display:inline-flex;align-items:center;gap:5px;border:1px solid #ddd;border-radius:4px;padding:6px 12px;font-size:13px;color:#555;cursor:pointer;margin-bottom:16px;background:#fff;font-family:'Noto Sans KR',sans-serif}
+.calc-back:hover{background:#f5f5f5}
 
 /* 우 사이드바 */
-.sidebar-right{width:160px;flex-shrink:0;background:#f8f8f8;padding:12px;display:flex;flex-direction:column;gap:8px}
+.sidebar-right{width:140px;flex-shrink:0;background:#f8f8f8;border-left:1px solid #e0e0e0;padding:12px;display:flex;flex-direction:column;gap:8px}
 .ad-label{font-size:11px;color:#bbb;text-align:center}
 .ad-block{background:#fff;border:1px solid #e0e0e0;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:11px;text-align:center}
 .ad-block-lg{height:280px}
 .ad-block-md{height:120px}
 
-/* 상세페이지 */
-.detail-wrap{display:none;flex:1;overflow-y:auto;background:#fff}
-.detail-wrap.show{display:block}
-.detail-inner{max-width:680px;margin:0 auto;padding:24px 20px}
-.detail-back{display:inline-flex;align-items:center;gap:6px;border:1px solid #ddd;border-radius:4px;padding:7px 14px;font-size:14px;color:#555;cursor:pointer;margin-bottom:20px;background:#fff;font-family:'Noto Sans KR',sans-serif}
-.detail-back:hover{background:#f5f5f5}
-.detail-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:13px;padding:3px 10px;border-radius:3px;margin-bottom:8px}
-.detail-name{font-size:22px;font-weight:600;color:#222;margin-bottom:20px}
-.detail-section{margin-bottom:24px}
-.detail-section h3{font-size:15px;font-weight:600;color:#1D9E75;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #e8f5ee}
-.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.info-item{background:#f8fffe;border:1px solid #e8f5ee;border-radius:4px;padding:12px}
-.info-item .lbl{font-size:12px;color:#888;margin-bottom:4px}
-.info-item .val{font-size:14px;font-weight:500;color:#222}
-.staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.staff-item{background:#f8fffe;border:1px solid #e8f5ee;border-radius:4px;padding:10px;text-align:center}
-.staff-num{font-size:20px;font-weight:600;color:#1D9E75}
-.staff-name{font-size:12px;color:#888;margin-top:2px}
-.cap-bar{display:flex;align-items:center;gap:12px;margin-bottom:10px}
-.cap-bar-bg{flex:1;background:#eee;border-radius:4px;height:20px;overflow:hidden}
-.cap-bar-fill{height:100%;background:#1D9E75;border-radius:4px}
-.cap-lbl{font-size:13px;color:#555;min-width:90px}
-.info-table{width:100%;border-collapse:collapse;font-size:14px}
-.info-table th{background:#f0faf5;color:#1D9E75;padding:8px 10px;text-align:left;font-weight:600;border-bottom:1px solid #e8f5ee}
-.info-table td{padding:8px 10px;border-bottom:1px solid #f5f5f5;color:#555}
-#detailMap{width:100%;height:260px;border-radius:6px;border:1px solid #ddd;margin-top:12px}
-.loading-msg{text-align:center;padding:48px;color:#1D9E75;font-size:15px}
-.empty-state{text-align:center;padding:48px 20px;color:#bbb;font-size:15px;line-height:2}
+/* 공통 */
+.loading-msg{text-align:center;padding:40px;color:#1D9E75;font-size:14px}
+.empty-state{text-align:center;padding:40px 16px;color:#bbb;font-size:14px;line-height:2}
 
 /* 반응형 */
-@media(max-width:1024px){
-  .sidebar-right{display:none}
-}
+@media(max-width:1024px){.sidebar-right{display:none}}
 @media(max-width:768px){
   .sidebar-left{display:none}
   .nav-links a:not(.active){display:none}
   .nav-right{display:none}
-  .content-area{flex-direction:column;height:auto}
-  .list-area{width:100%;height:auto;border-right:none;border-bottom:1px solid #eee}
-  .map-area{height:300px}
+  .content-area{flex-direction:column}
+  .list-area{width:100%;height:40vh;border-right:none;border-bottom:1px solid #eee}
+  .right-panel{height:60vh}
   .info-grid{grid-template-columns:1fr}
   .staff-grid{grid-template-columns:repeat(2,1fr)}
-  .search-inputs select,.search-inputs input{min-width:80px}
-  .three-col{flex-direction:column}
-  .main-center{border-right:none}
-  /* 모바일 카테고리 탭 */
-  .mobile-cats{display:flex;overflow-x:auto;gap:6px;padding:10px 14px;background:#f8f8f8;border-bottom:1px solid #eee}
-  .mobile-cats::-webkit-scrollbar{display:none}
-  .mobile-cat-btn{padding:5px 12px;font-size:13px;border:1px solid #ddd;border-radius:20px;background:#fff;color:#555;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
-  .mobile-cat-btn.active{background:#1D9E75;color:#fff;border-color:#1D9E75}
-}
-@media(min-width:769px){
-  .mobile-cats{display:none}
+  .three-col{height:auto;flex-direction:column}
+  .main-center{height:auto}
 }
 </style>
 </head>
@@ -161,12 +151,12 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-si
 
 <nav class="topnav">
   <div class="topnav-inner">
-    <div class="logo" onclick="showMain()">Care<span>Compass</span></div>
+    <div class="logo" onclick="showMap()">Care<span>Compass</span></div>
     <div class="nav-links">
-      <a href="#" class="active" onclick="showMain()">기관찾기</a>
-      <a href="#">비용계산기</a>
-      <a href="#">장기요양 안내</a>
-      <a href="#">복지용구 안내</a>
+      <a href="#" class="active" onclick="showMap()">기관찾기</a>
+      <a href="#" onclick="showCalc('재가급여')">재가급여 계산</a>
+      <a href="#" onclick="showCalc('시설급여')">시설급여 계산</a>
+      <a href="#" onclick="showCalc('등급예상')">등급예상 계산</a>
     </div>
     <div class="nav-right">국민건강보험공단 공공데이터</div>
   </div>
@@ -213,29 +203,19 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-si
 
   <div class="three-col">
     <div class="sidebar-left">
-      <div class="side-title">급여종류</div>
-      <button class="side-item active" onclick="setSide(this,'')">전체</button>
-      <button class="side-item" onclick="setSide(this,'A')">요양시설</button>
-      <button class="side-item" onclick="setSide(this,'B03,C03')">주간보호</button>
-      <button class="side-item" onclick="setSide(this,'B01,C01')">방문요양</button>
-      <button class="side-item" onclick="setSide(this,'B02,C02')">방문목욕</button>
-      <button class="side-item" onclick="setSide(this,'B05,C05')">방문간호</button>
-      <button class="side-item" onclick="setSide(this,'B04,C04')">단기보호</button>
-      <button class="side-item" onclick="setSide(this,'B06,C06')">복지용구</button>
-      <button class="side-item" onclick="setSide(this,'G,M,H,I,S')">치매전담</button>
+      <div class="side-section">
+        <div class="side-title">🔍 기관찾기</div>
+        <button class="side-item active" onclick="showMap()">지도검색</button>
+      </div>
+      <div class="side-section">
+        <div class="side-title">🧮 계산기</div>
+        <button class="side-item" onclick="showCalc('재가급여')">재가급여<br>간편계산</button>
+        <button class="side-item" onclick="showCalc('시설급여')">시설급여<br>간편계산</button>
+        <button class="side-item" onclick="showCalc('등급예상')">등급예상<br>점수계산 <span class="side-badge">인기</span></button>
+      </div>
     </div>
 
-    <div class="main-center" id="mainCenter">
-      <div class="mobile-cats">
-        <button class="mobile-cat-btn active" onclick="setMobileCat(this,'')">전체</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'A')">요양시설</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'B03,C03')">주간보호</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'B01,C01')">방문요양</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'B02,C02')">방문목욕</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'B06,C06')">복지용구</button>
-        <button class="mobile-cat-btn" onclick="setMobileCat(this,'G,M,H,I,S')">치매전담</button>
-      </div>
-
+    <div class="main-center">
       <div class="result-header">
         <span class="result-count" id="list-count">지역을 선택하고 검색해주세요</span>
         <div class="result-sort">
@@ -249,26 +229,27 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-si
       <div class="content-area">
         <div class="list-area">
           <div class="list-scroll" id="inst-list">
-            <div class="empty-state">🗺️ 시/도와 시/군/구를 선택한 후<br>검색 버튼을 눌러주세요</div>
+            <div class="empty-state">🗺️ 시/도와 시/군/구를<br>선택 후 검색해주세요</div>
           </div>
           <div class="pagination" id="pagination"></div>
         </div>
-        <div class="map-area" id="mapArea">
-          <div id="map"></div>
-          <div class="map-popup" id="mapPopup">
-            <button class="popup-close" onclick="closePopup()">✕</button>
-            <div class="popup-badge" id="popupType"></div>
-            <div class="popup-name" id="popupName"></div>
-            <div class="popup-addr" id="popupAddr"></div>
-            <div class="popup-tel" id="popupTel"></div>
-            <button class="popup-btn" id="popupBtn">상세정보 보기 →</button>
+
+        <div class="right-panel">
+          <div class="map-view" id="mapView">
+            <div id="map"></div>
           </div>
-        </div>
-        <div class="detail-wrap" id="detailWrap">
-          <div class="detail-inner">
-            <button class="detail-back" onclick="showMain()">← 목록으로 돌아가기</button>
-            <div id="detailContent"><div class="loading-msg">불러오는 중...</div></div>
-            <div id="detailMap"></div>
+          <div class="detail-panel" id="detailPanel">
+            <div class="detail-panel-inner">
+              <button class="detail-back" onclick="showMap()">← 지도로 돌아가기</button>
+              <div id="detailContent"><div class="loading-msg">불러오는 중...</div></div>
+              <div id="detailMap"></div>
+            </div>
+          </div>
+          <div class="calc-panel" id="calcPanel">
+            <div class="calc-panel-inner">
+              <button class="calc-back" onclick="showMap()">← 돌아가기</button>
+              <div id="calcContent"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -276,9 +257,9 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f5f5f5;font-si
 
     <div class="sidebar-right">
       <div class="ad-label">광고</div>
-      <div class="ad-block ad-block-lg">광고<br>160×280</div>
+      <div class="ad-block ad-block-lg">광고<br>140×280</div>
       <div class="ad-label">광고</div>
-      <div class="ad-block ad-block-md">광고<br>160×120</div>
+      <div class="ad-block ad-block-md">광고<br>140×120</div>
     </div>
   </div>
 </div>
@@ -292,8 +273,189 @@ var typeNames={'A01':'노인요양시설','A02':'노인전문요양시설','A03'
 function getTypeName(cd){if(typeNames[cd])return typeNames[cd];if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';return cd||'기관';}
 
 function initMap(){
-  map=new kakao.maps.Map(document.getElementById('map'),{center:new kakao.maps.LatLng(37.566826,126.978656),level:10});
+  map=new kakao.maps.Map(document.getElementById('map'),{
+    center:new kakao.maps.LatLng(37.5663,126.9779), // 서울시청
+    level:8
+  });
   geocoder=new kakao.maps.services.Geocoder();
+}
+
+function showMap(){
+  document.getElementById('mapView').style.display='';
+  document.getElementById('detailPanel').classList.remove('show');
+  document.getElementById('calcPanel').classList.remove('show');
+  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
+  document.querySelector('.side-item').classList.add('active');
+  if(map)setTimeout(function(){map.relayout();},100);
+}
+
+function showDetail(){
+  document.getElementById('mapView').style.display='none';
+  document.getElementById('detailPanel').classList.add('show');
+  document.getElementById('calcPanel').classList.remove('show');
+}
+
+function showCalc(type){
+  document.getElementById('mapView').style.display='none';
+  document.getElementById('detailPanel').classList.remove('show');
+  document.getElementById('calcPanel').classList.add('show');
+  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
+  renderCalc(type);
+}
+
+function renderCalc(type){
+  var h='';
+  if(type==='재가급여'){
+    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:16px">재가급여 간편 계산</h2>';
+    h+='<div style="background:#f0faf5;border-radius:6px;padding:16px;margin-bottom:16px;font-size:13px;color:#555;line-height:1.7">';
+    h+='재가급여는 등급에 따라 월 한도액이 정해지며, 본인부담금은 소득수준에 따라 다릅니다.<br>';
+    h+='<strong style="color:#1D9E75">일반: 15% / 경감1: 9% / 경감2: 6% / 의료급여: 0%</strong></div>';
+    h+='<div style="margin-bottom:12px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">장기요양 등급</label>';
+    h+='<select id="calcGrade" onchange="calcReGa()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
+    h+='<option value="">등급 선택</option>';
+    h+='<option value="1">1등급 (2,306,550원)</option>';
+    h+='<option value="2">2등급 (2,143,240원)</option>';
+    h+='<option value="3">3등급 (1,712,580원)</option>';
+    h+='<option value="4">4등급 (1,572,880원)</option>';
+    h+='<option value="5">5등급 (1,352,900원)</option>';
+    h+='<option value="6">인지지원등급 (694,200원)</option>';
+    h+='</select></div>';
+    h+='<div style="margin-bottom:16px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">본인부담률</label>';
+    h+='<select id="calcRate" onchange="calcReGa()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
+    h+='<option value="0.15">일반 (15%)</option>';
+    h+='<option value="0.09">경감 1 (9%)</option>';
+    h+='<option value="0.06">경감 2 (6%)</option>';
+    h+='<option value="0">의료급여 (0%)</option>';
+    h+='</select></div>';
+    h+='<div id="calcResult" style="background:#1D9E75;border-radius:6px;padding:16px;text-align:center;display:none">';
+    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:6px">월 본인부담금 (예상)</div>';
+    h+='<div id="calcResultNum" style="color:#fff;font-size:28px;font-weight:600"></div>';
+    h+='<div style="color:rgba(255,255,255,0.7);font-size:12px;margin-top:6px">* 실제 이용금액에 따라 달라질 수 있어요</div>';
+    h+='</div>';
+  } else if(type==='시설급여'){
+    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:16px">시설급여 간편 계산</h2>';
+    h+='<div style="background:#f0faf5;border-radius:6px;padding:16px;margin-bottom:16px;font-size:13px;color:#555;line-height:1.7">';
+    h+='시설급여는 요양원 입소 시 적용되며 1~2등급 또는 등급외자(치매특별등급)가 대상입니다.<br>';
+    h+='<strong style="color:#1D9E75">일반: 20% / 경감1: 12% / 경감2: 8% / 의료급여: 0%</strong></div>';
+    h+='<div style="margin-bottom:12px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">장기요양 등급</label>';
+    h+='<select id="calcGrade2" onchange="calcSiSeol()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
+    h+='<option value="">등급 선택</option>';
+    h+='<option value="1">1등급 (74,390원/일)</option>';
+    h+='<option value="2">2등급 (69,060원/일)</option>';
+    h+='<option value="3">3~5등급 (63,740원/일)</option>';
+    h+='</select></div>';
+    h+='<div style="margin-bottom:16px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">본인부담률</label>';
+    h+='<select id="calcRate2" onchange="calcSiSeol()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
+    h+='<option value="0.20">일반 (20%)</option>';
+    h+='<option value="0.12">경감 1 (12%)</option>';
+    h+='<option value="0.08">경감 2 (8%)</option>';
+    h+='<option value="0">의료급여 (0%)</option>';
+    h+='</select></div>';
+    h+='<div id="calcResult2" style="background:#1D9E75;border-radius:6px;padding:16px;text-align:center;display:none">';
+    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:6px">월 본인부담금 (예상 30일 기준)</div>';
+    h+='<div id="calcResultNum2" style="color:#fff;font-size:28px;font-weight:600"></div>';
+    h+='<div style="color:rgba(255,255,255,0.7);font-size:12px;margin-top:6px">* 식재료비 등 비급여 항목은 별도</div>';
+    h+='</div>';
+  } else if(type==='등급예상'){
+    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:8px">장기요양등급 예상점수 계산</h2>';
+    h+='<div style="background:#fef3c7;border-radius:6px;padding:12px;margin-bottom:16px;font-size:12px;color:#92400e;line-height:1.6">';
+    h+='⚠️ 이 계산기는 참고용입니다. 실제 등급은 공단 조사원의 방문 조사로 결정됩니다.</div>';
+    h+='<div style="font-size:13px;color:#555;margin-bottom:12px">주요 항목을 체크하면 예상 점수를 계산해드립니다.</div>';
+
+    var items=[
+      {cat:'신체기능',items:[
+        {name:'혼자 옷 입기 어려움',score:5.5},
+        {name:'혼자 세수하기 어려움',score:3.5},
+        {name:'혼자 목욕하기 어려움',score:7.5},
+        {name:'혼자 식사하기 어려움',score:8.5},
+        {name:'혼자 체위변경 어려움',score:9.5},
+        {name:'혼자 일어나 앉기 어려움',score:7.0},
+        {name:'혼자 옮겨 앉기 어려움',score:8.0},
+        {name:'혼자 화장실 사용 어려움',score:8.5},
+        {name:'대변 조절 어려움',score:9.0},
+        {name:'소변 조절 어려움',score:8.0},
+      ]},
+      {cat:'인지기능',items:[
+        {name:'단기 기억장애',score:6.5},
+        {name:'날짜/요일 모름',score:5.0},
+        {name:'장소 파악 어려움',score:6.0},
+        {name:'지시 이해 어려움',score:7.0},
+        {name:'의사소통 어려움',score:7.5},
+      ]},
+      {cat:'행동변화',items:[
+        {name:'망상/환각 증상',score:5.0},
+        {name:'서성거림/배회',score:4.5},
+        {name:'수면장애',score:3.5},
+        {name:'도움에 저항',score:4.0},
+        {name:'폭언/폭력 행동',score:5.5},
+      ]},
+      {cat:'간호처치',items:[
+        {name:'욕창 간호 필요',score:9.0},
+        {name:'경관영양 필요',score:8.5},
+        {name:'산소요법 필요',score:8.0},
+        {name:'흡인 필요',score:9.5},
+      ]},
+    ];
+
+    h+='<form id="gradeForm">';
+    items.forEach(function(cat){
+      h+='<div style="margin-bottom:14px">';
+      h+='<div style="font-size:13px;font-weight:600;color:#1D9E75;margin-bottom:8px;padding:4px 0;border-bottom:1px solid #e8f5ee">'+cat.cat+'</div>';
+      cat.items.forEach(function(item,i){
+        h+='<label style="display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px;color:#444;cursor:pointer">';
+        h+='<input type="checkbox" onchange="calcGrade()" value="'+item.score+'" style="width:16px;height:16px;accent-color:#1D9E75">';
+        h+=item.name+'</label>';
+      });
+      h+='</div>';
+    });
+    h+='</form>';
+    h+='<div id="gradeResult" style="position:sticky;bottom:0;background:#1D9E75;border-radius:6px;padding:16px;text-align:center;margin-top:8px">';
+    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:4px">예상 점수</div>';
+    h+='<div id="gradeScore" style="color:#fff;font-size:32px;font-weight:600">0점</div>';
+    h+='<div id="gradeLevel" style="color:rgba(255,255,255,0.9);font-size:14px;margin-top:6px;font-weight:500">등급외 (요양 대상 아님)</div>';
+    h+='<div style="color:rgba(255,255,255,0.6);font-size:11px;margin-top:4px">* 실제 등급과 다를 수 있습니다</div>';
+    h+='</div>';
+  }
+  document.getElementById('calcContent').innerHTML=h;
+}
+
+function calcReGa(){
+  var gradeVals={'1':2306550,'2':2143240,'3':1712580,'4':1572880,'5':1352900,'6':694200};
+  var grade=document.getElementById('calcGrade').value;
+  var rate=parseFloat(document.getElementById('calcRate').value);
+  if(!grade)return;
+  var limit=gradeVals[grade];
+  var amount=Math.round(limit*rate);
+  document.getElementById('calcResult').style.display='block';
+  document.getElementById('calcResultNum').textContent=amount.toLocaleString()+'원';
+}
+
+function calcSiSeol(){
+  var gradeVals={'1':74390,'2':69060,'3':63740};
+  var grade=document.getElementById('calcGrade2').value;
+  var rate=parseFloat(document.getElementById('calcRate2').value);
+  if(!grade)return;
+  var daily=gradeVals[grade];
+  var amount=Math.round(daily*30*rate);
+  document.getElementById('calcResult2').style.display='block';
+  document.getElementById('calcResultNum2').textContent=amount.toLocaleString()+'원';
+}
+
+function calcGrade(){
+  var total=0;
+  document.querySelectorAll('#gradeForm input[type=checkbox]:checked').forEach(function(cb){
+    total+=parseFloat(cb.value);
+  });
+  total=Math.min(total,100);
+  document.getElementById('gradeScore').textContent=total.toFixed(1)+'점';
+  var level='';
+  if(total>=95)level='1등급 예상';
+  else if(total>=75)level='2등급 예상';
+  else if(total>=60)level='3등급 예상';
+  else if(total>=51)level='4등급 예상';
+  else if(total>=45)level='5등급 예상 (치매 진단 필요)';
+  else level='등급외 (요양 대상 아님)';
+  document.getElementById('gradeLevel').textContent=level;
 }
 
 function loadSigungu(){
@@ -307,37 +469,9 @@ function loadSigungu(){
 function setTab(el,type){
   document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
   el.classList.add('active');
-  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
-  document.querySelectorAll('.side-item').forEach(function(b){if(b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}});
-  document.querySelectorAll('.mobile-cat-btn').forEach(function(b){b.classList.remove('active');});
-  document.querySelectorAll('.mobile-cat-btn').forEach(function(b){if(b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}});
   currentType=type;
   if(allItems.length>0){currentPage=1;filterAndDisplay();}
 }
-
-function setSide(el,type){
-  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
-  el.classList.add('active');
-  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
-  document.querySelectorAll('.tab-btn').forEach(function(b){if(b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}});
-  currentType=type;
-  if(allItems.length>0){currentPage=1;filterAndDisplay();}
-}
-
-function setMobileCat(el,type){
-  document.querySelectorAll('.mobile-cat-btn').forEach(function(b){b.classList.remove('active');});
-  el.classList.add('active');
-  currentType=type;
-  if(allItems.length>0){currentPage=1;filterAndDisplay();}
-}
-
-function showMain(){
-  document.getElementById('mapArea').style.display='';
-  document.getElementById('detailWrap').classList.remove('show');
-  window.scrollTo(0,0);
-}
-
-function closePopup(){document.getElementById('mapPopup').classList.remove('show');}
 
 function searchInstitutions(){
   var sido=document.getElementById('sido');
@@ -348,7 +482,7 @@ function searchInstitutions(){
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
   document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   document.getElementById('pagination').innerHTML='';
-  closePopup();
+  showMap();
   var url='/api/search?sidoCd='+sido.value;
   if(sigungu.value)url+='&sigunguCd='+sigungu.value;
   if(nameVal)url+='&name='+encodeURIComponent(nameVal);
@@ -388,10 +522,7 @@ function getFiltered(){
   var dongVal=document.getElementById('dongFilter').value;
   var sortVal=document.getElementById('sortOrder').value;
   var filtered=allItems.slice();
-  if(currentType){
-    var types=currentType.split(',');
-    filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});
-  }
+  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});}
   if(dongVal){filtered=filtered.filter(function(i){return i.emdNm===dongVal;});}
   if(sortVal==='name'){filtered.sort(function(a,b){return a.longTermCareInstNm.localeCompare(b.longTermCareInstNm,'ko');});}
   return filtered;
@@ -407,7 +538,7 @@ function filterAndDisplay(){
   if(currentPage>totalPages&&totalPages>0)currentPage=1;
   var start=(currentPage-1)*pageSize;
   var pageItems=filtered.slice(start,start+pageSize);
-  document.getElementById('list-count').textContent=sidoName+' '+sigunguName+' '+(filtered.length>0?filtered.length+'곳':'검색 결과 없음');
+  document.getElementById('list-count').textContent=sidoName+' '+sigunguName+' '+(filtered.length>0?'<strong>'+filtered.length+'곳</strong>':'검색 결과 없음');
   clearMarkers();
   var html='';
   pageItems.forEach(function(inst,idx){
@@ -424,7 +555,10 @@ function filterAndDisplay(){
           if(status===kakao.maps.services.Status.OK){
             var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
             var marker=new kakao.maps.Marker({map:map,position:coords,title:nm});
-            kakao.maps.event.addListener(marker,'click',function(){selectInst(s,t,nm);map.setCenter(coords);map.setLevel(5);});
+            kakao.maps.event.addListener(marker,'click',function(){
+              selectInst(s,t,nm);
+              map.setCenter(coords);map.setLevel(4);
+            });
             markers.push(marker);
             if(markers.length===1){map.setCenter(coords);map.setLevel(7);}
           }
@@ -456,31 +590,11 @@ function goPage(p){
 
 function selectInst(sym,type,name){
   document.querySelectorAll('.inst-card').forEach(function(c){c.classList.remove('active');});
-  var card=document.getElementById('card-'+sym);
-  if(card)card.classList.add('active');
-  document.getElementById('popupType').textContent=getTypeName(type);
-  document.getElementById('popupName').textContent=name;
-  document.getElementById('popupAddr').textContent='주소 불러오는 중...';
-  document.getElementById('popupTel').textContent='';
-  document.getElementById('mapPopup').classList.add('show');
-  document.getElementById('popupBtn').onclick=function(){openDetail(sym,type,name);};
-  fetch('/api/detail?sym='+sym+'&type='+type).then(function(r){return r.json();}).then(function(d){
-    var addr=d.address&&d.address.roadAddr?d.address.roadAddr:'주소 정보 없음';
-    var g=d.general||{};
-    var tel='';
-    if(g.locTelNo_1||g.locTelNo1){tel='📞 '+(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3);}
-    document.getElementById('popupAddr').textContent='📍 '+addr;
-    document.getElementById('popupTel').textContent=tel;
-  }).catch(function(){});
-}
-
-function openDetail(sym,type,name){
-  document.getElementById('mapArea').style.display='none';
-  document.getElementById('detailWrap').classList.add('show');
+  var card=document.getElementById('card-'+sym);if(card)card.classList.add('active');
+  showDetail();
   document.getElementById('detailContent').innerHTML='<div class="loading-msg">🏥 '+name+' 정보를 불러오는 중...</div>';
   document.getElementById('detailMap').style.display='none';
   detailMap=null;
-  window.scrollTo(0,0);
   fetch('/api/detail?sym='+sym+'&type='+type).then(function(r){return r.json();}).then(function(data){
     renderDetail(data,name,type);
   }).catch(function(){
@@ -510,7 +624,7 @@ function renderDetail(data,name,type){
   if(totalPer>0){
     h+='<div class="detail-section"><h3>👥 입소 현황</h3>';
     h+='<div class="cap-bar"><div class="cap-lbl">정원 '+totalPer+'명</div><div class="cap-bar-bg"><div class="cap-bar-fill" style="width:'+fillRate+'%"></div></div><div class="cap-lbl">현원 '+nowPer+'명 ('+fillRate+'%)</div></div>';
-    if(waitPer>0)h+='<div style="text-align:center;color:#e67e22;font-size:14px;margin-top:6px">대기 '+waitPer+'명</div>';
+    if(waitPer>0)h+='<div style="text-align:center;color:#e67e22;font-size:13px;margin-top:4px">대기 '+waitPer+'명</div>';
     h+='</div>';
   }
   var staffItems=[{k:'recuProt_1',n:'요양보호사'},{k:'nur',n:'간호사'},{k:'nurArticle',n:'간호조무사'},{k:'socWel',n:'사회복지사'},{k:'physicalMTret',n:'물리치료사'},{k:'wrkMTret',n:'작업치료사'},{k:'chrgDoc',n:'의사(전임)'},{k:'chargeDoc',n:'의사(촉탁)'},{k:'nut',n:'영양사'},{k:'cook',n:'조리원'},{k:'equipLong',n:'시설장'},{k:'ofceEmp',n:'사무원'}];
@@ -527,7 +641,7 @@ function renderDetail(data,name,type){
     dm.style.display='block';
     setTimeout(function(){
       try{
-        if(!detailMap){detailMap=new kakao.maps.Map(dm,{center:new kakao.maps.LatLng(37.566826,126.978656),level:5});}
+        if(!detailMap){detailMap=new kakao.maps.Map(dm,{center:new kakao.maps.LatLng(37.5663,126.9779),level:5});}
         detailMap.relayout();
         setTimeout(function(){
           var gc=new kakao.maps.services.Geocoder();
