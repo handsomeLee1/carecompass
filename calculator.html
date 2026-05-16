@@ -43,6 +43,13 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .ad-block-md{height:120px}
 
 /* 반응형 */
+.calc-tab-bar{background:#1D9E75;width:100%;padding:0 0 0 0}
+.calc-tab-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:4px;flex-wrap:wrap;position:relative}
+.calc-tab-btn{padding:12px 20px;font-size:14px;font-family:'Noto Sans KR',sans-serif;font-weight:500;color:rgba(255,255,255,0.75);background:transparent;border:none;cursor:pointer;border-bottom:3px solid transparent;transition:all 0.15s;white-space:nowrap;position:relative}
+.calc-tab-btn:hover{color:#fff;background:rgba(255,255,255,0.1)}
+.calc-tab-btn.active{color:#fff;font-weight:600;border-bottom:3px solid #fff}
+.calc-tab-badge{display:inline-block;background:#fef3c7;color:#92400e;font-size:10px;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:middle}
+.calc-tab-desc{margin-left:auto;font-size:11px;color:rgba(255,255,255,0.6);white-space:nowrap;padding:12px 0}
 @media(max-width:1024px){.calc-ad-sidebar{display:none}}
 @media(max-width:768px){
   .calc-sidebar{display:none}
@@ -63,6 +70,22 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
     <div class="nav-right">국민건강보험공단 공공데이터</div>
   </div>
 </nav>
+
+<div class="calc-tab-bar">
+  <div class="calc-tab-inner">
+    <button class="calc-tab-btn active" id="tab-재가급여" onclick="switchCalc('재가급여')">
+      💰 재가급여 간편계산
+    </button>
+    <button class="calc-tab-btn" id="tab-시설급여" onclick="switchCalc('시설급여')">
+      🏥 시설급여 간편계산
+    </button>
+    <button class="calc-tab-btn" id="tab-등급예상" onclick="switchCalc('등급예상')">
+      📋 등급예상 점수계산
+      <span class="calc-tab-badge">인기</span>
+    </button>
+    <div class="calc-tab-desc">2026년 최신 수가 기준 · 국민건강보험공단 장기요양</div>
+  </div>
+</div>
 
 <div class="wrapper">
   <div class="calc-sidebar">
@@ -756,18 +779,18 @@ function GradeCalc() {
     return GRADE_ITEMS[secKey].every(item => answers[item.id] !== undefined);
   };
 
- const calcScores = () => {
+  const calcScores = () => {
     const a = answers;
-    let pr=0; for(let i=1;i<=12;i++) pr+=(a['p'+String(i).padStart(2,'0')]||1);
-    let cr=0; for(let i=1;i<=7;i++)  cr+=(a['c'+String(i).padStart(2,'0')]||0);
-    let br=0; for(let i=1;i<=14;i++) br+=(a['b'+String(i).padStart(2,'0')]||0);
-    let nr=0; for(let i=1;i<=9;i++)  nr+=(a['n'+String(i).padStart(2,'0')]||0);
-    let rr=0; for(let i=1;i<=10;i++) rr+=(a['r'+String(i).padStart(2,'0')]||1);
-    const pc = CONV.phys[pr]??0;
-    const cc = CONV.cog[cr]??0;
-    const bc = CONV.beh[br]??0;
-    const nc = CONV.nur[nr]??0;
-    const rc = CONV.reh[rr]??0;
+    const pr = Object.keys(a).filter(k=>k.startsWith('p')).reduce((s,k)=>s+a[k],0);
+    const cr = Object.keys(a).filter(k=>k.startsWith('c')).reduce((s,k)=>s+a[k],0);
+    const br = Object.keys(a).filter(k=>k.startsWith('b')).reduce((s,k)=>s+a[k],0);
+    const nr = Object.keys(a).filter(k=>k.startsWith('n')).reduce((s,k)=>s+a[k],0);
+    const rr = Object.keys(a).filter(k=>k.startsWith('r')).reduce((s,k)=>s+a[k],0);
+    const pc = CONV.phys[pr]||0;
+    const cc = CONV.cog[cr]||0;
+    const bc = CONV.beh[br]||0;
+    const nc = CONV.nur[nr]||0;
+    const rc = CONV.reh[rr]||0;
     return {pr,cr,br,nr,rr,pc,cc,bc,nc,rc};
   };
 
@@ -994,6 +1017,7 @@ function GradeCalc() {
 }
 function CalcApp() {
   const [current, setCurrent] = useState("재가급여");
+  window.__calcSwitch = (type) => setCurrent(type);
   window.showCalc = (type) => {
     setCurrent(type);
     document.querySelectorAll(".calc-menu-item").forEach(b => b.classList.remove("active"));
@@ -1011,7 +1035,20 @@ function CalcApp() {
     </div>
   );
 }
-
+function switchCalc(type) {
+  // 탭 활성화
+  document.querySelectorAll('.calc-tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-'+type).classList.add('active');
+  // 사이드바 활성화
+  document.querySelectorAll('.calc-menu-item').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.calc-menu-item').forEach(b => {
+    if(b.textContent.includes(type==='재가급여'?'재가':type==='시설급여'?'시설':'등급')) {
+      b.classList.add('active');
+    }
+  });
+  // React 계산기 전환
+  if(window.__calcSwitch) window.__calcSwitch(type);
+}
 ReactDOM.createRoot(document.getElementById("calc-root")).render(<CalcApp />);
 </script>
 </body>
