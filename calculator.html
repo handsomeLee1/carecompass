@@ -756,18 +756,18 @@ function GradeCalc() {
     return GRADE_ITEMS[secKey].every(item => answers[item.id] !== undefined);
   };
 
-  const calcScores = () => {
+ const calcScores = () => {
     const a = answers;
-    const pr = Object.keys(a).filter(k=>k.startsWith('p')).reduce((s,k)=>s+a[k],0);
-    const cr = Object.keys(a).filter(k=>k.startsWith('c')).reduce((s,k)=>s+a[k],0);
-    const br = Object.keys(a).filter(k=>k.startsWith('b')).reduce((s,k)=>s+a[k],0);
-    const nr = Object.keys(a).filter(k=>k.startsWith('n')).reduce((s,k)=>s+a[k],0);
-    const rr = Object.keys(a).filter(k=>k.startsWith('r')).reduce((s,k)=>s+a[k],0);
-    const pc = CONV.phys[pr]||0;
-    const cc = CONV.cog[cr]||0;
-    const bc = CONV.beh[br]||0;
-    const nc = CONV.nur[nr]||0;
-    const rc = CONV.reh[rr]||0;
+    let pr=0; for(let i=1;i<=12;i++) pr+=(a['p'+String(i).padStart(2,'0')]||1);
+    let cr=0; for(let i=1;i<=7;i++)  cr+=(a['c'+String(i).padStart(2,'0')]||0);
+    let br=0; for(let i=1;i<=14;i++) br+=(a['b'+String(i).padStart(2,'0')]||0);
+    let nr=0; for(let i=1;i<=9;i++)  nr+=(a['n'+String(i).padStart(2,'0')]||0);
+    let rr=0; for(let i=1;i<=10;i++) rr+=(a['r'+String(i).padStart(2,'0')]||1);
+    const pc = CONV.phys[pr]??0;
+    const cc = CONV.cog[cr]??0;
+    const bc = CONV.beh[br]??0;
+    const nc = CONV.nur[nr]??0;
+    const rc = CONV.reh[rr]??0;
     return {pr,cr,br,nr,rr,pc,cc,bc,nc,rc};
   };
 
