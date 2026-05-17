@@ -5,7 +5,7 @@
 #cc-float-widget {
   position: fixed;
   top: 96px;          /* topnav 44px + tabbar 44px + gap 8px */
-  left: calc((100vw - 1200px) / 2);
+  left: calc((100vw - 1200px) / 2 - 200px);
   width: 192px;
   background: #fff;
   border: 1px solid #DDD8FF;
