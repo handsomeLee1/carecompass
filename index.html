@@ -270,9 +270,32 @@ var typeNames={'A01':'노인요양시설','A02':'노인전문요양시설','A03'
 
 function getTypeName(cd){if(typeNames[cd])return typeNames[cd];if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';return cd||'기관';}
 
-function initMap(){
-  window.addEventListener('DOMContentLoaded',function(){
+window.addEventListener('DOMContentLoaded',function(){
   var params=new URLSearchParams(window.location.search);
+  var sidoCd=params.get('sidoCd');
+  var sigunguCd=params.get('sigunguCd');
+  var type=params.get('type');
+  if(sidoCd){
+    var sido=document.getElementById('sido');
+    sido.value=sidoCd;
+    loadSigungu();
+    if(sigunguCd){
+      setTimeout(function(){
+        document.getElementById('sigungu').value=sigunguCd;
+      },100);
+    }
+    if(type){
+      currentType=type;
+      document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
+      document.querySelectorAll('.tab-btn').forEach(function(b){
+        if(b.getAttribute('onclick')&&b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}
+      });
+    }
+    setTimeout(function(){searchInstitutions();},500);
+  }
+});
+
+function initMap(){
   var sidoCd=params.get('sidoCd');
   var sigunguCd=params.get('sigunguCd');
   var type=params.get('type');
