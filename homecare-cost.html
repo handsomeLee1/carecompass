@@ -24,22 +24,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-size:15px}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-size:15px}
 a{text-decoration:none;color:inherit}
 
 /* 네비 */
 .topnav{background:#1a1a1a;width:100%;position:sticky;top:0;z-index:100}
 .topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
-.logo{color:#4ade80;font-size:16px;font-weight:600;cursor:pointer}
+.logo{color:#DDD8FF;font-size:16px;font-weight:600;cursor:pointer}
 .logo span{color:#fff}
 .nav-links{display:flex;gap:20px;flex:1}
 .nav-links a{color:#ccc;font-size:14px}
-.nav-links a:hover{color:#4ade80}
-.nav-links a.active{color:#4ade80}
+.nav-links a:hover{color:#DDD8FF}
+.nav-links a.active{color:#DDD8FF}
 .nav-right{color:#777;font-size:12px}
 
 /* 탭바 */
-.tab-bar{background:#1D9E75;width:100%}
+.tab-bar{background:#5B5AE0;width:100%}
 .tab-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
 .tab-btn{padding:12px 18px;font-size:14px;color:rgba(255,255,255,0.7);border:none;background:none;cursor:pointer;border-bottom:3px solid transparent;font-family:'Noto Sans KR',sans-serif;white-space:nowrap;text-decoration:none;display:block}
 .tab-btn:hover{color:#fff;background:rgba(255,255,255,0.1)}
@@ -49,16 +49,16 @@ a{text-decoration:none;color:inherit}
 .wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px - 48px);box-shadow:0 0 20px rgba(0,0,0,0.08)}
 
 /* 히어로 */
-.hero{background:#f0faf5;border-bottom:1px solid #d4ede4;padding:28px 24px}
+.hero{background:#EEF2FF;border-bottom:1px solid #d4ede4;padding:28px 24px}
 .breadcrumb{font-size:12px;color:#888;margin-bottom:10px}
-.breadcrumb a{color:#1D9E75}
+.breadcrumb a{color:#5B5AE0}
 .hero h1{font-size:22px;font-weight:600;color:#0c2340;margin-bottom:8px;line-height:1.4}
 .hero p{font-size:14px;color:#555;line-height:1.7;max-width:640px}
 
 /* 콘텐츠 */
 .content{padding:32px 24px;max-width:900px;margin:0 auto}
-.section-title{font-size:17px;font-weight:600;color:#0c2340;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #1D9E75;display:flex;align-items:center;gap:8px}
-.section-title i{color:#1D9E75;font-size:20px}
+.section-title{font-size:17px;font-weight:600;color:#0c2340;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #5B5AE0;display:flex;align-items:center;gap:8px}
+.section-title i{color:#5B5AE0;font-size:20px}
 
 /* 사례 카드 */
 .case-card{background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
@@ -67,7 +67,7 @@ a{text-decoration:none;color:inherit}
 .profile-name{font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px}
 .profile-desc{font-size:13px;color:#666;line-height:1.6}
 .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
-.case-item{background:#f8fffe;border:1px solid #d4ede4;border-radius:8px;padding:12px}
+.case-item{background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px}
 .case-item .lbl{font-size:11px;color:#888;margin-bottom:4px}
 .case-item .val{font-size:14px;font-weight:600;color:#0c2340}
 .cost-summary{background:#0c2340;border-radius:8px;padding:20px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center}
@@ -77,7 +77,7 @@ a{text-decoration:none;color:inherit}
 .cost-item .cvalue{font-size:17px;font-weight:600;color:#fff}
 .cost-item .cnote{font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px}
 .cost-total{margin-top:14px;text-align:center;font-size:13px;color:rgba(255,255,255,0.6);padding-top:14px;border-top:1px solid rgba(255,255,255,0.1)}
-.cost-total strong{color:#4ade80;font-size:16px}
+.cost-total strong{color:#DDD8FF;font-size:16px}
 
 /* 서비스 안내 */
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
@@ -85,36 +85,36 @@ a{text-decoration:none;color:inherit}
 .service-icon{font-size:24px;margin-bottom:8px}
 .service-title{font-size:14px;font-weight:600;color:#0c2340;margin-bottom:6px}
 .service-desc{font-size:12px;color:#666;line-height:1.6}
-.service-price{font-size:13px;font-weight:600;color:#1D9E75;margin-top:8px}
+.service-price{font-size:13px;font-weight:600;color:#5B5AE0;margin-top:8px}
 
 /* 계산기 */
-.calc-wrap{background:#f8fffe;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
-.calc-subtitle{font-size:13px;color:#1D9E75;margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.calc-wrap{background:#F5F5FF;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.calc-subtitle{font-size:13px;color:#5B5AE0;margin-bottom:14px;display:flex;align-items:center;gap:6px}
 .calc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
 .calc-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
 .calc-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
-.calc-field select:focus{outline:none;border-color:#1D9E75}
+.calc-field select:focus{outline:none;border-color:#5B5AE0}
 .calc-field select:disabled{background:#f5f5f5;color:#aaa;cursor:not-allowed}
-.calc-btn{width:100%;height:44px;background:#1D9E75;color:#fff;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;margin-bottom:14px}
-.calc-btn:hover{background:#085041}
+.calc-btn{width:100%;height:44px;background:#5B5AE0;color:#fff;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;margin-bottom:14px}
+.calc-btn:hover{background:#4B4AC8}
 .calc-result{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .calc-result-item{background:#fff;border:1px solid #d4ede4;border-radius:8px;padding:14px;text-align:center}
 .calc-result-item .rlabel{font-size:11px;color:#888;margin-bottom:5px}
-.calc-result-item .rvalue{font-size:15px;font-weight:600;color:#1D9E75}
+.calc-result-item .rvalue{font-size:15px;font-weight:600;color:#5B5AE0}
 .calc-notice{font-size:12px;color:#e53935;margin-top:10px;line-height:1.7}
 .limit-bar{margin:12px 0;background:#eee;border-radius:6px;height:12px;overflow:hidden}
-.limit-fill{height:100%;background:#1D9E75;border-radius:6px;transition:width 0.3s}
+.limit-fill{height:100%;background:#5B5AE0;border-radius:6px;transition:width 0.3s}
 .limit-info{display:flex;justify-content:space-between;font-size:11px;color:#888;margin-top:4px}
 
 /* 기관찾기 */
-.finder-wrap{background:#f8fffe;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.finder-wrap{background:#F5F5FF;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
 .finder-subtitle{font-size:13px;color:#555;margin-bottom:14px;line-height:1.7}
 .finder-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end;margin-bottom:14px}
 .finder-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
 .finder-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
-.finder-field select:focus{outline:none;border-color:#1D9E75}
+.finder-field select:focus{outline:none;border-color:#5B5AE0}
 .finder-btn{height:36px;padding:0 20px;background:#0c2340;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif}
-.finder-btn:hover{background:#1D9E75}
+.finder-btn:hover{background:#5B5AE0}
 .finder-tips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .finder-tip{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:14px}
 .finder-tip .tip-icon{font-size:20px;margin-bottom:6px}
@@ -126,13 +126,13 @@ a{text-decoration:none;color:inherit}
 .faq-item{border-bottom:1px solid #eee;padding:16px 0}
 .faq-item:last-child{border-bottom:none}
 .faq-q{font-size:15px;font-weight:600;color:#0c2340;margin-bottom:8px;display:flex;align-items:flex-start;gap:8px}
-.faq-q-badge{background:#1D9E75;color:#fff;font-size:11px;padding:2px 7px;border-radius:3px;flex-shrink:0;margin-top:2px}
+.faq-q-badge{background:#5B5AE0;color:#fff;font-size:11px;padding:2px 7px;border-radius:3px;flex-shrink:0;margin-top:2px}
 .faq-a{font-size:14px;color:#555;line-height:1.8;padding-left:32px}
 
 /* 관련 페이지 */
 .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
 .related-card{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:16px;cursor:pointer;transition:all 0.15s;text-decoration:none;display:block}
-.related-card:hover{border-color:#1D9E75;background:#f8fffe}
+.related-card:hover{border-color:#5B5AE0;background:#F5F5FF}
 .related-icon{font-size:24px;margin-bottom:8px}
 .related-title{font-size:14px;font-weight:600;color:#0c2340;margin-bottom:4px}
 .related-desc{font-size:12px;color:#888;line-height:1.5}
@@ -520,7 +520,7 @@ function calcHomecare(){
   var pct=Math.min(Math.round(total/limit*100),100);
   document.getElementById('limitBarWrap').style.display='block';
   document.getElementById('limitFill').style.width=pct+'%';
-  document.getElementById('limitFill').style.background=pct>100?'#e53935':'#1D9E75';
+  document.getElementById('limitFill').style.background=pct>100?'#e53935':'#5B5AE0';
   document.getElementById('limitPct').textContent=pct+'%';
   document.getElementById('limitUsed').textContent='사용: '+fmt(total)+'원';
   document.getElementById('limitTotal').textContent='한도: '+fmt(limit)+'원';
