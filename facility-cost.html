@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>요양원 입소 비용 계산하기 2026 - 케어컴퍼스</title>
+<meta name="description" content="요양원(노인요양시설) 입소 시 본인부담금을 미리 계산해보세요. 2026년 최신 수가 기준, 실제 사례로 쉽게 확인. 내 주변 요양원도 바로 찾기.">
+<meta name="keywords" content="요양원 비용, 노인요양시설 비용, 장기요양 시설급여, 요양원 한달 비용, 요양원 입소 비용">
+<meta property="og:title" content="요양원 입소 비용 계산하기 2026 - 케어컴퍼스">
+<meta property="og:description" content="요양원 입소 비용을 실제 사례로 미리 확인하고, 내 주변 요양원을 찾아보세요.">
+<meta property="og:url" content="https://carecompass.co.kr/facility-cost.html">
+<link rel="canonical" href="https://carecompass.co.kr/facility-cost.html">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"요양원 입소 비용 계산하기",
+  "description":"2026년 기준 요양원 입소 비용 계산기 및 주변 요양원 찾기",
+  "url":"https://carecompass.co.kr/facility-cost.html",
+  "publisher":{"@type":"Organization","name":"케어컴퍼스","url":"https://carecompass.co.kr"}
+}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-size:15px}
+a{text-decoration:none;color:inherit}
+
+/* 네비 */
+.topnav{background:#1a1a1a;width:100%;position:sticky;top:0;z-index:100}
+.topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
+.logo{color:#4ade80;font-size:16px;font-weight:600;cursor:pointer}
+.logo span{color:#fff}
+.nav-links{display:flex;gap:20px;flex:1}
+.nav-links a{color:#ccc;font-size:14px}
+.nav-links a:hover{color:#4ade80}
+.nav-right{color:#777;font-size:12px}
+
+/* 탭바 */
+.tab-bar{background:#1D9E75;width:100%}
+.tab-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+.tab-btn{padding:12px 18px;font-size:13px;color:rgba(255,255,255,0.7);border:none;background:none;cursor:pointer;border-bottom:3px solid transparent;font-family:'Noto Sans KR',sans-serif;white-space:nowrap}
+.tab-btn:hover{color:#fff;background:rgba(255,255,255,0.1)}
+.tab-btn.active{color:#fff;font-weight:600;border-bottom:3px solid #fff}
+
+/* 래퍼 */
+.wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px - 48px);box-shadow:0 0 20px rgba(0,0,0,0.08)}
+
+/* 히어로 */
+.hero{background:#f0faf5;border-bottom:1px solid #d4ede4;padding:28px 24px}
+.breadcrumb{font-size:12px;color:#888;margin-bottom:10px}
+.breadcrumb a{color:#1D9E75}
+.hero h1{font-size:22px;font-weight:600;color:#0c2340;margin-bottom:8px;line-height:1.4}
+.hero p{font-size:14px;color:#555;line-height:1.7;max-width:640px}
+
+/* 콘텐츠 */
+.content{padding:32px 24px;max-width:900px;margin:0 auto}
+.section-title{font-size:17px;font-weight:600;color:#0c2340;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #1D9E75;display:flex;align-items:center;gap:8px}
+.section-title i{color:#1D9E75;font-size:20px}
+
+/* 사례 카드 */
+.case-card{background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.case-profile{display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee}
+.profile-avatar{width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.profile-name{font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.profile-desc{font-size:13px;color:#666;line-height:1.6}
+.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.case-item{background:#f8fffe;border:1px solid #d4ede4;border-radius:8px;padding:12px}
+.case-item .lbl{font-size:11px;color:#888;margin-bottom:4px}
+.case-item .val{font-size:14px;font-weight:600;color:#0c2340}
+.cost-summary{background:#0c2340;border-radius:8px;padding:20px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center}
+.cost-divider{background:rgba(255,255,255,0.2);height:40px;width:1px}
+.cost-item{text-align:center;padding:0 10px}
+.cost-item .clabel{font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:6px}
+.cost-item .cvalue{font-size:17px;font-weight:600;color:#fff}
+.cost-item .cnote{font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px}
+.cost-total{margin-top:14px;text-align:center;font-size:13px;color:rgba(255,255,255,0.6);padding-top:14px;border-top:1px solid rgba(255,255,255,0.1)}
+.cost-total strong{color:#4ade80;font-size:16px}
+
+/* 계산기 */
+.calc-wrap{background:#f8fffe;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.calc-subtitle{font-size:13px;color:#1D9E75;margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.calc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
+.calc-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
+.calc-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
+.calc-field select:focus{outline:none;border-color:#1D9E75}
+.calc-btn{width:100%;height:44px;background:#1D9E75;color:#fff;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;margin-bottom:14px}
+.calc-btn:hover{background:#085041}
+.calc-result{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.calc-result-item{background:#fff;border:1px solid #d4ede4;border-radius:8px;padding:14px;text-align:center}
+.calc-result-item .rlabel{font-size:11px;color:#888;margin-bottom:5px}
+.calc-result-item .rvalue{font-size:16px;font-weight:600;color:#1D9E75}
+.calc-notice{font-size:12px;color:#e53935;margin-top:10px;line-height:1.7}
+
+/* 기관찾기 */
+.finder-wrap{background:#f8fffe;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.finder-subtitle{font-size:13px;color:#555;margin-bottom:14px;line-height:1.7}
+.finder-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end;margin-bottom:14px}
+.finder-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
+.finder-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
+.finder-field select:focus{outline:none;border-color:#1D9E75}
+.finder-btn{height:36px;padding:0 20px;background:#0c2340;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif}
+.finder-btn:hover{background:#1D9E75}
+.finder-tips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.finder-tip{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:14px}
+.finder-tip .tip-icon{font-size:20px;margin-bottom:6px}
+.finder-tip .tip-title{font-size:13px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.finder-tip .tip-desc{font-size:12px;color:#666;line-height:1.6}
+
+/* FAQ */
+.faq-list{margin-bottom:32px}
+.faq-item{border-bottom:1px solid #eee;padding:16px 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-size:15px;font-weight:600;color:#0c2340;margin-bottom:8px;display:flex;align-items:flex-start;gap:8px}
+.faq-q-badge{background:#1D9E75;color:#fff;font-size:11px;padding:2px 7px;border-radius:3px;flex-shrink:0;margin-top:2px}
+.faq-a{font-size:14px;color:#555;line-height:1.8;padding-left:32px}
+
+/* 관련 페이지 */
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
+.related-card{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:16px;cursor:pointer;transition:all 0.15s}
+.related-card:hover{border-color:#1D9E75;background:#f8fffe}
+.related-icon{font-size:24px;margin-bottom:8px}
+.related-title{font-size:14px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.related-desc{font-size:12px;color:#888;line-height:1.5}
+
+/* 유의사항 */
+.notice-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:16px;font-size:13px;color:#5d4037;line-height:1.8;margin-bottom:32px}
+
+/* 반응형 */
+@media(max-width:768px){
+  .case-grid{grid-template-columns:1fr 1fr}
+  .calc-grid{grid-template-columns:1fr 1fr}
+  .finder-grid{grid-template-columns:1fr 1fr}
+  .finder-tips{grid-template-columns:1fr}
+  .related-grid{grid-template-columns:1fr}
+  .calc-result{grid-template-columns:1fr}
+  .cost-summary{grid-template-columns:1fr;gap:12px}
+  .cost-divider{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a href="/" class="logo">Care<span>Compass</span></a>
+    <div class="nav-links">
+      <a href="/">기관찾기</a>
+      <a href="/calculator.html">계산기</a>
+      <a href="#">장기요양 안내</a>
+    </div>
+    <div class="nav-right">국민건강보험공단 공공데이터</div>
+  </div>
+</nav>
+
+<div class="tab-bar">
+  <div class="tab-inner">
+    <button class="tab-btn" onclick="location.href='/calculator.html'">재가급여 비용계산</button>
+    <button class="tab-btn active">요양원 입소 비용계산</button>
+    <button class="tab-btn" onclick="location.href='/calculator.html'">장기요양등급 예상점수</button>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="hero">
+    <div class="breadcrumb">
+      <a href="/">케어컴퍼스</a> &rsaquo;
+      <a href="/calculator.html">계산기</a> &rsaquo;
+      요양원 입소 비용계산
+    </div>
+    <h1>요양원 입소 비용, 얼마나 들까요?</h1>
+    <p>장기요양등급을 받으셨다면 요양원(노인요양시설) 입소 시 국가에서 비용 일부를 지원합니다.<br>실제 사례로 먼저 확인하고, 직접 계산해보세요.</p>
+  </div>
+
+  <div class="content">
+
+    <!-- 실제 사례 -->
+    <div class="section-title">
+      <i class="ti ti-user-circle" aria-hidden="true"></i>
+      실제 사례로 보는 요양원 비용
+    </div>
+
+    <div class="case-card">
+      <div class="case-profile">
+        <div class="profile-avatar">👴</div>
+        <div>
+          <div class="profile-name">서울 거주 78세 김○○ 어르신</div>
+          <div class="profile-desc">뇌졸중으로 거동이 불편하여 요양원 입소를 결정한 사례<br>장기요양 2등급 판정 · 일반 노인요양시설 입소 · 일반대상자 (본인부담 20%)</div>
+        </div>
+      </div>
+
+      <div class="case-grid">
+        <div class="case-item"><div class="lbl">장기요양 등급</div><div class="val">2등급</div></div>
+        <div class="case-item"><div class="lbl">시설 유형</div><div class="val">노인요양시설</div></div>
+        <div class="case-item"><div class="lbl">본인부담률</div><div class="val">일반 (20%)</div></div>
+        <div class="case-item"><div class="lbl">1일 급여비용</div><div class="val">86,190원</div></div>
+        <div class="case-item"><div class="lbl">1일 본인부담금</div><div class="val">17,238원</div></div>
+        <div class="case-item"><div class="lbl">이용일수</div><div class="val">30일</div></div>
+      </div>
+
+      <div class="cost-summary">
+        <div class="cost-item">
+          <div class="clabel">월 총 급여비용</div>
+          <div class="cvalue">2,585,700원</div>
+          <div class="cnote">30일 기준</div>
+        </div>
+        <div class="cost-divider"></div>
+        <div class="cost-item">
+          <div class="clabel">월 본인부담금</div>
+          <div class="cvalue">517,140원</div>
+          <div class="cnote">급여비용의 20%</div>
+        </div>
+        <div class="cost-divider"></div>
+        <div class="cost-item">
+          <div class="clabel">비급여 (식비 등)</div>
+          <div class="cvalue">약 30~40만원</div>
+          <div class="cnote">시설마다 다름</div>
+        </div>
+        <div class="cost-total" style="grid-column:1/-1">
+          월 총 예상 비용 (본인부담금 + 비급여): <strong>약 82~92만원</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- 계산기 -->
+    <div class="section-title">
+      <i class="ti ti-calculator" aria-hidden="true"></i>
+      직접 계산해보기
+    </div>
+
+    <div class="calc-wrap">
+      <div class="calc-subtitle">
+        <i class="ti ti-building-hospital" aria-hidden="true"></i>
+        요양원 입소 비용 계산기 · 2026년 최신 수가 기준
+      </div>
+      <div class="calc-grid">
+        <div class="calc-field">
+          <label>시설 유형</label>
+          <select id="calcFacility" onchange="updateGrades()">
+            <option value="">-선택-</option>
+            <option value="요양시설">노인요양시설</option>
+            <option value="치매가형">노인요양시설내 치매전담실 가형</option>
+            <option value="치매나형">노인요양시설내 치매전담실 나형</option>
+            <option value="공동생활">노인요양공동생활가정</option>
+            <option value="치매공동">치매전담형 노인요양공동생활가정</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label>수급자 유형</label>
+          <select id="calcRecipient">
+            <option value="">선택</option>
+            <option value="0.20">일반대상자 (20%)</option>
+            <option value="0.12">본인부담금 40%경감자 (12%)</option>
+            <option value="0.08">본인부담금 60%경감자 (8%)</option>
+            <option value="0.00">의료급여수급자 (0%)</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label>수급자 등급</label>
+          <select id="calcGrade">
+            <option value="">-선택-</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-grid" style="grid-template-columns:1fr 2fr">
+        <div class="calc-field">
+          <label>이용일수</label>
+          <select id="calcDays">
+            <option value="">선택</option>
+            <script>for(var i=1;i<=31;i++)document.write('<option value="'+i+'">'+i+'일</option>');</script>
+          </select>
+        </div>
+        <div></div>
+      </div>
+      <button class="calc-btn" onclick="calcFacility()">계산하기</button>
+      <div class="calc-result">
+        <div class="calc-result-item">
+          <div class="rlabel">총급여비용</div>
+          <div class="rvalue" id="outTotal">-</div>
+        </div>
+        <div class="calc-result-item">
+          <div class="rlabel">공단부담금</div>
+          <div class="rvalue" id="outPublic">-</div>
+        </div>
+        <div class="calc-result-item">
+          <div class="rlabel">본인부담금</div>
+          <div class="rvalue" id="outSelf">-</div>
+        </div>
+      </div>
+      <div class="calc-notice">
+        ※ 본인부담금 = 총급여비용 × 본인부담률<br>
+        ※ 식사재료비, 이미용비 등 비급여 항목은 별도 부담
+      </div>
+    </div>
+
+    <!-- 내 주변 요양원 찾기 -->
+    <div class="section-title">
+      <i class="ti ti-map-pin" aria-hidden="true"></i>
+      내 주변 요양원 찾기
+    </div>
+
+    <div class="finder-wrap">
+      <div class="finder-subtitle">
+        지역을 선택하면 해당 지역의 요양원(노인요양시설) 목록과 지도를 바로 확인할 수 있어요.<br>
+        기관을 클릭하면 인력현황, 시설현황, 비급여 정보까지 상세하게 볼 수 있어요.
+      </div>
+      <div class="finder-grid">
+        <div class="finder-field">
+          <label>시/도</label>
+          <select id="finderSido" onchange="loadFinderSigungu()">
+            <option value="">시/도 선택</option>
+            <option value="11">서울시</option>
+            <option value="41">경기도</option>
+            <option value="28">인천시</option>
+            <option value="26">부산시</option>
+            <option value="27">대구시</option>
+            <option value="29">광주시</option>
+            <option value="30">대전시</option>
+            <option value="31">울산시</option>
+            <option value="36">세종시</option>
+            <option value="42">강원도</option>
+            <option value="43">충청북도</option>
+            <option value="44">충청남도</option>
+            <option value="45">전라북도</option>
+            <option value="46">전라남도</option>
+            <option value="47">경상북도</option>
+            <option value="48">경상남도</option>
+            <option value="50">제주도</option>
+          </select>
+        </div>
+        <div class="finder-field">
+          <label>시/군/구</label>
+          <select id="finderSigungu">
+            <option value="">시/군/구 선택</option>
+          </select>
+        </div>
+        <div>
+          <button class="finder-btn" onclick="goFinder()">요양원 찾기 →</button>
+        </div>
+      </div>
+
+      <div class="finder-tips">
+        <div class="finder-tip">
+          <div class="tip-icon">📋</div>
+          <div class="tip-title">인력현황 확인</div>
+          <div class="tip-desc">요양보호사, 간호사 등 인력 배치 수준을 확인하세요.</div>
+        </div>
+        <div class="finder-tip">
+          <div class="tip-icon">💰</div>
+          <div class="tip-title">비급여 항목 확인</div>
+          <div class="tip-desc">식비, 이미용비 등 시설별 비급여 금액을 비교하세요.</div>
+        </div>
+        <div class="finder-tip">
+          <div class="tip-icon">🗺️</div>
+          <div class="tip-title">지도로 위치 확인</div>
+          <div class="tip-desc">집에서 가까운 요양원을 지도로 바로 확인하세요.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="section-title">
+      <i class="ti ti-help-circle" aria-hidden="true"></i>
+      자주 묻는 질문
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>요양원 입소하려면 어떤 등급이 필요한가요?</div>
+        <div class="faq-a">장기요양 1~5등급 모두 요양원(시설급여) 이용이 가능합니다. 다만 3~5등급은 본인 선택에 따라 재가급여를 이용할 수도 있습니다. 등급이 없으면 요양원 입소가 어렵습니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>비급여 항목이란 무엇인가요?</div>
+        <div class="faq-a">급여비용 외에 본인이 전액 부담해야 하는 항목으로, 식사재료비·이미용비·상급침실(1~2인실) 이용료 등이 있습니다. 요양원마다 다르며 보통 월 20~50만원 수준입니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>기초생활수급자는 비용이 없나요?</div>
+        <div class="faq-a">의료급여 수급자는 본인부담금이 0%이며, 생계급여 대상자는 식비 등 비급여 항목도 일부 지원받을 수 있습니다. 관할 국민건강보험공단 지사에 문의하세요.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>요양원 등급(평가)은 어떻게 확인하나요?</div>
+        <div class="faq-a">국민건강보험공단에서 매년 요양원을 평가하여 A~E등급을 부여합니다. 케어컴퍼스 기관찾기에서 각 요양원의 평가등급을 확인할 수 있습니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>요양원 입소 절차는 어떻게 되나요?</div>
+        <div class="faq-a">① 장기요양 등급 신청 (공단 방문 또는 온라인) → ② 방문조사 → ③ 등급 판정 → ④ 요양원 선택 → ⑤ 장기요양급여 계약 → ⑥ 입소. 보통 신청부터 입소까지 1~2개월 소요됩니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>치매 어르신도 요양원 입소가 가능한가요?</div>
+        <div class="faq-a">네, 가능합니다. 치매 어르신을 위한 치매전담실(가형/나형)이 운영되고 있으며, 일반 요양원보다 수가가 다소 높지만 전문적인 치매 케어를 받을 수 있습니다.</div>
+      </div>
+    </div>
+
+    <!-- 관련 페이지 -->
+    <div class="section-title">
+      <i class="ti ti-layout-grid" aria-hidden="true"></i>
+      관련 정보
+    </div>
+
+    <div class="related-grid">
+      <a href="/calculator.html" class="related-card">
+        <div class="related-icon">💰</div>
+        <div class="related-title">재가급여 비용 계산</div>
+        <div class="related-desc">방문요양·주간보호·방문목욕 등 재가급여 비용을 계산해보세요.</div>
+      </a>
+      <a href="/calculator.html" class="related-card">
+        <div class="related-icon">📋</div>
+        <div class="related-title">장기요양등급 예상점수</div>
+        <div class="related-desc">52개 항목으로 장기요양등급 예상점수를 미리 확인해보세요.</div>
+      </a>
+      <a href="/" class="related-card">
+        <div class="related-icon">🗺️</div>
+        <div class="related-title">전국 기관찾기</div>
+        <div class="related-desc">전국 요양원, 주간보호센터, 방문요양 기관을 지도로 찾아보세요.</div>
+      </a>
+    </div>
+
+    <!-- 유의사항 -->
+    <div class="notice-box">
+      ⚠️ 위 계산 결과는 2026년 수가 기준 예상 금액입니다. 실제 비용은 시설 종류, 인력 배치 수준, 비급여 항목에 따라 다를 수 있습니다.<br>
+      정확한 비용은 입소 예정 요양원에 직접 문의하시거나 국민건강보험공단(☎ 1577-1000)에 문의하세요.
+    </div>
+
+  </div>
+</div>
+<script>
+var FACILITY_GRADES={
+  요양시설:[
+    {label:'노인요양시설(현행법) 1등급 (1일당) 88,520원',value:88520},
+    {label:'노인요양시설(현행법) 1등급 (1일당) 93,070원',value:93070},
+    {label:'노인요양시설(현행법) 2등급 (1일당) 82,120원',value:82120},
+    {label:'노인요양시설(현행법) 2등급 (1일당) 86,340원',value:86340},
+    {label:'노인요양시설(현행법) 3등급 (1일당) 77,540원',value:77540},
+    {label:'노인요양시설(현행법) 3등급 (1일당) 81,540원',value:81540},
+    {label:'노인요양시설(현행법) 4등급 (1일당) 77,540원',value:77540},
+    {label:'노인요양시설(현행법) 4등급 (1일당) 81,540원',value:81540},
+    {label:'노인요양시설(현행법) 5등급 (1일당) 77,540원',value:77540},
+    {label:'노인요양시설(현행법) 5등급 (1일당) 81,540원',value:81540},
+  ],
+  치매가형:[
+    {label:'치매전담_가형 2등급 (1일당) 96,950원',value:96950},
+    {label:'치매전담_가형 3등급 (1일당) 89,400원',value:89400},
+    {label:'치매전담_가형_유예 1등급 (1일당) 93,070원',value:93070},
+    {label:'치매전담_가형_유예 2등급 (1일당) 86,340원',value:86340},
+    {label:'치매전담_가형 4등급 (1일당) 89,400원',value:89400},
+    {label:'치매전담_가형 5등급 (1일당) 89,400원',value:89400},
+  ],
+  치매나형:[
+    {label:'치매전담_나형 2등급 (1일당) 90,160원',value:90160},
+    {label:'치매전담_나형 3등급 (1일당) 83,140원',value:83140},
+    {label:'치매전담_나형_유예 1등급 (1일당) 93,070원',value:93070},
+    {label:'치매전담_나형_유예 2등급 (1일당) 86,340원',value:86340},
+    {label:'치매전담_나형 4등급 (1일당) 83,140원',value:83140},
+    {label:'치매전담_나형 5등급 (1일당) 83,140원',value:83140},
+  ],
+  공동생활:[
+    {label:'노인요양공동생활가정 1등급 (1일당) 74,590원',value:74590},
+    {label:'노인요양공동생활가정 2등급 (1일당) 69,210원',value:69210},
+    {label:'노인요양공동생활가정 3등급 (1일당) 63,800원',value:63800},
+    {label:'노인요양공동생활가정 4등급 (1일당) 63,800원',value:63800},
+    {label:'노인요양공동생활가정 5등급 (1일당) 63,800원',value:63800},
+  ],
+  치매공동:[
+    {label:'치매전담형_공동생활가정 2등급 (1일당) 85,790원',value:85790},
+    {label:'치매전담형_공동생활가정 3등급 (1일당) 79,100원',value:79100},
+    {label:'치매전담형(유예)_공동생활가정 1등급 (1일당) 74,590원',value:74590},
+    {label:'치매전담형(유예)_공동생활가정 2등급 (1일당) 69,210원',value:69210},
+    {label:'치매전담형_공동생활가정 4등급 (1일당) 79,100원',value:79100},
+    {label:'치매전담형_공동생활가정 5등급 (1일당) 79,100원',value:79100},
+  ],
+};
+
+var sigunguData={'11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],'41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],'28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],'26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],'27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'}],'29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],'30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],'31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],'36':[{code:'110',name:'세종시'}],'42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],'43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],'44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],'45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],'46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],'47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'720',name:'군위군'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],'48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],'50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]};
+
+function fmt(n){return Math.round(n).toLocaleString('ko-KR');}
+
+function updateGrades(){
+  var facility=document.getElementById('calcFacility').value;
+  var gradeSelect=document.getElementById('calcGrade');
+  gradeSelect.innerHTML='<option value="">-선택-</option>';
+  ['outTotal','outPublic','outSelf'].forEach(function(id){document.getElementById(id).textContent='-';});
+  if(!facility||!FACILITY_GRADES[facility])return;
+  FACILITY_GRADES[facility].forEach(function(item){
+    var opt=document.createElement('option');
+    opt.value=item.value;
+    opt.textContent=item.label;
+    gradeSelect.appendChild(opt);
+  });
+}
+
+function calcFacility(){
+  var facility=document.getElementById('calcFacility').value;
+  var recipient=document.getElementById('calcRecipient').value;
+  var grade=document.getElementById('calcGrade').value;
+  var days=document.getElementById('calcDays').value;
+  if(!facility){alert('시설을 선택해 주세요.');return;}
+  if(!recipient){alert('수급자 유형을 선택해 주세요.');return;}
+  if(!grade){alert('수급자 등급을 선택해 주세요.');return;}
+  if(!days){alert('이용일수를 선택해 주세요.');return;}
+  var dailyRate=parseInt(grade);
+  var daysNum=parseInt(days);
+  var rate=parseFloat(recipient);
+  var total=dailyRate*daysNum;
+  var selfPay=Math.floor(total*rate);
+  var publicPay=Math.ceil(total*(1-rate));
+  document.getElementById('outTotal').textContent=fmt(total)+'원';
+  document.getElementById('outPublic').textContent=fmt(publicPay)+'원';
+  document.getElementById('outSelf').textContent=fmt(selfPay)+'원';
+}
+
+function loadFinderSigungu(){
+  var v=document.getElementById('finderSido').value;
+  var s=document.getElementById('finderSigungu');
+  s.innerHTML='<option value="">시/군/구 선택</option>';
+  if(!v||!sigunguData[v])return;
+  sigunguData[v].forEach(function(i){
+    var o=document.createElement('option');
+    o.value=i.code;
+    o.textContent=i.name;
+    s.appendChild(o);
+  });
+}
+
+function goFinder(){
+  var sido=document.getElementById('finderSido').value;
+  var sigungu=document.getElementById('finderSigungu').value;
+  if(!sido){alert('시/도를 선택해주세요.');return;}
+  var url='/?sidoCd='+sido+'&type=A';
+  if(sigungu)url+='&sigunguCd='+sigungu;
+  location.href=url;
+}
+</script>
+</body>
+</html>
