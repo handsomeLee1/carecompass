@@ -1,0 +1,17 @@
+/* 공통 네비바 */
+.topnav{background:linear-gradient(135deg,#3D3BB5,#6C63FF);width:100%;position:sticky;top:0;z-index:100}
+.topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
+.logo{color:#fff;font-size:16px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;text-decoration:none}
+.logo span{color:#DDD8FF}
+.nav-links{display:flex;gap:20px;flex:1}
+.nav-links a{color:rgba(255,255,255,0.8);font-size:14px;text-decoration:none;white-space:nowrap}
+.nav-links a:hover,.nav-links a.active{color:#fff;font-weight:600}
+.nav-right{color:rgba(255,255,255,0.55);font-size:12px;white-space:nowrap}
+
+/* 공통 탭바 */
+.tab-bar{background:#EEF2FF;border-bottom:1px solid #DDD8FF;width:100%}
+.tab-inner{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+.tab-btn{padding:10px 18px;font-size:14px;color:#6B7280;border:none;background:none;cursor:pointer;border-bottom:3px solid transparent;font-family:'Noto Sans KR',sans-serif;white-space:nowrap;text-decoration:none;display:block}
+.tab-btn:hover{color:#5B5AE0}
+.tab-btn.active{color:#5B5AE0;font-weight:600;border-bottom:3px solid #5B5AE0}
+.calc-tab-badge{display:inline-block;background:#F59E0B;color:#fff;font-size:10px;padding:1px 5px;border-radius:2px;margin-left:4px}
