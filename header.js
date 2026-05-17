@@ -8,9 +8,9 @@
   var subNav='';
   if(isCalc){
     subNav='<div class="tab-bar"><div class="tab-inner">'+
-      '<button class="tab-btn'+(path.includes('calculator')?' active':'')+'" onclick="switchCalc&&switchCalc(\'재가급여\')">재가급여 간편계산</button>'+
-      '<button class="tab-btn" onclick="switchCalc&&switchCalc(\'시설급여\')">시설급여 간편계산</button>'+
-      '<button class="tab-btn" onclick="switchCalc&&switchCalc(\'등급예상\')">등급예상 점수계산 <span class="calc-tab-badge">인기</span></button>'+
+      '<button class="tab-btn active" id="tab-재가급여" onclick="if(window.switchCalc)switchCalc(\'재가급여\')">재가급여 간편계산</button>'+
+      '<button class="tab-btn" id="tab-시설급여" onclick="if(window.switchCalc)switchCalc(\'시설급여\')">시설급여 간편계산</button>'+
+      '<button class="tab-btn" id="tab-등급예상" onclick="if(window.switchCalc)switchCalc(\'등급예상\')">등급예상 점수계산 <span class="calc-tab-badge">인기</span></button>'+
       '</div></div>';
   } else if(isCost){
     subNav='<div class="tab-bar"><div class="tab-inner">'+
@@ -36,5 +36,14 @@
     '</nav>'+
     subNav;
 
-  document.write(html);
+  document.addEventListener('DOMContentLoaded',function(){
+    var div=document.createElement('div');
+    div.innerHTML=html;
+    document.body.insertBefore(div.firstChild,document.body.firstChild);
+    if(subNav){
+      var sub=document.createElement('div');
+      sub.innerHTML=subNav;
+      document.body.insertBefore(sub.firstChild,document.body.children[1]);
+    }
+  });
 })();
