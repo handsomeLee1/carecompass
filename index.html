@@ -296,28 +296,6 @@ window.addEventListener('DOMContentLoaded',function(){
 });
 
 function initMap(){
-  var sidoCd=params.get('sidoCd');
-  var sigunguCd=params.get('sigunguCd');
-  var type=params.get('type');
-  if(sidoCd){
-    var sido=document.getElementById('sido');
-    sido.value=sidoCd;
-    loadSigungu();
-    if(sigunguCd){
-      setTimeout(function(){
-        document.getElementById('sigungu').value=sigunguCd;
-      },100);
-    }
-    if(type){
-      currentType=type;
-      document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
-      document.querySelectorAll('.tab-btn').forEach(function(b){
-        if(b.getAttribute('onclick')&&b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}
-      });
-    }
-    setTimeout(function(){searchInstitutions();},200);
-  }
-});
   var container=document.getElementById('map');
   map=new kakao.maps.Map(container,{
     center:new kakao.maps.LatLng(37.5663,126.9779),
