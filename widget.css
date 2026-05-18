@@ -1,11 +1,12 @@
 /* ════════════════════════════════════════════════
    CareCompass 플로팅 위젯   /widget.css
+   * top 값은 widget.js에서 페이지별로 동적 설정
 ════════════════════════════════════════════════ */
 
 #cc-float-widget {
   position: fixed;
-  top: 96px;          /* topnav 44px + tabbar 44px + gap 8px */
-  left: calc((100vw - 1200px) / 2 - 210px);
+  top: 96px;          /* fallback: JS가 덮어씀 */
+  left: calc((100vw - 1200px) / 2 - 216px);
   width: 192px;
   background: #fff;
   border: 1px solid #DDD8FF;

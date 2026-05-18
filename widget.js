@@ -1,9 +1,11 @@
 (function () {
   'use strict';
 
-  var WIDGET_ID    = 'cc-float-widget';
-  var HIDDEN_KEY   = 'cc_widget_hidden';
+  var WIDGET_ID     = 'cc-float-widget';
+  var HIDDEN_KEY    = 'cc_widget_hidden';
   var COLLAPSED_KEY = 'cc_widget_collapsed';
+
+  var isCalcPage = window.location.pathname.includes('calculator');
 
   var ITEMS = [
     { id: 'reGA',     icon: '🧮', label: '재가급여 계산', badge: '',    type: 'calc', target: '재가급여' },
@@ -25,22 +27,41 @@
   /* ── 상태 ───────────────────────────────────────── */
   var hidden    = load(HIDDEN_KEY, []);
   var collapsed = load(COLLAPSED_KEY, false);
-  var activeId  = 'reGA';
+  var activeId  = isCalcPage ? 'reGA' : null;
+
+  /* ── top 위치 자동 계산 ─────────────────────────── */
+  // header.js가 먼저 DOMContentLoaded 등록 → tab-bar 먼저 삽입
+  // 위젯 init 시점에 .tab-bar 존재 여부 확인 가능
+  function getTopOffset() {
+    var hasTabBar = !!document.querySelector('.tab-bar');
+    return (44 + (hasTabBar ? 44 : 0) + 8) + 'px';
+  }
+
+  /* ── 현재 페이지 여부 ───────────────────────────── */
+  function isCurrentPage(target) {
+    return window.location.pathname === target;
+  }
 
   /* ── 렌더 ───────────────────────────────────────── */
   function render() {
     var el = document.getElementById(WIDGET_ID);
     if (!el) return;
 
+    el.style.top = getTopOffset();
+
     var visible = ITEMS.filter(function (item) {
       return hidden.indexOf(item.id) === -1;
     });
 
     var itemsHTML = visible.map(function (item) {
-      var isActive = item.id === activeId && item.type === 'calc';
+      var isActive =
+        (item.type === 'calc' && item.id === activeId) ||
+        (item.type === 'link' && isCurrentPage(item.target));
+
       var badgeHTML = item.badge
         ? ' <span class="ccw-badge">' + item.badge + '</span>'
         : '';
+
       return (
         '<div class="ccw-item' + (isActive ? ' ccw-item--active' : '') + '"' +
         ' data-id="' + item.id + '"' +
@@ -72,7 +93,6 @@
 
   /* ── 이벤트 ─────────────────────────────────────── */
   function bindEvents(el) {
-    /* 헤더 접기/펼치기 */
     el.querySelector('#ccw-header').addEventListener('click', function (e) {
       if (e.target.tagName === 'BUTTON' || e.target === this) {
         collapsed = !collapsed;
@@ -81,25 +101,30 @@
       }
     });
 
-    /* 항목 클릭 */
     el.querySelectorAll('.ccw-item').forEach(function (item) {
       item.addEventListener('click', function (e) {
         if (e.target.classList.contains('ccw-close')) return;
+
         var type   = this.getAttribute('data-type');
         var target = this.getAttribute('data-target');
         var id     = this.getAttribute('data-id');
 
         if (type === 'calc') {
-          activeId = id;
-          if (window.switchCalc) window.switchCalc(target);
-          render();
+          if (isCalcPage) {
+            activeId = id;
+            if (window.switchCalc) window.switchCalc(target);
+            render();
+          } else {
+            window.location.href = '/calculator.html?tab=' + encodeURIComponent(target);
+          }
         } else {
-          window.location.href = target;
+          if (!isCurrentPage(target)) {
+            window.location.href = target;
+          }
         }
       });
     });
 
-    /* X 버튼 (개별 숨김) */
     el.querySelectorAll('.ccw-close').forEach(function (btn) {
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
@@ -110,7 +135,6 @@
       });
     });
 
-    /* 복원 버튼 */
     var resetBtn = el.querySelector('#ccw-reset');
     if (resetBtn) {
       resetBtn.addEventListener('click', function () {
@@ -121,7 +145,7 @@
     }
   }
 
-  /* ── 외부 API (탭 클릭 → 위젯 동기화) ───────────── */
+  /* ── 외부 API: 탭 클릭 → 위젯 동기화 ───────────── */
   window.__widgetSetActive = function (target) {
     for (var i = 0; i < ITEMS.length; i++) {
       if (ITEMS[i].target === target && ITEMS[i].type === 'calc') {
