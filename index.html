@@ -191,13 +191,6 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
   </div>
 
   <div class="three-col">
-    <div class="sidebar-left">
-      <div class="side-section">
-        <div class="side-title">계산기</div>
-        <button class="side-item" onclick="showCalc('재가급여')">재가급여 계산</button>
-        <button class="side-item" onclick="showCalc('시설급여')">시설급여 계산</button>
-      </div>
-
     <div class="main-center">
       <div class="result-header">
         <span class="result-count" id="list-count">지역을 선택하고 검색해주세요</span>
@@ -237,14 +230,6 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
         </div>
       </div>
     </div>
-
-    <div class="sidebar-right">
-      <div class="ad-label">광고</div>
-      <div class="ad-block ad-block-lg">[광고 영역 - 280x280]</div>
-      <div class="ad-block ad-block-md">[광고 영역 - 160x120]</div>
-      <div class="ad-block ad-block-md">[광고 영역 - 160x120]</div>
-  </div>
-</div>
 <script>
 var map=null,geocoder=null,markers=[],allItems=[],detailMap=null,currentPage=1,pageSize=10,currentType='';
 
@@ -293,8 +278,6 @@ function showMap(){
   document.getElementById('mapView').style.display='';
   document.getElementById('detailPanel').classList.remove('show');
   document.getElementById('calcPanel').classList.remove('show');
-  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
-  document.querySelector('.side-item').classList.add('active');
   if(map)setTimeout(function(){map.relayout();},100);
 }
 
