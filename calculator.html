@@ -988,6 +988,7 @@ function switchCalc(type) {
   if (window.__widgetSetActive) window.__widgetSetActive(type);
 }
 ReactDOM.createRoot(document.getElementById("calc-root")).render(<CalcApp />);
+setTimeout(function(){var t=new URLSearchParams(location.search).get('tab');if(t)switchCalc(t);},300);
 </script>
 <script src="/widget.js"></script>
 </body>

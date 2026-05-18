@@ -147,6 +147,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 }
 </style>
 <link rel="stylesheet" href="/common.css">
+<link rel="stylesheet" href="/widget.css">
 </head>
 <body>
 <script src="/header.js"></script>
@@ -192,16 +193,10 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
   <div class="three-col">
     <div class="sidebar-left">
       <div class="side-section">
-        <div class="side-title">🔍 기관찾기</div>
-        <button class="side-item active" onclick="showMap()">지도검색</button>
+        <div class="side-title">계산기</div>
+        <button class="side-item" onclick="showCalc('재가급여')">재가급여 계산</button>
+        <button class="side-item" onclick="showCalc('시설급여')">시설급여 계산</button>
       </div>
-      <div class="side-section">
-        <div class="side-title">🧮 계산기</div>
-        <button class="side-item" onclick="location.href='/calculator.html'">재가급여<br>간편계산</button>
-        <button class="side-item" onclick="location.href='/calculator.html'">시설급여<br>간편계산</button>
-        <button class="side-item" onclick="location.href='/calculator.html'">등급예상<br>점수계산 <span class="side-badge">인기</span></button>
-      </div>
-    </div>
 
     <div class="main-center">
       <div class="result-header">
@@ -245,10 +240,9 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 
     <div class="sidebar-right">
       <div class="ad-label">광고</div>
-      <div class="ad-block ad-block-lg">광고<br>140×280</div>
-      <div class="ad-label">광고</div>
-      <div class="ad-block ad-block-md">광고<br>140×120</div>
-    </div>
+      <div class="ad-block ad-block-lg">[광고 영역 - 280x280]</div>
+      <div class="ad-block ad-block-md">[광고 영역 - 160x120]</div>
+      <div class="ad-block ad-block-md">[광고 영역 - 160x120]</div>
   </div>
 </div>
 <script>
@@ -682,5 +676,6 @@ window.addEventListener('load', function(){
   }
 });
 </script>
+<script src="/widget.js"></script>
 </body>
 </html>
