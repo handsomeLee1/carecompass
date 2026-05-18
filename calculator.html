@@ -11,7 +11,7 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-size:15px}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-size:18px}
 .topnav{background:#1a1a1a;width:100%;position:sticky;top:0;z-index:100}
 .topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
 .logo{color:#DDD8FF;font-size:16px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;text-decoration:none}
@@ -40,6 +40,11 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-si
   .calc-sidebar{display:none}
   .calc-content{padding:16px}
 }
+.hero{background:#EEF2FF;border-bottom:1px solid #DDD8FF;padding:28px 24px}
+.breadcrumb{font-size:13px;color:#888;margin-bottom:10px}
+.breadcrumb a{color:#5B5AE0;text-decoration:none}
+.hero h1{font-size:24px;font-weight:600;color:#0c2340;margin-bottom:8px;line-height:1.4}
+.hero p{font-size:15px;color:#555;line-height:1.7;max-width:640px}
 </style>
 <link rel="stylesheet" href="/common.css">
 <link rel="stylesheet" href="/widget.css">  <!-- ← 추가 -->
@@ -47,6 +52,13 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-si
 <body>
 <script src="/header.js"></script>
 <div class="wrapper">
+    <div class="hero" id="calc-hero">
+    <div class="breadcrumb">
+      <a href="/">케어컴퍼스</a> &rsaquo; 계산기
+    </div>
+    <h1 id="hero-title">재가급여 비용, 얼마나 들까요?</h1>
+    <p id="hero-desc">방문요양, 주야간보호 등 재가서비스 이용 시 본인부담금을 미리 계산해보세요. 2026년 최신 수가 기준.</p>
+  </div>
   <div class="calc-content">
     <div id="calc-root"></div>
   </div>
@@ -980,12 +992,22 @@ function CalcApp() {
     </div>
   );
 }
+var heroData = {
+  '재가급여': { title: '재가급여 비용, 얼마나 들까요?', desc: '방문요양, 주야간보호 등 재가서비스 이용 시 본인부담금을 미리 계산해보세요. 2026년 최신 수가 기준.' },
+  '시설급여': { title: '요양원 입소 비용, 얼마나 들까요?', desc: '노인요양시설 입소 시 국가에서 비용 일부를 지원합니다. 실제 비용을 미리 계산해보세요.' },
+  '등급예상': { title: '내 장기요양등급, 미리 예상해보세요', desc: '52개 항목의 보건복지부 기준 알고리즘으로 장기요양등급 예상점수를 계산해드립니다.' }
+};
 function switchCalc(type) {
   document.querySelectorAll('.calc-tab-btn').forEach(b => b.classList.remove('active'));
   const tabBtn = document.getElementById('tab-' + type);
   if (tabBtn) tabBtn.classList.add('active');
   if (window.__calcSwitch) window.__calcSwitch(type);
   if (window.__widgetSetActive) window.__widgetSetActive(type);
+  var h = heroData[type];
+  if (h) {
+    document.getElementById('hero-title').textContent = h.title;
+    document.getElementById('hero-desc').textContent = h.desc;
+  }
 }
 ReactDOM.createRoot(document.getElementById("calc-root")).render(<CalcApp />);
 setTimeout(function(){var t=new URLSearchParams(location.search).get('tab');if(t)switchCalc(t);},300);
