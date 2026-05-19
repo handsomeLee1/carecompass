@@ -715,6 +715,7 @@ function loadAddresses(){
   Promise.all(batch.map(function(inst){
     return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd).then(function(r){return r.json();}).then(function(d){
       if(d.address&&d.address.roadAddr){inst.roadAddr=d.address.roadAddr;inst.emdNm=d.address.emdNm||'';}
+      if(d.coords&&d.coords.entX&&d.coords.entY){inst.entX=d.coords.entX;inst.entY=d.coords.entY;}
     }).catch(function(){});
   })).then(function(){
     var dongs=new Set();
@@ -757,7 +758,18 @@ function filterAndDisplay(){
       (inst.roadAddr?'<div class="inst-addr">📍 '+inst.roadAddr+'</div>':'')+
       '</div>';
     if(idx===4)html+='<div class="ad-slot-list">광고</div>';
-    if(inst.roadAddr&&geocoder&&map){
+    if(inst.entX&&inst.entY&&map){
+      (function(x,y,nm,s,t){
+        var pos=new kakao.maps.LatLng(parseFloat(y),parseFloat(x));
+        var marker=new kakao.maps.Marker({map:map,position:pos,title:nm});
+        kakao.maps.event.addListener(marker,'click',function(){
+          selectInst(s,t,nm);
+          map.setCenter(pos);map.setLevel(4);
+        });
+        markers.push(marker);
+        if(markers.length===1){map.setCenter(pos);map.setLevel(7);}
+      })(inst.entX,inst.entY,name,sym,type);
+    } else if(inst.roadAddr&&geocoder&&map){
       (function(addr,nm,s,t){
         geocoder.addressSearch(addr,function(result,status){
           if(status===kakao.maps.services.Status.OK){
