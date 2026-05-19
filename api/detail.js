@@ -138,7 +138,7 @@ export default async function handler(req, res) {
 
         // ── JUSO 주소 검색 ────────────────────────────
         var searchKeyword = `${sidoName} ${sigunguName} ${bldNo}`.trim();
-        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=10&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
+        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
         var jusoRes = await fetch(jusoUrl);
         var jusoData = await jusoRes.json();
 
