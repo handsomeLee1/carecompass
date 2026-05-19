@@ -136,10 +136,8 @@ export default async function handler(req, res) {
         var buldSlno = (general.gunmulSlno && general.gunmulSlno !== '0') ? general.gunmulSlno : '0';
         var bldNo = buldMnnm + (buldSlno !== '0' ? '-' + buldSlno : '');
 
-        // ── JUSO 주소 검색 ────────────────────────────
-          var searchKeyword = general.hmPostNo
-      ? `${sigunguName} ${general.hmPostNo} ${buldMnnm}`
-      : `${sidoName} ${sigunguName} ${buldMnnm}`;
+        // ── JUSO 주소 검색 (결과 100개로 확대) ──────────
+        var searchKeyword = `${sidoName} ${sigunguName} ${bldNo}`.trim();
         var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
         var jusoRes = await fetch(jusoUrl);
         var jusoData = await jusoRes.json();
@@ -150,15 +148,15 @@ export default async function handler(req, res) {
           // ── 매칭: 도로명코드 + 건물번호 이중 검증 ────
           var matched = jusoList.find(function(j) {
             var mnnmMatch = String(j.buldMnnm) === String(buldMnnm);
-            var slnoMatch = String(j.buldSlno) === String(buldSlno);
             var rnMatch = j.rnMgtSn === general.roadNmCd;
             return rnMatch && mnnmMatch;
           });
 
-          // 도로명코드 매칭 실패 시 건물번호만으로 재시도
-          if (!matched) {
+          // 건물부번까지 포함한 재시도 (부번이 있는 경우)
+          if (!matched && buldSlno !== '0') {
             matched = jusoList.find(function(j) {
-              return String(j.buldMnnm) === String(buldMnnm) &&
+              return j.rnMgtSn === general.roadNmCd &&
+                     String(j.buldMnnm) === String(buldMnnm) &&
                      String(j.buldSlno) === String(buldSlno);
             });
           }
@@ -199,11 +197,13 @@ export default async function handler(req, res) {
       } catch(e) {}
     }
 
-    // ── 매칭 실패 시 NHIS detailAddr로 폴백 ──────────
+    // ── 매칭 실패 시 시도+시군구 폴백 ───────────────────
     if (!address && general) {
       var sidoName = sidoNm[general.siDoCd] || '';
+      var sigunguKey = general.siDoCd + general.siGunGuCd;
+      var sigunguName = sigunguNm[sigunguKey] || '';
       address = {
-        roadAddr: sidoName + ' ' + (general.detailAddr || ''),
+        roadAddr: [sidoName, sigunguName].filter(Boolean).join(' '),
         siNm: sidoName,
         emdNm: ''
       };
