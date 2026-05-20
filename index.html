@@ -148,6 +148,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 </style>
 <link rel="stylesheet" href="/common.css">
 <link rel="stylesheet" href="/widget.css">
+<script src="/dong_data.js"></script>
 </head>
 <body>
 <script src="/header.js"></script>
@@ -174,7 +175,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
         <option value="48">경상남도</option>
         <option value="50">제주특별자치도</option>
       </select>
-      <select id="sigungu"><option value="">시/군/구 선택</option></select>
+      <select id="sigungu" onchange="loadDong()"><option value="">시/군/구 선택</option></select>
       <select id="dongFilter" onchange="filterAndDisplay()"><option value="">읍/면/동 전체</option></select>
       <input type="text" id="nameSearch" placeholder="기관명 검색" onkeydown="if(event.key==='Enter')searchInstitutions()">
       <button class="search-btn" onclick="searchInstitutions()">검색</button>
@@ -670,8 +671,24 @@ function loadSigungu(){
   var v=document.getElementById('sido').value;
   var s=document.getElementById('sigungu');
   s.innerHTML='<option value="">시/군/구 선택</option>';
+  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   if(!v||!sigunguData[v])return;
   sigunguData[v].forEach(function(i){var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o);});
+}
+
+function loadDong(){
+  var sido=document.getElementById('sido').value;
+  var sigungu=document.getElementById('sigungu').value;
+  var sel=document.getElementById('dongFilter');
+  sel.innerHTML='<option value="">읍/면/동 전체</option>';
+  if(!sido||!sigungu)return;
+  var key=sido+sigungu;
+  var dongs=dongData[key]||[];
+  dongs.forEach(function(d){
+    var o=document.createElement('option');
+    o.value=d;o.textContent=d;
+    sel.appendChild(o);
+  });
 }
 
 function setTab(el,type){
