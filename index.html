@@ -735,11 +735,11 @@ function loadAddresses(){
       if(d.coords&&d.coords.entX&&d.coords.entY){inst.entX=d.coords.entX;inst.entY=d.coords.entY;}
     }).catch(function(){});
   })).then(function(){
-    var dongs=new Set();
+    var currentDong = document.getElementById('dongFilter').value;
     allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm);});
-    var sel=document.getElementById('dongFilter');
-    sel.innerHTML='<option value="">읍/면/동 전체</option>';
-    Array.from(dongs).sort().forEach(function(d){var o=document.createElement('option');o.value=d;o.textContent=d;sel.appendChild(o);});
+    if(currentDong){
+      document.getElementById('dongFilter').value = currentDong;
+    }
     filterAndDisplay();
   });
 }
