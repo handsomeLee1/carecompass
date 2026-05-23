@@ -742,7 +742,6 @@ function loadAddresses(){
     }).catch(function(){});
   })).then(function(){
     var currentDong = document.getElementById('dongFilter').value;
-    allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm);});
     if(currentDong){
       document.getElementById('dongFilter').value = currentDong;
     }
