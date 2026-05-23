@@ -713,6 +713,12 @@ function searchInstitutions(){
   if(nameVal)url+='&name='+encodeURIComponent(nameVal);
   fetch(url).then(function(r){return r.json();}).then(function(data){
     allItems=data.items||[];
+    allItems.forEach(function(inst){
+      if(inst.siDoCd&&inst.siGunGuCd&&inst.BDongCd){
+        var mapKey=inst.siDoCd+inst.siGunGuCd+inst.BDongCd;
+        inst.emdNm=dongCodeMap[mapKey]||'';
+      }
+    });
     currentPage=1;
     if(allItems.length===0){
       document.getElementById('list-count').textContent='검색 결과 없음';

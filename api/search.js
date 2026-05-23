@@ -39,6 +39,9 @@ export default async function handler(req, res) {
         longTermAdminSym: sym,
         adminPttnCd: pttnCd,
         adminPttnNm: getTypeName(pttnCd),
+        siDoCd: get('siDoCd'),
+        siGunGuCd: get('siGunGuCd'),
+        BDongCd: get('BDongCd'),
       });
     }
     return items;
