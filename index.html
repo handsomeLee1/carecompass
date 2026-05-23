@@ -705,7 +705,7 @@ function searchInstitutions(){
   if(!sido.value){alert('시/도를 선택해주세요');return;}
   document.getElementById('list-count').textContent='검색 중...';
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
-  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
+  var savedDong=document.getElementById('dongFilter').value;
   document.getElementById('pagination').innerHTML='';
   showMap();
   var url='/api/search?sidoCd='+sido.value;
@@ -725,6 +725,7 @@ function searchInstitutions(){
       document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
       return;
     }
+    if(savedDong)document.getElementById('dongFilter').value=savedDong;
     filterAndDisplay();
     loadAddresses();
   }).catch(function(){
