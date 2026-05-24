@@ -33,9 +33,6 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .search-btn{background:#4B4AC8;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
 .search-btn:hover{background:#3D3BB5}
 .search-tabs{display:flex;gap:4px;flex-wrap:wrap}
-.tab-btn{padding:7px 14px;font-size:14px;border:2px solid rgba(255,255,255,0.7);border-radius:6px;color:#fff !important;background:rgba(255,255,255,0.15);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s;font-weight:600;letter-spacing:0.3px}
-.tab-btn.active{background:#fff !important;color:#5B5AE0 !important;font-weight:600;border-color:#fff}
-.tab-btn:hover:not(.active){background:rgba(255,255,255,0.3)}
 
 /* 3단 레이아웃 */
 .three-col{display:flex;height:calc(100vh - 44px - 102px)}
@@ -129,7 +126,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 
 /* 공통 */
 .loading-msg{text-align:center;padding:40px;color:#5B5AE0;font-size:14px}
-.empty-state{text-align:center;padding:40px 16px;color:#bbb;font-size:14px;line-height:2}
+.empty-state{text-align:center;padding:40px 24px;color:#bbb;font-size:14px;line-height:2}
 
 /* 반응형 */
 @media(max-width:1024px){.sidebar-right{display:none}}
@@ -175,19 +172,17 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
         <option value="48">경상남도</option>
         <option value="50">제주특별자치도</option>
       </select>
-      <select id="sigungu" onchange="loadDong()"><option value="">시/군/구 선택</option></select>
-      <select id="dongFilter" onchange="filterAndDisplay()"><option value="">읍/면/동 전체</option></select>
-      <input type="text" id="nameSearch" placeholder="기관명 검색" onkeydown="if(event.key==='Enter')searchInstitutions()">
+      <select id="sigungu"><option value="">시/군/구 선택</option></select>
+      <select id="typeFilter">
+        <option value="">전체</option>
+        <option value="A">요양시설</option>
+        <option value="B03,C03,003">주간보호</option>
+        <option value="B01,C01,001">방문요양</option>
+        <option value="B02,C02,002">방문목욕</option>
+        <option value="B06,C06,006">복지용구</option>
+        <option value="G,M,H,I,S">치매전담</option>
+      </select>
       <button class="search-btn" onclick="searchInstitutions()">검색</button>
-    </div>
-    <div class="search-tabs">
-      <button class="tab-btn active" onclick="setTab(this,'')">전체</button>
-      <button class="tab-btn" onclick="setTab(this,'A')">요양시설</button>
-      <button class="tab-btn" onclick="setTab(this,'B03,C03,003')">주간보호</button>
-      <button class="tab-btn" onclick="setTab(this,'B01,C01,001')">방문요양</button>
-      <button class="tab-btn" onclick="setTab(this,'B02,C02,002')">방문목욕</button>
-      <button class="tab-btn" onclick="setTab(this,'B06,C06,006')">복지용구</button>
-      <button class="tab-btn" onclick="setTab(this,'G,M,H,I,S')">치매전담</button>
     </div>
   </div>
 
@@ -691,17 +686,10 @@ function loadDong(){
   });
 }
 
-function setTab(el,type){
-  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
-  el.classList.add('active');
-  currentType=type;
-  if(allItems.length>0){currentPage=1;filterAndDisplay();}
-}
-
 function searchInstitutions(){
   var sido=document.getElementById('sido');
   var sigungu=document.getElementById('sigungu');
-  var nameVal=document.getElementById('nameSearch').value.trim();
+  currentType=document.getElementById('typeFilter').value;
   if(!sido.value){alert('시/도를 선택해주세요');return;}
   document.getElementById('list-count').textContent='검색 중...';
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
@@ -710,7 +698,6 @@ function searchInstitutions(){
   showMap();
   var url='/api/search?sidoCd='+sido.value;
   if(sigungu.value)url+='&sigunguCd='+sigungu.value;
-  if(nameVal)url+='&name='+encodeURIComponent(nameVal);
   fetch(url).then(function(r){return r.json();}).then(function(data){
     allItems=data.items||[];
     allItems.forEach(function(inst){
