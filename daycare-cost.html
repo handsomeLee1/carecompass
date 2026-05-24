@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주간보호 비용 계산하기 2026 - 케어컴퍼스</title>
+<meta name="description" content="주간보호(주야간보호) 서비스 이용 시 본인부담금을 미리 계산해보세요. 2026년 최신 수가 기준, 실제 사례로 쉽게 확인. 내 주변 주간보호센터도 바로 찾기.">
+<meta name="keywords" content="주간보호 비용, 주야간보호 비용, 주간보호 본인부담금, 재가급여 비용, 장기요양 주간보호">
+<meta property="og:title" content="주간보호 비용 계산하기 2026 - 케어컴퍼스">
+<meta property="og:description" content="주간보호 비용을 실제 사례로 미리 확인하고, 내 주변 주간보호센터를 찾아보세요.">
+<meta property="og:url" content="https://carecompass.co.kr/daycare-cost.html">
+<link rel="canonical" href="https://carecompass.co.kr/daycare-cost.html">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"주간보호 비용 계산하기",
+  "description":"2026년 기준 주간보호 비용 계산기 및 주변 기관 찾기",
+  "url":"https://carecompass.co.kr/daycare-cost.html",
+  "publisher":{"@type":"Organization","name":"케어컴퍼스","url":"https://carecompass.co.kr"}
+}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-size:15px}
+a{text-decoration:none;color:inherit}
+.wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px - 48px);box-shadow:0 0 20px rgba(0,0,0,0.08)}
+.hero{background:#EEF2FF;border-bottom:1px solid #d4ede4;padding:28px 24px}
+.breadcrumb{font-size:12px;color:#888;margin-bottom:10px}
+.breadcrumb a{color:#5B5AE0}
+.hero h1{font-size:22px;font-weight:600;color:#0c2340;margin-bottom:8px;line-height:1.4}
+.hero p{font-size:14px;color:#555;line-height:1.7;max-width:640px}
+.content{padding:32px 24px;max-width:900px;margin:0 auto}
+.section-title{font-size:17px;font-weight:600;color:#0c2340;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #5B5AE0;display:flex;align-items:center;gap:8px}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
+.service-card{background:#fff;border:1px solid #d4ede4;border-radius:8px;padding:16px}
+.service-icon{font-size:24px;margin-bottom:8px}
+.service-title{font-size:14px;font-weight:600;color:#0c2340;margin-bottom:6px}
+.service-desc{font-size:12px;color:#666;line-height:1.6}
+.service-price{font-size:13px;font-weight:600;color:#5B5AE0;margin-top:8px}
+.case-card{background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.case-profile{display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee}
+.profile-avatar{width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.profile-name{font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.profile-desc{font-size:13px;color:#666;line-height:1.6}
+.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.case-item{background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px}
+.case-item .lbl{font-size:11px;color:#888;margin-bottom:4px}
+.case-item .val{font-size:14px;font-weight:600;color:#0c2340}
+.cost-summary{background:#1E3A5F;border-radius:8px;padding:20px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center}
+.cost-divider{background:rgba(255,255,255,0.2);height:40px;width:1px}
+.cost-item{text-align:center;padding:0 10px}
+.cost-item .clabel{font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:6px}
+.cost-item .cvalue{font-size:17px;font-weight:600;color:#fff}
+.cost-item .cnote{font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px}
+.cost-total{margin-top:14px;text-align:center;font-size:13px;color:rgba(255,255,255,0.6);padding-top:14px;border-top:1px solid rgba(255,255,255,0.1)}
+.cost-total strong{color:#DDD8FF;font-size:16px}
+.calc-wrap{background:#F5F5FF;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.calc-subtitle{font-size:13px;color:#5B5AE0;margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.calc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
+.calc-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
+.calc-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
+.calc-field select:focus{outline:none;border-color:#5B5AE0}
+.calc-btn{width:100%;height:44px;background:#5B5AE0;color:#fff;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;margin-bottom:14px}
+.calc-btn:hover{background:#4B4AC8}
+.calc-result{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.calc-result-item{background:#fff;border:1px solid #d4ede4;border-radius:8px;padding:14px;text-align:center}
+.calc-result-item .rlabel{font-size:11px;color:#888;margin-bottom:5px}
+.calc-result-item .rvalue{font-size:15px;font-weight:600;color:#5B5AE0}
+.calc-notice{font-size:12px;color:#e53935;margin-top:10px;line-height:1.7}
+.limit-bar{margin:12px 0;background:#eee;border-radius:6px;height:12px;overflow:hidden}
+.limit-fill{height:100%;background:#5B5AE0;border-radius:6px;transition:width 0.3s}
+.limit-info{display:flex;justify-content:space-between;font-size:11px;color:#888;margin-top:4px}
+.finder-wrap{background:#F5F5FF;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px}
+.finder-subtitle{font-size:13px;color:#555;margin-bottom:14px;line-height:1.7}
+.finder-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end;margin-bottom:14px}
+.finder-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:500}
+.finder-field select{width:100%;height:36px;border:1px solid #ddd;border-radius:4px;font-size:13px;padding:0 10px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer}
+.finder-field select:focus{outline:none;border-color:#5B5AE0}
+.finder-btn{height:36px;padding:0 20px;background:#0c2340;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif}
+.finder-btn:hover{background:#5B5AE0}
+.finder-tips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.finder-tip{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:14px}
+.finder-tip .tip-icon{font-size:20px;margin-bottom:6px}
+.finder-tip .tip-title{font-size:13px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.finder-tip .tip-desc{font-size:12px;color:#666;line-height:1.6}
+.faq-list{margin-bottom:32px}
+.faq-item{border-bottom:1px solid #eee;padding:16px 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-size:15px;font-weight:600;color:#0c2340;margin-bottom:8px;display:flex;align-items:flex-start;gap:8px}
+.faq-q-badge{background:#5B5AE0;color:#fff;font-size:11px;padding:2px 7px;border-radius:3px;flex-shrink:0;margin-top:2px}
+.faq-a{font-size:14px;color:#555;line-height:1.8;padding-left:32px}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
+.related-card{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:16px;cursor:pointer;transition:all 0.15s;display:block}
+.related-card:hover{border-color:#5B5AE0;background:#F5F5FF}
+.related-icon{font-size:24px;margin-bottom:8px}
+.related-title{font-size:14px;font-weight:600;color:#0c2340;margin-bottom:4px}
+.related-desc{font-size:12px;color:#888;line-height:1.5}
+.notice-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:16px;font-size:13px;color:#5d4037;line-height:1.8;margin-bottom:32px}
+@media(max-width:768px){
+  .case-grid{grid-template-columns:1fr 1fr}
+  .calc-grid{grid-template-columns:1fr 1fr}
+  .calc-result{grid-template-columns:1fr 1fr}
+  .service-grid{grid-template-columns:1fr}
+  .finder-grid{grid-template-columns:1fr 1fr}
+  .finder-tips{grid-template-columns:1fr}
+  .related-grid{grid-template-columns:1fr}
+  .cost-summary{grid-template-columns:1fr;gap:12px}
+  .cost-divider{display:none}
+}
+</style>
+<link rel="stylesheet" href="/common.css">
+<link rel="stylesheet" href="/widget.css">
+</head>
+<body>
+<script src="/header.js"></script>
+<div class="wrapper">
+  <div class="hero">
+    <div class="breadcrumb">
+      <a href="/">케어컴퍼스</a> &rsaquo;
+      <a href="/cost.html">비용안내</a> &rsaquo;
+      주간보호 비용
+    </div>
+    <h1>주간보호 비용, 얼마나 들까요?</h1>
+    <p>장기요양등급을 받으셨다면 주간보호(주야간보호) 서비스 이용 시 국가에서 비용 일부를 지원합니다.<br>실제 사례로 먼저 확인하고, 직접 계산해보세요.</p>
+  </div>
+
+  <div class="content">
+
+    <!-- 주간보호 서비스 안내 -->
+    <div class="section-title">☀️ 주간보호 서비스란?</div>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">🏢</div>
+        <div class="service-title">낮 시간 돌봄</div>
+        <div class="service-desc">낮 동안 센터에서 전문 인력이 어르신을 돌봐드립니다. 송영 서비스도 제공됩니다.</div>
+        <div class="service-price">3시간~12시간 이용 가능</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🧠</div>
+        <div class="service-title">인지·기능 훈련</div>
+        <div class="service-desc">인지자극 프로그램, 물리치료, 작업치료 등 전문 프로그램을 제공합니다.</div>
+        <div class="service-price">치매전담형 별도 운영</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🍚</div>
+        <div class="service-title">식사·여가 활동</div>
+        <div class="service-desc">점심·간식 제공, 여가활동, 사회활동 프로그램 등을 함께합니다.</div>
+        <div class="service-price">식재료비 별도 (비급여)</div>
+      </div>
+    </div>
+
+    <!-- 실제 사례 -->
+    <div class="section-title">👤 실제 사례로 보는 주간보호 비용</div>
+
+    <div class="case-card">
+      <div class="case-profile">
+        <div class="profile-avatar">👵</div>
+        <div>
+          <div class="profile-name">인천 거주 80세 이○○ 어머니</div>
+          <div class="profile-desc">경도 치매로 낮 시간 돌봄이 필요하여 주간보호센터를 이용 중인 사례<br>장기요양 3등급 판정 · 일반대상자 (본인부담 15%) · 주 5회 이용</div>
+        </div>
+      </div>
+
+      <div class="case-grid">
+        <div class="case-item"><div class="lbl">장기요양 등급</div><div class="val">3등급</div></div>
+        <div class="case-item"><div class="lbl">이용 서비스</div><div class="val">주간보호 (8시간)</div></div>
+        <div class="case-item"><div class="lbl">본인부담률</div><div class="val">일반 (15%)</div></div>
+        <div class="case-item"><div class="lbl">1회 급여비용</div><div class="val">57,020원</div></div>
+        <div class="case-item"><div class="lbl">1회 본인부담금</div><div class="val">8,553원</div></div>
+        <div class="case-item"><div class="lbl">월 이용횟수</div><div class="val">22회</div></div>
+      </div>
+
+      <div class="cost-summary">
+        <div class="cost-item">
+          <div class="clabel">월 총 급여비용</div>
+          <div class="cvalue">1,254,440원</div>
+          <div class="cnote">57,020원 × 22회</div>
+        </div>
+        <div class="cost-divider"></div>
+        <div class="cost-item">
+          <div class="clabel">월 본인부담금</div>
+          <div class="cvalue">188,166원</div>
+          <div class="cnote">급여비용의 15%</div>
+        </div>
+        <div class="cost-divider"></div>
+        <div class="cost-item">
+          <div class="clabel">3등급 월 한도액</div>
+          <div class="cvalue">1,504,620원</div>
+          <div class="cnote">한도액의 83.4% 사용</div>
+        </div>
+        <div class="cost-total" style="grid-column:1/-1">
+          월 본인부담금: <strong>약 188,166원</strong> · 한도액 내 이용 가능 ✅
+        </div>
+      </div>
+    </div>
+
+    <!-- 계산기 -->
+    <div class="section-title">🧮 직접 계산해보기</div>
+
+    <div class="calc-wrap">
+      <div class="calc-subtitle">☀️ 주간보호 비용 계산기 · 2026년 최신 수가 기준</div>
+      <div class="calc-grid">
+        <div class="calc-field">
+          <label>장기요양 등급</label>
+          <select id="calcGrade" onchange="updateLimit()">
+            <option value="">선택</option>
+            <option value="1">1등급 (월한도 2,554,200원)</option>
+            <option value="2">2등급 (월한도 2,331,200원)</option>
+            <option value="3">3등급 (월한도 1,504,620원)</option>
+            <option value="4">4등급 (월한도 1,389,520원)</option>
+            <option value="5">5등급 (월한도 1,195,920원)</option>
+            <option value="6">인지지원등급 (월한도 676,320원)</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label>본인부담률</label>
+          <select id="calcRate">
+            <option value="0.15">일반대상자 (15%)</option>
+            <option value="0.09">본인부담금 40%경감자 (9%)</option>
+            <option value="0.06">본인부담금 60%경감자 (6%)</option>
+            <option value="0.00">의료급여수급자 (0%)</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label>1회 이용시간</label>
+          <select id="calcTime">
+            <option value="30560">3시간 이상 - 30,560원</option>
+            <option value="43810">5시간 이상 - 43,810원</option>
+            <option value="51520">7시간 이상 - 51,520원</option>
+            <option value="57020" selected>8시간 이상 - 57,020원</option>
+            <option value="60550">9시간 이상 - 60,550원</option>
+            <option value="64530">10시간 이상 - 64,530원</option>
+            <option value="68210">12시간 이상 - 68,210원</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-grid" style="grid-template-columns:1fr 2fr">
+        <div class="calc-field">
+          <label>월 이용횟수</label>
+          <select id="calcCount">
+            <script>for(var i=1;i<=31;i++)document.write('<option value="'+i+'"'+(i===22?' selected':'')+'>'+i+'회</option>');</script>
+          </select>
+        </div>
+        <div></div>
+      </div>
+      <button class="calc-btn" onclick="calcDaycare()">계산하기</button>
+      <div class="calc-result">
+        <div class="calc-result-item">
+          <div class="rlabel">월 총 급여비용</div>
+          <div class="rvalue" id="outTotal">-</div>
+        </div>
+        <div class="calc-result-item">
+          <div class="rlabel">월 본인부담금</div>
+          <div class="rvalue" id="outSelf">-</div>
+        </div>
+        <div class="calc-result-item">
+          <div class="rlabel">한도초과금액</div>
+          <div class="rvalue" id="outOver">-</div>
+        </div>
+        <div class="calc-result-item">
+          <div class="rlabel">공단부담금</div>
+          <div class="rvalue" id="outPublic">-</div>
+        </div>
+      </div>
+      <div id="limitBarWrap" style="display:none;margin-top:14px">
+        <div class="limit-info">
+          <span>월 한도액 사용률</span>
+          <span id="limitPct">0%</span>
+        </div>
+        <div class="limit-bar"><div class="limit-fill" id="limitFill" style="width:0%"></div></div>
+        <div class="limit-info">
+          <span id="limitUsed">사용: 0원</span>
+          <span id="limitTotal">한도: 0원</span>
+        </div>
+      </div>
+      <div class="calc-notice">
+        ※ 본인부담금 = 한도액 내 급여비용 × 본인부담률 + 한도초과금액<br>
+        ※ 식재료비, 간식비 등 비급여 항목은 별도 부담 (센터마다 다름)<br>
+        ※ 송영비용은 급여비용에 포함되어 별도 부담 없음
+      </div>
+    </div>
+
+    <!-- 내 주변 주간보호센터 찾기 -->
+    <div class="section-title">📍 내 주변 주간보호센터 찾기</div>
+
+    <div class="finder-wrap">
+      <div class="finder-subtitle">
+        지역을 선택하면 해당 지역의 주간보호센터 목록과 지도를 바로 확인할 수 있어요.<br>
+        기관을 클릭하면 인력현황, 시설현황, 비급여 정보까지 상세하게 볼 수 있어요.
+      </div>
+      <div class="finder-grid">
+        <div class="finder-field">
+          <label>시/도</label>
+          <select id="finderSido" onchange="loadFinderSigungu()">
+            <option value="">시/도 선택</option>
+            <option value="11">서울시</option><option value="41">경기도</option>
+            <option value="28">인천시</option><option value="26">부산시</option>
+            <option value="27">대구시</option><option value="29">광주시</option>
+            <option value="30">대전시</option><option value="31">울산시</option>
+            <option value="36">세종시</option><option value="42">강원도</option>
+            <option value="43">충청북도</option><option value="44">충청남도</option>
+            <option value="45">전라북도</option><option value="46">전라남도</option>
+            <option value="47">경상북도</option><option value="48">경상남도</option>
+            <option value="50">제주도</option>
+          </select>
+        </div>
+        <div class="finder-field">
+          <label>시/군/구</label>
+          <select id="finderSigungu"><option value="">시/군/구 선택</option></select>
+        </div>
+        <div>
+          <button class="finder-btn" onclick="goFinder()">주간보호센터 찾기 →</button>
+        </div>
+      </div>
+      <div class="finder-tips">
+        <div class="finder-tip">
+          <div class="tip-icon">🚐</div>
+          <div class="tip-title">송영 서비스 확인</div>
+          <div class="tip-desc">집에서 센터까지 차량 송영 서비스 제공 여부를 확인하세요.</div>
+        </div>
+        <div class="finder-tip">
+          <div class="tip-icon">🧠</div>
+          <div class="tip-title">프로그램 확인</div>
+          <div class="tip-desc">인지활동, 물리치료 등 제공 프로그램을 비교하세요.</div>
+        </div>
+        <div class="finder-tip">
+          <div class="tip-icon">💰</div>
+          <div class="tip-title">비급여 비교</div>
+          <div class="tip-desc">식재료비, 간식비 등 센터별 비급여 금액을 비교하세요.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="section-title">❓ 자주 묻는 질문</div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>주간보호는 몇 등급부터 이용할 수 있나요?</div>
+        <div class="faq-a">장기요양 1~5등급 및 인지지원등급 모두 주간보호 서비스 이용이 가능합니다. 등급에 따라 월 한도액이 다르게 적용됩니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>주간보호와 방문요양을 같이 받을 수 있나요?</div>
+        <div class="faq-a">네, 같은 월 한도액 내에서 함께 이용할 수 있습니다. 예를 들어 주 3회 주간보호 + 주 2회 방문요양 조합이 가능합니다. 두 서비스의 급여비용 합산이 월 한도액을 초과하지 않으면 됩니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>송영(차량) 서비스 비용은 별도인가요?</div>
+        <div class="faq-a">아닙니다. 송영 서비스 비용은 주간보호 급여비용에 포함되어 있어 별도 부담이 없습니다. 다만 센터에 따라 송영 가능 지역이 제한될 수 있으니 사전에 확인하세요.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>치매 어르신도 주간보호를 이용할 수 있나요?</div>
+        <div class="faq-a">네, 가능합니다. 치매 어르신을 위한 치매전담형 주간보호센터가 별도로 운영되고 있으며, 전문 인지활동 프로그램을 제공합니다. 일반 주간보호보다 수가가 다소 높습니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>주간보호센터에서 식사도 제공하나요?</div>
+        <div class="faq-a">네, 대부분의 주간보호센터에서 점심과 간식을 제공합니다. 다만 식재료비는 비급여 항목으로 본인이 별도 부담해야 하며, 센터마다 금액이 다릅니다. 보통 1일 3,000~5,000원 수준입니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="faq-q-badge">Q</span>야간보호도 가능한가요?</div>
+        <div class="faq-a">일부 센터에서 야간보호(주야간보호)를 운영합니다. 야간보호는 저녁~다음날 아침까지 돌봄 서비스를 제공하며, 주간보호와 별도로 이용할 수 있습니다. 운영 여부는 센터에 문의하세요.</div>
+      </div>
+    </div>
+
+    <!-- 관련 페이지 -->
+    <div class="section-title">📎 관련 정보</div>
+
+    <div class="related-grid">
+      <a href="/facility-cost.html" class="related-card">
+        <div class="related-icon">🏥</div>
+        <div class="related-title">요양원 입소 비용</div>
+        <div class="related-desc">요양원 입소 시 본인부담금을 미리 계산해보세요.</div>
+      </a>
+      <a href="/homecare-cost.html" class="related-card">
+        <div class="related-icon">🏠</div>
+        <div class="related-title">방문요양 비용</div>
+        <div class="related-desc">방문요양 서비스 이용 시 본인부담금을 미리 계산해보세요.</div>
+      </a>
+      <a href="/" class="related-card">
+        <div class="related-icon">🗺️</div>
+        <div class="related-title">전국 기관찾기</div>
+        <div class="related-desc">전국 주간보호센터, 요양원, 방문요양 기관을 지도로 찾아보세요.</div>
+      </a>
+    </div>
+
+    <div class="notice-box">
+      ⚠️ 위 계산 결과는 2026년 수가 기준 예상 금액입니다. 실제 비용은 이용 시간, 횟수, 센터에 따라 다를 수 있습니다.<br>
+      정확한 비용은 이용 예정 주간보호센터 또는 국민건강보험공단(☎ 1577-1000)에 문의하세요.
+    </div>
+
+  </div>
+</div>
+<script>
+var MONTHLY_LIMITS={'1':2554200,'2':2331200,'3':1504620,'4':1389520,'5':1195920,'6':676320};
+
+var sigunguData={'11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],'41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],'28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],'26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],'27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'}],'29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],'30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],'31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],'36':[{code:'110',name:'세종시'}],'42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],'43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],'44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],'45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],'46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],'47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'720',name:'군위군'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],'48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],'50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]};
+
+function fmt(n){return Math.round(n).toLocaleString('ko-KR');}
+
+function updateLimit(){
+  ['outTotal','outSelf','outOver','outPublic'].forEach(function(id){
+    document.getElementById(id).textContent='-';
+  });
+  document.getElementById('limitBarWrap').style.display='none';
+}
+
+function calcDaycare(){
+  var grade=document.getElementById('calcGrade').value;
+  var rate=parseFloat(document.getElementById('calcRate').value);
+  var time=parseInt(document.getElementById('calcTime').value);
+  var count=parseInt(document.getElementById('calcCount').value);
+  if(!grade){alert('장기요양 등급을 선택해주세요.');return;}
+  var limit=MONTHLY_LIMITS[grade];
+  var total=time*count;
+  var over=Math.max(0,total-limit);
+  var base=Math.min(total,limit);
+  var selfPay=Math.round(base*rate)+over;
+  var publicPay=Math.round(base*(1-rate));
+  document.getElementById('outTotal').textContent=fmt(total)+'원';
+  document.getElementById('outSelf').textContent=fmt(selfPay)+'원';
+  document.getElementById('outOver').textContent=fmt(over)+'원';
+  document.getElementById('outPublic').textContent=fmt(publicPay)+'원';
+  var pct=Math.min(Math.round(total/limit*100),100);
+  document.getElementById('limitBarWrap').style.display='block';
+  document.getElementById('limitFill').style.width=Math.min(pct,100)+'%';
+  document.getElementById('limitFill').style.background=total>limit?'#e53935':'#5B5AE0';
+  document.getElementById('limitPct').textContent=pct+'%';
+  document.getElementById('limitUsed').textContent='사용: '+fmt(total)+'원';
+  document.getElementById('limitTotal').textContent='한도: '+fmt(limit)+'원';
+  if(over>0){
+    document.getElementById('limitFill').style.background='#e53935';
+    document.getElementById('limitPct').textContent='한도초과!';
+  }
+}
+
+function loadFinderSigungu(){
+  var v=document.getElementById('finderSido').value;
+  var s=document.getElementById('finderSigungu');
+  s.innerHTML='<option value="">시/군/구 선택</option>';
+  if(!v||!sigunguData[v])return;
+  sigunguData[v].forEach(function(i){
+    var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o);
+  });
+}
+
+function goFinder(){
+  var sido=document.getElementById('finderSido').value;
+  var sigungu=document.getElementById('finderSigungu').value;
+  if(!sido){alert('시/도를 선택해주세요.');return;}
+  var url='/?sidoCd='+sido+'&type=B03,C03,003';
+  if(sigungu)url+='&sigunguCd='+sigungu;
+  location.href=url;
+}
+</script>
+<script src="/widget.js"></script>
+</body>
+</html>
