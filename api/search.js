@@ -116,7 +116,34 @@ export default async function handler(req, res) {
       }
     });
 
-    res.status(200).json({ items: allItems, total: allItems.length });
+    // ── 같은 기관(sym) 합치기 ──────────────────────────
+    var mergeMap = {};
+    allItems.forEach(function(item) {
+      var sym = item.longTermAdminSym;
+      if (!mergeMap[sym]) {
+        mergeMap[sym] = {
+          longTermCareInstNm: item.longTermCareInstNm,
+          longTermAdminSym: sym,
+          adminPttnCd: item.adminPttnCd,
+          adminPttnNm: item.adminPttnNm,
+          types: [{ cd: item.adminPttnCd, nm: item.adminPttnNm }],
+          siDoCd: item.siDoCd,
+          siGunGuCd: item.siGunGuCd,
+          BDongCd: item.BDongCd || '',
+        };
+      } else {
+        var exists = mergeMap[sym].types.some(function(t) { return t.cd === item.adminPttnCd; });
+        if (!exists) {
+          mergeMap[sym].types.push({ cd: item.adminPttnCd, nm: item.adminPttnNm });
+        }
+        if (!mergeMap[sym].BDongCd && item.BDongCd) {
+          mergeMap[sym].BDongCd = item.BDongCd;
+        }
+      }
+    });
+    var mergedItems = Object.values(mergeMap);
+
+    res.status(200).json({ items: mergedItems, total: mergedItems.length });
   } catch(e) {
     console.error('Error:', e);
     res.status(500).json({ error: e.message });
