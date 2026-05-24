@@ -754,7 +754,7 @@ function getFiltered(){
   var sortVal=document.getElementById('sortOrder').value;
   var filtered=allItems.slice();
   if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});}
-  if(dongVal){filtered=filtered.filter(function(i){return i.emdNm===dongVal;});}
+  if(dongVal){filtered=filtered.filter(function(i){return !i.emdNm || i.emdNm===dongVal;});}
   if(sortVal==='name'){filtered.sort(function(a,b){return a.longTermCareInstNm.localeCompare(b.longTermCareInstNm,'ko');});}
   return filtered;
 }
