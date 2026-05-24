@@ -33,7 +33,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .search-btn{background:#4B4AC8;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
 .search-btn:hover{background:#3D3BB5}
 .search-tabs{display:flex;gap:4px;flex-wrap:wrap}
-.tab-btn{padding:6px 12px;font-size:13px;border:1px solid rgba(255,255,255,0.4);border-radius:4px;color:#fff;background:rgba(255,255,255,0.1);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s}
+.tab-btn{padding:6px 12px;font-size:13px;border:1px solid rgba(255,255,255,0.6);border-radius:4px;color:#fff;background:rgba(255,255,255,0.2);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s;font-weight:500;text-shadow:0 1px 2px rgba(0,0,0,0.2)}
 .tab-btn.active{background:#fff;color:#5B5AE0;font-weight:600;border-color:#fff}
 .tab-btn:hover:not(.active){background:rgba(255,255,255,0.2)}
 
@@ -726,26 +726,29 @@ function searchInstitutions(){
       return;
     }
     filterAndDisplay();
-    loadAddresses();
+    loadPageAddresses();
   }).catch(function(){
     document.getElementById('list-count').textContent='오류 발생';
     document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오지 못했습니다</div>';
   });
 }
 
-function loadAddresses(){
-  var batch=allItems.slice(0,100);
-  Promise.all(batch.map(function(inst){
+var isLoadingPage=false;
+function loadPageAddresses(){
+  if(isLoadingPage)return;
+  var filtered=getFiltered();
+  var start=(currentPage-1)*pageSize;
+  var pageItems=filtered.slice(start,start+pageSize);
+  var needLoad=pageItems.filter(function(i){return !i.roadAddr;});
+  if(needLoad.length===0)return;
+  isLoadingPage=true;
+  Promise.all(needLoad.map(function(inst){
     return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd).then(function(r){return r.json();}).then(function(d){
       if(d.address&&d.address.roadAddr){inst.roadAddr=d.address.roadAddr;inst.emdNm=d.address.emdNm||'';}
       if(d.coords&&d.coords.entX&&d.coords.entY){inst.entX=d.coords.entX;inst.entY=d.coords.entY;}
     }).catch(function(){});
   })).then(function(){
-    var currentDong = document.getElementById('dongFilter').value;
-    allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm);});
-    if(currentDong){
-      document.getElementById('dongFilter').value = currentDong;
-    }
+    isLoadingPage=false;
     filterAndDisplay();
   });
 }
@@ -781,7 +784,7 @@ function filterAndDisplay(){
     html+='<div class="inst-card" id="card-'+sym+'" onclick="selectInst(\''+sym+'\',\''+type+'\',\''+name.replace(/'/g,"\\'")+'\')">'+
       (inst.types&&inst.types.length>0?inst.types.map(function(t){return '<span class="inst-badge">'+t.nm+'</span>';}).join(' '):'<span class="inst-badge">'+getTypeName(type)+'</span>')+
       '<div class="inst-name">'+name+'</div>'+
-      (inst.roadAddr?'<div class="inst-addr">📍 '+inst.roadAddr+'</div>':'')+
+      (inst.roadAddr?'<div class="inst-addr">📍 '+inst.roadAddr+'</div>':(inst.emdNm?'<div class="inst-addr">📍 '+sidoName+' '+sigunguName+' '+inst.emdNm+'</div>':''))+
       '</div>';
     if(idx===4)html+='<div class="ad-slot-list">광고</div>';
     if(inst.entX&&inst.entY&&map){
@@ -830,7 +833,7 @@ function renderPagination(totalPages){
 function goPage(p){
   var filtered=getFiltered();var totalPages=Math.ceil(filtered.length/pageSize);
   if(p<1||p>totalPages)return;
-  currentPage=p;filterAndDisplay();
+  currentPage=p;filterAndDisplay();loadPageAddresses();
   document.getElementById('inst-list').scrollTop=0;
 }
 
