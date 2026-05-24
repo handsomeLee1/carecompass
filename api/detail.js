@@ -1,3 +1,5 @@
+import dongCodeMap from './dong_map.js';
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   const { sym, type } = req.query;
@@ -9,7 +11,6 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'sym과 type 필요' });
   }
 
-  // ── 시도 코드 → 이름 ──────────────────────────────
   const sidoNm = {
     '11':'서울특별시','26':'부산광역시','27':'대구광역시','28':'인천광역시',
     '29':'광주광역시','30':'대전광역시','31':'울산광역시','36':'세종특별자치시',
@@ -18,7 +19,6 @@ export default async function handler(req, res) {
     '50':'제주특별자치도'
   };
 
-  // ── 시도+시군구 코드 → 이름 (완전한 매핑) ──────────
   const sigunguNm = {
     '11110':'종로구','11140':'중구','11170':'용산구','11200':'성동구','11215':'광진구',
     '11230':'동대문구','11260':'중랑구','11290':'성북구','11305':'강북구','11320':'도봉구',
@@ -96,9 +96,9 @@ export default async function handler(req, res) {
   }
 
   async function fetchXml(path, extra) {
-    var params = `longTermAdminSym=${sym}&adminPttnCd=${type}&serviceKey=${API_KEY}`;
+    var params = 'longTermAdminSym=' + sym + '&adminPttnCd=' + type + '&serviceKey=' + API_KEY;
     if (extra) params += '&' + extra;
-    var r = await fetch(`${BASE}/${path}?${params}`);
+    var r = await fetch(BASE + '/' + path + '?' + params);
     return await r.text();
   }
 
@@ -124,89 +124,108 @@ export default async function handler(req, res) {
     var address = null;
     var coords = null;
 
-    if (general && general.siDoCd && general.gunmulMlno) {
-      try {
-        // ── 시군구 이름 조회 ──────────────────────────
-        var sigunguKey = general.siDoCd + general.siGunGuCd;
-        var sigunguName = sigunguNm[sigunguKey] || '';
-        var sidoName = sidoNm[general.siDoCd] || '';
-
-        // ── 건물번호 구성 ─────────────────────────────
-        var buldMnnm = general.gunmulMlno || '0';
-        var buldSlno = (general.gunmulSlno && general.gunmulSlno !== '0') ? general.gunmulSlno : '0';
-        var bldNo = buldMnnm + (buldSlno !== '0' ? '-' + buldSlno : '');
-
-        // ── JUSO 주소 검색 (결과 100개로 확대) ──────────
-        var searchKeyword = `${sidoName} ${sigunguName} ${bldNo}`.trim();
-        var jusoUrl = `https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=${encodeURIComponent(searchKeyword)}&confmKey=${JUSO_KEY}&resultType=json`;
-        var jusoRes = await fetch(jusoUrl);
-        var jusoData = await jusoRes.json();
-
-        if (jusoData.results && jusoData.results.juso && jusoData.results.juso.length > 0) {
-          var jusoList = jusoData.results.juso;
-
-          // ── 매칭: 도로명코드 + 건물번호 이중 검증 ────
-          var matched = jusoList.find(function(j) {
-            var mnnmMatch = String(j.buldMnnm) === String(buldMnnm);
-            var rnMatch = j.rnMgtSn === general.roadNmCd;
-            return rnMatch && mnnmMatch;
-          });
-
-          // 건물부번까지 포함한 재시도 (부번이 있는 경우)
-          if (!matched && buldSlno !== '0') {
-            matched = jusoList.find(function(j) {
-              return j.rnMgtSn === general.roadNmCd &&
-                     String(j.buldMnnm) === String(buldMnnm) &&
-                     String(j.buldSlno) === String(buldSlno);
-            });
-          }
-
-          // 매칭 성공 시에만 사용 (오류 방지: jusoList[0] 폴백 제거)
-          if (matched) {
-            address = matched;
-
-            // ── JUSO 좌표 API 호출 ────────────────────
-            try {
-              var coordParams = new URLSearchParams({
-                confmKey: JUSO_KEY,
-                admCd: matched.admCd,
-                rnMgtSn: matched.rnMgtSn,
-                udrtYn: matched.udrtYn,
-                buldMnnm: matched.buldMnnm,
-                buldSlno: matched.buldSlno || '0',
-                resultType: 'json'
-              });
-              var coordUrl = `https://business.juso.go.kr/addrlink/addrCoordApi.do?${coordParams}`;
-              var coordRes = await fetch(coordUrl);
-              var coordData = await coordRes.json();
-
-              if (
-                coordData.results &&
-                coordData.results.common.errorCode === '0' &&
-                coordData.results.juso &&
-                coordData.results.juso.length > 0
-              ) {
-                coords = {
-                  entX: coordData.results.juso[0].entX,
-                  entY: coordData.results.juso[0].entY
-                };
-              }
-            } catch(e) {}
-          }
-        }
-      } catch(e) {}
-    }
-
-    // ── 매칭 실패 시 시도+시군구 폴백 ───────────────────
-    if (!address && general) {
+    if (general && general.siDoCd) {
       var sidoName = sidoNm[general.siDoCd] || '';
       var sigunguKey = general.siDoCd + general.siGunGuCd;
       var sigunguName = sigunguNm[sigunguKey] || '';
-      address = {
-        roadAddr: [sidoName, sigunguName].filter(Boolean).join(' '),
-        siNm: sidoName,
-        emdNm: ''
-      };
+      var buldMnnm = general.gunmulMlno || '0';
+      var buldSlno = (general.gunmulSlno && general.gunmulSlno !== '0') ? general.gunmulSlno : '0';
+      var bldNo = buldMnnm + (buldSlno !== '0' ? '-' + buldSlno : '');
+
+      // ── 동 이름 조회 (dongCodeMap) ──────────────────
+      var dongName = '';
+      if (general.BDongCd) {
+        var dongKey = general.siDoCd + general.siGunGuCd + general.BDongCd;
+        dongName = dongCodeMap[dongKey] || '';
+      }
+
+      // ── 1단계: admCd 직접 구성 → JUSO 좌표 API 바로 호출 ──
+      if (general.roadNmCd && general.BDongCd) {
+        try {
+          var admCd = general.siDoCd + general.siGunGuCd + general.BDongCd + (general.riCd || '00');
+          var coordParams = new URLSearchParams({
+            confmKey: JUSO_KEY,
+            admCd: admCd,
+            rnMgtSn: general.roadNmCd,
+            udrtYn: '0',
+            buldMnnm: buldMnnm,
+            buldSlno: buldSlno,
+            resultType: 'json'
+          });
+          var coordUrl = 'https://business.juso.go.kr/addrlink/addrCoordApi.do?' + coordParams;
+          var coordRes = await fetch(coordUrl);
+          var coordData = await coordRes.json();
+
+          if (coordData.results && coordData.results.common && coordData.results.common.errorCode === '0' && coordData.results.juso && coordData.results.juso.length > 0) {
+            coords = {
+              entX: coordData.results.juso[0].entX,
+              entY: coordData.results.juso[0].entY
+            };
+          }
+        } catch(e) {}
+      }
+
+      // ── 2단계: JUSO 키워드 검색 (동 이름 포함!) ──────
+      if (general.gunmulMlno) {
+        try {
+          // 동 이름이 있으면 더 정확한 키워드 사용
+          var searchKeyword = dongName
+            ? (sigunguName + ' ' + dongName + ' ' + bldNo).trim()
+            : (sidoName + ' ' + sigunguName + ' ' + bldNo).trim();
+
+          var jusoUrl = 'https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=' + encodeURIComponent(searchKeyword) + '&confmKey=' + JUSO_KEY + '&resultType=json';
+          var jusoRes = await fetch(jusoUrl);
+          var jusoData = await jusoRes.json();
+
+          if (jusoData.results && jusoData.results.juso && jusoData.results.juso.length > 0) {
+            var jusoList = jusoData.results.juso;
+
+            var matched = jusoList.find(function(j) {
+              return j.rnMgtSn === general.roadNmCd && String(j.buldMnnm) === String(buldMnnm);
+            });
+
+            if (!matched && buldSlno !== '0') {
+              matched = jusoList.find(function(j) {
+                return j.rnMgtSn === general.roadNmCd &&
+                       String(j.buldMnnm) === String(buldMnnm) &&
+                       String(j.buldSlno) === String(buldSlno);
+              });
+            }
+
+            if (matched) {
+              address = matched;
+
+              if (!coords) {
+                try {
+                  var cp = new URLSearchParams({
+                    confmKey: JUSO_KEY,
+                    admCd: matched.admCd,
+                    rnMgtSn: matched.rnMgtSn,
+                    udrtYn: matched.udrtYn,
+                    buldMnnm: matched.buldMnnm,
+                    buldSlno: matched.buldSlno || '0',
+                    resultType: 'json'
+                  });
+                  var cr = await fetch('https://business.juso.go.kr/addrlink/addrCoordApi.do?' + cp);
+                  var cd = await cr.json();
+                  if (cd.results && cd.results.common && cd.results.common.errorCode === '0' && cd.results.juso && cd.results.juso.length > 0) {
+                    coords = { entX: cd.results.juso[0].entX, entY: cd.results.juso[0].entY };
+                  }
+                } catch(e) {}
+              }
+            }
+          }
+        } catch(e) {}
+      }
+
+      // ── 3단계: 폴백 - 시도+시군구+동 ──────────────────
+      if (!address) {
+        address = {
+          roadAddr: [sidoName, sigunguName, dongName].filter(Boolean).join(' '),
+          siNm: sidoName,
+          emdNm: dongName
+        };
+      }
     }
 
     res.status(200).json({
