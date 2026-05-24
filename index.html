@@ -181,12 +181,13 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
       <button class="search-btn" onclick="searchInstitutions()">검색</button>
     </div>
     <div class="search-tabs">
+      <button class="tab-btn active" onclick="setTab(this,'')">전체</button>
       <button class="tab-btn" onclick="setTab(this,'A')">요양시설</button>
-<button class="tab-btn" onclick="setTab(this,'B03,C03,003')">주간보호</button>
-<button class="tab-btn" onclick="setTab(this,'B01,C01,001')">방문요양</button>
-<button class="tab-btn" onclick="setTab(this,'B02,C02,002')">방문목욕</button>
-<button class="tab-btn" onclick="setTab(this,'B06,C06,006')">복지용구</button>
-<button class="tab-btn" onclick="setTab(this,'G,M,H,I,S')">치매전담</button>
+      <button class="tab-btn" onclick="setTab(this,'B03,C03,003')">주간보호</button>
+      <button class="tab-btn" onclick="setTab(this,'B01,C01,001')">방문요양</button>
+      <button class="tab-btn" onclick="setTab(this,'B02,C02,002')">방문목욕</button>
+      <button class="tab-btn" onclick="setTab(this,'B06,C06,006')">복지용구</button>
+      <button class="tab-btn" onclick="setTab(this,'G,M,H,I,S')">치매전담</button>
     </div>
   </div>
 
@@ -704,7 +705,7 @@ function searchInstitutions(){
   if(!sido.value){alert('시/도를 선택해주세요');return;}
   document.getElementById('list-count').textContent='검색 중...';
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
-  var savedDong=document.getElementById('dongFilter').value;
+  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   document.getElementById('pagination').innerHTML='';
   showMap();
   var url='/api/search?sidoCd='+sido.value;
@@ -724,7 +725,6 @@ function searchInstitutions(){
       document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
       return;
     }
-    if(savedDong)document.getElementById('dongFilter').value=savedDong;
     filterAndDisplay();
     loadAddresses();
   }).catch(function(){
@@ -734,7 +734,7 @@ function searchInstitutions(){
 }
 
 function loadAddresses(){
-  var batch=allItems.slice(0,30);
+  var batch=allItems.slice(0,100);
   Promise.all(batch.map(function(inst){
     return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd).then(function(r){return r.json();}).then(function(d){
       if(d.address&&d.address.roadAddr){inst.roadAddr=d.address.roadAddr;inst.emdNm=d.address.emdNm||'';}
@@ -742,6 +742,7 @@ function loadAddresses(){
     }).catch(function(){});
   })).then(function(){
     var currentDong = document.getElementById('dongFilter').value;
+    allItems.forEach(function(i){if(i.emdNm)dongs.add(i.emdNm);});
     if(currentDong){
       document.getElementById('dongFilter').value = currentDong;
     }
@@ -753,7 +754,10 @@ function getFiltered(){
   var dongVal=document.getElementById('dongFilter').value;
   var sortVal=document.getElementById('sortOrder').value;
   var filtered=allItems.slice();
-  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});}
+  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){
+    if(i.types&&i.types.length>0){return i.types.some(function(it){return types.some(function(t){return it.cd.startsWith(t);});});}
+    return types.some(function(t){return i.adminPttnCd.startsWith(t);});
+  });}
   if(dongVal){filtered=filtered.filter(function(i){return !i.emdNm || i.emdNm===dongVal;});}
   if(sortVal==='name'){filtered.sort(function(a,b){return a.longTermCareInstNm.localeCompare(b.longTermCareInstNm,'ko');});}
   return filtered;
@@ -775,7 +779,7 @@ function filterAndDisplay(){
   pageItems.forEach(function(inst,idx){
     var sym=inst.longTermAdminSym;var type=inst.adminPttnCd;var name=inst.longTermCareInstNm;
     html+='<div class="inst-card" id="card-'+sym+'" onclick="selectInst(\''+sym+'\',\''+type+'\',\''+name.replace(/'/g,"\\'")+'\')">'+
-      '<span class="inst-badge">'+getTypeName(type)+'</span>'+
+      (inst.types&&inst.types.length>0?inst.types.map(function(t){return '<span class="inst-badge">'+t.nm+'</span>';}).join(' '):'<span class="inst-badge">'+getTypeName(type)+'</span>')+
       '<div class="inst-name">'+name+'</div>'+
       (inst.roadAddr?'<div class="inst-addr">📍 '+inst.roadAddr+'</div>':'')+
       '</div>';
