@@ -169,8 +169,9 @@ export default async function handler(req, res) {
       if (general.gunmulMlno) {
         try {
           // 동 이름이 있으면 더 정확한 키워드 사용
+          // 1차: 동 이름 포함 검색
           var searchKeyword = dongName
-            ? (sigunguName + ' ' + dongName + ' ' + bldNo).trim()
+            ? (sidoName + ' ' + sigunguName + ' ' + dongName + ' ' + bldNo).trim()
             : (sidoName + ' ' + sigunguName + ' ' + bldNo).trim();
 
           var jusoUrl = 'https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=' + encodeURIComponent(searchKeyword) + '&confmKey=' + JUSO_KEY + '&resultType=json';
@@ -216,8 +217,22 @@ export default async function handler(req, res) {
             }
           }
         } catch(e) {}
+        
+        // 2차: 동 이름 없이 재시도
+            if (!matched && dongName) {
+              var searchKeyword2 = (sidoName + ' ' + sigunguName + ' ' + bldNo).trim();
+              var jusoUrl2 = 'https://business.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=100&keyword=' + encodeURIComponent(searchKeyword2) + '&confmKey=' + JUSO_KEY + '&resultType=json';
+              var jusoRes2 = await fetch(jusoUrl2);
+              var jusoData2 = await jusoRes2.json();
+              if (jusoData2.results && jusoData2.results.juso && jusoData2.results.juso.length > 0) {
+                matched = jusoData2.results.juso.find(function(j) {
+                  return j.rnMgtSn === general.roadNmCd && String(j.buldMnnm) === String(buldMnnm);
+                });
+                if (matched) address = matched;
+              }
+            }
       }
-
+      
       // ── 3단계: 폴백 - 시도+시군구+동 ──────────────────
       if (!address) {
         address = {
