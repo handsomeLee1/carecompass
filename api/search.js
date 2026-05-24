@@ -73,7 +73,7 @@ export default async function handler(req, res) {
 
     const allSeen = new Set();
     const allItems = [];
-    [...items1, ...items2].forEach(item => {
+    [...items2, ...items1].forEach(item => {
       const key = item.longTermAdminSym + '_' + item.adminPttnCd;
       if (!allSeen.has(key)) {
         allSeen.add(key);
