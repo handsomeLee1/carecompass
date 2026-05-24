@@ -1,8 +1,8 @@
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  const { sidoCd, sigunguCd, name, page } = req.query;
+  const { sidoCd, sigunguCd, name } = req.query;
   const API_KEY = process.env.API_KEY;
-  const BASE = 'https://apis.data.go.kr/B550928';
+  const BASE = 'https://apis.data.go.kr/B550928/searchLtcInsttService02';
 
   const typeNames = {
     'A01':'노인요양시설','A02':'노인전문요양시설','A03':'노인요양시설','A04':'노인요양공동생활가정','A05':'노인요양시설','AAA':'입소시설',
@@ -20,25 +20,18 @@ export default async function handler(req, res) {
   }
 
   function parseItems(xmlText) {
-    const seen = new Set();
-    const items = [];
-    const itemMatches = xmlText.matchAll(/<item>([\s\S]*?)<\/item>/g);
-    for (const match of itemMatches) {
-      const item = match[1];
-      const get = (tag) => {
-        const m = item.match(new RegExp(`<${tag}>(.*?)<\/${tag}>`));
+    var items = [];
+    var itemMatches = xmlText.matchAll(/<item>([\s\S]*?)<\/item>/g);
+    for (var match of itemMatches) {
+      var item = match[1];
+      var get = function(tag) {
+        var m = item.match(new RegExp('<' + tag + '>(.*?)</' + tag + '>'));
         return m ? m[1] : '';
       };
-      const sym = get('longTermAdminSym');
-      const pttnCd = get('adminPttnCd') || get('serviceKind');
-      const key = sym + '_' + pttnCd;
-      if (seen.has(key)) continue;
-      seen.add(key);
       items.push({
         longTermCareInstNm: get('adminNm'),
-        longTermAdminSym: sym,
-        adminPttnCd: pttnCd,
-        adminPttnNm: getTypeName(pttnCd),
+        longTermAdminSym: get('longTermAdminSym'),
+        adminPttnCd: get('adminPttnCd') || get('serviceKind'),
         siDoCd: get('siDoCd'),
         siGunGuCd: get('siGunGuCd'),
         BDongCd: get('BDongCd'),
@@ -47,44 +40,83 @@ export default async function handler(req, res) {
     return items;
   }
 
+  function getTotalCount(xmlText) {
+    var m = xmlText.match(/<totalCount>(\d+)<\/totalCount>/);
+    return m ? parseInt(m[1]) : 0;
+  }
+
+  // ── 여러 페이지 병렬 호출 ──────────────────────────
+  async function fetchAllPages(endpoint, params) {
+    // 1페이지 먼저 호출해서 totalCount 확인
+    var url1 = BASE + '/' + endpoint + '?' + params.toString() + '&pageNo=1&numOfRows=100';
+    var r1 = await fetch(url1);
+    var xml1 = await r1.text();
+    var totalCount = getTotalCount(xml1);
+    var items = parseItems(xml1);
+
+    if (totalCount <= 100) return items;
+
+    // 나머지 페이지 병렬 호출 (최대 5페이지 = 500개)
+    var pages = Math.min(Math.ceil(totalCount / 100), 5);
+    var promises = [];
+    for (var p = 2; p <= pages; p++) {
+      var url = BASE + '/' + endpoint + '?' + params.toString() + '&pageNo=' + p + '&numOfRows=100';
+      promises.push(fetch(url).then(function(r) { return r.text(); }));
+    }
+    var results = await Promise.all(promises);
+    results.forEach(function(xml) {
+      items = items.concat(parseItems(xml));
+    });
+
+    return items;
+  }
+
   try {
-    const commonParams = new URLSearchParams({
+    var commonParams = new URLSearchParams({
       serviceKey: API_KEY,
-      pageNo: page || '1',
-      numOfRows: '100',
     });
     if (sidoCd) commonParams.append('siDoCd', sidoCd);
     if (sigunguCd) commonParams.append('siGunGuCd', sigunguCd);
     if (name) commonParams.append('adminNm', name);
 
-    const [res1, res2] = await Promise.all([
-      fetch(`${BASE}/searchLtcInsttService02/getLtcInsttSeachList02?${commonParams.toString()}`),
-      fetch(`${BASE}/searchLtcInsttService02/getBillGreentInsttSearchList02?${commonParams.toString()}`)
+    var [items1, items2] = await Promise.all([
+      fetchAllPages('getLtcInsttSeachList02', commonParams),
+      fetchAllPages('getBillGreentInsttSearchList02', commonParams),
     ]);
 
-    const [xml1, xml2] = await Promise.all([res1.text(), res2.text()]);
+    // ── 시/군/구 클라이언트 필터링 (API2가 필터링 안 하는 문제 해결) ──
+    if (sigunguCd) {
+      items1 = items1.filter(function(i) { return i.siGunGuCd === sigunguCd; });
+      items2 = items2.filter(function(i) { return i.siGunGuCd === sigunguCd; });
+    }
 
-    const totalCount2 = xml2.match(/<totalCount>(\d+)<\/totalCount>/);
-    console.log('XML2 totalCount:', totalCount2 ? totalCount2[1] : '0');
-    const firstItem2 = xml2.match(/<item>([\s\S]*?)<\/item>/);
-    console.log('XML2 first item:', firstItem2 ? firstItem2[0] : 'no item');
-    const items1 = parseItems(xml1);
-    const items2 = parseItems(xml2);
+    // ── BDongCd 매핑 (API2에서 BDongCd 수집) ──
+    var bdongMap = {};
+    items2.forEach(function(item) {
+      if (item.BDongCd && item.longTermAdminSym) {
+        bdongMap[item.longTermAdminSym] = item.BDongCd;
+      }
+    });
 
-    const allSeen = new Set();
-    const allItems = [];
-    [...items2, ...items1].forEach(item => {
-      const key = item.longTermAdminSym + '_' + item.adminPttnCd;
+    // ── 병합 + 중복 제거 (API2 우선, BDongCd 보충) ──
+    var allSeen = new Set();
+    var allItems = [];
+
+    var combined = items2.concat(items1);
+    combined.forEach(function(item) {
+      var key = item.longTermAdminSym + '_' + item.adminPttnCd;
       if (!allSeen.has(key)) {
         allSeen.add(key);
+        // BDongCd 보충: API1 아이템에 BDongCd 없으면 API2에서 가져오기
+        if (!item.BDongCd && bdongMap[item.longTermAdminSym]) {
+          item.BDongCd = bdongMap[item.longTermAdminSym];
+        }
+        item.adminPttnNm = getTypeName(item.adminPttnCd);
         allItems.push(item);
       }
     });
 
-    const totalMatch1 = xml1.match(/<totalCount>(\d+)<\/totalCount>/);
-    const totalCount = totalMatch1 ? parseInt(totalMatch1[1]) : 0;
-
-    res.status(200).json({ items: allItems, total: allItems.length, totalCount });
+    res.status(200).json({ items: allItems, total: allItems.length });
   } catch(e) {
     console.error('Error:', e);
     res.status(500).json({ error: e.message });
