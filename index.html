@@ -10,89 +10,45 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-size:15px}
-
-/* 상단 네비 */
-.topnav{background:linear-gradient(135deg,#3D3BB5,#6C63FF);width:100%;position:sticky;top:0;z-index:100}
-.topnav-inner{max-width:1200px;margin:0 auto;height:44px;display:flex;align-items:center;padding:0 16px;gap:24px}
-.logo{color:#fff;font-size:16px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0}
-.logo span{color:#DDD8FF}
-.nav-links a{color:rgba(255,255,255,0.8);font-size:14px;text-decoration:none;white-space:nowrap}
-.nav-links a:hover,.nav-links a.active{color:#fff;font-weight:600}
-.nav-right{color:rgba(255,255,255,0.55);font-size:12px;white-space:nowrap}
-
-/* 가운데 정렬 래퍼 */
 .wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:calc(100vh - 44px);box-shadow:0 0 20px rgba(0,0,0,0.08)}
-
-/* 검색 영역 */
 .search-area{background:linear-gradient(135deg,#5B5AE0,#7C73F0);padding:14px 16px}
-.search-inputs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-.search-inputs select,
-.search-inputs input[type=text]{height:36px;padding:0 10px;border:1px solid #ccc;border-radius:4px;font-size:14px;font-family:'Noto Sans KR',sans-serif;background:#fff;color:#333;flex:1;min-width:90px}
-.search-inputs select,.search-inputs input[type=text]{color:#1E1B4B}
-.search-inputs select:focus,.search-inputs input:focus{outline:none;border-color:#9896E8}
+.search-inputs{display:flex;gap:6px;flex-wrap:wrap}
+.search-inputs select{height:36px;padding:0 10px;border:1px solid #ccc;border-radius:4px;font-size:14px;font-family:'Noto Sans KR',sans-serif;background:#fff;color:#1E1B4B;flex:1;min-width:90px}
+.search-inputs select:focus{outline:none;border-color:#9896E8}
 .search-btn{background:#4B4AC8;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
 .search-btn:hover{background:#3D3BB5}
-.search-tabs{display:flex;gap:4px;flex-wrap:wrap}
-.tab-btn{padding:6px 12px;font-size:13px;border:1px solid rgba(255,255,255,0.4);border-radius:4px;color:#fff;background:rgba(255,255,255,0.1);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s}
-.tab-btn.active{background:#fff;color:#5B5AE0;font-weight:600;border-color:#fff}
-.tab-btn:hover:not(.active){background:rgba(255,255,255,0.2)}
-
-/* 3단 레이아웃 */
-.three-col{display:flex;height:calc(100vh - 44px - 102px)}
-
-/* 좌 사이드바 - 계산기 메뉴 */
-.sidebar-left{width:120px;flex-shrink:0;background:#F5F5FF;border-right:1px solid #DDD8FF;overflow-y:auto}
-.side-section{padding:12px 0;border-bottom:1px solid #e8e8e8}
-.side-title{font-size:11px;color:#9CA3AF;padding:0 10px 8px;font-weight:500;letter-spacing:0.3px}
-.side-item{display:block;width:100%;padding:8px 10px;font-size:12px;color:#4B5563;cursor:pointer;border:none;background:none;text-align:left;font-family:'Noto Sans KR',sans-serif;line-height:1.4;border-left:3px solid transparent}
-.side-item:hover{background:#EEF2FF;color:#5B5AE0}
-.side-item.active{color:#5B5AE0;font-weight:600;border-left:3px solid #5B5AE0;background:#EEF2FF}
-.side-badge{display:inline-block;background:#fef3c7;color:#92400e;font-size:10px;padding:1px 4px;border-radius:2px;margin-left:2px}
-
-/* 중앙 */
+.three-col{display:flex;height:calc(100vh - 44px - 66px)}
 .main-center{flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden}
-
-/* 결과 헤더 */
-.result-header{padding:9px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
+.result-header{padding:12px 24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
 .result-count{font-size:14px;color:#333}
 .result-count strong{font-weight:600;color:#5B5AE0;font-size:15px}
 .result-sort select{height:30px;padding:0 8px;border:1px solid #ddd;border-radius:4px;font-size:13px;color:#555;background:#fff;font-family:'Noto Sans KR',sans-serif}
-
-/* 콘텐츠 영역 */
 .content-area{display:flex;flex:1;overflow:hidden}
-
-/* 목록 */
-.list-area{width:280px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid #eee;overflow:hidden}
-.list-scroll{flex:1;overflow-y:auto}
+.list-area{width:320px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid #eee;overflow:hidden}
+.list-scroll{flex:1;overflow-y:auto;padding:0 8px}
 .list-scroll::-webkit-scrollbar{width:3px}
-.list-scroll::-webkit-scrollbar-thumb{background:#d0e8dc;border-radius:3px}
+.list-scroll::-webkit-scrollbar-thumb{background:#d0d0f0;border-radius:3px}
 .inst-card{padding:12px 14px;border-bottom:1px solid #f0f0f0;cursor:pointer;transition:background 0.1s}
-.inst-card:hover{background:#f8fffe}
+.inst-card:hover{background:#F5F5FF}
 .inst-card.active{background:#EEF2FF;border-left:3px solid #5B5AE0;padding-left:11px}
-.inst-badge{display:inline-block;background:#EEF2FF;color:#5B5AE0;font-size:11px;padding:2px 7px;border-radius:3px;margin-bottom:5px;font-weight:500}
+.inst-badge{display:inline-block;background:#EEF2FF;color:#5B5AE0;font-size:11px;padding:2px 7px;border-radius:3px;margin-bottom:5px;font-weight:500;margin-right:3px}
 .inst-name{font-size:14px;font-weight:600;color:#222;margin-bottom:4px;line-height:1.3}
 .inst-addr{font-size:12px;color:#666;line-height:1.5}
 .ad-slot-list{padding:8px 14px;background:#f9f9f9;border-bottom:1px solid #eee;text-align:center;font-size:11px;color:#bbb;min-height:50px;display:flex;align-items:center;justify-content:center}
 .pagination{padding:8px;border-top:1px solid #eee;display:flex;justify-content:center;gap:3px;flex-shrink:0}
 .page-btn{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border:1px solid #ddd;border-radius:4px;font-size:12px;cursor:pointer;color:#666;background:#fff}
 .page-btn.active{background:#5B5AE0;color:#fff;border-color:#5B5AE0}
-.page-btn:hover:not(.active):not(.disabled){border-color:#1D9E75;color:#1D9E75}
+.page-btn:hover:not(.active):not(.disabled){border-color:#5B5AE0;color:#5B5AE0}
 .page-btn.disabled{opacity:0.35;cursor:default;pointer-events:none}
-
-/* 오른쪽 패널 (지도 or 상세정보) */
 .right-panel{flex:1;position:relative;overflow:hidden;display:flex;flex-direction:column}
-
-/* 지도 */
 .map-view{flex:1;position:relative}
 #map{width:100%;height:100%}
-
-/* 상세정보 패널 */
 .detail-panel{display:none;flex:1;overflow-y:auto;background:#fff}
 .detail-panel.show{display:block}
 .detail-panel-inner{padding:20px}
 .detail-back{display:inline-flex;align-items:center;gap:5px;border:1px solid #DDD8FF;border-radius:4px;padding:6px 12px;font-size:13px;color:#5B5AE0;cursor:pointer;margin-bottom:16px;background:#fff;font-family:'Noto Sans KR',sans-serif}
 .detail-back:hover{background:#f5f5f5}
-.detail-badge{display:inline-block;background:#e8f5ee;color:#085041;font-size:12px;padding:3px 10px;border-radius:3px;margin-bottom:8px}
+.detail-badge{display:inline-block;background:#EEF2FF;color:#5B5AE0;font-size:12px;padding:3px 10px;border-radius:3px;margin-bottom:8px}
 .detail-name{font-size:20px;font-weight:600;color:#222;margin-bottom:16px;line-height:1.3}
 .detail-section{margin-bottom:20px}
 .detail-section h3{font-size:14px;font-weight:600;color:#5B5AE0;margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid #DDD8FF}
@@ -101,7 +57,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .info-item .lbl{font-size:11px;color:#888;margin-bottom:3px}
 .info-item .val{font-size:13px;font-weight:500;color:#222;line-height:1.4}
 .staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
-.staff-item{background:#f8fffe;border:1px solid #e8f5ee;border-radius:4px;padding:8px;text-align:center}
+.staff-item{background:#F5F5FF;border:1px solid #DDD8FF;border-radius:4px;padding:8px;text-align:center}
 .staff-num{font-size:18px;font-weight:600;color:#5B5AE0}
 .staff-name{font-size:11px;color:#888;margin-top:2px}
 .cap-bar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
@@ -112,31 +68,9 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .info-table th{background:#EEF2FF;color:#5B5AE0;padding:7px 10px;text-align:left;font-weight:600;border-bottom:1px solid #DDD8FF}
 .info-table td{padding:7px 10px;border-bottom:1px solid #f5f5f5;color:#555}
 #detailMap{width:100%;height:220px;border-radius:6px;border:1px solid #ddd;margin-top:10px}
-
-/* 계산기 패널 */
-.calc-panel{display:none;flex:1;overflow-y:auto;background:#fff}
-.calc-panel.show{display:block}
-.calc-panel-inner{padding:20px}
-.calc-back{display:inline-flex;align-items:center;gap:5px;border:1px solid #ddd;border-radius:4px;padding:6px 12px;font-size:13px;color:#555;cursor:pointer;margin-bottom:16px;background:#fff;font-family:'Noto Sans KR',sans-serif}
-.calc-back:hover{background:#f5f5f5}
-
-/* 우 사이드바 */
-.sidebar-right{width:160px;flex-shrink:0;background:#F5F5FF;border-left:1px solid #DDD8FF;padding:12px;display:flex;flex-direction:column;gap:8px
-.ad-label{font-size:11px;color:#bbb;text-align:center}
-.ad-block{background:#fff;border:1px solid #e0e0e0;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:11px;text-align:center}
-.ad-block-lg{height:280px}
-.ad-block-md{height:120px}
-
-/* 공통 */
 .loading-msg{text-align:center;padding:40px;color:#5B5AE0;font-size:14px}
-.empty-state{text-align:center;padding:40px 16px;color:#bbb;font-size:14px;line-height:2}
-
-/* 반응형 */
-@media(max-width:1024px){.sidebar-right{display:none}}
+.empty-state{text-align:center;padding:60px 32px;color:#bbb;font-size:14px;line-height:2}
 @media(max-width:768px){
-  .sidebar-left{display:none}
-  .nav-links a:not(.active){display:none}
-  .nav-right{display:none}
   .content-area{flex-direction:column}
   .list-area{width:100%;height:40vh;border-right:none;border-bottom:1px solid #eee}
   .right-panel{height:60vh}
@@ -144,6 +78,8 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
   .staff-grid{grid-template-columns:repeat(2,1fr)}
   .three-col{height:auto;flex-direction:column}
   .main-center{height:auto}
+  .search-inputs{flex-direction:column}
+  .search-inputs select{min-width:100%}
 }
 </style>
 <link rel="stylesheet" href="/common.css">
@@ -174,19 +110,17 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
         <option value="48">경상남도</option>
         <option value="50">제주특별자치도</option>
       </select>
-      <select id="sigungu" onchange="loadDong()"><option value="">시/군/구 선택</option></select>
-      <select id="dongFilter" onchange="filterAndDisplay()"><option value="">읍/면/동 전체</option></select>
-      <input type="text" id="nameSearch" placeholder="기관명 검색" onkeydown="if(event.key==='Enter')searchInstitutions()">
+      <select id="sigungu"><option value="">시/군/구 선택</option></select>
+      <select id="typeFilter">
+        <option value="">전체</option>
+        <option value="A">요양시설</option>
+        <option value="B03,C03,003">주간보호</option>
+        <option value="B01,C01,001">방문요양</option>
+        <option value="B02,C02,002">방문목욕</option>
+        <option value="B06,C06,006">복지용구</option>
+        <option value="G,M,H,I,S">치매전담</option>
+      </select>
       <button class="search-btn" onclick="searchInstitutions()">검색</button>
-    </div>
-    <div class="search-tabs">
-      <button class="tab-btn active" onclick="setTab(this,'')">전체</button>
-      <button class="tab-btn" onclick="setTab(this,'A')">요양시설</button>
-      <button class="tab-btn" onclick="setTab(this,'B03,C03')">주간보호</button>
-      <button class="tab-btn" onclick="setTab(this,'B01,C01')">방문요양</button>
-      <button class="tab-btn" onclick="setTab(this,'B02,C02')">방문목욕</button>
-      <button class="tab-btn" onclick="setTab(this,'B06,C06')">복지용구</button>
-      <button class="tab-btn" onclick="setTab(this,'G,M,H,I,S')">치매전담</button>
     </div>
   </div>
 
@@ -201,7 +135,6 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
           </select>
         </div>
       </div>
-
       <div class="content-area">
         <div class="list-area">
           <div class="list-scroll" id="inst-list">
@@ -209,11 +142,8 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
           </div>
           <div class="pagination" id="pagination"></div>
         </div>
-
         <div class="right-panel">
-          <div class="map-view" id="mapView">
-            <div id="map"></div>
-          </div>
+          <div class="map-view" id="mapView"><div id="map"></div></div>
           <div class="detail-panel" id="detailPanel">
             <div class="detail-panel-inner">
               <button class="detail-back" onclick="showMap()">← 지도로 돌아가기</button>
@@ -221,482 +151,64 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
               <div id="detailMap"></div>
             </div>
           </div>
-          <div class="calc-panel" id="calcPanel">
-            <div class="calc-panel-inner">
-              <button class="calc-back" onclick="showMap()">← 돌아가기</button>
-              <div id="calcContent"></div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
 <script>
-var map=null,geocoder=null,markers=[],allItems=[],detailMap=null,currentPage=1,pageSize=10,currentType='';
+/* ── 전역 변수 ── */
+var map=null,markers=[],allItems=[],detailMap=null,currentPage=1,pageSize=10,currentType='';
 
-var sigunguData = {
-  // 서울특별시
-  '11': [
-    {code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},
-    {code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},
-    {code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},
-    {code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},
-    {code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},
-    {code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},
-    {code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},
-    {code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},
-    {code:'740',name:'강동구'}
-  ],
-  // 부산광역시
-  '26': [
-    {code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},
-    {code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},
-    {code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},
-    {code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},
-    {code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},
-    {code:'710',name:'기장군'}
-  ],
-  // 대구광역시 (군위군 2023년 편입)
-  '27': [
-    {code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},
-    {code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},
-    {code:'290',name:'달서구'},{code:'710',name:'달성군'},{code:'720',name:'군위군'}
-  ],
-  // 인천광역시
-  '28': [
-    {code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},
-    {code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},
-    {code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},
-    {code:'720',name:'옹진군'}
-  ],
-  // 광주광역시
-  '29': [
-    {code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},
-    {code:'200',name:'북구'},{code:'230',name:'광산구'}
-  ],
-  // 대전광역시
-  '30': [
-    {code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},
-    {code:'200',name:'유성구'},{code:'230',name:'대덕구'}
-  ],
-  // 울산광역시
-  '31': [
-    {code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},
-    {code:'200',name:'북구'},{code:'710',name:'울주군'}
-  ],
-  // 세종특별자치시
-  '36': [
-    {code:'110',name:'세종시'}
-  ],
-  // 경기도
-  '41': [
-    {code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},
-    {code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},
-    {code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},
-    {code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},
-    {code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},
-    {code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},
-    {code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},
-    {code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},
-    {code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},
-    {code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},
-    {code:'830',name:'양평군'}
-  ],
-  // 강원특별자치도
-  '42': [
-    {code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},
-    {code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},
-    {code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},
-    {code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},
-    {code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},
-    {code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}
-  ],
-  // 충청북도
-  '43': [
-    {code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},
-    {code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},
-    {code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},
-    {code:'800',name:'음성군'},{code:'820',name:'단양군'}
-  ],
-  // 충청남도
-  '44': [
-    {code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},
-    {code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},
-    {code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},
-    {code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},
-    {code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}
-  ],
-  // 전북특별자치도
-  '45': [
-    {code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},
-    {code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},
-    {code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},
-    {code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},
-    {code:'790',name:'고창군'},{code:'800',name:'부안군'}
-  ],
-  // 전라남도
-  '46': [
-    {code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},
-    {code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},
-    {code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},
-    {code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},
-    {code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},
-    {code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},
-    {code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},
-    {code:'910',name:'신안군'}
-  ],
-  // 경상북도 (군위군 대구 편입으로 제거)
-  '47': [
-    {code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},
-    {code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},
-    {code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},
-    {code:'290',name:'경산시'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},
-    {code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},
-    {code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},
-    {code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},
-    {code:'850',name:'울릉군'}
-  ],
-  // 경상남도
-  '48': [
-    {code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},
-    {code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},
-    {code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},
-    {code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},
-    {code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},
-    {code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}
-  ],
-  // 제주특별자치도
-  '50': [
-    {code:'110',name:'제주시'},{code:'130',name:'서귀포시'}
-  ]
-};
- 
-// ── 3. detail.js sidoNm + sigunguNm 교체용 ──────
-var sidoNm = {
-  '11':'서울특별시','26':'부산광역시','27':'대구광역시','28':'인천광역시',
-  '29':'광주광역시','30':'대전광역시','31':'울산광역시','36':'세종특별자치시',
-  '41':'경기도','42':'강원특별자치도','43':'충청북도','44':'충청남도',
-  '45':'전북특별자치도','46':'전라남도','47':'경상북도','48':'경상남도',
-  '50':'제주특별자치도'
-};
- 
-var sigunguNm = {
-  // 서울
-  '11110':'종로구','11140':'중구','11170':'용산구','11200':'성동구','11215':'광진구',
-  '11230':'동대문구','11260':'중랑구','11290':'성북구','11305':'강북구','11320':'도봉구',
-  '11350':'노원구','11380':'은평구','11410':'서대문구','11440':'마포구','11470':'양천구',
-  '11500':'강서구','11530':'구로구','11545':'금천구','11560':'영등포구','11590':'동작구',
-  '11620':'관악구','11650':'서초구','11680':'강남구','11710':'송파구','11740':'강동구',
-  // 부산
-  '26110':'중구','26140':'서구','26170':'동구','26200':'영도구','26230':'부산진구',
-  '26260':'동래구','26290':'남구','26320':'북구','26350':'해운대구','26380':'사하구',
-  '26410':'금정구','26440':'강서구','26470':'연제구','26500':'수영구','26530':'사상구',
-  '26710':'기장군',
-  // 대구
-  '27110':'중구','27140':'동구','27170':'서구','27200':'남구','27230':'북구',
-  '27260':'수성구','27290':'달서구','27710':'달성군','27720':'군위군',
-  // 인천
-  '28110':'중구','28140':'동구','28177':'미추홀구','28185':'연수구','28200':'남동구',
-  '28237':'부평구','28245':'계양구','28260':'서구','28710':'강화군','28720':'옹진군',
-  // 광주
-  '29110':'동구','29140':'서구','29170':'남구','29200':'북구','29230':'광산구',
-  // 대전
-  '30110':'동구','30140':'중구','30170':'서구','30200':'유성구','30230':'대덕구',
-  // 울산
-  '31110':'중구','31140':'남구','31170':'동구','31200':'북구','31710':'울주군',
-  // 세종
-  '36110':'세종시',
-  // 경기
-  '41111':'수원시','41131':'성남시','41150':'의정부시','41171':'안양시','41192':'부천시',
-  '41210':'광명시','41220':'평택시','41250':'동두천시','41271':'안산시','41281':'고양시',
-  '41290':'과천시','41310':'구리시','41360':'남양주시','41370':'오산시','41390':'시흥시',
-  '41410':'군포시','41430':'의왕시','41450':'하남시','41461':'용인시','41480':'파주시',
-  '41500':'이천시','41510':'안성시','41521':'김포시','41590':'화성시','41610':'광주시',
-  '41630':'양주시','41650':'포천시','41670':'여주시','41800':'연천군','41820':'가평군',
-  '41830':'양평군',
-  // 강원
-  '42110':'춘천시','42130':'원주시','42150':'강릉시','42170':'동해시','42190':'태백시',
-  '42210':'속초시','42230':'삼척시','42720':'홍천군','42730':'횡성군','42750':'영월군',
-  '42760':'평창군','42770':'정선군','42780':'철원군','42790':'화천군','42800':'양구군',
-  '42810':'인제군','42820':'고성군','42830':'양양군',
-  // 충북
-  '43111':'청주시','43130':'충주시','43150':'제천시','43720':'보은군','43730':'옥천군',
-  '43740':'영동군','43745':'증평군','43750':'진천군','43770':'괴산군','43800':'음성군',
-  '43820':'단양군',
-  // 충남
-  '44131':'천안시','44150':'공주시','44180':'보령시','44200':'아산시','44210':'서산시',
-  '44230':'논산시','44250':'계룡시','44270':'당진시','44710':'금산군','44760':'부여군',
-  '44770':'서천군','44790':'청양군','44800':'홍성군','44810':'예산군','44825':'태안군',
-  // 전북
-  '45111':'전주시','45130':'군산시','45140':'익산시','45180':'정읍시','45190':'남원시',
-  '45210':'김제시','45710':'완주군','45720':'진안군','45730':'무주군','45740':'장수군',
-  '45750':'임실군','45770':'순창군','45790':'고창군','45800':'부안군',
-  // 전남
-  '46110':'목포시','46130':'여수시','46150':'순천시','46170':'나주시','46230':'광양시',
-  '46710':'담양군','46720':'곡성군','46730':'구례군','46770':'고흥군','46780':'보성군',
-  '46790':'화순군','46800':'장흥군','46810':'강진군','46820':'해남군','46830':'영암군',
-  '46840':'무안군','46860':'함평군','46870':'영광군','46880':'장성군','46890':'완도군',
-  '46900':'진도군','46910':'신안군',
-  // 경북
-  '47111':'포항시','47130':'경주시','47150':'김천시','47170':'안동시','47190':'구미시',
-  '47210':'영주시','47230':'영천시','47250':'상주시','47280':'문경시','47290':'경산시',
-  '47730':'의성군','47740':'청송군','47750':'영양군','47760':'영덕군','47770':'청도군',
-  '47780':'고령군','47790':'성주군','47800':'칠곡군','47820':'예천군','47830':'봉화군',
-  '47840':'울진군','47850':'울릉군',
-  // 경남
-  '48121':'창원시','48170':'진주시','48220':'통영시','48240':'사천시','48250':'김해시',
-  '48270':'밀양시','48310':'거제시','48330':'양산시','48720':'의령군','48730':'함안군',
-  '48740':'창녕군','48820':'고성군','48840':'남해군','48850':'하동군','48860':'산청군',
-  '48870':'함양군','48880':'거창군','48890':'합천군',
-  // 제주
-  '50110':'제주시','50130':'서귀포시'
-};
+/* ── 시/군/구 데이터 ── */
+var sigunguData={'11':[{code:'110',name:'종로구'},{code:'140',name:'중구'},{code:'170',name:'용산구'},{code:'200',name:'성동구'},{code:'215',name:'광진구'},{code:'230',name:'동대문구'},{code:'260',name:'중랑구'},{code:'290',name:'성북구'},{code:'305',name:'강북구'},{code:'320',name:'도봉구'},{code:'350',name:'노원구'},{code:'380',name:'은평구'},{code:'410',name:'서대문구'},{code:'440',name:'마포구'},{code:'470',name:'양천구'},{code:'500',name:'강서구'},{code:'530',name:'구로구'},{code:'545',name:'금천구'},{code:'560',name:'영등포구'},{code:'590',name:'동작구'},{code:'620',name:'관악구'},{code:'650',name:'서초구'},{code:'680',name:'강남구'},{code:'710',name:'송파구'},{code:'740',name:'강동구'}],'26':[{code:'110',name:'중구'},{code:'140',name:'서구'},{code:'170',name:'동구'},{code:'200',name:'영도구'},{code:'230',name:'부산진구'},{code:'260',name:'동래구'},{code:'290',name:'남구'},{code:'320',name:'북구'},{code:'350',name:'해운대구'},{code:'380',name:'사하구'},{code:'410',name:'금정구'},{code:'440',name:'강서구'},{code:'470',name:'연제구'},{code:'500',name:'수영구'},{code:'530',name:'사상구'},{code:'710',name:'기장군'}],'27':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'170',name:'서구'},{code:'200',name:'남구'},{code:'230',name:'북구'},{code:'260',name:'수성구'},{code:'290',name:'달서구'},{code:'710',name:'달성군'},{code:'720',name:'군위군'}],'28':[{code:'110',name:'중구'},{code:'140',name:'동구'},{code:'177',name:'미추홀구'},{code:'185',name:'연수구'},{code:'200',name:'남동구'},{code:'237',name:'부평구'},{code:'245',name:'계양구'},{code:'260',name:'서구'},{code:'710',name:'강화군'},{code:'720',name:'옹진군'}],'29':[{code:'110',name:'동구'},{code:'140',name:'서구'},{code:'170',name:'남구'},{code:'200',name:'북구'},{code:'230',name:'광산구'}],'30':[{code:'110',name:'동구'},{code:'140',name:'중구'},{code:'170',name:'서구'},{code:'200',name:'유성구'},{code:'230',name:'대덕구'}],'31':[{code:'110',name:'중구'},{code:'140',name:'남구'},{code:'170',name:'동구'},{code:'200',name:'북구'},{code:'710',name:'울주군'}],'36':[{code:'110',name:'세종시'}],'41':[{code:'111',name:'수원시'},{code:'131',name:'성남시'},{code:'150',name:'의정부시'},{code:'171',name:'안양시'},{code:'192',name:'부천시'},{code:'210',name:'광명시'},{code:'220',name:'평택시'},{code:'250',name:'동두천시'},{code:'271',name:'안산시'},{code:'281',name:'고양시'},{code:'290',name:'과천시'},{code:'310',name:'구리시'},{code:'360',name:'남양주시'},{code:'370',name:'오산시'},{code:'390',name:'시흥시'},{code:'410',name:'군포시'},{code:'430',name:'의왕시'},{code:'450',name:'하남시'},{code:'461',name:'용인시'},{code:'480',name:'파주시'},{code:'500',name:'이천시'},{code:'510',name:'안성시'},{code:'521',name:'김포시'},{code:'590',name:'화성시'},{code:'610',name:'광주시'},{code:'630',name:'양주시'},{code:'650',name:'포천시'},{code:'670',name:'여주시'},{code:'800',name:'연천군'},{code:'820',name:'가평군'},{code:'830',name:'양평군'}],'42':[{code:'110',name:'춘천시'},{code:'130',name:'원주시'},{code:'150',name:'강릉시'},{code:'170',name:'동해시'},{code:'190',name:'태백시'},{code:'210',name:'속초시'},{code:'230',name:'삼척시'},{code:'720',name:'홍천군'},{code:'730',name:'횡성군'},{code:'750',name:'영월군'},{code:'760',name:'평창군'},{code:'770',name:'정선군'},{code:'780',name:'철원군'},{code:'790',name:'화천군'},{code:'800',name:'양구군'},{code:'810',name:'인제군'},{code:'820',name:'고성군'},{code:'830',name:'양양군'}],'43':[{code:'111',name:'청주시'},{code:'130',name:'충주시'},{code:'150',name:'제천시'},{code:'720',name:'보은군'},{code:'730',name:'옥천군'},{code:'740',name:'영동군'},{code:'745',name:'증평군'},{code:'750',name:'진천군'},{code:'770',name:'괴산군'},{code:'800',name:'음성군'},{code:'820',name:'단양군'}],'44':[{code:'131',name:'천안시'},{code:'150',name:'공주시'},{code:'180',name:'보령시'},{code:'200',name:'아산시'},{code:'210',name:'서산시'},{code:'230',name:'논산시'},{code:'250',name:'계룡시'},{code:'270',name:'당진시'},{code:'710',name:'금산군'},{code:'760',name:'부여군'},{code:'770',name:'서천군'},{code:'790',name:'청양군'},{code:'800',name:'홍성군'},{code:'810',name:'예산군'},{code:'825',name:'태안군'}],'45':[{code:'111',name:'전주시'},{code:'130',name:'군산시'},{code:'140',name:'익산시'},{code:'180',name:'정읍시'},{code:'190',name:'남원시'},{code:'210',name:'김제시'},{code:'710',name:'완주군'},{code:'720',name:'진안군'},{code:'730',name:'무주군'},{code:'740',name:'장수군'},{code:'750',name:'임실군'},{code:'770',name:'순창군'},{code:'790',name:'고창군'},{code:'800',name:'부안군'}],'46':[{code:'110',name:'목포시'},{code:'130',name:'여수시'},{code:'150',name:'순천시'},{code:'170',name:'나주시'},{code:'230',name:'광양시'},{code:'710',name:'담양군'},{code:'720',name:'곡성군'},{code:'730',name:'구례군'},{code:'770',name:'고흥군'},{code:'780',name:'보성군'},{code:'790',name:'화순군'},{code:'800',name:'장흥군'},{code:'810',name:'강진군'},{code:'820',name:'해남군'},{code:'830',name:'영암군'},{code:'840',name:'무안군'},{code:'860',name:'함평군'},{code:'870',name:'영광군'},{code:'880',name:'장성군'},{code:'890',name:'완도군'},{code:'900',name:'진도군'},{code:'910',name:'신안군'}],'47':[{code:'111',name:'포항시'},{code:'130',name:'경주시'},{code:'150',name:'김천시'},{code:'170',name:'안동시'},{code:'190',name:'구미시'},{code:'210',name:'영주시'},{code:'230',name:'영천시'},{code:'250',name:'상주시'},{code:'280',name:'문경시'},{code:'290',name:'경산시'},{code:'730',name:'의성군'},{code:'740',name:'청송군'},{code:'750',name:'영양군'},{code:'760',name:'영덕군'},{code:'770',name:'청도군'},{code:'780',name:'고령군'},{code:'790',name:'성주군'},{code:'800',name:'칠곡군'},{code:'820',name:'예천군'},{code:'830',name:'봉화군'},{code:'840',name:'울진군'},{code:'850',name:'울릉군'}],'48':[{code:'121',name:'창원시'},{code:'170',name:'진주시'},{code:'220',name:'통영시'},{code:'240',name:'사천시'},{code:'250',name:'김해시'},{code:'270',name:'밀양시'},{code:'310',name:'거제시'},{code:'330',name:'양산시'},{code:'720',name:'의령군'},{code:'730',name:'함안군'},{code:'740',name:'창녕군'},{code:'820',name:'고성군'},{code:'840',name:'남해군'},{code:'850',name:'하동군'},{code:'860',name:'산청군'},{code:'870',name:'함양군'},{code:'880',name:'거창군'},{code:'890',name:'합천군'}],'50':[{code:'110',name:'제주시'},{code:'130',name:'서귀포시'}]};
 
-var typeNames={'A01':'노인요양시설','A02':'노인전문요양시설','A03':'노인요양시설','A04':'노인요양공동생활가정','A05':'노인요양시설','AAA':'입소시설','B01':'방문요양','B02':'방문목욕','B03':'주간보호','B04':'단기보호','B05':'방문간호','B06':'복지용구','C01':'방문요양','C02':'방문목욕','C03':'주간보호','C04':'단기보호','C05':'방문간호','C06':'복지용구','Z01':'기타','S41':'치매전담형','001':'방문요양','002':'방문목욕','003':'주간보호','004':'단기보호','005':'방문간호','006':'복지용구'};
-
+var typeNames={'A01':'노인요양시설','A02':'노인요양공동생활가정','A03':'노인요양시설','A04':'노인요양공동생활가정','B01':'방문요양','B02':'방문목욕','B03':'주간보호','B04':'단기보호','B05':'방문간호','B06':'복지용구','C01':'방문요양','C02':'방문목욕','C03':'주간보호','C04':'단기보호','C05':'방문간호','C06':'복지용구','001':'방문요양','002':'방문목욕','003':'주간보호','004':'단기보호','005':'방문간호','006':'복지용구'};
 function getTypeName(cd){if(typeNames[cd])return typeNames[cd];if(cd&&(cd[0]==='G'||cd[0]==='M'))return '치매전담실';if(cd&&(cd[0]==='H'||cd[0]==='I'))return '주간보호 치매전담';return cd||'기관';}
 
+/* ── URL 파라미터 자동 검색 ── */
 window.addEventListener('DOMContentLoaded',function(){
   var params=new URLSearchParams(window.location.search);
   var sidoCd=params.get('sidoCd');
   var sigunguCd=params.get('sigunguCd');
   var type=params.get('type');
   if(sidoCd){
-    var sido=document.getElementById('sido');
-    sido.value=sidoCd;
+    document.getElementById('sido').value=sidoCd;
     loadSigungu();
-    if(sigunguCd){
-      setTimeout(function(){
-        document.getElementById('sigungu').value=sigunguCd;
-      },100);
-    }
-    if(type){
-      currentType=type;
-      document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
-      document.querySelectorAll('.tab-btn').forEach(function(b){
-        if(b.getAttribute('onclick')&&b.getAttribute('onclick').includes("'"+type+"'")){b.classList.add('active');}
-      });
-    }
+    if(sigunguCd)setTimeout(function(){document.getElementById('sigungu').value=sigunguCd;},100);
+    if(type){currentType=type;document.getElementById('typeFilter').value=type;}
     setTimeout(function(){searchInstitutions();},500);
   }
 });
 
+/* ── 지도 초기화 ── */
 function initMap(){
-  var container=document.getElementById('map');
-  map=new kakao.maps.Map(container,{
-    center:new kakao.maps.LatLng(37.5663,126.9779),
-    level:8
-  });
-  geocoder=new kakao.maps.services.Geocoder();
+  map=new kakao.maps.Map(document.getElementById('map'),{center:new kakao.maps.LatLng(37.5663,126.9779),level:8});
   setTimeout(function(){map.relayout();},300);
 }
 
 function showMap(){
   document.getElementById('mapView').style.display='';
   document.getElementById('detailPanel').classList.remove('show');
-  document.getElementById('calcPanel').classList.remove('show');
   if(map)setTimeout(function(){map.relayout();},100);
 }
 
 function showDetail(){
   document.getElementById('mapView').style.display='none';
   document.getElementById('detailPanel').classList.add('show');
-  document.getElementById('calcPanel').classList.remove('show');
 }
 
-function showCalc(type){
-  document.getElementById('mapView').style.display='none';
-  document.getElementById('detailPanel').classList.remove('show');
-  document.getElementById('calcPanel').classList.add('show');
-  document.querySelectorAll('.side-item').forEach(function(b){b.classList.remove('active');});
-  renderCalc(type);
-}
-
-function renderCalc(type){
-  var h='';
-  if(type==='재가급여'){
-    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:16px">재가급여 간편 계산</h2>';
-    h+='<div style="background:#f0faf5;border-radius:6px;padding:16px;margin-bottom:16px;font-size:13px;color:#555;line-height:1.7">';
-    h+='재가급여는 등급에 따라 월 한도액이 정해지며, 본인부담금은 소득수준에 따라 다릅니다.<br>';
-    h+='<strong style="color:#1D9E75">일반: 15% / 경감1: 9% / 경감2: 6% / 의료급여: 0%</strong></div>';
-    h+='<div style="margin-bottom:12px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">장기요양 등급</label>';
-    h+='<select id="calcGrade" onchange="calcReGa()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
-    h+='<option value="">등급 선택</option>';
-    h+='<option value="1">1등급 (2,306,550원)</option>';
-    h+='<option value="2">2등급 (2,143,240원)</option>';
-    h+='<option value="3">3등급 (1,712,580원)</option>';
-    h+='<option value="4">4등급 (1,572,880원)</option>';
-    h+='<option value="5">5등급 (1,352,900원)</option>';
-    h+='<option value="6">인지지원등급 (694,200원)</option>';
-    h+='</select></div>';
-    h+='<div style="margin-bottom:16px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">본인부담률</label>';
-    h+='<select id="calcRate" onchange="calcReGa()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
-    h+='<option value="0.15">일반 (15%)</option>';
-    h+='<option value="0.09">경감 1 (9%)</option>';
-    h+='<option value="0.06">경감 2 (6%)</option>';
-    h+='<option value="0">의료급여 (0%)</option>';
-    h+='</select></div>';
-    h+='<div id="calcResult" style="background:#1D9E75;border-radius:6px;padding:16px;text-align:center;display:none">';
-    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:6px">월 본인부담금 (예상)</div>';
-    h+='<div id="calcResultNum" style="color:#fff;font-size:28px;font-weight:600"></div>';
-    h+='<div style="color:rgba(255,255,255,0.7);font-size:12px;margin-top:6px">* 실제 이용금액에 따라 달라질 수 있어요</div>';
-    h+='</div>';
-  } else if(type==='시설급여'){
-    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:16px">시설급여 간편 계산</h2>';
-    h+='<div style="background:#f0faf5;border-radius:6px;padding:16px;margin-bottom:16px;font-size:13px;color:#555;line-height:1.7">';
-    h+='시설급여는 요양원 입소 시 적용되며 1~2등급 또는 등급외자(치매특별등급)가 대상입니다.<br>';
-    h+='<strong style="color:#1D9E75">일반: 20% / 경감1: 12% / 경감2: 8% / 의료급여: 0%</strong></div>';
-    h+='<div style="margin-bottom:12px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">장기요양 등급</label>';
-    h+='<select id="calcGrade2" onchange="calcSiSeol()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
-    h+='<option value="">등급 선택</option>';
-    h+='<option value="1">1등급 (74,390원/일)</option>';
-    h+='<option value="2">2등급 (69,060원/일)</option>';
-    h+='<option value="3">3~5등급 (63,740원/일)</option>';
-    h+='</select></div>';
-    h+='<div style="margin-bottom:16px"><label style="font-size:13px;color:#555;display:block;margin-bottom:6px">본인부담률</label>';
-    h+='<select id="calcRate2" onchange="calcSiSeol()" style="height:36px;width:100%;border:1px solid #ddd;border-radius:4px;font-size:14px;padding:0 10px;font-family:\'Noto Sans KR\',sans-serif">';
-    h+='<option value="0.20">일반 (20%)</option>';
-    h+='<option value="0.12">경감 1 (12%)</option>';
-    h+='<option value="0.08">경감 2 (8%)</option>';
-    h+='<option value="0">의료급여 (0%)</option>';
-    h+='</select></div>';
-    h+='<div id="calcResult2" style="background:#1D9E75;border-radius:6px;padding:16px;text-align:center;display:none">';
-    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:6px">월 본인부담금 (예상 30일 기준)</div>';
-    h+='<div id="calcResultNum2" style="color:#fff;font-size:28px;font-weight:600"></div>';
-    h+='<div style="color:rgba(255,255,255,0.7);font-size:12px;margin-top:6px">* 식재료비 등 비급여 항목은 별도</div>';
-    h+='</div>';
-  } else if(type==='등급예상'){
-    h='<h2 style="font-size:18px;font-weight:600;color:#222;margin-bottom:8px">장기요양등급 예상점수 계산</h2>';
-    h+='<div style="background:#fef3c7;border-radius:6px;padding:12px;margin-bottom:16px;font-size:12px;color:#92400e;line-height:1.6">';
-    h+='⚠️ 이 계산기는 참고용입니다. 실제 등급은 공단 조사원의 방문 조사로 결정됩니다.</div>';
-    h+='<div style="font-size:13px;color:#555;margin-bottom:12px">주요 항목을 체크하면 예상 점수를 계산해드립니다.</div>';
-
-    var items=[
-      {cat:'신체기능',items:[
-        {name:'혼자 옷 입기 어려움',score:5.5},
-        {name:'혼자 세수하기 어려움',score:3.5},
-        {name:'혼자 목욕하기 어려움',score:7.5},
-        {name:'혼자 식사하기 어려움',score:8.5},
-        {name:'혼자 체위변경 어려움',score:9.5},
-        {name:'혼자 일어나 앉기 어려움',score:7.0},
-        {name:'혼자 옮겨 앉기 어려움',score:8.0},
-        {name:'혼자 화장실 사용 어려움',score:8.5},
-        {name:'대변 조절 어려움',score:9.0},
-        {name:'소변 조절 어려움',score:8.0},
-      ]},
-      {cat:'인지기능',items:[
-        {name:'단기 기억장애',score:6.5},
-        {name:'날짜/요일 모름',score:5.0},
-        {name:'장소 파악 어려움',score:6.0},
-        {name:'지시 이해 어려움',score:7.0},
-        {name:'의사소통 어려움',score:7.5},
-      ]},
-      {cat:'행동변화',items:[
-        {name:'망상/환각 증상',score:5.0},
-        {name:'서성거림/배회',score:4.5},
-        {name:'수면장애',score:3.5},
-        {name:'도움에 저항',score:4.0},
-        {name:'폭언/폭력 행동',score:5.5},
-      ]},
-      {cat:'간호처치',items:[
-        {name:'욕창 간호 필요',score:9.0},
-        {name:'경관영양 필요',score:8.5},
-        {name:'산소요법 필요',score:8.0},
-        {name:'흡인 필요',score:9.5},
-      ]},
-    ];
-
-    h+='<form id="gradeForm">';
-    items.forEach(function(cat){
-      h+='<div style="margin-bottom:14px">';
-      h+='<div style="font-size:13px;font-weight:600;color:#1D9E75;margin-bottom:8px;padding:4px 0;border-bottom:1px solid #e8f5ee">'+cat.cat+'</div>';
-      cat.items.forEach(function(item,i){
-        h+='<label style="display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px;color:#444;cursor:pointer">';
-        h+='<input type="checkbox" onchange="calcGrade()" value="'+item.score+'" style="width:16px;height:16px;accent-color:#1D9E75">';
-        h+=item.name+'</label>';
-      });
-      h+='</div>';
-    });
-    h+='</form>';
-    h+='<div id="gradeResult" style="position:sticky;bottom:0;background:#1D9E75;border-radius:6px;padding:16px;text-align:center;margin-top:8px">';
-    h+='<div style="color:rgba(255,255,255,0.8);font-size:13px;margin-bottom:4px">예상 점수</div>';
-    h+='<div id="gradeScore" style="color:#fff;font-size:32px;font-weight:600">0점</div>';
-    h+='<div id="gradeLevel" style="color:rgba(255,255,255,0.9);font-size:14px;margin-top:6px;font-weight:500">등급외 (요양 대상 아님)</div>';
-    h+='<div style="color:rgba(255,255,255,0.6);font-size:11px;margin-top:4px">* 실제 등급과 다를 수 있습니다</div>';
-    h+='</div>';
-  }
-  document.getElementById('calcContent').innerHTML=h;
-}
-
-function calcReGa(){
-  var gradeVals={'1':2306550,'2':2143240,'3':1712580,'4':1572880,'5':1352900,'6':694200};
-  var grade=document.getElementById('calcGrade').value;
-  var rate=parseFloat(document.getElementById('calcRate').value);
-  if(!grade)return;
-  var limit=gradeVals[grade];
-  var amount=Math.round(limit*rate);
-  document.getElementById('calcResult').style.display='block';
-  document.getElementById('calcResultNum').textContent=amount.toLocaleString()+'원';
-}
-
-function calcSiSeol(){
-  var gradeVals={'1':74390,'2':69060,'3':63740};
-  var grade=document.getElementById('calcGrade2').value;
-  var rate=parseFloat(document.getElementById('calcRate2').value);
-  if(!grade)return;
-  var daily=gradeVals[grade];
-  var amount=Math.round(daily*30*rate);
-  document.getElementById('calcResult2').style.display='block';
-  document.getElementById('calcResultNum2').textContent=amount.toLocaleString()+'원';
-}
-
-function calcGrade(){
-  var total=0;
-  document.querySelectorAll('#gradeForm input[type=checkbox]:checked').forEach(function(cb){
-    total+=parseFloat(cb.value);
-  });
-  total=Math.min(total,100);
-  document.getElementById('gradeScore').textContent=total.toFixed(1)+'점';
-  var level='';
-  if(total>=95)level='1등급 예상';
-  else if(total>=75)level='2등급 예상';
-  else if(total>=60)level='3등급 예상';
-  else if(total>=51)level='4등급 예상';
-  else if(total>=45)level='5등급 예상 (치매 진단 필요)';
-  else level='등급외 (요양 대상 아님)';
-  document.getElementById('gradeLevel').textContent=level;
-}
-
+/* ── 시/군/구 로드 ── */
 function loadSigungu(){
   var v=document.getElementById('sido').value;
   var s=document.getElementById('sigungu');
   s.innerHTML='<option value="">시/군/구 선택</option>';
-  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   if(!v||!sigunguData[v])return;
   sigunguData[v].forEach(function(i){var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o);});
 }
 
-function loadDong(){
-  var sido=document.getElementById('sido').value;
-  var sigungu=document.getElementById('sigungu').value;
-  var sel=document.getElementById('dongFilter');
-  sel.innerHTML='<option value="">읍/면/동 전체</option>';
-  if(!sido||!sigungu)return;
-  var key=sido+sigungu;
-  var dongs=dongData[key]||[];
-  dongs.forEach(function(d){
-    var o=document.createElement('option');
-    o.value=d;o.textContent=d;
-    sel.appendChild(o);
-  });
-}
-
-function setTab(el,type){
-  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
-  el.classList.add('active');
-  currentType=type;
-  if(allItems.length>0){currentPage=1;filterAndDisplay();}
-}
-
+/* ── 검색 (JSON 로드) ── */
 function searchInstitutions(){
   var sido=document.getElementById('sido');
   var sigungu=document.getElementById('sigungu');
@@ -707,35 +219,42 @@ function searchInstitutions(){
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
   document.getElementById('pagination').innerHTML='';
   showMap();
-  var url='/data/'+sido.value+'/'+sigungu.value+'.json';
-  fetch(url).then(function(r){if(!r.ok)throw new Error('없음');return r.json();}).then(function(data){
-    allItems=data||[];
-    currentPage=1;
-    if(allItems.length===0){
-      document.getElementById('list-count').textContent='검색 결과 없음';
-      document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
-      return;
-    }
-    filterAndDisplay();
-  }).catch(function(){
-    document.getElementById('list-count').textContent='데이터 준비 중';
-    document.getElementById('inst-list').innerHTML='<div class="empty-state">해당 지역 데이터가 아직 준비되지 않았습니다</div>';
-  });
+  fetch('/data/'+sido.value+'/'+sigungu.value+'.json')
+    .then(function(r){if(!r.ok)throw new Error('없음');return r.json();})
+    .then(function(data){
+      allItems=data||[];
+      currentPage=1;
+      if(allItems.length===0){
+        document.getElementById('list-count').textContent='검색 결과 없음';
+        document.getElementById('inst-list').innerHTML='<div class="empty-state">검색 결과가 없습니다</div>';
+        return;
+      }
+      filterAndDisplay();
+    })
+    .catch(function(){
+      document.getElementById('list-count').textContent='데이터 준비 중';
+      document.getElementById('inst-list').innerHTML='<div class="empty-state">해당 지역 데이터가 아직 준비되지 않았습니다.<br>현재 경기도만 지원됩니다.</div>';
+    });
 }
 
-
-
+/* ── 필터링 ── */
 function getFiltered(){
   var sortVal=document.getElementById('sortOrder').value;
   var filtered=allItems.slice();
-  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){
-    if(i.typeCodes&&i.typeCodes.length>0){return i.typeCodes.some(function(tc){return types.some(function(t){return tc.startsWith(t);});});}
-    return false;
-  });}
-  if(sortVal==='name'){filtered.sort(function(a,b){return (a.name||'').localeCompare(b.name||'','ko');});}
+  if(currentType){
+    var types=currentType.split(',');
+    filtered=filtered.filter(function(i){
+      if(i.typeCodes&&i.typeCodes.length>0){
+        return i.typeCodes.some(function(tc){return types.some(function(t){return tc.startsWith(t);});});
+      }
+      return false;
+    });
+  }
+  if(sortVal==='name')filtered.sort(function(a,b){return (a.name||'').localeCompare(b.name||'','ko');});
   return filtered;
 }
 
+/* ── 목록 표시 + 지도 마커 ── */
 function filterAndDisplay(){
   var sido=document.getElementById('sido');
   var sigungu=document.getElementById('sigungu');
@@ -746,111 +265,198 @@ function filterAndDisplay(){
   if(currentPage>totalPages&&totalPages>0)currentPage=1;
   var start=(currentPage-1)*pageSize;
   var pageItems=filtered.slice(start,start+pageSize);
+
   document.getElementById('list-count').innerHTML=sidoName+' '+sigunguName+' '+(filtered.length>0?'<strong>'+filtered.length+'곳</strong>':'검색 결과 없음');
+
+  // 기존 마커 제거
   clearMarkers();
+
   var html='';
+  var bounds=new kakao.maps.LatLngBounds();
+  var hasMarker=false;
+
   pageItems.forEach(function(inst,idx){
-    var sym=inst.sym;var type=(inst.typeCodes&&inst.typeCodes[0])||'';var name=inst.name;
-    var badges=inst.types&&inst.types.length>0?inst.types.map(function(t){return '<span class="inst-badge">'+t+'</span>';}).join(' '):'<span class="inst-badge">'+getTypeName(type)+'</span>';
-    html+='<div class="inst-card" id="card-'+sym+'" onclick="selectInst(\''+sym+'\')">'+badges+'<div class="inst-name">'+name+'</div>'+(inst.address?'<div class="inst-addr">\u{1F4CD} '+inst.address+'</div>':(inst.emdNm?'<div class="inst-addr">\u{1F4CD} '+sidoName+' '+sigunguName+' '+inst.emdNm+'</div>':''))+'</div>';
-    if(idx===4)html+='<div class="ad-slot-list">광고</div>';
-    if(inst.lat&&inst.lng&&map){
-      (function(lat,lng,nm,s){
-        var pos=new kakao.maps.LatLng(lat,lng);
-        var marker=new kakao.maps.Marker({map:map,position:pos,title:nm});
-        kakao.maps.event.addListener(marker,'click',function(){selectInst(s);map.setCenter(pos);map.setLevel(4);});
-        markers.push(marker);
-      })(inst.lat,inst.lng,name,sym);
+    var sym=inst.sym;
+    var name=inst.name;
+    var badges=inst.types&&inst.types.length>0
+      ? inst.types.map(function(t){return '<span class="inst-badge">'+t+'</span>';}).join('')
+      : '<span class="inst-badge">'+getTypeName((inst.typeCodes&&inst.typeCodes[0])||'')+'</span>';
+
+    html+='<div class="inst-card" id="card-'+sym+'" onclick="selectInst(\''+sym+'\')">'+
+      badges+
+      '<div class="inst-name">'+name+'</div>'+
+      (inst.address ? '<div class="inst-addr">\uD83D\uDCCD '+inst.address+'</div>' : '')+
+      '</div>';
+
+    if(idx===4) html+='<div class="ad-slot-list">광고</div>';
+
+    // 지도 마커 생성
+    if(inst.lat && inst.lng && map){
+      var pos=new kakao.maps.LatLng(inst.lat, inst.lng);
+      var marker=new kakao.maps.Marker({map:map, position:pos, title:name});
+      kakao.maps.event.addListener(marker,'click',(function(s,p){
+        return function(){selectInst(s);map.setCenter(p);map.setLevel(4);};
+      })(sym,pos));
+      markers.push(marker);
+      bounds.extend(pos);
+      hasMarker=true;
     }
   });
-  if(markers.length>0&&map){var bounds=new kakao.maps.LatLngBounds();markers.forEach(function(m){bounds.extend(m.getPosition());});map.setBounds(bounds);}
+
+  // 지도 범위 자동 조정
+  if(hasMarker && map){
+    map.setBounds(bounds);
+    if(pageItems.length===1) map.setLevel(4);
+  }
+
   document.getElementById('inst-list').innerHTML=html||'<div class="empty-state">조건에 맞는 기관이 없습니다</div>';
   renderPagination(totalPages);
 }
 
+/* ── 페이지네이션 ── */
 function renderPagination(totalPages){
   if(totalPages<=1){document.getElementById('pagination').innerHTML='';return;}
   var html='<div class="page-btn'+(currentPage===1?' disabled':'')+'" onclick="goPage('+(currentPage-1)+')">‹</div>';
-  var start=Math.max(1,currentPage-2);var end=Math.min(totalPages,currentPage+2);
+  var start=Math.max(1,currentPage-2),end=Math.min(totalPages,currentPage+2);
   if(start>1){html+='<div class="page-btn" onclick="goPage(1)">1</div>';if(start>2)html+='<div class="page-btn disabled">···</div>';}
-  for(var i=start;i<=end;i++){html+='<div class="page-btn'+(i===currentPage?' active':'')+'" onclick="goPage('+i+')">'+i+'</div>';}
+  for(var i=start;i<=end;i++) html+='<div class="page-btn'+(i===currentPage?' active':'')+'" onclick="goPage('+i+')">'+i+'</div>';
   if(end<totalPages){if(end<totalPages-1)html+='<div class="page-btn disabled">···</div>';html+='<div class="page-btn" onclick="goPage('+totalPages+')">'+totalPages+'</div>';}
   html+='<div class="page-btn'+(currentPage===totalPages?' disabled':'')+'" onclick="goPage('+(currentPage+1)+')">›</div>';
   document.getElementById('pagination').innerHTML=html;
 }
 
 function goPage(p){
-  var filtered=getFiltered();var totalPages=Math.ceil(filtered.length/pageSize);
+  var totalPages=Math.ceil(getFiltered().length/pageSize);
   if(p<1||p>totalPages)return;
-  currentPage=p;filterAndDisplay();
+  currentPage=p;
+  filterAndDisplay();
   document.getElementById('inst-list').scrollTop=0;
 }
 
+/* ── 기관 선택 (로컬 데이터) ── */
 function selectInst(sym){
   var inst=allItems.find(function(i){return i.sym===sym;});
   if(!inst)return;
+
   document.querySelectorAll('.inst-card').forEach(function(c){c.classList.remove('active');});
-  var card=document.getElementById('card-'+sym);if(card)card.classList.add('active');
+  var card=document.getElementById('card-'+sym);
+  if(card)card.classList.add('active');
+
   showDetail();
   document.getElementById('detailMap').style.display='none';
   detailMap=null;
+
   var type=(inst.typeCodes&&inst.typeCodes[0])||'';
-  renderDetail(inst,inst.name,type);
+  renderDetail(inst, inst.name, type);
 }
 
+/* ── 상세 렌더링 ── */
 function renderDetail(data,name,type){
-  var g=data.general||{};var s=data.staff||{};var f=data.facility||{};
-  var c=data.capacity||{};var e=data.etc||{};var nb=data.nonBenefit||[];var wf=data.welfare||[];
+  var g=data.general||{};
+  var s=data.staff||{};
+  var f=data.facility||{};
+  var c=data.capacity||{};
+  var e=data.etc||{};
+  var nb=data.nonBenefit||[];
+  var wf=data.welfare||[];
   var addr=data.address||'정보 없음';
+
   var tel='';
-  if(g.locTelNo_1||g.locTelNo1){tel=(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3);}
-  var totalPer=parseInt(c.totPer)||0;var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);
-  var waitPer=(parseInt(c.maRsvPer)||0)+(parseInt(c.fmRsvPer)||0);var fillRate=totalPer>0?Math.round(nowPer/totalPer*100):0;
+  if(g.locTelNo_1||g.locTelNo1) tel=(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3);
+
+  var totalPer=parseInt(c.totPer)||0;
+  var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);
+  var waitPer=(parseInt(c.maRsvPer)||0)+(parseInt(c.fmRsvPer)||0);
+  var fillRate=totalPer>0?Math.round(nowPer/totalPer*100):0;
+
   var h='<div class="detail-badge">'+getTypeName(type)+'</div>';
   h+='<div class="detail-name">'+name+'</div>';
-  h+='<div class="detail-section"><h3>📋 기본 정보</h3><div class="info-grid">';
+
+  // 기본 정보
+  h+='<div class="detail-section"><h3>\uD83D\uDCCB 기본 정보</h3><div class="info-grid">';
   h+='<div class="info-item"><div class="lbl">주소</div><div class="val">'+addr+'</div></div>';
   h+='<div class="info-item"><div class="lbl">전화번호</div><div class="val">'+(tel||'정보 없음')+'</div></div>';
   h+='<div class="info-item"><div class="lbl">기관지정일</div><div class="val">'+(g.longTermPeribRgtDt?g.longTermPeribRgtDt.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3'):'정보 없음')+'</div></div>';
   h+='<div class="info-item"><div class="lbl">설치신고일</div><div class="val">'+(g.stpRptDt?g.stpRptDt.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3'):'정보 없음')+'</div></div>';
-  if(e.hmpgAddr)h+='<div class="info-item"><div class="lbl">홈페이지</div><div class="val"><a href="'+(e.hmpgAddr.startsWith('http')?e.hmpgAddr:'http://'+e.hmpgAddr)+'" target="_blank" style="color:#1D9E75">'+e.hmpgAddr+'</a></div></div>';
+  if(e.hmpgAddr)h+='<div class="info-item"><div class="lbl">홈페이지</div><div class="val"><a href="'+(e.hmpgAddr.startsWith('http')?e.hmpgAddr:'http://'+e.hmpgAddr)+'" target="_blank" style="color:#5B5AE0">'+e.hmpgAddr+'</a></div></div>';
   if(e.tfMth)h+='<div class="info-item"><div class="lbl">교통편</div><div class="val">'+e.tfMth+'</div></div>';
   if(e.pkngEquip)h+='<div class="info-item"><div class="lbl">주차시설</div><div class="val">'+e.pkngEquip+'</div></div>';
   h+='</div></div>';
+
+  // 입소 현황
   if(totalPer>0){
-    h+='<div class="detail-section"><h3>👥 입소 현황</h3>';
+    h+='<div class="detail-section"><h3>\uD83D\uDC65 입소 현황</h3>';
     h+='<div class="cap-bar"><div class="cap-lbl">정원 '+totalPer+'명</div><div class="cap-bar-bg"><div class="cap-bar-fill" style="width:'+fillRate+'%"></div></div><div class="cap-lbl">현원 '+nowPer+'명 ('+fillRate+'%)</div></div>';
     if(waitPer>0)h+='<div style="text-align:center;color:#e67e22;font-size:13px;margin-top:4px">대기 '+waitPer+'명</div>';
     h+='</div>';
   }
+
+  // 인력 현황
   var staffItems=[{k:'recuProt_1',n:'요양보호사'},{k:'nur',n:'간호사'},{k:'nurArticle',n:'간호조무사'},{k:'socWel',n:'사회복지사'},{k:'physicalMTret',n:'물리치료사'},{k:'wrkMTret',n:'작업치료사'},{k:'chrgDoc',n:'의사(전임)'},{k:'chargeDoc',n:'의사(촉탁)'},{k:'nut',n:'영양사'},{k:'cook',n:'조리원'},{k:'equipLong',n:'시설장'},{k:'ofceEmp',n:'사무원'}];
   var hasStaff=staffItems.some(function(si){return parseInt(s[si.k])>0;});
-  if(hasStaff){h+='<div class="detail-section"><h3>👨‍⚕️ 인력 현황</h3><div class="staff-grid">';staffItems.forEach(function(si){var v=parseInt(s[si.k])||0;if(v>0)h+='<div class="staff-item"><div class="staff-num">'+v+'</div><div class="staff-name">'+si.n+'</div></div>';});h+='</div></div>';}
+  if(hasStaff){
+    h+='<div class="detail-section"><h3>\uD83D\uDC68\u200D\u2695\uFE0F 인력 현황</h3><div class="staff-grid">';
+    staffItems.forEach(function(si){var v=parseInt(s[si.k])||0;if(v>0)h+='<div class="staff-item"><div class="staff-num">'+v+'</div><div class="staff-name">'+si.n+'</div></div>';});
+    h+='</div></div>';
+  }
+
+  // 시설 현황
   var facItems=[{k:'prsnRoomreal1',n:'1인실'},{k:'prsnRoomreal2',n:'2인실'},{k:'prsnRoomreal3',n:'3인실'},{k:'prsnRoomreal4',n:'4인실'},{k:'spcAcupRoomreal',n:'특수침실'},{k:'medRoomreal',n:'의료/간호사실'},{k:'funcTrnRoomreal',n:'작업/훈련실'},{k:'pgmRoomreal',n:'프로그램실'},{k:'batRoom',n:'화장실'},{k:'ofce',n:'사무실'}];
   var hasFac=facItems.some(function(fi){return parseInt(f[fi.k])>0;});
-  if(hasFac){h+='<div class="detail-section"><h3>🏠 시설 현황</h3><div class="info-grid">';facItems.forEach(function(fi){var v=parseInt(f[fi.k])||0;if(v>0)h+='<div class="info-item"><div class="lbl">'+fi.n+'</div><div class="val">'+v+'개</div></div>';});h+='</div></div>';}
-  if(nb.length>0){var nbNames={'1':'식재료비','2':'상급침실사용료','3':'이미용비','4':'경관영양유동식비','5':'간식비','6':'상급침실(2인실)','7':'기타'};h+='<div class="detail-section"><h3>💰 비급여 현황</h3><table class="info-table"><tr><th>항목</th><th>금액</th><th>산출근거</th></tr>';nb.forEach(function(i){h+='<tr><td>'+(nbNames[i.nonpayKind]||i.nonpayKind)+'</td><td>'+(parseInt(i.nonpayTgtAmt)||0).toLocaleString()+'원</td><td>'+(i.prodBase||'')+'</td></tr>';});h+='</table></div>';}
-  if(wf.length>0){h+='<div class="detail-section"><h3>🔧 복지용구 현황</h3><table class="info-table"><tr><th>장비명</th><th>제조사</th><th>모델명</th><th>용도</th></tr>';wf.forEach(function(i){h+='<tr><td>'+(i.itemName||'')+'</td><td>'+(i.mnfCo||'')+'</td><td>'+(i.modelNm||'')+'</td><td>'+(i.usage||'')+'</td></tr>';});h+='</table></div>';}
+  if(hasFac){
+    h+='<div class="detail-section"><h3>\uD83C\uDFE0 시설 현황</h3><div class="info-grid">';
+    facItems.forEach(function(fi){var v=parseInt(f[fi.k])||0;if(v>0)h+='<div class="info-item"><div class="lbl">'+fi.n+'</div><div class="val">'+v+'개</div></div>';});
+    h+='</div></div>';
+  }
+
+  // 비급여
+  if(nb.length>0){
+    var nbNames={'1':'식재료비','2':'상급침실사용료','3':'이미용비','4':'경관영양유동식비','5':'간식비','6':'상급침실(2인실)','7':'기타'};
+    h+='<div class="detail-section"><h3>\uD83D\uDCB0 비급여 현황</h3><table class="info-table"><tr><th>항목</th><th>금액</th><th>산출근거</th></tr>';
+    nb.forEach(function(i){h+='<tr><td>'+(nbNames[i.nonpayKind]||i.nonpayKind)+'</td><td>'+(parseInt(i.nonpayTgtAmt)||0).toLocaleString()+'원</td><td>'+(i.prodBase||'')+'</td></tr>';});
+    h+='</table></div>';
+  }
+
+  // 복지용구
+  if(wf.length>0){
+    h+='<div class="detail-section"><h3>\uD83D\uDD27 복지용구 현황</h3><table class="info-table"><tr><th>장비명</th><th>제조사</th><th>모델명</th><th>용도</th></tr>';
+    wf.forEach(function(i){h+='<tr><td>'+(i.itemName||'')+'</td><td>'+(i.mnfCo||'')+'</td><td>'+(i.modelNm||'')+'</td><td>'+(i.usage||'')+'</td></tr>';});
+    h+='</table></div>';
+  }
+
   document.getElementById('detailContent').innerHTML=h;
+
+  // 상세 지도 (좌표 직접 사용)
   if(addr&&addr!=='정보 없음'){
     var dm=document.getElementById('detailMap');
     dm.style.display='block';
     setTimeout(function(){
       try{
-        if(!detailMap){detailMap=new kakao.maps.Map(dm,{center:new kakao.maps.LatLng(37.5663,126.9779),level:5});}
+        if(!detailMap) detailMap=new kakao.maps.Map(dm,{center:new kakao.maps.LatLng(37.5663,126.9779),level:5});
         detailMap.relayout();
         setTimeout(function(){
           if(data.lat&&data.lng){
             var coords=new kakao.maps.LatLng(data.lat,data.lng);
-            detailMap.setCenter(coords);detailMap.setLevel(4);detailMap.relayout();
+            detailMap.setCenter(coords);
+            detailMap.setLevel(4);
+            detailMap.relayout();
             new kakao.maps.Marker({map:detailMap,position:coords,title:name});
           }
+        },500);
+      }catch(err){console.log('map error:',err);}
+    },800);
+  }
+}
+
+/* ── 마커 제거 ── */
+function clearMarkers(){
+  markers.forEach(function(m){if(m)m.setMap(null);});
+  markers=[];
+}
 </script>
 <script>
-window.addEventListener('load', function(){
-  if(typeof kakao !== 'undefined' && kakao.maps){
-    initMap();
-  }
+window.addEventListener('load',function(){
+  if(typeof kakao!=='undefined'&&kakao.maps) initMap();
 });
 </script>
 <script src="/widget.js"></script>
