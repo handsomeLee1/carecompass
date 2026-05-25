@@ -170,44 +170,136 @@ a{text-decoration:none;color:inherit}
     <!-- 실제 사례 -->
     <div class="section-title" style="font-size:17px;font-weight:600;color:#0c2340;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #5B5AE0">👤 실제 사례로 보는 복지용구 비용</div>
 
-    <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
-      <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
-        <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👴</div>
-        <div>
-          <div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">경기 거주 82세 최○○ 어르신</div>
-          <div style="font-size:13px;color:#666;line-height:1.6">뇌졸중 후 거동 불편으로 복지용구를 이용 중인 사례<br>장기요양 3등급 판정 · 일반대상자 (본인부담 15%)</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px" id="caseTabs">
+      <button class="caseTab caseTab--active" onclick="showCase(0)">👴 1등급 · 와상</button>
+      <button class="caseTab" onclick="showCase(1)">👵 2등급 · 뇌졸중</button>
+      <button class="caseTab" onclick="showCase(2)">👴 3등급 · 관절염</button>
+      <button class="caseTab" onclick="showCase(3)">👵 4등급 · 거동불편</button>
+      <button class="caseTab" onclick="showCase(4)">👴 5등급 · 경증치매</button>
+    </div>
+    <style>
+      .caseTab{padding:8px 14px;font-size:13px;border:1px solid #ddd;border-radius:20px;cursor:pointer;background:#fff;font-family:'Noto Sans KR',sans-serif;font-weight:500;transition:all 0.15s}
+      .caseTab--active{background:#5B5AE0;color:#fff;border-color:#5B5AE0}
+      .caseTab:hover:not(.caseTab--active){border-color:#5B5AE0;color:#5B5AE0}
+      .casePanel{display:none}
+      .casePanel.casePanel--active{display:block}
+
+      .case-table{width:100%;border-collapse:collapse;margin-bottom:16px;font-size:13px}
+      .case-table th{background:#F5F5FF;padding:8px 10px;text-align:left;font-weight:600;color:#0c2340;border-bottom:2px solid #d4ede4;font-size:12px}
+      .case-table td{padding:8px 10px;border-bottom:1px solid #eee;color:#333}
+      .case-table .ct-type{font-size:10px;padding:2px 6px;border-radius:3px;font-weight:600}
+      .case-table .ct-buy{background:#e8f5ee;color:#2e7d32}
+      .case-table .ct-rent{background:#fff3e0;color:#e65100}
+      .case-table .ct-right{text-align:right;font-weight:600}
+      .case-table .ct-total{background:#f8f8ff;font-weight:700;color:#0c2340}
+      .case-table .ct-primary{color:#5B5AE0}
+      @media(max-width:768px){.case-g{grid-template-columns:1fr 1fr !important}.cost-s{grid-template-columns:1fr !important}.cost-s .cost-d{display:none}}
+    </style>
+
+    <div id="casePanels">
+      <div class="casePanel casePanel--active" data-case="0">
+        <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
+            <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👴</div>
+            <div><div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">서울 거주 85세 김○○ 어르신</div>
+            <div style="font-size:13px;color:#666;line-height:1.6">뇌경색 후 와상 상태로 전동침대, 욕창 예방 용구 필수<br>장기요양 1등급 · 본인부담 15%</div></div>
+          </div>
+          <table class="case-table">
+            <thead><tr><th>품목</th><th>구분</th><th>단가</th><th style="text-align:right">연간 비용</th></tr></thead>
+            <tbody><tr><td>전동침대</td><td><span class="ct-type ct-rent">대여</span></td><td>월 72,800원</td><td class="ct-right">873,600원</td></tr><tr><td>이동욕조</td><td><span class="ct-type ct-rent">대여</span></td><td>월 31,600원</td><td class="ct-right">379,200원</td></tr><tr><td>욕창예방매트리스</td><td><span class="ct-type ct-buy">구입</span></td><td>281,000원</td><td class="ct-right">281,000원</td></tr><tr><td>욕창예방방석</td><td><span class="ct-type ct-buy">구입</span></td><td>201,000원</td><td class="ct-right">201,000원</td></tr><tr><td>자세변환용구 ×2</td><td><span class="ct-type ct-buy">구입</span></td><td>51,600원 ×2</td><td class="ct-right">103,200원</td></tr><tr><td>기저귀센서</td><td><span class="ct-type ct-buy">구입</span></td><td>134,000원</td><td class="ct-right">134,000원</td></tr><tr class="ct-total"><td colspan="3">총 급여가</td><td class="ct-right">1,972,000원</td></tr><tr class="ct-total"><td colspan="3">본인부담금 (15%)</td><td class="ct-right ct-primary">295,800원</td></tr></tbody>
+          </table>
+          <div class="cost-s" style="background:#1E3A5F;border-radius:8px;padding:16px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">총 급여가</div><div style="font-size:16px;font-weight:600;color:#fff">1,972,000원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">본인부담금</div><div style="font-size:16px;font-weight:600;color:#DDD8FF">295,800원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">한도 잔액</div><div style="font-size:16px;font-weight:600;color:#fff">0원</div></div>
+            <div style="grid-column:1/-1;margin-top:10px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5);padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)">한도 사용률 123.2% · 한도 초과 ⚠️</div>
+          </div>
         </div>
       </div>
-
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px">
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">이용 품목 1</div><div style="font-size:14px;font-weight:600;color:#0c2340">전동침대 (대여)</div></div>
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">이용 품목 2</div><div style="font-size:14px;font-weight:600;color:#0c2340">수동휠체어 (대여)</div></div>
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">이용 품목 3</div><div style="font-size:14px;font-weight:600;color:#0c2340">안전손잡이 ×3 (구입)</div></div>
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">전동침대 월 대여료</div><div style="font-size:14px;font-weight:600;color:#0c2340">72,800원</div></div>
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">휠체어 월 대여료</div><div style="font-size:14px;font-weight:600;color:#0c2340">30,200원</div></div>
-        <div style="background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:12px"><div style="font-size:11px;color:#888;margin-bottom:4px">안전손잡이 구입비</div><div style="font-size:14px;font-weight:600;color:#0c2340">67,700원 ×3</div></div>
+      <div class="casePanel" data-case="1">
+        <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
+            <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👵</div>
+            <div><div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">경기 거주 79세 박○○ 어르신</div>
+            <div style="font-size:13px;color:#666;line-height:1.6">뇌졸중 후 편마비로 휠체어와 침대 이용<br>장기요양 2등급 · 본인부담 15%</div></div>
+          </div>
+          <table class="case-table">
+            <thead><tr><th>품목</th><th>구분</th><th>단가</th><th style="text-align:right">연간 비용</th></tr></thead>
+            <tbody><tr><td>수동휠체어</td><td><span class="ct-type ct-rent">대여</span></td><td>월 30,200원</td><td class="ct-right">362,400원</td></tr><tr><td>전동침대</td><td><span class="ct-type ct-rent">대여</span></td><td>월 72,800원</td><td class="ct-right">873,600원</td></tr><tr><td>안전손잡이 ×3</td><td><span class="ct-type ct-buy">구입</span></td><td>67,700원 ×3</td><td class="ct-right">203,100원</td></tr><tr><td>이동변기</td><td><span class="ct-type ct-buy">구입</span></td><td>230,000원</td><td class="ct-right">230,000원</td></tr><tr><td>목욕의자</td><td><span class="ct-type ct-buy">구입</span></td><td>175,000원</td><td class="ct-right">175,000원</td></tr><tr><td>미끄럼방지매트 ×2</td><td><span class="ct-type ct-buy">구입</span></td><td>25,600원 ×2</td><td class="ct-right">51,200원</td></tr><tr class="ct-total"><td colspan="3">총 급여가</td><td class="ct-right">1,895,300원</td></tr><tr class="ct-total"><td colspan="3">본인부담금 (15%)</td><td class="ct-right ct-primary">284,295원</td></tr></tbody>
+          </table>
+          <div class="cost-s" style="background:#1E3A5F;border-radius:8px;padding:16px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">총 급여가</div><div style="font-size:16px;font-weight:600;color:#fff">1,895,300원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">본인부담금</div><div style="font-size:16px;font-weight:600;color:#DDD8FF">284,295원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">한도 잔액</div><div style="font-size:16px;font-weight:600;color:#fff">0원</div></div>
+            <div style="grid-column:1/-1;margin-top:10px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5);padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)">한도 사용률 118.5% · 한도 초과 ⚠️</div>
+          </div>
+        </div>
       </div>
-
-      <div style="background:#1E3A5F;border-radius:8px;padding:20px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
-        <div style="text-align:center;padding:0 10px">
-          <div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:6px">연간 총 급여가</div>
-          <div style="font-size:17px;font-weight:600;color:#fff">1,439,100원</div>
-          <div style="font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px">대여12개월 + 구입</div>
+      <div class="casePanel" data-case="2">
+        <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
+            <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👴</div>
+            <div><div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">경기 거주 82세 최○○ 어르신</div>
+            <div style="font-size:13px;color:#666;line-height:1.6">관절염으로 보행이 불편하고 실내 낙상 위험이 높은 사례<br>장기요양 3등급 · 본인부담 15%</div></div>
+          </div>
+          <table class="case-table">
+            <thead><tr><th>품목</th><th>구분</th><th>단가</th><th style="text-align:right">연간 비용</th></tr></thead>
+            <tbody><tr><td>수동휠체어</td><td><span class="ct-type ct-rent">대여</span></td><td>월 30,200원</td><td class="ct-right">362,400원</td></tr><tr><td>성인용보행기</td><td><span class="ct-type ct-buy">구입</span></td><td>220,000원</td><td class="ct-right">220,000원</td></tr><tr><td>안전손잡이 ×5</td><td><span class="ct-type ct-buy">구입</span></td><td>42,100원 ×5</td><td class="ct-right">210,500원</td></tr><tr><td>목욕의자</td><td><span class="ct-type ct-buy">구입</span></td><td>165,000원</td><td class="ct-right">165,000원</td></tr><tr><td>미끄럼방지양말 ×4</td><td><span class="ct-type ct-buy">구입</span></td><td>3,900원 ×4</td><td class="ct-right">15,600원</td></tr><tr><td>지팡이</td><td><span class="ct-type ct-buy">구입</span></td><td>57,300원</td><td class="ct-right">57,300원</td></tr><tr class="ct-total"><td colspan="3">총 급여가</td><td class="ct-right">1,030,800원</td></tr><tr class="ct-total"><td colspan="3">본인부담금 (15%)</td><td class="ct-right ct-primary">154,620원</td></tr></tbody>
+          </table>
+          <div class="cost-s" style="background:#1E3A5F;border-radius:8px;padding:16px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">총 급여가</div><div style="font-size:16px;font-weight:600;color:#fff">1,030,800원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">본인부담금</div><div style="font-size:16px;font-weight:600;color:#DDD8FF">154,620원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">한도 잔액</div><div style="font-size:16px;font-weight:600;color:#fff">569,200원</div></div>
+            <div style="grid-column:1/-1;margin-top:10px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5);padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)">한도 사용률 64.4% · 한도액 내 이용 ✅</div>
+          </div>
         </div>
-        <div style="background:rgba(255,255,255,0.2);height:40px;width:1px"></div>
-        <div style="text-align:center;padding:0 10px">
-          <div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:6px">연간 본인부담금</div>
-          <div style="font-size:17px;font-weight:600;color:#fff">215,865원</div>
-          <div style="font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px">급여가의 15%</div>
+      </div>
+      <div class="casePanel" data-case="3">
+        <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
+            <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👵</div>
+            <div><div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">인천 거주 76세 이○○ 어르신</div>
+            <div style="font-size:13px;color:#666;line-height:1.6">무릎 수술 후 보행 보조와 낙상 예방이 필요한 사례<br>장기요양 4등급 · 본인부담 경감 9%</div></div>
+          </div>
+          <table class="case-table">
+            <thead><tr><th>품목</th><th>구분</th><th>단가</th><th style="text-align:right">연간 비용</th></tr></thead>
+            <tbody><tr><td>성인용보행기</td><td><span class="ct-type ct-buy">구입</span></td><td>179,000원</td><td class="ct-right">179,000원</td></tr><tr><td>지팡이</td><td><span class="ct-type ct-buy">구입</span></td><td>45,700원</td><td class="ct-right">45,700원</td></tr><tr><td>안전손잡이 ×4</td><td><span class="ct-type ct-buy">구입</span></td><td>36,700원 ×4</td><td class="ct-right">146,800원</td></tr><tr><td>목욕의자</td><td><span class="ct-type ct-buy">구입</span></td><td>153,000원</td><td class="ct-right">153,000원</td></tr><tr><td>미끄럼방지매트 ×3</td><td><span class="ct-type ct-buy">구입</span></td><td>3,400원 ×3</td><td class="ct-right">10,200원</td></tr><tr><td>이동변기</td><td><span class="ct-type ct-buy">구입</span></td><td>160,000원</td><td class="ct-right">160,000원</td></tr><tr class="ct-total"><td colspan="3">총 급여가</td><td class="ct-right">694,700원</td></tr><tr class="ct-total"><td colspan="3">본인부담금 (경감 9%)</td><td class="ct-right ct-primary">62,523원</td></tr></tbody>
+          </table>
+          <div class="cost-s" style="background:#1E3A5F;border-radius:8px;padding:16px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">총 급여가</div><div style="font-size:16px;font-weight:600;color:#fff">694,700원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">본인부담금</div><div style="font-size:16px;font-weight:600;color:#DDD8FF">62,523원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">한도 잔액</div><div style="font-size:16px;font-weight:600;color:#fff">905,300원</div></div>
+            <div style="grid-column:1/-1;margin-top:10px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5);padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)">한도 사용률 43.4% · 한도액 내 이용 ✅</div>
+          </div>
         </div>
-        <div style="background:rgba(255,255,255,0.2);height:40px;width:1px"></div>
-        <div style="text-align:center;padding:0 10px">
-          <div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:6px">한도 잔액</div>
-          <div style="font-size:17px;font-weight:600;color:#fff">160,900원</div>
-          <div style="font-size:10px;color:rgba(255,255,255,0.4);margin-top:3px">한도액의 89.9% 사용</div>
-        </div>
-        <div style="grid-column:1/-1;margin-top:14px;text-align:center;font-size:13px;color:rgba(255,255,255,0.6);padding-top:14px;border-top:1px solid rgba(255,255,255,0.1)">
-          연간 본인부담금: <strong style="color:#DDD8FF;font-size:16px">약 215,865원</strong> · 한도액 내 이용 가능 ✅
+      </div>
+      <div class="casePanel" data-case="4">
+        <div style="background:#fff;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:32px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee">
+            <div style="width:52px;height:52px;border-radius:50%;background:#e1f5ee;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0">👴</div>
+            <div><div style="font-size:16px;font-weight:600;color:#0c2340;margin-bottom:4px">부산 거주 80세 정○○ 어르신</div>
+            <div style="font-size:13px;color:#666;line-height:1.6">경증 치매로 배회 위험이 있고 낙상 예방이 필요한 사례<br>장기요양 5등급 · 본인부담 15%</div></div>
+          </div>
+          <table class="case-table">
+            <thead><tr><th>품목</th><th>구분</th><th>단가</th><th style="text-align:right">연간 비용</th></tr></thead>
+            <tbody><tr><td>수동휠체어</td><td><span class="ct-type ct-rent">대여</span></td><td>월 25,300원</td><td class="ct-right">303,600원</td></tr><tr><td>안전손잡이 ×4</td><td><span class="ct-type ct-buy">구입</span></td><td>19,500원 ×4</td><td class="ct-right">78,000원</td></tr><tr><td>미끄럼방지양말 ×6</td><td><span class="ct-type ct-buy">구입</span></td><td>3,900원 ×6</td><td class="ct-right">23,400원</td></tr><tr><td>성인용보행기</td><td><span class="ct-type ct-buy">구입</span></td><td>51,600원</td><td class="ct-right">51,600원</td></tr><tr><td>미끄럼방지매트 ×2</td><td><span class="ct-type ct-buy">구입</span></td><td>3,100원 ×2</td><td class="ct-right">6,200원</td></tr><tr><td>지팡이</td><td><span class="ct-type ct-buy">구입</span></td><td>30,900원</td><td class="ct-right">30,900원</td></tr><tr class="ct-total"><td colspan="3">총 급여가</td><td class="ct-right">493,700원</td></tr><tr class="ct-total"><td colspan="3">본인부담금 (15%)</td><td class="ct-right ct-primary">74,055원</td></tr></tbody>
+          </table>
+          <div class="cost-s" style="background:#1E3A5F;border-radius:8px;padding:16px;display:grid;grid-template-columns:1fr 1px 1fr 1px 1fr;gap:0;align-items:center">
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">총 급여가</div><div style="font-size:16px;font-weight:600;color:#fff">493,700원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">본인부담금</div><div style="font-size:16px;font-weight:600;color:#DDD8FF">74,055원</div></div>
+            <div class="cost-d" style="background:rgba(255,255,255,0.2);height:36px;width:1px"></div>
+            <div style="text-align:center;padding:0 8px"><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:4px">한도 잔액</div><div style="font-size:16px;font-weight:600;color:#fff">1,106,300원</div></div>
+            <div style="grid-column:1/-1;margin-top:10px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5);padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)">한도 사용률 30.9% · 한도액 내 이용 ✅</div>
+          </div>
         </div>
       </div>
     </div>
@@ -295,6 +387,12 @@ a{text-decoration:none;color:inherit}
   </div>
 </div>
 <script>
+
+function showCase(n){
+  document.querySelectorAll('.caseTab').forEach(function(t,i){t.className=i===n?'caseTab caseTab--active':'caseTab';});
+  document.querySelectorAll('.casePanel').forEach(function(p,i){p.className=i===n?'casePanel casePanel--active':'casePanel';});
+}
+
 var LIMIT=1600000,cart=[],openItem=null;
 
 var CATS=[
