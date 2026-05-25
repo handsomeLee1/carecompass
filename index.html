@@ -33,6 +33,9 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .search-btn{background:#4B4AC8;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:'Noto Sans KR',sans-serif;flex-shrink:0}
 .search-btn:hover{background:#3D3BB5}
 .search-tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab-btn{padding:6px 12px;font-size:13px;border:1px solid rgba(255,255,255,0.4);border-radius:4px;color:#fff;background:rgba(255,255,255,0.1);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s}
+.tab-btn.active{background:#fff;color:#5B5AE0;font-weight:600;border-color:#fff}
+.tab-btn:hover:not(.active){background:rgba(255,255,255,0.2)}
 
 /* 3단 레이아웃 */
 .three-col{display:flex;height:calc(100vh - 44px - 102px)}
@@ -50,7 +53,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 .main-center{flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden}
 
 /* 결과 헤더 */
-.result-header{padding:12px 24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
+.result-header{padding:9px 14px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:#fff;flex-shrink:0}
 .result-count{font-size:14px;color:#333}
 .result-count strong{font-weight:600;color:#5B5AE0;font-size:15px}
 .result-sort select{height:30px;padding:0 8px;border:1px solid #ddd;border-radius:4px;font-size:13px;color:#555;background:#fff;font-family:'Noto Sans KR',sans-serif}
@@ -60,7 +63,7 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 
 /* 목록 */
 .list-area{width:280px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid #eee;overflow:hidden}
-.list-scroll{flex:1;overflow-y:auto;padding:0 8px}
+.list-scroll{flex:1;overflow-y:auto}
 .list-scroll::-webkit-scrollbar{width:3px}
 .list-scroll::-webkit-scrollbar-thumb{background:#d0e8dc;border-radius:3px}
 .inst-card{padding:12px 14px;border-bottom:1px solid #f0f0f0;cursor:pointer;transition:background 0.1s}
@@ -126,7 +129,8 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 
 /* 공통 */
 .loading-msg{text-align:center;padding:40px;color:#5B5AE0;font-size:14px}
-.empty-state{text-align:center;padding:60px 32px;color:#bbb;font-size:14px;line-height:2}
+.empty-state{text-align:center;padding:40px 16px;color:#bbb;font-size:14px;line-height:2}
+
 /* 반응형 */
 @media(max-width:1024px){.sidebar-right{display:none}}
 @media(max-width:768px){
@@ -144,7 +148,6 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
 </style>
 <link rel="stylesheet" href="/common.css">
 <link rel="stylesheet" href="/widget.css">
-<script src="/dong_data.js"></script>
 </head>
 <body>
 <script src="/header.js"></script>
@@ -171,17 +174,19 @@ body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#f0f0f0;font-si
         <option value="48">경상남도</option>
         <option value="50">제주특별자치도</option>
       </select>
-      <select id="sigungu"><option value="">시/군/구 선택</option></select>
-      <select id="typeFilter">
-        <option value="">전체</option>
-        <option value="A">요양시설</option>
-        <option value="B03,C03,003">주간보호</option>
-        <option value="B01,C01,001">방문요양</option>
-        <option value="B02,C02,002">방문목욕</option>
-        <option value="B06,C06,006">복지용구</option>
-        <option value="G,M,H,I,S">치매전담</option>
-      </select>
+      <select id="sigungu" onchange="loadDong()"><option value="">시/군/구 선택</option></select>
+      <select id="dongFilter" onchange="filterAndDisplay()"><option value="">읍/면/동 전체</option></select>
+      <input type="text" id="nameSearch" placeholder="기관명 검색" onkeydown="if(event.key==='Enter')searchInstitutions()">
       <button class="search-btn" onclick="searchInstitutions()">검색</button>
+    </div>
+    <div class="search-tabs">
+      <button class="tab-btn active" onclick="setTab(this,'')">전체</button>
+      <button class="tab-btn" onclick="setTab(this,'A')">요양시설</button>
+      <button class="tab-btn" onclick="setTab(this,'B03,C03')">주간보호</button>
+      <button class="tab-btn" onclick="setTab(this,'B01,C01')">방문요양</button>
+      <button class="tab-btn" onclick="setTab(this,'B02,C02')">방문목욕</button>
+      <button class="tab-btn" onclick="setTab(this,'B06,C06')">복지용구</button>
+      <button class="tab-btn" onclick="setTab(this,'G,M,H,I,S')">치매전담</button>
     </div>
   </div>
 
@@ -665,30 +670,48 @@ function loadSigungu(){
   var v=document.getElementById('sido').value;
   var s=document.getElementById('sigungu');
   s.innerHTML='<option value="">시/군/구 선택</option>';
+  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   if(!v||!sigunguData[v])return;
   sigunguData[v].forEach(function(i){var o=document.createElement('option');o.value=i.code;o.textContent=i.name;s.appendChild(o);});
 }
 
+function loadDong(){
+  var sido=document.getElementById('sido').value;
+  var sigungu=document.getElementById('sigungu').value;
+  var sel=document.getElementById('dongFilter');
+  sel.innerHTML='<option value="">읍/면/동 전체</option>';
+  if(!sido||!sigungu)return;
+  var key=sido+sigungu;
+  var dongs=dongData[key]||[];
+  dongs.forEach(function(d){
+    var o=document.createElement('option');
+    o.value=d;o.textContent=d;
+    sel.appendChild(o);
+  });
+}
+
+function setTab(el,type){
+  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
+  el.classList.add('active');
+  currentType=type;
+  if(allItems.length>0){currentPage=1;filterAndDisplay();}
+}
 
 function searchInstitutions(){
   var sido=document.getElementById('sido');
   var sigungu=document.getElementById('sigungu');
-  currentType=document.getElementById('typeFilter').value;
+  var nameVal=document.getElementById('nameSearch').value.trim();
   if(!sido.value){alert('시/도를 선택해주세요');return;}
+  if(!sigungu.value){alert('시/군/구를 선택해주세요');return;}
   document.getElementById('list-count').textContent='검색 중...';
   document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오는 중...</div>';
+  document.getElementById('dongFilter').innerHTML='<option value="">읍/면/동 전체</option>';
   document.getElementById('pagination').innerHTML='';
   showMap();
-  var url='/api/search?sidoCd='+sido.value;
-  if(sigungu.value)url+='&sigunguCd='+sigungu.value;
-  fetch(url).then(function(r){return r.json();}).then(function(data){
-    allItems=data.items||[];
-    allItems.forEach(function(inst){
-      if(inst.siDoCd&&inst.siGunGuCd&&inst.BDongCd){
-        var mapKey=inst.siDoCd+inst.siGunGuCd+inst.BDongCd;
-        inst.emdNm=dongCodeMap[mapKey]||'';
-      }
-    });
+  var url='/data/'+sido.value+'/'+sigungu.value+'.json';
+  if(nameVal)url+='&name='+encodeURIComponent(nameVal);
+  fetch(url).then(function(r){if(!r.ok)throw new Error('없음');return r.json();}).then(function(data){
+    allItems=data||[];
     currentPage=1;
     if(allItems.length===0){
       document.getElementById('list-count').textContent='검색 결과 없음';
@@ -696,43 +719,22 @@ function searchInstitutions(){
       return;
     }
     filterAndDisplay();
-    loadPageAddresses();
+    loadAddresses();
   }).catch(function(){
-    document.getElementById('list-count').textContent='오류 발생';
-    document.getElementById('inst-list').innerHTML='<div class="empty-state">데이터를 불러오지 못했습니다</div>';
+    document.getElementById('list-count').textContent='데이터 준비 중';
+    document.getElementById('inst-list').innerHTML='<div class="empty-state">해당 지역 데이터가 아직 준비되지 않았습니다</div>';
   });
 }
 
-var isLoadingPage=false;
-function loadPageAddresses(){
-  if(isLoadingPage)return;
-  var filtered=getFiltered();
-  var start=(currentPage-1)*pageSize;
-  var pageItems=filtered.slice(start,start+pageSize);
-  var needLoad=pageItems.filter(function(i){return !i.roadAddr;});
-  if(needLoad.length===0)return;
-  isLoadingPage=true;
-  Promise.all(needLoad.map(function(inst){
-    return fetch('/api/detail?sym='+inst.longTermAdminSym+'&type='+inst.adminPttnCd).then(function(r){return r.json();}).then(function(d){
-      if(d.address&&d.address.roadAddr){inst.roadAddr=d.address.roadAddr;inst.emdNm=d.address.emdNm||'';}
-      if(d.coords&&d.coords.entX&&d.coords.entY){inst.entX=d.coords.entX;inst.entY=d.coords.entY;}
-    }).catch(function(){});
-  })).then(function(){
-    isLoadingPage=false;
-    filterAndDisplay();
-  });
-}
+
 
 function getFiltered(){
-  var dongVal='';
+  var dongVal=document.getElementById('dongFilter').value;
   var sortVal=document.getElementById('sortOrder').value;
   var filtered=allItems.slice();
-  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){
-    if(i.types&&i.types.length>0){return i.types.some(function(it){return types.some(function(t){return it.cd.startsWith(t);});});}
-    return types.some(function(t){return i.adminPttnCd.startsWith(t);});
-  });}
-  if(dongVal){filtered=filtered.filter(function(i){return !i.emdNm || i.emdNm===dongVal;});}
-  if(sortVal==='name'){filtered.sort(function(a,b){return a.longTermCareInstNm.localeCompare(b.longTermCareInstNm,'ko');});}
+  if(currentType){var types=currentType.split(',');filtered=filtered.filter(function(i){return types.some(function(t){return i.adminPttnCd.startsWith(t);});});}
+  if(dongVal){filtered=filtered.filter(function(i){return i.emdNm===dongVal;});}
+  if(sortVal==='name'){filtered.sort(function(a,b){return (a.name||'').localeCompare(b.name||'','ko');});}
   return filtered;
 }
 
@@ -750,41 +752,26 @@ function filterAndDisplay(){
   clearMarkers();
   var html='';
   pageItems.forEach(function(inst,idx){
-    var sym=inst.longTermAdminSym;var type=inst.adminPttnCd;var name=inst.longTermCareInstNm;
+    var sym=inst.sym;var type=(inst.typeCodes&&inst.typeCodes[0])||'';var name=inst.name;
     html+='<div class="inst-card" id="card-'+sym+'" onclick="selectInst(\''+sym+'\',\''+type+'\',\''+name.replace(/'/g,"\\'")+'\')">'+
-      (inst.types&&inst.types.length>0?inst.types.map(function(t){return '<span class="inst-badge">'+t.nm+'</span>';}).join(' '):'<span class="inst-badge">'+getTypeName(type)+'</span>')+
+      '<span class="inst-badge">'+getTypeName(type)+'</span>'+
       '<div class="inst-name">'+name+'</div>'+
-      (inst.roadAddr?'<div class="inst-addr">📍 '+inst.roadAddr+'</div>':(inst.emdNm?'<div class="inst-addr">📍 '+sidoName+' '+sigunguName+' '+inst.emdNm+'</div>':''))+
+      (inst.address?'<div class="inst-addr">📍 '+inst.address+'</div>':'')+
       '</div>';
     if(idx===4)html+='<div class="ad-slot-list">광고</div>';
-    if(inst.entX&&inst.entY&&map){
-      (function(x,y,nm,s,t){
-        var pos=new kakao.maps.LatLng(parseFloat(y),parseFloat(x));
+    if(inst.lat&&inst.lng&&map){
+      (function(lat,lng,nm,s){
+        var pos=new kakao.maps.LatLng(lat,lng);
         var marker=new kakao.maps.Marker({map:map,position:pos,title:nm});
         kakao.maps.event.addListener(marker,'click',function(){
-          selectInst(s,t,nm);
+          selectInst(s);
           map.setCenter(pos);map.setLevel(4);
         });
         markers.push(marker);
-        if(markers.length===1){map.setCenter(pos);map.setLevel(7);}
-      })(inst.entX,inst.entY,name,sym,type);
-    } else if(inst.roadAddr&&geocoder&&map){
-      (function(addr,nm,s,t){
-        geocoder.addressSearch(addr,function(result,status){
-          if(status===kakao.maps.services.Status.OK){
-            var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
-            var marker=new kakao.maps.Marker({map:map,position:coords,title:nm});
-            kakao.maps.event.addListener(marker,'click',function(){
-              selectInst(s,t,nm);
-              map.setCenter(coords);map.setLevel(4);
-            });
-            markers.push(marker);
-            if(markers.length===1){map.setCenter(coords);map.setLevel(7);}
-          }
-        });
-      })(inst.roadAddr,name,sym,type);
+      })(inst.lat,inst.lng,name,sym);
     }
   });
+  if(markers.length>0&&map){var bounds=new kakao.maps.LatLngBounds();markers.forEach(function(m){bounds.extend(m.getPosition());});map.setBounds(bounds);}
   document.getElementById('inst-list').innerHTML=html||'<div class="empty-state">조건에 맞는 기관이 없습니다</div>';
   renderPagination(totalPages);
 }
@@ -803,28 +790,26 @@ function renderPagination(totalPages){
 function goPage(p){
   var filtered=getFiltered();var totalPages=Math.ceil(filtered.length/pageSize);
   if(p<1||p>totalPages)return;
-  currentPage=p;filterAndDisplay();loadPageAddresses();
+  currentPage=p;filterAndDisplay();
   document.getElementById('inst-list').scrollTop=0;
 }
 
-function selectInst(sym,type,name){
+function selectInst(sym){
+  var inst=allItems.find(function(i){return i.sym===sym;});
+  if(!inst)return;
   document.querySelectorAll('.inst-card').forEach(function(c){c.classList.remove('active');});
   var card=document.getElementById('card-'+sym);if(card)card.classList.add('active');
   showDetail();
-  document.getElementById('detailContent').innerHTML='<div class="loading-msg">🏥 '+name+' 정보를 불러오는 중...</div>';
   document.getElementById('detailMap').style.display='none';
   detailMap=null;
-  fetch('/api/detail?sym='+sym+'&type='+type).then(function(r){return r.json();}).then(function(data){
-    renderDetail(data,name,type);
-  }).catch(function(){
-    document.getElementById('detailContent').innerHTML='<div class="empty-state">상세 정보를 불러오지 못했습니다</div>';
-  });
+  var type=(inst.typeCodes&&inst.typeCodes[0])||'';
+  renderDetail(inst,inst.name,type);
 }
 
 function renderDetail(data,name,type){
   var g=data.general||{};var s=data.staff||{};var f=data.facility||{};
   var c=data.capacity||{};var e=data.etc||{};var nb=data.nonBenefit||[];var wf=data.welfare||[];
-  var addr=data.address&&data.address.roadAddr?data.address.roadAddr:'정보 없음';
+  var addr=data.address||'정보 없음';
   var tel='';
   if(g.locTelNo_1||g.locTelNo1){tel=(g.locTelNo_1||g.locTelNo1)+'-'+(g.locTelNo_2||g.locTelNo2)+'-'+(g.locTelNo_3||g.locTelNo3);}
   var totalPer=parseInt(c.totPer)||0;var nowPer=(parseInt(c.maNowPer)||0)+(parseInt(c.fmNowPer)||0);
@@ -863,14 +848,20 @@ function renderDetail(data,name,type){
         if(!detailMap){detailMap=new kakao.maps.Map(dm,{center:new kakao.maps.LatLng(37.5663,126.9779),level:5});}
         detailMap.relayout();
         setTimeout(function(){
-          var gc=new kakao.maps.services.Geocoder();
-          gc.addressSearch(addr,function(result,status){
-            if(status===kakao.maps.services.Status.OK){
-              var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
-              detailMap.setCenter(coords);detailMap.setLevel(4);detailMap.relayout();
-              new kakao.maps.Marker({map:detailMap,position:coords,title:name});
-            }
-          });
+          if(data.lat&&data.lng){
+            var coords=new kakao.maps.LatLng(data.lat,data.lng);
+            detailMap.setCenter(coords);detailMap.setLevel(4);detailMap.relayout();
+            new kakao.maps.Marker({map:detailMap,position:coords,title:name});
+          } else {
+            var gc=new kakao.maps.services.Geocoder();
+            gc.addressSearch(addr,function(result,status){
+              if(status===kakao.maps.services.Status.OK){
+                var coords=new kakao.maps.LatLng(result[0].y,result[0].x);
+                detailMap.setCenter(coords);detailMap.setLevel(4);detailMap.relayout();
+                new kakao.maps.Marker({map:detailMap,position:coords,title:name});
+              }
+            });
+          }
         },500);
       }catch(err){console.log('map error:',err);}
     },800);
