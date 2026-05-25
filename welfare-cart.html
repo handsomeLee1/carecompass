@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>복지용구 장바구니 계산기 2026 - 케어컴퍼스</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;color:#222;background:#EEF2FF;font-size:15px}
+a{text-decoration:none;color:inherit}
+.wrapper{max-width:1200px;margin:0 auto;background:#fff;min-height:100vh;box-shadow:0 0 20px rgba(0,0,0,0.08)}
+.hero{background:#EEF2FF;border-bottom:1px solid #d4ede4;padding:28px 24px}
+.breadcrumb{font-size:12px;color:#888;margin-bottom:10px}.breadcrumb a{color:#5B5AE0}
+.hero h1{font-size:22px;font-weight:600;color:#0c2340;margin-bottom:8px}
+.hero p{font-size:14px;color:#555;line-height:1.7;max-width:640px}
+.content{padding:24px;max-width:1000px;margin:0 auto;padding-bottom:180px}
+.setup-bar{background:#F5F5FF;border:1px solid #d4ede4;border-radius:10px;padding:20px;margin-bottom:16px;display:flex;gap:16px;align-items:end;flex-wrap:wrap}
+.setup-field label{font-size:12px;color:#555;display:block;margin-bottom:5px;font-weight:600}
+.setup-field select{height:40px;border:1px solid #ddd;border-radius:6px;font-size:14px;padding:0 12px;background:#fff;font-family:'Noto Sans KR',sans-serif;cursor:pointer;min-width:200px}
+.warning-box{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:14px;font-size:13px;color:#5d4037;line-height:1.7;margin-bottom:20px;display:none}
+/* 좌우 분할 */
+.split-wrap{display:flex;gap:20px;margin-bottom:20px}
+.split-col{flex:1;min-width:0}
+.col-title{font-size:15px;font-weight:700;padding:10px 14px;border-radius:6px;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.col-title.avail{background:#e8f5ee;color:#2e7d32}
+.col-title.unavail{background:#f5f5f5;color:#999}
+.sec-title{font-size:13px;font-weight:600;color:#5B5AE0;padding:8px 0;border-bottom:1px solid #EEF2FF;margin-bottom:8px;margin-top:12px}
+/* 품목 카드 */
+.item-card{border:1px solid #e0e0e0;border-radius:8px;margin-bottom:8px;overflow:hidden;transition:all 0.15s}
+.item-card:hover{border-color:#5B5AE0}
+.item-card.disabled{opacity:0.5;border-color:#eee}
+.item-header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;cursor:pointer;background:#fff}
+.item-header.open{background:#F5F5FF;border-bottom:1px solid #EEF2FF}
+.item-left{display:flex;align-items:center;gap:8px}
+.item-icon{font-size:20px}
+.item-name{font-size:14px;font-weight:600;color:#0c2340}
+.item-badge{font-size:10px;padding:2px 6px;border-radius:3px;font-weight:600}
+.item-badge.buy{background:#e8f5ee;color:#2e7d32}
+.item-badge.rent{background:#fff3e0;color:#e65100}
+.item-badge.both{background:#e3f2fd;color:#1565c0}
+.item-right{display:flex;align-items:center;gap:6px}
+.item-price{font-size:12px;color:#888}
+.item-arrow{font-size:12px;color:#aaa;transition:transform 0.2s}
+.item-header.open .item-arrow{transform:rotate(180deg)}
+.item-unavail-tag{font-size:11px;color:#e53935;font-weight:500}
+/* 품목 상세 */
+.item-body{display:none;padding:14px;background:#fafafe}
+.item-body.open{display:block}
+.item-info{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.info-chip{font-size:11px;padding:4px 10px;border-radius:4px;background:#EEF2FF;color:#5B5AE0;font-weight:500}
+.info-chip.warn{background:#fff3e0;color:#e65100}
+.item-desc{font-size:13px;color:#555;line-height:1.6;margin-bottom:12px;padding:10px;background:#fff;border-radius:6px;border:1px solid #eee}
+/* 제품 목록 */
+.prod-row{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid #eee;border-radius:6px;margin-bottom:6px;background:#fff}
+.prod-row.selected{border-color:#5B5AE0;background:#F5F5FF}
+.pr-info{flex:1}
+.pr-name{font-size:13px;font-weight:600;color:#0c2340}
+.pr-co{font-size:11px;color:#999}
+.pr-price{text-align:right;margin-right:10px}
+.pr-price-main{font-size:14px;font-weight:700;color:#5B5AE0}
+.pr-price-sub{font-size:10px;color:#888}
+.pr-action{display:flex;align-items:center;gap:6px}
+.qty-wrap{display:flex;align-items:center;gap:4px}
+.qty-btn{width:26px;height:26px;border:1px solid #ddd;border-radius:4px;background:#fff;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;font-family:'Noto Sans KR',sans-serif;color:#555}
+.qty-btn:hover{border-color:#5B5AE0;color:#5B5AE0}
+.qty-val{width:30px;text-align:center;font-size:13px;font-weight:600}
+.btn-add{height:30px;padding:0 12px;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;background:#5B5AE0;color:#fff}
+.btn-add:hover{background:#4B4AC8}
+.btn-rm{height:30px;padding:0 12px;border:1px solid #e53935;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans KR',sans-serif;background:#fff;color:#e53935}
+
+/* 상담 모달 */
+.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:100;display:none;justify-content:center;align-items:center;padding:20px}
+.modal-overlay.show{display:flex}
+.modal{background:#fff;border-radius:12px;max-width:520px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.modal-header{padding:20px 24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
+.modal-header h2{font-size:18px;font-weight:700;color:#0c2340}
+.modal-close{width:32px;height:32px;border:none;background:#f5f5f5;border-radius:6px;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.modal-body{padding:24px}
+.modal-section{margin-bottom:20px}
+.modal-section-title{font-size:13px;font-weight:600;color:#5B5AE0;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.modal-section-title .opt{font-size:11px;color:#999;font-weight:400}
+.cart-summary-box{background:#F5F5FF;border:1px solid #d4ede4;border-radius:8px;padding:14px;margin-bottom:6px}
+.cs-row{display:flex;justify-content:space-between;padding:3px 0;font-size:13px}
+.cs-name{color:#555}.cs-price{font-weight:600;color:#5B5AE0}
+.cs-total{border-top:1px solid #d4ede4;margin-top:8px;padding-top:8px;font-size:14px;font-weight:700}
+.cs-total .cs-price{color:#0c2340}
+.form-row{margin-bottom:12px}
+.form-row label{font-size:12px;color:#555;display:block;margin-bottom:4px;font-weight:500}
+.form-row label .req{color:#e53935}
+.form-row input,.form-row select{width:100%;height:38px;border:1px solid #ddd;border-radius:6px;padding:0 12px;font-size:14px;font-family:'Noto Sans KR',sans-serif}
+.form-row input:focus,.form-row select:focus{outline:none;border-color:#5B5AE0}
+.form-row-half{display:flex;gap:10px}
+.form-row-half .form-row{flex:1}
+.privacy-box{background:#f9f9f9;border:1px solid #eee;border-radius:6px;padding:12px;font-size:11px;color:#888;line-height:1.7;max-height:100px;overflow-y:auto;margin-bottom:10px}
+.privacy-check{display:flex;align-items:center;gap:6px;font-size:13px;color:#333;margin-bottom:16px;cursor:pointer}
+.privacy-check input{width:16px;height:16px;cursor:pointer}
+.submit-btn{width:100%;height:48px;background:#5B5AE0;color:#fff;border:none;border-radius:8px;font-size:16px;font-weight:700;cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all 0.15s}
+.submit-btn:hover{background:#4B4AC8}
+.submit-btn:disabled{background:#ccc;cursor:not-allowed}
+.submit-result{text-align:center;padding:40px 20px}
+.submit-result .sr-icon{font-size:48px;margin-bottom:12px}
+.submit-result .sr-title{font-size:18px;font-weight:700;color:#0c2340;margin-bottom:8px}
+.submit-result .sr-desc{font-size:14px;color:#555;line-height:1.7}
+
+/* 장바구니 */
+.cart-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:2px solid #5B5AE0;padding:14px 24px;box-shadow:0 -4px 20px rgba(0,0,0,0.12);z-index:50;display:none}
+.cart-inner{max-width:1000px;margin:0 auto}
+.cart-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.cart-left{display:flex;align-items:center;gap:10px}
+.cart-badge{background:#5B5AE0;color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+.cart-nums{display:flex;gap:16px;flex-wrap:wrap}
+.cn{text-align:center}.cn .cl{font-size:10px;color:#888}.cn .cv{font-size:16px;font-weight:700;color:#0c2340}
+.cn .cv.primary{color:#5B5AE0}.cn .cv.danger{color:#e53935}
+.cart-limit{margin-top:6px}
+.cart-limit-bar{background:#eee;border-radius:6px;height:8px;overflow:hidden}
+.cart-limit-fill{height:100%;background:#5B5AE0;border-radius:6px;transition:width 0.3s}
+.cart-limit-info{display:flex;justify-content:space-between;font-size:10px;color:#888;margin-top:3px}
+.cart-toggle{font-size:12px;color:#5B5AE0;cursor:pointer;text-align:center;padding:3px;font-weight:500;margin-top:3px}
+.cart-det{display:none;margin-top:4px;max-height:120px;overflow-y:auto;border-top:1px solid #eee;padding-top:4px}
+.cart-det.show{display:block}
+.cd-r{display:flex;justify-content:space-between;padding:3px 0;font-size:12px;border-bottom:1px solid #f5f5f5}
+.cd-n{color:#333}.cd-p{font-weight:600;color:#5B5AE0}.cd-d{color:#e53935;cursor:pointer;margin-left:6px}
+.empty-msg{text-align:center;padding:60px 24px;color:#bbb;font-size:14px;line-height:2}
+@media(max-width:768px){
+  .split-wrap{flex-direction:column}
+  .setup-bar{flex-direction:column}
+  .setup-field select{min-width:100%;width:100%}
+  .cart-nums{gap:10px}
+  .cart-row{flex-direction:column;align-items:flex-start}
+}
+</style>
+<link rel="stylesheet" href="/common.css">
+<link rel="stylesheet" href="/widget.css">
+</head>
+<body>
+<script src="/header.js"></script>
+<div class="wrapper">
+  <div class="hero">
+    <div class="breadcrumb"><a href="/">케어컴퍼스</a> › <a href="/facility-cost.html">비용안내</a> › 복지용구 장바구니</div>
+    <h1>복지용구, 장바구니에 담아보세요</h1>
+    <p>등급에 맞는 복지용구를 골라 담아보면 본인부담금을 미리 확인할 수 있어요. 연간 한도 160만원 내에서 자유롭게 구성해보세요.</p>
+  </div>
+  <div class="content">
+    <div class="setup-bar">
+      <div class="setup-field"><label>장기요양 등급</label>
+        <select id="selGrade" onchange="onGrade()">
+          <option value="">등급을 선택하세요</option>
+          <option value="1">1등급</option><option value="2">2등급</option>
+          <option value="3">3등급</option><option value="4">4등급</option>
+          <option value="5">5등급</option><option value="6">인지지원등급</option>
+        </select>
+      </div>
+      <div class="setup-field"><label>본인부담률</label>
+        <select id="selRate" onchange="updCart()">
+          <option value="0.15">일반대상자 (15%)</option><option value="0.09">경감대상자 (9%)</option>
+          <option value="0.06">경감대상자 (6%)</option><option value="0.00">의료급여 (0%)</option>
+        </select>
+      </div>
+    </div>
+    <div class="warning-box" id="warn" style="display:block">⚠️ 아래 이용 가능/불필요 구분은 <strong>계산을 위한 일반적인 예시</strong>입니다. 복지용구는 등급에 따른 구분이 아닌 <strong>어르신의 건강 상태·신체 기능에 따라 달라질 수 있으니</strong>, 정확한 이용 가능 품목은 <strong>국민건강보험공단(☎ 1577-1000)</strong> 또는 복지용구 사업소에 문의하세요.<br>💡 연간 한도 160만원을 초과하면 <strong>초과분은 100% 본인부담</strong>입니다.</div>
+    <div id="mainArea"><div class="empty-msg">⬆️ 등급을 먼저 선택해주세요</div></div>
+  </div>
+</div>
+<div class="cart-bar" id="cartBar">
+  <div class="cart-inner">
+    <div class="cart-row">
+      <div class="cart-left"><div class="cart-badge" id="cCnt">0</div><span style="font-size:14px;font-weight:500">담은 품목</span></div>
+      <div class="cart-nums">
+        <div class="cn"><div class="cl">총 급여가</div><div class="cv" id="cTot">0원</div></div>
+        <div class="cn"><div class="cl">본인부담금</div><div class="cv primary" id="cSelf">0원</div></div>
+        <div class="cn"><div class="cl">한도 잔액</div><div class="cv" id="cRem">1,600,000원</div></div>
+      </div>
+    </div>
+    <div class="cart-limit"><div class="cart-limit-bar"><div class="cart-limit-fill" id="cFill"></div></div>
+      <div class="cart-limit-info"><span id="cUsed">사용: 0원</span><span>한도: 1,600,000원</span></div>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:8px;align-items:center">
+      <div class="cart-toggle" onclick="document.getElementById('cDet').classList.toggle('show')" style="flex:1;margin:0">▲ 상세 보기/접기</div>
+      <button onclick="openConsult()" style="padding:10px 20px;background:#0c2340;color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:700;cursor:pointer;font-family:'Noto Sans KR',sans-serif;white-space:nowrap">📋 이 견적으로 상담하기</button>
+    </div>
+    <div class="cart-det" id="cDet"></div>
+  </div>
+</div>
+<script>
+var LIMIT=1600000,cart=[],openItem=null;
+
+var CATS=[
+  // ── 대여 품목 ──
+  {cat:'수동휠체어',icon:'🦽',type:'rent',desc:'실내외 이동 시 사용. 외래진료, 외출 시 필수 품목.',rule:'월 대여',maxQty:1,items:[
+    {name:'MPT-43',co:'미키코리아',rental:15300},
+    {name:'NA-101',co:'닛신',rental:25300},
+    {name:'MiKi-WQR',co:'미키코리아',rental:27100},
+    {name:'MIRAGE22D-E',co:'미키코리아',rental:28500},
+    {name:'Mirage2(16D)',co:'미키코리아',rental:29400},
+    {name:'MRT-2D',co:'미키코리아',rental:30200},
+    {name:'NA-101W',co:'닛신',rental:32000},
+    {name:'MiKi-WEV',co:'미키코리아',rental:33100},
+    {name:'MRT-7D',co:'미키코리아',rental:33800},
+    {name:'MRT-7DP',co:'미키코리아',rental:34800}
+  ]},
+  {cat:'전동침대',icon:'🛏️',type:'rent',desc:'등판·다리 각도 조절로 어르신 자세 변경과 보호자 간병 부담을 줄여줍니다.',rule:'월 대여',maxQty:1,items:[
+    {name:'TB-301',co:'태동프라임',rental:57300},
+    {name:'RGB-201L-2M',co:'태천의료산업',rental:62700},
+    {name:'KPB-100',co:'콤슨',rental:68800},
+    {name:'JB600-S',co:'폴리텍',rental:71200},
+    {name:'TB-302-A',co:'태동프라임',rental:71700},
+    {name:'JB910',co:'폴리텍',rental:72800},
+    {name:'SE7010',co:'성심ENG',rental:74400},
+    {name:'JP950J',co:'제이피엔테크',rental:75400},
+    {name:'휴먼케어NA33K',co:'케어빌리지',rental:79000},
+    {name:'CoreNeo3M(NS830)',co:'조아',rental:97800}
+  ]},
+  {cat:'이동욕조',icon:'🛁',type:'rent',desc:'침대 위에서 목욕 가능. 거동이 불편한 어르신에게 적합.',rule:'월 대여',maxQty:1,items:[
+    {name:'YW-BA-2000',co:'영원메디칼',rental:25700},
+    {name:'YW-BA-1000',co:'영원메디칼',rental:25700},
+    {name:'YH-2013',co:'영화의료기',rental:26700},
+    {name:'YH-2014',co:'영화의료기',rental:31600},
+    {name:'YH-2002',co:'영화의료기',rental:33400},
+    {name:'YH-2023',co:'영화의료기',rental:34600}
+  ]},
+  {cat:'배회감지기',icon:'📡',type:'rent',desc:'치매 어르신의 외출·배회를 감지하여 보호자에게 알림.',rule:'월 대여',maxQty:1,items:[
+    {name:'T4S01AR0',co:'스마트아이넷',rental:9600},
+    {name:'Gper-L200',co:'스파코사',rental:9900},
+    {name:'IF-WT100',co:'스마트아이넷',rental:16100},
+    {name:'KS0013M01S',co:'스마트아이넷',rental:18400},
+    {name:'NEYO-100',co:'사람을보호하는기업',rental:21300}
+  ]},
+  {cat:'경사로(실외용)',icon:'🔻',type:'rent',desc:'현관 등 실외 단차 해소용. 휠체어 이동 시 필수.',rule:'월 대여',maxQty:1,items:[
+    {name:'WR04-3.4',co:'가나안',rental:9400},
+    {name:'KD-001',co:'케이디이엔지',rental:25400},
+    {name:'IW-101',co:'일원기계',rental:25500},
+    {name:'R-125SL',co:'케어맥스코리아',rental:36000},
+    {name:'R-245SL',co:'케어맥스코리아',rental:50400}
+  ]},
+  // ── 구입 품목 ──
+  {cat:'욕창예방매트리스',icon:'🛌',type:'buy',desc:'체압 분산으로 욕창 예방. 와상 어르신 필수 품목. 구입 또는 대여 가능.',rule:'내구연한 3년 · 1개',maxQty:1,items:[
+    {name:'LikerSLV3',co:'남양전자기공',price:84000},
+    {name:'Liker3STPU',co:'남양전자기공',price:189000},
+    {name:'YB-1104A',co:'영화의료기',price:241000},
+    {name:'YH-0201D',co:'영화의료기',price:259000},
+    {name:'AD-ⅢMUTEBioDouble',co:'영원메디칼',price:277000},
+    {name:'MD-100TPU3',co:'은혜메디칼',price:293000},
+    {name:'YH-3&1',co:'영화의료기',price:316000},
+    {name:'AD-1300MUTEFOAM',co:'영원메디칼',price:454000},
+    {name:'AD-1800Turning',co:'영원메디칼',price:800000}
+  ]},
+  {cat:'욕창예방방석',icon:'💺',type:'buy',desc:'휠체어·의자 사용 시 욕창 예방. 장시간 앉아있는 분께 추천.',rule:'내구연한 3년 · 1개',maxQty:1,items:[
+    {name:'라텍스멀티쿠션',co:'영원메디칼',price:71400},
+    {name:'SM-DUB-004',co:'실버메드',price:114000},
+    {name:'ABM-101',co:'에이엠이',price:129000},
+    {name:'ForeverCushion4043',co:'영원메디칼',price:177000},
+    {name:'CD-04',co:'제이케이다올',price:201000},
+    {name:'WELLHIPS-D',co:'마이알',price:201000},
+    {name:'SJK-01방석',co:'에스제이',price:201000},
+    {name:'SJK-02방석',co:'에스제이',price:221000},
+    {name:'JM-column',co:'제이엠메디컬',price:222000},
+    {name:'STARCUSHION',co:'영원메디칼',price:235000}
+  ]},
+  {cat:'자세변환용구',icon:'🔄',type:'buy',desc:'체위 변경 보조. 욕창 예방과 올바른 자세 유지에 도움.',rule:'연간 5개까지',maxQty:5,items:[
+    {name:'MTS75',co:'민택산업',price:17100},
+    {name:'ICPC-100C',co:'아이원케어',price:26500},
+    {name:'YH-LA32',co:'영화의료기',price:37600},
+    {name:'YH-LA33UL',co:'영화의료기',price:38400},
+    {name:'MPG-07',co:'삼인라이프롬',price:40500},
+    {name:'ATA-7030',co:'에이엠이',price:51600},
+    {name:'SW-J3',co:'세원케어',price:66000},
+    {name:'MPG-06',co:'삼인라이프롬',price:81800},
+    {name:'KMS-1',co:'메디케어코리아',price:88000},
+    {name:'LBP-02',co:'리버텍',price:119000}
+  ]},
+  {cat:'이동변기',icon:'🚽',type:'buy',desc:'침실·거실에서 사용하는 이동식 변기. 야간 배변에 편리.',rule:'내구연한 5년 · 1개',maxQty:1,items:[
+    {name:'SAMB',co:'보필',price:122000},
+    {name:'PN-L30200BK',co:'신동아이에스',price:160000},
+    {name:'SKC-660',co:'삼원스카이',price:216000},
+    {name:'BFMB20',co:'보필',price:228000},
+    {name:'APT-301',co:'케어로',price:230000},
+    {name:'BFMB8',co:'보필',price:292000},
+    {name:'CPT-1000',co:'세비앙',price:306000},
+    {name:'BFMB4',co:'보필',price:321000},
+    {name:'NT-CT100',co:'엔티바이오',price:321000},
+    {name:'CS-3',co:'미키코리아',price:411000}
+  ]},
+  {cat:'목욕의자',icon:'🪑',type:'buy',desc:'욕실에서 안전하게 앉아서 목욕 가능. 낙상 예방 필수 품목.',rule:'내구연한 5년 · 1개',maxQty:1,items:[
+    {name:'BSU11',co:'케어맥스코리아',price:147000},
+    {name:'ASC-501',co:'에이엠이',price:153000},
+    {name:'BOFEEL9',co:'보필',price:157000},
+    {name:'NYC-01',co:'남양금속',price:165000},
+    {name:'ASC-102',co:'에이엠이',price:168000},
+    {name:'RSC01',co:'리스케어',price:175000},
+    {name:'PN-L4152101D',co:'신동아이에스',price:179000},
+    {name:'SK-390L',co:'삼원스카이',price:180000},
+    {name:'BFSC-112',co:'보필',price:187000},
+    {name:'PT-300',co:'미키코리아',price:500000}
+  ]},
+  {cat:'성인용보행기',icon:'🚶',type:'buy',desc:'실내외 보행 보조. 실내용(바퀴형)과 실외용(접이식) 구분.',rule:'내구연한 5년 · 2개까지',maxQty:2,items:[
+    {name:'JW-100',co:'제이피테크',price:39600},
+    {name:'DBW6',co:'해련',price:51600},
+    {name:'HM-608',co:'현대메딕스',price:57500},
+    {name:'실버카-KS120',co:'삼주유니콘',price:179000},
+    {name:'장수(sk-120)',co:'서진시스템',price:200000},
+    {name:'동행(sk-130)',co:'서진시스템',price:220000},
+    {name:'코지워커P02',co:'코지케어',price:249000},
+    {name:'나이스워커4S',co:'나이스텍',price:328000},
+    {name:'E:CHA(이차)',co:'올비트앤',price:401000},
+    {name:'카본로얄파인더',co:'코지케어',price:474000}
+  ]},
+  {cat:'안전손잡이',icon:'🤝',type:'buy',desc:'화장실·현관·복도 등에 설치. 이동 동선 안전 확보.',rule:'연간 10개까지',maxQty:10,items:[
+    {name:'YGA001',co:'유광정밀',price:19500},
+    {name:'CE600',co:'세비앙',price:36700},
+    {name:'SFB-04',co:'삼인라이프롬',price:40300},
+    {name:'ASH-106',co:'에이엠이',price:42100},
+    {name:'ASH-108',co:'에이엠이',price:44400},
+    {name:'CC1200',co:'세비앙',price:67700},
+    {name:'MCG-300',co:'엠씨텍',price:102000},
+    {name:'케어핸들3-G',co:'에이블라이크',price:158000},
+    {name:'ASH-201',co:'에이엠이',price:219000},
+    {name:'BFSH21',co:'보필',price:241000}
+  ]},
+  {cat:'지팡이',icon:'🦯',type:'buy',desc:'보행 보조. 일자지팡이, 네발지팡이 등 다양한 종류.',rule:'내구연한 2년 · 1개',maxQty:1,items:[
+    {name:'FS929L+D60',co:'화강지에스케이',price:25000},
+    {name:'TH-CFN',co:'더건강한의료기',price:30900},
+    {name:'ISA',co:'아이온',price:40000},
+    {name:'SW-100F',co:'애스앤애프',price:44300},
+    {name:'LAS',co:'해올',price:45700},
+    {name:'케어스틱',co:'대기정공',price:57300},
+    {name:'백건여자지팡이-02',co:'킴스케어',price:59400},
+    {name:'Chunji',co:'레머디랩',price:60500},
+    {name:'SF',co:'아이온',price:63700},
+    {name:'SW-200F',co:'애스앤애프',price:66600}
+  ]},
+  {cat:'미끄럼방지매트',icon:'🧴',type:'buy',desc:'욕실·현관 등에 부착하는 미끄럼방지 매트 및 방지액. 낙상 예방 기본 품목.',rule:'연간 5개까지',maxQty:5,items:[
+    {name:'4DM-204',co:'포디엠',price:2900},
+    {name:'NEO-10',co:'네오텍',price:3100},
+    {name:'4DM-203',co:'포디엠',price:3400},
+    {name:'4DM-101',co:'포디엠',price:3800},
+    {name:'ASM-102',co:'에이엠이',price:17500},
+    {name:'DSNS6095',co:'디에스씨아이',price:25600},
+    {name:'SW-SM02',co:'세원케어',price:33200},
+    {name:'AFM-02',co:'삼인라이프롬',price:36500},
+    {name:'SW-지압plus',co:'세원케어',price:60600}
+  ]},
+  {cat:'미끄럼방지양말',icon:'🧦',type:'buy',desc:'바닥에 미끄럼방지 처리된 양말. 실내 낙상 예방 필수.',rule:'연간 6켤레까지',maxQty:6,items:[
+    {name:'편안한덧신양말',co:'해올',price:3100},
+    {name:'KH-102',co:'금하양말',price:3700},
+    {name:'KH-104',co:'금하양말',price:3900},
+    {name:'KH-101',co:'금하양말',price:3900},
+    {name:'KH-108',co:'금하양말',price:3900},
+    {name:'KH-109',co:'금하양말',price:3900},
+    {name:'KH-103',co:'금하양말',price:3900},
+    {name:'KH-105',co:'금하양말',price:4000},
+    {name:'KHP-106',co:'금하양말',price:4400},
+    {name:'KHP-107',co:'금하양말',price:4400}
+  ]},
+  {cat:'요실금팬티',icon:'👖',type:'buy',desc:'요실금 관리용 기능성 팬티. 세탁 재사용 가능.',rule:'연간 4개까지',maxQty:4,items:[
+    {name:'WHR-01',co:'티에이치케이',price:22200},
+    {name:'NVA-200',co:'아마존케어',price:26000},
+    {name:'세종-W1',co:'세종메디컬',price:26900},
+    {name:'HW300자가드30cc',co:'안앤락',price:28500},
+    {name:'NVT-100',co:'아마존케어',price:28900},
+    {name:'LNKS-WIP-04',co:'엘엔케이즈',price:30400},
+    {name:'NSBS-PT50',co:'엔에스비에스',price:30400},
+    {name:'MDR-02B',co:'디알컴퍼니',price:31700},
+    {name:'LNKS-MIP-02',co:'엘엔케이즈',price:34100},
+    {name:'GHP-03',co:'지디컴퍼니',price:39900}
+  ]},
+  {cat:'간이변기',icon:'🪣',type:'buy',desc:'침대 옆 간편 소변기. 야간 사용에 편리.',rule:'연간 2개까지',maxQty:2,items:[
+    {name:'HD-UM-001',co:'현대의료산업',price:7300},
+    {name:'HD-B-001',co:'현대의료산업',price:11000},
+    {name:'BFTL4',co:'보필',price:13500},
+    {name:'ABP-105',co:'에이엠이',price:14300},
+    {name:'BFTL5',co:'보필',price:14300},
+    {name:'ABP-106',co:'에이엠이',price:14500},
+    {name:'BFTL6',co:'보필',price:14500},
+    {name:'ABP101',co:'에이엠이',price:16500}
+  ]},
+  {cat:'경사로(실내용)',icon:'📐',type:'buy',desc:'실내 문턱 등 단차 해소. 휠체어·보행기 이동 편의.',rule:'내구연한 2년 · 6개까지',maxQty:6,items:[
+    {name:'URB-PR101',co:'유니러버',price:19900},
+    {name:'URB-PR102',co:'유니러버',price:28000},
+    {name:'ASW-101',co:'에이엠이',price:31800},
+    {name:'URB-PR103',co:'유니러버',price:39300},
+    {name:'TRA-H10',co:'티에이치케이',price:41900},
+    {name:'나이팅게일단차해소기30',co:'대성홈테크',price:46000},
+    {name:'URB-PR104',co:'유니러버',price:52200},
+    {name:'ASW-104',co:'에이엠이',price:64000},
+    {name:'URB-PR105',co:'유니러버',price:67000},
+    {name:'YGM3',co:'유광정밀',price:95100}
+  ]},
+  {cat:'구강세척기',icon:'🦷',type:'buy',desc:'마우스피스형 구강 세척기. 구강 위생 관리.',rule:'내구연한 5년 · 1개',maxQty:1,items:[
+    {name:'코모랄 DCC1WA1A',co:'에스엠디솔루션',price:440000}
+  ]},
+  {cat:'기저귀센서',icon:'📟',type:'buy',desc:'기저귀 교체 시기를 센서로 알림. 피부 트러블 예방.',rule:'내구연한 2년 · 1개',maxQty:1,items:[
+    {name:'맥스기저귀알림센서',co:'모닛',price:134000}
+  ]},
+  {cat:'배회감지기(태그형)',icon:'📍',type:'buy',desc:'치매 어르신 위치 추적 태그. 대여형과 별도 구입.',rule:'내구연한 2년 · 1개',maxQty:1,items:[
+    {name:'CS06BHB01D',co:'솔루엠',price:15100}
+  ]}
+];
+
+var RULES={
+  '1':{mode:'disable',list:['미끄럼방지매트','미끄럼방지양말','목욕의자','안전손잡이','요실금팬티','이동변기','지팡이']},
+  '2':{mode:'disable',list:[]},
+  '3':{mode:'disable',list:['자세변환용구','요실금팬티']},
+  '4':{mode:'disable',list:['욕창예방방석','욕창예방매트리스','자세변환용구']},
+  '5':{mode:'enable',list:['수동휠체어','간이변기','목욕의자','미끄럼방지매트','미끄럼방지양말','성인용보행기','안전손잡이','요실금팬티','이동변기','지팡이']},
+  '6':{mode:'enable',list:['간이변기','목욕의자','미끄럼방지매트','미끄럼방지양말','성인용보행기','안전손잡이','요실금팬티','이동변기','지팡이']}
+};
+
+function fmt(n){return Math.round(n).toLocaleString('ko-KR');}
+function annual(it){return it.rental?it.rental*12:it.price||0;}
+function isOk(cat,g){if(!g)return true;var r=RULES[g];if(r.mode==='disable')return r.list.indexOf(cat)===-1;return r.list.indexOf(cat)!==-1;}
+
+function onGrade(){cart=[];openItem=null;render();updCart();}
+
+function render(){
+  var g=document.getElementById('selGrade').value;
+  if(!g){document.getElementById('mainArea').innerHTML='<div class="empty-msg">⬆️ 등급을 먼저 선택해주세요</div>';return;}
+  
+
+  var okRent=[],okBuy=[],noCats=[];
+  CATS.forEach(function(c,i){
+    c._idx=i;
+    if(isOk(c.cat,g)){
+      if(c.type==='rent')okRent.push(c);else okBuy.push(c);
+    }else{noCats.push(c);}
+  });
+
+  var h='<div class="split-wrap">';
+  // 왼쪽: 이용 가능
+  h+='<div class="split-col"><div class="col-title avail">✅ 이용 가능 품목</div>';
+  if(okRent.length>0){
+    h+='<div class="sec-title">📦 대여 품목 (월 대여 · 12개월 기준 계산)</div>';
+    okRent.forEach(function(c){h+=renderCard(c,true);});
+  }
+  if(okBuy.length>0){
+    h+='<div class="sec-title">🛒 구입 품목</div>';
+    okBuy.forEach(function(c){h+=renderCard(c,true);});
+  }
+  h+='</div>';
+  // 오른쪽: 이용 불필요
+  h+='<div class="split-col"><div class="col-title unavail">⊘ 이용 불필요 품목</div>';
+  if(noCats.length===0)h+='<div style="text-align:center;color:#ccc;padding:40px;font-size:13px">모든 품목 이용 가능합니다</div>';
+  else noCats.forEach(function(c){h+=renderCard(c,false);});
+  h+='</div></div>';
+  document.getElementById('mainArea').innerHTML=h;
+}
+
+function renderCard(c,avail){
+  var isOpen=openItem===c._idx;
+  var prices=c.items.map(function(i){return annual(i);});
+  var mn=Math.min.apply(null,prices),mx=Math.max.apply(null,prices);
+  var priceStr=mn===mx?fmt(mn)+'원':fmt(mn)+'~'+fmt(mx)+'원';
+  var typeCls=c.type==='rent'?'rent':(c.type==='both'?'both':'buy');
+  var typeStr=c.type==='rent'?'대여':(c.type==='both'?'구입/대여':'구입');
+
+  var h='<div class="item-card'+(avail?'':' disabled')+'">';
+  h+='<div class="item-header'+(isOpen?' open':'')+'" '+(avail?'onclick="toggle('+c._idx+')"':'')+' >';
+  h+='<div class="item-left"><span class="item-icon">'+c.icon+'</span><span class="item-name">'+c.cat+'</span>';
+  h+='<span class="item-badge '+typeCls+'">'+typeStr+'</span></div>';
+  h+='<div class="item-right">';
+  if(!avail)h+='<span class="item-unavail-tag">해당 품목 불필요</span>';
+  else{h+='<span class="item-price">'+priceStr+'</span><span class="item-arrow">▼</span>';}
+  h+='</div></div>';
+
+  if(avail&&isOpen){
+    h+='<div class="item-body open">';
+    h+='<div class="item-info"><span class="info-chip">'+c.rule+'</span>';
+    if(c.maxQty>1)h+='<span class="info-chip warn">최대 '+c.maxQty+'개 선택 가능</span>';
+    h+='</div>';
+    h+='<div class="item-desc">'+c.desc+'</div>';
+    c.items.forEach(function(it){
+      var cost=annual(it);
+      var inCart=cart.find(function(x){return x.cat===c.cat&&x.name===it.name;});
+      var qty=inCart?inCart.qty:0;
+      h+='<div class="prod-row'+(qty>0?' selected':'')+'">';
+      h+='<div class="pr-info"><div class="pr-name">'+it.name+'</div><div class="pr-co">'+it.co+'</div></div>';
+      h+='<div class="pr-price">';
+      if(it.rental){h+='<div class="pr-price-main">월 '+fmt(it.rental)+'원</div><div class="pr-price-sub">연 '+fmt(cost)+'원</div>';}
+      else{h+='<div class="pr-price-main">'+fmt(it.price)+'원</div>';}
+      h+='</div><div class="pr-action">';
+      if(qty>0){
+        if(c.maxQty>1){
+          h+='<div class="qty-wrap"><button class="qty-btn" onclick="event.stopPropagation();chgQty(\''+c.cat+'\',\''+it.name+'\',-1)">-</button>';
+          h+='<span class="qty-val">'+qty+'</span>';
+          h+='<button class="qty-btn" onclick="event.stopPropagation();chgQty(\''+c.cat+'\',\''+it.name+'\',1)">+</button></div>';
+        }
+        h+='<button class="btn-rm" onclick="event.stopPropagation();rmCart(\''+c.cat+'\',\''+it.name+'\')">빼기</button>';
+      }else{
+        h+='<button class="btn-add" onclick="event.stopPropagation();addCart(\''+c.cat+'\',\''+it.name+'\','+cost+','+(it.rental?'true':'false')+','+c.maxQty+')">담기</button>';
+      }
+      h+='</div></div>';
+    });
+    h+='</div>';
+  }
+  h+='</div>';
+  return h;
+}
+
+function toggle(idx){openItem=openItem===idx?null:idx;render();}
+
+function addCart(cat,name,cost,isRent,maxQ){
+  // 같은 카테고리 다른 제품 제거 (maxQty 1인 경우)
+  if(maxQ<=1)cart=cart.filter(function(c){return c.cat!==cat;});
+  var existing=cart.find(function(c){return c.cat===cat&&c.name===name;});
+  if(existing){if(existing.qty<maxQ)existing.qty++;
+  }else{cart.push({cat:cat,name:name,cost:cost,isRent:isRent,qty:1,maxQ:maxQ});}
+  render();updCart();
+}
+
+function chgQty(cat,name,d){
+  var item=cart.find(function(c){return c.cat===cat&&c.name===name;});
+  if(!item)return;
+  item.qty+=d;
+  if(item.qty<=0)cart=cart.filter(function(c){return !(c.cat===cat&&c.name===name);});
+  else if(item.qty>item.maxQ)item.qty=item.maxQ;
+  render();updCart();
+}
+
+function rmCart(cat,name){
+  cart=cart.filter(function(c){return !(c.cat===cat&&c.name===name);});
+  render();updCart();
+}
+
+function updCart(){
+  var bar=document.getElementById('cartBar');
+  if(cart.length===0){bar.style.display='none';return;}
+  bar.style.display='block';
+  var rate=parseFloat(document.getElementById('selRate').value);
+  var total=0;cart.forEach(function(c){total+=c.cost*c.qty;});
+  var over=Math.max(0,total-LIMIT),base=Math.min(total,LIMIT);
+  var self=Math.round(base*rate)+over,remain=Math.max(0,LIMIT-total);
+  var pct=Math.min(Math.round(total/LIMIT*100),100);
+  var cnt=0;cart.forEach(function(c){cnt+=c.qty;});
+  document.getElementById('cCnt').textContent=cnt;
+  document.getElementById('cTot').textContent=fmt(total)+'원';
+  document.getElementById('cSelf').textContent=fmt(self)+'원';
+  document.getElementById('cRem').textContent=fmt(remain)+'원';
+  document.getElementById('cRem').className='cv'+(remain<=0?' danger':'');
+  document.getElementById('cFill').style.width=pct+'%';
+  document.getElementById('cFill').style.background=total>LIMIT?'#e53935':'#5B5AE0';
+  document.getElementById('cUsed').textContent='사용: '+fmt(total)+'원'+(over>0?' (초과 '+fmt(over)+'원!)':'');
+  var dh='';
+  cart.forEach(function(c){
+    var label=c.cat+' · '+c.name+(c.qty>1?' ×'+c.qty:'')+(c.isRent?' (대여12개월)':'');
+    dh+='<div class="cd-r"><span class="cd-n">'+label+'</span><span><span class="cd-p">'+fmt(c.cost*c.qty)+'원</span><span class="cd-d" onclick="rmCart(\''+c.cat+'\',\''+c.name+'\')">[삭제]</span></span></div>';
+  });
+  document.getElementById('cDet').innerHTML=dh;
+}
+
+function openConsult(){
+  var g=document.getElementById('selGrade');
+  var gText=g.options[g.selectedIndex].text;
+  document.getElementById('fGrade').value=gText;
+  
+  var rate=parseFloat(document.getElementById('selRate').value);
+  var total=0;cart.forEach(function(c){total+=c.cost*c.qty;});
+  var over=Math.max(0,total-LIMIT),base=Math.min(total,LIMIT);
+  var self=Math.round(base*rate)+over;
+  
+  var h='';
+  cart.forEach(function(c){
+    var label=c.cat+(c.qty>1?' ×'+c.qty:'')+(c.isRent?' (대여)':'');
+    h+='<div class="cs-row"><span class="cs-name">'+label+'</span><span class="cs-price">'+fmt(c.cost*c.qty)+'원</span></div>';
+  });
+  h+='<div class="cs-row cs-total"><span class="cs-name">총 급여가</span><span class="cs-price">'+fmt(total)+'원</span></div>';
+  h+='<div class="cs-row cs-total" style="border:none;padding-top:2px"><span class="cs-name">예상 본인부담금</span><span class="cs-price" style="color:#5B5AE0">'+fmt(self)+'원</span></div>';
+  document.getElementById('consultCart').innerHTML=h;
+  
+  document.getElementById('consultForm').style.display='block';
+  document.getElementById('consultModal').classList.add('show');
+  document.body.style.overflow='hidden';
+}
+
+function closeConsult(){
+  document.getElementById('consultModal').classList.remove('show');
+  document.body.style.overflow='';
+}
+
+function submitConsult(){
+  var name=document.getElementById('fName').value.trim();
+  var phone=document.getElementById('fPhone').value.trim();
+  var sido=document.getElementById('fSido').value;
+  var agree=document.getElementById('fAgree').checked;
+  
+  if(!name){alert('신청자 성함을 입력해주세요.');return;}
+  if(!phone){alert('연락처를 입력해주세요.');return;}
+  if(!sido){alert('지역을 선택해주세요.');return;}
+  if(!agree){alert('개인정보 수집·이용에 동의해주세요.');return;}
+  
+  var data={
+    name:name,
+    phone:phone,
+    sido:sido,
+    sigungu:document.getElementById('fSigungu').value.trim(),
+    elderName:document.getElementById('fElderName').value.trim(),
+    birth:document.getElementById('fBirth').value.trim(),
+    grade:document.getElementById('fGrade').value,
+    ltcNo:document.getElementById('fLtcNo').value.trim(),
+    ltcStart:document.getElementById('fLtcStart').value.trim(),
+    rate:document.getElementById('selRate').options[document.getElementById('selRate').selectedIndex].text,
+    items:cart.map(function(c){return c.cat+(c.qty>1?' x'+c.qty:'')+(c.isRent?' (대여)':'')+' '+fmt(c.cost*c.qty)+'원';}).join(' / '),
+    total:cart.reduce(function(s,c){return s+c.cost*c.qty;},0),
+    timestamp:new Date().toLocaleString('ko-KR')
+  };
+  
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('submitBtn').textContent='전송 중...';
+  
+  // TODO: 실제 API 연결 시 아래 fetch 활성화
+  // fetch('/api/consult', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+  
+  // 테스트: 1초 후 성공 표시
+  setTimeout(function(){
+    document.getElementById('consultForm').innerHTML=
+      '<div class="submit-result">'+
+      '<div class="sr-icon">✅</div>'+
+      '<div class="sr-title">상담 신청이 완료되었습니다</div>'+
+      '<div class="sr-desc">'+name+'님, 감사합니다!<br>케어컴퍼스 협력업체에서 빠른 시일 내에<br>연락드리겠습니다.</div>'+
+      '</div>';
+  },1000);
+}
+
+</script>
+<script src="/widget.js"></script>
+
+<div class="modal-overlay" id="consultModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>📋 복지용구 상담 신청</h2>
+      <button class="modal-close" onclick="closeConsult()">✕</button>
+    </div>
+    <div class="modal-body" id="consultForm">
+      <div class="modal-section">
+        <div class="modal-section-title">🛒 견적 요약</div>
+        <div class="cart-summary-box" id="consultCart"></div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section-title">👤 신청자 정보 <span class="req" style="color:#e53935;font-size:11px">* 필수</span></div>
+        <div class="form-row">
+          <label>신청자 성함 <span class="req">*</span></label>
+          <input type="text" id="fName" placeholder="홍길동">
+        </div>
+        <div class="form-row">
+          <label>연락처 <span class="req">*</span></label>
+          <input type="tel" id="fPhone" placeholder="010-0000-0000">
+        </div>
+        <div class="form-row-half">
+          <div class="form-row">
+            <label>지역 (시/도) <span class="req">*</span></label>
+            <select id="fSido">
+              <option value="">선택</option>
+              <option>서울</option><option>경기</option><option>인천</option>
+              <option>부산</option><option>대구</option><option>광주</option>
+              <option>대전</option><option>울산</option><option>세종</option>
+              <option>강원</option><option>충북</option><option>충남</option>
+              <option>전북</option><option>전남</option><option>경북</option>
+              <option>경남</option><option>제주</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>시/군/구</label>
+            <input type="text" id="fSigungu" placeholder="파주시">
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section-title">👴 어르신 정보 <span class="opt">(선택 · 입력 시 정확한 판단 가능)</span></div>
+        <div class="form-row">
+          <label>어르신 성함</label>
+          <input type="text" id="fElderName" placeholder="어르신 성함">
+        </div>
+        <div class="form-row-half">
+          <div class="form-row">
+            <label>생년월일</label>
+            <input type="text" id="fBirth" placeholder="1945-03-15">
+          </div>
+          <div class="form-row">
+            <label>장기요양 등급</label>
+            <input type="text" id="fGrade" readonly>
+          </div>
+        </div>
+        <div class="form-row-half">
+          <div class="form-row">
+            <label>장기요양인정번호</label>
+            <input type="text" id="fLtcNo" placeholder="L0000000000">
+          </div>
+          <div class="form-row">
+            <label>장기요양 시작일자</label>
+            <input type="text" id="fLtcStart" placeholder="2025-01-01">
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section-title">📄 개인정보 수집·이용 동의</div>
+        <div class="privacy-box">
+          <strong>개인정보 수집·이용 동의서</strong><br><br>
+          케어컴퍼스(이하 "회사")은 복지용구 상담 서비스 제공을 위해 아래와 같이 개인정보를 수집·이용합니다.<br><br>
+          <strong>1. 수집 항목</strong><br>
+          - 필수: 신청자 성함, 연락처, 지역<br>
+          - 선택: 어르신 성함, 생년월일, 장기요양인정번호, 등급, 장기요양 시작일자<br><br>
+          <strong>2. 수집·이용 목적</strong><br>
+          - 복지용구 상담 및 견적 안내<br>
+          - 어르신의 복지용구 급여 가능 여부 확인<br>
+          - 상담 관련 연락<br><br>
+          <strong>3. 보유 및 이용 기간</strong><br>
+          - 상담 완료 후 1년간 보관 후 파기<br>
+          - 동의 철회 시 즉시 파기<br><br>
+          <strong>4. 동의 거부 권리</strong><br>
+          - 동의를 거부할 수 있으며, 거부 시 상담 서비스 이용이 제한됩니다.<br>
+          - 선택 항목 미입력 시에도 기본 상담은 가능합니다.
+        </div>
+        <label class="privacy-check">
+          <input type="checkbox" id="fAgree">
+          개인정보 수집·이용에 동의합니다
+        </label>
+      </div>
+
+      <button class="submit-btn" id="submitBtn" onclick="submitConsult()">📋 상담 신청하기</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
