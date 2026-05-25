@@ -13,6 +13,8 @@
     { id: 'grade',    icon: '⭐', label: '등급예상 계산', badge: '인기', type: 'calc', target: '등급예상' },
     { id: 'homecare', icon: '💰', label: '방문요양 비용', badge: '',    type: 'link', target: '/homecare-cost.html' },
     { id: 'facility', icon: '🏠', label: '요양원 비용',   badge: '',    type: 'link', target: '/facility-cost.html' },
+    { id: 'daycare',  icon: '☀️', label: '주간보호 비용', badge: '',    type: 'link', target: '/daycare-cost.html' },
+    { id: 'welfare',  icon: '🦽', label: '복지용구 계산', badge: 'NEW', type: 'link', target: '/welfare-cart.html' },
   ];
 
   /* ── 저장소 ─────────────────────────────────────── */
