@@ -4,7 +4,8 @@
   var isFacility=path.includes('facility-cost');
   var isHomecare=path.includes('homecare-cost');
   var isDaycare=path.includes('daycare-cost');
-  var isCost=isFacility||isHomecare||isDaycare;
+  var isWelfare=path.includes('welfare-cart');
+  var isCost=isFacility||isHomecare||isDaycare||isWelfare;
 
   var subNav='';
   if(isCalc){
@@ -18,7 +19,7 @@
       '<a href="/facility-cost.html" class="tab-btn'+(isFacility?' active':'')+'">요양원 입소 비용</a>'+
       '<a href="/homecare-cost.html" class="tab-btn'+(isHomecare?' active':'')+'">방문요양 비용</a>'+
       '<a href="/daycare-cost.html" class="tab-btn'+(isDaycare?' active':'')+'">주간보호 비용</a>'+
-      '<a href="#" class="tab-btn">복지용구 안내</a>'+
+      '<a href="/welfare-cart.html" class="tab-btn'+(isWelfare?' active':'')+'">복지용구 안내</a>'+
       '</div></div>';
   }
 
