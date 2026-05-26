@@ -49,3 +49,10 @@
     }
   });
 })();
+// 공통 푸터
+document.addEventListener('DOMContentLoaded',function(){
+  var footer=document.createElement('div');
+  footer.style.cssText='text-align:center;padding:20px;font-size:13px;color:#999;border-top:1px solid #eee;margin-top:40px';
+  footer.innerHTML='© 2026 CareCompass · <a href="/privacy.html" style="color:#534AB7;text-decoration:none">개인정보처리방침</a>';
+  document.body.appendChild(footer);
+});
