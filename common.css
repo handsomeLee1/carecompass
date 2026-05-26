@@ -61,3 +61,5 @@ html,body{max-width:100vw;overflow-x:hidden}
 }
 .calc-content td select{min-height:40px;font-size:14px;border-radius:6px}
 .calc-content td [style*="display: flex"] select,.calc-content td [style*="display:flex"] select{flex:1;min-width:0}
+.calc-content td select{min-height:40px;font-size:14px;border-radius:6px}
+.calc-content td [style*="display: flex"] select,.calc-content td [style*="display:flex"] select{flex:1;min-width:0}
