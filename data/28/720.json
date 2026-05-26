@@ -1,0 +1,1612 @@
+[
+  {
+    "sym": "12872000009",
+    "name": "백령도노인요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "백령면",
+    "address": "인천광역시 옹진군 백령면 백령남로72번길 84-26",
+    "lat": 37.9641558704669,
+    "lng": 124.710387094289,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "백령도노인요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "330",
+      "detailAddr": "2333번지 27호 ",
+      "gunmulMlno": "84",
+      "gunmulSlno": "26",
+      "HDongCd": "330",
+      "hmPostNo": "23102",
+      "locTelNo_1": "032",
+      "locTelNo_2": "836",
+      "locTelNo_3": "5088",
+      "longTermAdminSym": "12872000009",
+      "longTermPeribRgtDt": "20090727",
+      "riCd": "21",
+      "roadNmCd": "287204274060",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20090701"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000009",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "19",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000009",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "11",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "12",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "12872000009",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "39"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.pyomnh88.com/",
+      "longTermAdminSym": "12872000009",
+      "pkngEquip": "요양원으로 들어오는 입구 오른편에 승용차 15대 가량 주차 가능한 공간 확보됨",
+      "tfMth": "인천 연안여객터미널에서 백령도행 여객선 이용(운항 시간 및 기타 내용은 연안여객터미널에 문의하시기 바랍니다.)용기포신항에서 사곶방향으로 자가용으로 이동시 10분 이내 소요."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "12872000009",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1500*1회",
+        "uptDt": "20260206"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "12872000009",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3000*3",
+        "uptDt": "20260206"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000012",
+    "name": "노인보금자리건강센터(노인요양)",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "영흥면",
+    "address": "인천광역시 옹진군 영흥면 영흥로326번길 355",
+    "lat": 37.264730300279,
+    "lng": 126.466905299985,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "노인보금자리건강센터(노인요양)",
+      "adminPttnCd": "A03",
+      "BDongCd": "360",
+      "gunmulMlno": "355",
+      "gunmulSlno": "0",
+      "HDongCd": "360",
+      "hmPostNo": "23119",
+      "locTelNo_1": "032",
+      "locTelNo_2": "888",
+      "locTelNo_3": "7267",
+      "longTermAdminSym": "12872000012",
+      "longTermPeribRgtDt": "20101231",
+      "riCd": "22",
+      "roadNmCd": "287204274167",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20101231"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000012",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "23",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "22",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "12872000012",
+      "medRoomreal": "2",
+      "ofce": "2",
+      "pgmRoomreal": "3",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "4",
+      "prsnRoomreal4": "16",
+      "spcAcupRoomreal": "2",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "26",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "12872000012",
+      "maNowPer": "16",
+      "maRsvPer": "0",
+      "totPer": "63"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "https://blog.naver.com/bogmjari2",
+      "longTermAdminSym": "12872000012",
+      "pkngEquip": "10대 가능합니다.",
+      "tfMth": "대중교통은 옹진군청에서 오이도역 경유 영흥도 도착 790번버스종점에서 하차 후 전화주시면 안내 해드립니다.승용차로 오시면 영흥면사무소를 지나 100미터쯤 직진하여 보금자리요양원 이정표를 따라 우회전하여 1킬로미터 가량계속직진하면 보금자리요양원이있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "12872000012",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10162",
+        "prodBase": "1식 3,000원*3회",
+        "uptDt": "20250317"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "12872000012",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1회 1,000원",
+        "uptDt": "20250317"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000016",
+    "name": "북도 공립 요양원(요양)",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "북도면",
+    "address": "인천광역시 옹진군 북도면 시도로 64",
+    "lat": 37.5321817179629,
+    "lng": 126.43057881172,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "북도 공립 요양원(요양)",
+      "adminPttnCd": "A04",
+      "BDongCd": "310",
+      "gunmulMlno": "64",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "23114",
+      "locTelNo_1": "032",
+      "locTelNo_2": "751",
+      "locTelNo_3": "6945",
+      "longTermAdminSym": "12872000016",
+      "longTermPeribRgtDt": "20230620",
+      "riCd": "21",
+      "roadNmCd": "287203158024",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230620"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000016",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000016",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "12872000016",
+      "maNowPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "-",
+      "longTermAdminSym": "12872000016",
+      "pkngEquip": "지상 1층 주차 가능",
+      "tfMth": "삼목선착장에서 배를 타고 신도항까지 약 10분 소요.신도항에서 승용차로 5분 소요.신도항에서 매시 30분에 마을버스 출발. 마을버스 하차시 면사무소앞 정류장 하차. (점심시간 12시30분 마을버스는 없습니다)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000016",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "2,000*1",
+        "uptDt": "20250806"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000016",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "2500*3",
+        "uptDt": "20250806"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000016",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20250806"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000018",
+    "name": "자월 공립 요양원(요양)",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "자월면",
+    "address": "인천광역시 옹진군 자월면 자월서로342번길 34",
+    "lat": 37.2591834081203,
+    "lng": 126.293428758059,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "자월 공립 요양원(요양)",
+      "adminPttnCd": "A04",
+      "BDongCd": "370",
+      "gunmulMlno": "34",
+      "gunmulSlno": "0",
+      "HDongCd": "370",
+      "hmPostNo": "23124",
+      "locTelNo_1": "032",
+      "locTelNo_2": "859",
+      "locTelNo_3": "2002",
+      "longTermAdminSym": "12872000018",
+      "longTermPeribRgtDt": "20230829",
+      "riCd": "21",
+      "roadNmCd": "287204274209",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230829"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000018",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000018",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "12872000018",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "자월공립요양원",
+      "longTermAdminSym": "12872000018",
+      "pkngEquip": "주차라인 4개장애인용주차라인 1개",
+      "tfMth": "인천 연안여객터미널&gt;대부해운 고속페리호(50분 소요)대부도 출발 대부호(1시간 소요)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000018",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500*2회=1,000원",
+        "uptDt": "20250611"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000018",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "10,000원*30일=300,000월(월 최대 10만원 상한)",
+        "uptDt": "20250611"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000018",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3,000원 * 3식 = 9000원",
+        "uptDt": "20250611"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000020",
+    "name": "연평 공립 요양원(요양)",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "연평면",
+    "address": "인천광역시 옹진군 연평면 연평로 164",
+    "lat": 37.6609619298101,
+    "lng": 125.703336297064,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "연평 공립 요양원(요양)",
+      "adminPttnCd": "A04",
+      "BDongCd": "380",
+      "gunmulMlno": "164",
+      "gunmulSlno": "0",
+      "HDongCd": "380",
+      "hmPostNo": "23108",
+      "locTelNo_1": "032",
+      "locTelNo_2": "832",
+      "locTelNo_3": "8854",
+      "longTermAdminSym": "12872000020",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "21",
+      "roadNmCd": "287203158026",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000020",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000020",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "6",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "12872000020",
+      "maNowPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "www.연평공립요양원.com",
+      "longTermAdminSym": "12872000020",
+      "pkngEquip": "일반주차10대    장애인주차2대",
+      "tfMth": "연안여객터미널--&gt; 대연평도(배로 2시간 소요)연평공립요양원까지 도보로 15분이면 도착선착창에  내려서  전화하면  모시러 감"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000020",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "3000원",
+        "uptDt": "20260403"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000022",
+    "name": "대청 공립 요양원(요양)",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "대청면",
+    "address": "인천광역시 옹진군 대청면 대청로244번길 116-34",
+    "lat": 37.832971863889,
+    "lng": 124.694584548779,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "대청 공립 요양원(요양)",
+      "adminPttnCd": "A04",
+      "BDongCd": "340",
+      "gunmulMlno": "116",
+      "gunmulSlno": "34",
+      "HDongCd": "340",
+      "hmPostNo": "23105",
+      "locTelNo_1": "032",
+      "locTelNo_2": "836",
+      "locTelNo_3": "8854",
+      "longTermAdminSym": "12872000022",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "21",
+      "roadNmCd": "287204274021",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000022",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000022",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "2",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "12872000022",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "www.대청공립요양원.com",
+      "longTermAdminSym": "12872000022",
+      "pkngEquip": "6대",
+      "tfMth": "여객선 이용(인천연안여객터미널 -&gt; 대청도 -&gt; 대청공립요양원)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000022",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20240406"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000022",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "uptDt": "20240406"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "12872000024",
+    "name": "덕적 공립 요양원(요양)",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "덕적면",
+    "address": "인천광역시 옹진군 덕적면 덕적남로 784",
+    "lat": 37.2343744370029,
+    "lng": 126.109270927127,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "덕적 공립 요양원(요양)",
+      "adminPttnCd": "A04",
+      "BDongCd": "350",
+      "gunmulMlno": "784",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "23131",
+      "locTelNo_1": "032",
+      "locTelNo_2": "832",
+      "locTelNo_3": "8856",
+      "longTermAdminSym": "12872000024",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "23",
+      "roadNmCd": "287203158007",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "12872000024",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "12872000024",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "longTermAdminSym": "12872000024",
+      "maNowPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://www.덕적공립요양원.or.kr",
+      "longTermAdminSym": "12872000024",
+      "pkngEquip": "6대(장애인주차 2면, 일반주차 4면)",
+      "tfMth": "인천연안여객터미널 &gt; 덕적도 &gt;  덕적공립요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000024",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3,000원*3식",
+        "uptDt": "20260420"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000024",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20260420"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "12872000024",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000원*1식",
+        "uptDt": "20260420"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000002",
+    "name": "옹진재가노인지원서비스센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "영흥면",
+    "address": "인천광역시 옹진군 영흥면 영흥로 335",
+    "lat": 37.2541702319503,
+    "lng": 126.477851208599,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "옹진재가노인지원서비스센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "360",
+      "gunmulMlno": "335",
+      "gunmulSlno": "0",
+      "HDongCd": "360",
+      "hmPostNo": "23119",
+      "locTelNo_1": "032",
+      "locTelNo_2": "882",
+      "locTelNo_3": "4395",
+      "longTermAdminSym": "22872000002",
+      "longTermPeribRgtDt": "20080624",
+      "riCd": "22",
+      "roadNmCd": "287203158029",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20080624"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000002",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000002",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "22872000002"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "www.ojcare.or.kr",
+      "longTermAdminSym": "22872000002",
+      "pkngEquip": "센터 앞 주차장 이용",
+      "tfMth": "※ 대중교통 이용 시 : 790번  (옹진군청 ⇔ 영흥면)※ 자가용 이용 시 : 인천광역시 옹진군 영흥면 영흥로 335 (구 내3리 마을회관)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "22872000010",
+    "name": "노인보금자리건강센터(재가)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "영흥면",
+    "address": "인천광역시 옹진군 영흥면 영흥로326번길 355",
+    "lat": 37.264730300279,
+    "lng": 126.466905299985,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "노인보금자리건강센터(재가)",
+      "adminPttnCd": "B03",
+      "BDongCd": "360",
+      "gunmulMlno": "355",
+      "gunmulSlno": "0",
+      "HDongCd": "360",
+      "hmPostNo": "23119",
+      "locTelNo_1": "032",
+      "locTelNo_2": "888",
+      "locTelNo_3": "7267",
+      "longTermAdminSym": "22872000010",
+      "longTermPeribRgtDt": "20101231",
+      "riCd": "22",
+      "roadNmCd": "287204274167",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20101231"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000010",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000010",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "16",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "22872000010",
+      "maNowPer": "5",
+      "maRsvPer": "0",
+      "totPer": "37"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://www.bogmjarihome.com",
+      "longTermAdminSym": "22872000010",
+      "pkngEquip": "20대 가능합니다.",
+      "tfMth": "대중교통은 옹진군청출발 오이도역 경유 영흥도 종점790번버스가 있습니다.종점에서 하차 하시어 전화주시면 안내해 드립니다.승용차로는 영흥면사무소를 지나 100미터쯤 직진하면 보금자리건강센터 이정표에서 우회전하여 1킬로미터 직진해서 계속오시면 보금자리건강센터가 잇습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6500",
+        "prodBase": "3,000 * 2회 = 6,000원",
+        "uptDt": "20250612"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "500원",
+        "uptDt": "20250612"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000015",
+    "name": "언제나방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "영흥면",
+    "address": "인천광역시 옹진군 영흥면 선재로 294",
+    "lat": 37.2520997695201,
+    "lng": 126.518749598328,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "언제나방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "360",
+      "gunmulMlno": "294",
+      "gunmulSlno": "0",
+      "HDongCd": "360",
+      "hmPostNo": "23122",
+      "locTelNo_1": "010",
+      "locTelNo_2": "2729",
+      "locTelNo_3": "9402",
+      "longTermAdminSym": "22872000015",
+      "longTermPeribRgtDt": "20210412",
+      "riCd": "23",
+      "roadNmCd": "287203158017",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20210412"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000015",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "100",
+      "recuProt_2": "1",
+      "socWel": "4",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000015",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "22872000015",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://alwayscare.modoo.at/",
+      "longTermAdminSym": "22872000015",
+      "pkngEquip": "기관 앞 주차 가능",
+      "tfMth": "790, 790A, 790B 버스 이용드무리해변 정류장 하차"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "22872000017",
+    "name": "북도 공립 요양원(주야간보호)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "북도면",
+    "address": "인천광역시 옹진군 북도면 시도로 64",
+    "lat": 37.5321817179629,
+    "lng": 126.43057881172,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "북도 공립 요양원(주야간보호)",
+      "adminPttnCd": "B03",
+      "BDongCd": "310",
+      "gunmulMlno": "64",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "23114",
+      "locTelNo_1": "032",
+      "locTelNo_2": "751",
+      "locTelNo_3": "6945",
+      "longTermAdminSym": "22872000017",
+      "longTermPeribRgtDt": "20230620",
+      "riCd": "21",
+      "roadNmCd": "287203158024",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230620"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000017",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000017",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "5",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "22872000017",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "15"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "longTermAdminSym": "22872000017",
+      "pkngEquip": "지상 1층 주차 가능",
+      "tfMth": "삼목선착장에서 배를 타고 약 10분 소요"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000017",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "2500*1",
+        "uptDt": "20240617"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000019",
+    "name": "자월 공립 요양원(주야간보호)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "자월면",
+    "address": "인천광역시 옹진군 자월면 자월서로342번길 34",
+    "lat": 37.2591834081203,
+    "lng": 126.293428758059,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "자월 공립 요양원(주야간보호)",
+      "adminPttnCd": "B03",
+      "BDongCd": "370",
+      "gunmulMlno": "34",
+      "gunmulSlno": "0",
+      "HDongCd": "370",
+      "hmPostNo": "23124",
+      "locTelNo_1": "032",
+      "locTelNo_2": "859",
+      "locTelNo_3": "2002",
+      "longTermAdminSym": "22872000019",
+      "longTermPeribRgtDt": "20230829",
+      "riCd": "21",
+      "roadNmCd": "287204274209",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230829"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000019",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000019",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "0",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "22872000019",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "15"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/jawol9814",
+      "longTermAdminSym": "22872000019",
+      "pkngEquip": "주차라인4개장애인용주차라이 1개전체 주차공간 10여대",
+      "tfMth": "인천 연안여객터미널&gt;대부해운 고속페리호(50분 소요)대부도 출발 대부호(1시간 소요)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000019",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500원 * 2회",
+        "uptDt": "20250723"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000019",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "3,000원 * 1식 = 3,000원",
+        "uptDt": "20250723"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000021",
+    "name": "연평 공립 요양원(주야간보호)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "연평면",
+    "address": "인천광역시 옹진군 연평면 연평로 164",
+    "lat": 37.6609619298101,
+    "lng": 125.703336297064,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "연평 공립 요양원(주야간보호)",
+      "adminPttnCd": "B03",
+      "BDongCd": "380",
+      "gunmulMlno": "164",
+      "gunmulSlno": "0",
+      "HDongCd": "380",
+      "hmPostNo": "23108",
+      "locTelNo_1": "032",
+      "locTelNo_2": "832",
+      "locTelNo_3": "8854",
+      "longTermAdminSym": "22872000021",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "21",
+      "roadNmCd": "287203158026",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000021",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000021",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "22872000021",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "15"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "www.연평공립요양원.com",
+      "longTermAdminSym": "22872000021",
+      "pkngEquip": "장애인주차 2면, 일반주차 4면",
+      "tfMth": "연안여객터미널--&gt;대연평도--&gt;연평공립요양원까지 도보15분요양원으로 전화하시면 픽업가능"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000021",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3000x3",
+        "uptDt": "20260403"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000021",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000",
+        "uptDt": "20260403"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000023",
+    "name": "대청 공립 요양원(주야간보호)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "대청면",
+    "address": "인천광역시 옹진군 대청면 대청로244번길 116-34",
+    "lat": 37.832971863889,
+    "lng": 124.694584548779,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "대청 공립 요양원(주야간보호)",
+      "adminPttnCd": "B03",
+      "BDongCd": "340",
+      "gunmulMlno": "116",
+      "gunmulSlno": "34",
+      "HDongCd": "340",
+      "hmPostNo": "23105",
+      "locTelNo_1": "032",
+      "locTelNo_2": "836",
+      "locTelNo_3": "8854",
+      "longTermAdminSym": "22872000023",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "21",
+      "roadNmCd": "287204274021",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000023",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000023",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "4",
+      "longTermAdminSym": "22872000023",
+      "totPer": "15"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "www.대청공립요양원.com",
+      "longTermAdminSym": "22872000023",
+      "pkngEquip": "6대",
+      "tfMth": "인천연안여객터미널 -&gt; 대청도 -&gt; 대청공립요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000023",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "uptDt": "20240108"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000023",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20240108"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "22872000025",
+    "name": "덕적 공립 요양원(주야간보호)",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "덕적면",
+    "address": "인천광역시 옹진군 덕적면 덕적남로 784",
+    "lat": 37.2343744370029,
+    "lng": 126.109270927127,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "덕적 공립 요양원(주야간보호)",
+      "adminPttnCd": "B03",
+      "BDongCd": "350",
+      "gunmulMlno": "784",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "23131",
+      "locTelNo_1": "032",
+      "locTelNo_2": "832",
+      "locTelNo_3": "8856",
+      "longTermAdminSym": "22872000025",
+      "longTermPeribRgtDt": "20230914",
+      "riCd": "23",
+      "roadNmCd": "287203158007",
+      "siDoCd": "28",
+      "siGunGuCd": "720",
+      "stpRptDt": "20230914"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "22872000025",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "22872000025",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "3",
+      "longTermAdminSym": "22872000025",
+      "maNowPer": "2",
+      "totPer": "15"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://www.덕적공립요양원.or.kr",
+      "longTermAdminSym": "22872000025",
+      "pkngEquip": "6대(장애인주차 2면, 일반주차 4면)",
+      "tfMth": "인천연안여객터미널 &gt; 덕적도 &gt; 덕적공립요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000025",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "3000원*1식",
+        "uptDt": "20260113"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000025",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000원*1식",
+        "uptDt": "20260113"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "22872000025",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20260113"
+      }
+    ],
+    "welfare": []
+  }
+]
