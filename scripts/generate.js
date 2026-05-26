@@ -186,7 +186,7 @@ function generatePage(inst,sidoName,nearby){
 ${inst.lat&&inst.lng?'<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1d5b4a27e7f22ebb3e9c5e160db1bfa"></script>':''}
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Noto Sans KR',sans-serif;background:#f5f5fa;color:#222;font-size:15px;line-height:1.6}
+body{font-family:'Noto Sans KR',sans-serif;background:#f5f5fa;color:#222;font-size:16px;line-height:1.7}
 .topnav{background:linear-gradient(135deg,#3D3BB5,#6C63FF);position:sticky;top:0;z-index:100}
 .topnav-inner{max-width:800px;margin:0 auto;height:48px;display:flex;align-items:center;padding:0 20px;gap:20px}
 .logo{color:#fff;font-size:17px;font-weight:600;text-decoration:none}
@@ -266,10 +266,46 @@ body{font-family:'Noto Sans KR',sans-serif;background:#f5f5fa;color:#222;font-si
 .faq-q::after{content:'\u25BC';margin-left:auto;font-size:10px;color:#bbb;transition:transform 0.2s}
 details[open] .faq-q::after{transform:rotate(180deg)}
 .faq-a{padding:0 0 14px 32px;font-size:13px;color:#555;line-height:1.7}
-@media(max-width:600px){@media(max-width:600px){
-  .info-grid,.staff-grid{grid-template-columns:1fr 1fr}
-  .facility-meta{flex-direction:column;gap:6px}
-  .container{padding:0 10px 30px}
+@media(max-width:600px){@media(max-width:768px){
+  body{font-size:17px}
+  .container{padding:0 12px 30px}
+  .hero{border-radius:0;padding:24px 18px 18px;margin-bottom:12px}
+  .section{border-radius:10px;padding:18px}
+  .facility-name{font-size:24px}
+  .facility-meta{flex-direction:column;gap:8px;font-size:15px}
+  .facility-meta i{font-size:17px}
+  .badges .badge{font-size:13px;padding:4px 12px}
+  .section-title{font-size:17px}
+  .section-title i{font-size:20px}
+  .info-grid{grid-template-columns:1fr}
+  .info-label{font-size:13px}
+  .info-val{font-size:15px}
+  .staff-grid{grid-template-columns:repeat(3,1fr)}
+  .staff-num{font-size:22px}
+  .staff-label{font-size:13px}
+  .cap-label{font-size:14px}
+  .guide-title{font-size:16px}
+  .guide-desc{font-size:14px;line-height:1.6}
+  .guide-icon{width:44px;height:44px;font-size:20px}
+  .faq-q{font-size:16px;padding:16px 0}
+  .faq-a{font-size:15px;line-height:1.7;padding:0 0 16px 36px}
+  .nb-row{font-size:15px;padding:10px 0}
+  .cta-title{font-size:20px}
+  .cta-btn{font-size:16px;padding:12px 36px}
+  .nearby-name{font-size:16px}
+  .nearby-info{font-size:13px}
+  .ad-box{font-size:13px}
+  .footer{font-size:13px}
+  .breadcrumb{font-size:13px}
+  .topnav-inner{padding:0 12px}
+  .fc-title{font-size:17px}
+  .fc-desc{font-size:14px}
+  .fc-row label{font-size:14px}
+  .fc-row select{font-size:16px;height:40px}
+  .fc-result-num{font-size:32px}
+  .fc-result-label{font-size:14px}
+  .cap-wait{font-size:14px}
+  .map-box{height:200px;border-radius:10px}
 }
 </style>
 </head>
