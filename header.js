@@ -1,3 +1,4 @@
+document.head.insertAdjacentHTML("beforeend","<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5551838339309079\" crossorigin=\"anonymous\"></"+"script>");
 (function(){
   var path=window.location.pathname;
   var isCalc=path.includes('calculator');
