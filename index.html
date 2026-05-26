@@ -334,7 +334,7 @@ function goPage(p){
 }
 
 /* ── 기관 선택 (로컬 데이터) ── */
-function selectInst(sym){
+function selectInst(sym){window.location.href="/facility/"+sym+".html";return;
   var inst=allItems.find(function(i){return i.sym===sym;});
   if(!inst)return;
 
