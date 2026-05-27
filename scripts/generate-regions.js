@@ -179,7 +179,7 @@ ${listSections}
 
 <div class="rg-ad">광고</div>
 
-<div class="rg-footer">
+<div class="rg-footer" style="display:none">
 국민건강보험공단 공공데이터 기반<br>
 &copy; 2026 <a href="/">CareCompass</a> · <a href="/privacy.html">개인정보처리방침</a>
 </div>
