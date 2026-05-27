@@ -1,0 +1,550 @@
+[
+  {
+    "sym": "34672000012",
+    "name": "곡성군보건의료원",
+    "types": [
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000020",
+    "name": "효사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000026",
+    "name": "사랑재가노인요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000045",
+    "name": "신세계노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000053",
+    "name": "곡성노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000057",
+    "name": "소나무노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000069",
+    "name": "나누미 노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34672000070",
+    "name": "석곡노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000027",
+    "name": "심청골효도의집",
+    "types": [
+      "A03",
+      "G31"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000035",
+    "name": "꿈꾸는노인요양시설",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000039",
+    "name": "곡성노인복지센터",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000054",
+    "name": "하늘위의 집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000056",
+    "name": "바울요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000065",
+    "name": "삼기노인요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000083",
+    "name": "학림원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14672000095",
+    "name": "다빈요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000022",
+    "name": "심청노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000061",
+    "name": "곡성로뎀노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000066",
+    "name": "곡성행복한노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000067",
+    "name": "곡성로뎀주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03",
+      "H31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000080",
+    "name": "옥과100세부모님학교",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000081",
+    "name": "조은노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000084",
+    "name": "학림원",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000085",
+    "name": "옥과노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000089",
+    "name": "주사랑재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000090",
+    "name": "지인재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000091",
+    "name": "사랑나눔노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000092",
+    "name": "두손재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000093",
+    "name": "더편한의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000094",
+    "name": "한마음노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24672000006",
+    "name": "원등노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

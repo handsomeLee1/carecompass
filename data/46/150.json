@@ -1,0 +1,5795 @@
+[
+  {
+    "sym": "34615000214",
+    "name": "포도재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "승주읍",
+    "address": "전라남도 순천시 승주읍 승주로 717",
+    "lat": 35.0140539218337,
+    "lng": 127.38826419572,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "포도재가노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "717",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "57908",
+      "locTelNo_1": "061",
+      "locTelNo_2": "753",
+      "locTelNo_3": "6001",
+      "longTermAdminSym": "34615000214",
+      "longTermPeribRgtDt": "20140221",
+      "riCd": "00",
+      "roadNmCd": "461503283013",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20140221"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000214",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000214",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000214",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000214",
+      "pkngEquip": "센타 앞에  사용할수 있는 공용 주차장 있음",
+      "tfMth": "순천시내버스 1번, 111번, 15번, 18번, 16번"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000233",
+    "name": "북부재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "매곡동",
+    "address": "전라남도 순천시 매곡동 7",
+    "lat": 34.96180008176126,
+    "lng": 127.4836795677267,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "북부재가복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "107",
+      "gunmulMlno": "7",
+      "gunmulSlno": "0",
+      "HDongCd": "540",
+      "hmPostNo": "57940",
+      "locTelNo_1": "061",
+      "locTelNo_2": "755",
+      "locTelNo_3": "7521",
+      "longTermAdminSym": "34615000233",
+      "longTermPeribRgtDt": "20150720",
+      "riCd": "00",
+      "roadNmCd": "461504858622",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20150720"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000233",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "39",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000233",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "0",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34615000233",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://cafe.naver.com/bukburecuperation",
+      "longTermAdminSym": "34615000233",
+      "pkngEquip": "매곡동 천주교 성당안 주차장 및 센터 앞 차선 주차가능",
+      "tfMth": "1.도보 : gs편의점 에서 구 삼산중학교 올라가는 큰길에서 하얀빌 오피스텔 옆2.버스 : 77, 52, 100번등 이용 (버스정류장: 구 삼산중학교 or매곡성당) 3.택시, 자가용  위치 : 매곡동 천주교 성당근처(하얀빌오피스텔 옆)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000236",
+    "name": "부모사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "동외동",
+    "address": "전라남도 순천시 동외동 19",
+    "lat": 34.95711044914666,
+    "lng": 127.48698171592507,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "부모사랑노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "122",
+      "gunmulMlno": "19",
+      "gunmulSlno": "0",
+      "HDongCd": "620",
+      "hmPostNo": "57942",
+      "locTelNo_1": "061",
+      "locTelNo_2": "753",
+      "locTelNo_3": "5535",
+      "longTermAdminSym": "34615000236",
+      "longTermPeribRgtDt": "20150801",
+      "riCd": "00",
+      "roadNmCd": "461503283030",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20150801"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000236",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "59",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000236",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "41",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34615000236",
+      "maNowPer": "21",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "loveparents.modoo.at",
+      "longTermAdminSym": "34615000236",
+      "pkngEquip": "사무실 근처 그림책 도서관 주차장 주차 가능합니다.그리고 사무실 앞, 옆, 골목 등에 주차 가능합니다.",
+      "tfMth": "순천시 동외동 환선로 19 (동외동178-8)  -성동초등학교로타리에서 청보온천위쪽 성진맨션 앞  부모사랑노인복지센터   버스노선 안내대표적으로 34,52,71,77,101,777 등이 있습니다.의료원 로타리에서 내리셔서 천냥하우스 골목으로 50m 도보로 내려오면 오른편 E마트 편의점 건물입니다. "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000237",
+    "name": "나누리노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "연향동",
+    "address": "전라남도 순천시 연향동 19-1",
+    "lat": 34.9433861765142,
+    "lng": 127.51592232464073,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "나누리노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "114",
+      "fl": "1",
+      "gunmulMlno": "19",
+      "gunmulSlno": "1",
+      "HDongCd": "570",
+      "hmPostNo": "57990",
+      "locTelNo_1": "061",
+      "locTelNo_2": "721",
+      "locTelNo_3": "1299",
+      "longTermAdminSym": "34615000237",
+      "longTermPeribRgtDt": "20150801",
+      "riCd": "00",
+      "roadNmCd": "461503283019",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20150801"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000237",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "134",
+      "recuProt_2": "0",
+      "socWel": "5",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000237",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "81",
+      "longTermAdminSym": "34615000237",
+      "maNowPer": "30",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://www.longtermcare.or.kr",
+      "longTermAdminSym": "34615000237",
+      "pkngEquip": "사무실 앞 주차장 있음(상시 주차가능)",
+      "tfMth": " 주소 : 순천시 연향로 19-1, 1층 자가용 : 연향동 강남중앙교회 옆 어린양어린이집 건너편 대중교통 : 670, 71, 88 (구암교 정류장 하차후 금당방면으로 120M)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000244",
+    "name": "순흥노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "연향동",
+    "address": "전라남도 순천시 연향동 8",
+    "lat": 34.94505906588377,
+    "lng": 127.52556298633094,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "순흥노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "114",
+      "gunmulMlno": "8",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57987",
+      "locTelNo_1": "061",
+      "locTelNo_2": "722",
+      "locTelNo_3": "8608",
+      "longTermAdminSym": "34615000244",
+      "longTermPeribRgtDt": "20151125",
+      "riCd": "00",
+      "roadNmCd": "461504649211",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20151125"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000244",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "29",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000244",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000244",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.naver.com/shinjs4050",
+      "longTermAdminSym": "34615000244",
+      "pkngEquip": "사무실 앞 도로나 인근 시 공영 주차장이 있어 편하게 주차하실 수 있습니다. ",
+      "tfMth": "교통편: 가곡동 방면출발:  71번 ///              낙안, 청암대 방면출발 : 68번, 100번, 101번 ///              벌교 방면 출발 : 88번 ///              광양 방면 출발 : 777번  ///금당 산림조합 (승강장 번호 : 3260391)에서 하차하여, 건너편 금메달 스포츠 골목으로 약 50m에 위치하고 있습니다.///자차 이용시 T-map을 이용하여 검색하시면 오실 수 있습니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000250",
+    "name": "송이노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C05"
+    ],
+    "emdNm": "해룡면",
+    "address": "전라남도 순천시 해룡면 조례못등길 102-10",
+    "lat": 34.9491556023795,
+    "lng": 127.527968402263,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "송이노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "fl": "1",
+      "gunmulMlno": "102",
+      "gunmulSlno": "10",
+      "HDongCd": "315",
+      "hmPostNo": "57982",
+      "locTelNo_1": "061",
+      "locTelNo_2": "727",
+      "locTelNo_3": "5981",
+      "longTermAdminSym": "34615000250",
+      "longTermPeribRgtDt": "20160406",
+      "riCd": "23",
+      "roadNmCd": "461504649958",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20160406"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000250",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "49",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000250",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "29",
+      "longTermAdminSym": "34615000250",
+      "maNowPer": "14",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000250",
+      "pkngEquip": "상가 골목 빈곳.센터 앞쪽 골목에 주차 가능합니다.",
+      "tfMth": "금당 동명조등학교 정문에서 위쪽으로 오시면 됩니다.T-map 상 &quot; 송이노인복지센터&quot;  검색 후 안내 시작 누르시면 가능합니다.버스-71번, 71-1번, 88번, 101번 가능합니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000253",
+    "name": "장수노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "주암면",
+    "address": "전라남도 순천시 주암면 동주로 2505",
+    "lat": 35.0589882840736,
+    "lng": 127.278122235382,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "장수노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "350",
+      "gunmulMlno": "2505",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "57911",
+      "locTelNo_1": "061",
+      "locTelNo_2": "752",
+      "locTelNo_3": "4620",
+      "longTermAdminSym": "34615000253",
+      "longTermPeribRgtDt": "20160713",
+      "riCd": "25",
+      "roadNmCd": "461503017003",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20160713"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000253",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000253",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000253",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000253",
+      "pkngEquip": "장수노인복지센터 옆 주암사랑교회 주차장을 이용하시면 됩니다.",
+      "tfMth": "시내버스 111번 타시고 주암면 창촌시장 앞에서 내려서 100m정도 걸어오시면 됩니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000255",
+    "name": "하나노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "장천동",
+    "address": "전라남도 순천시 장천동 17",
+    "lat": 34.951279969159906,
+    "lng": 127.48582281222848,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "하나노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "119",
+      "fl": "7층, 8",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "610",
+      "hmPostNo": "57956",
+      "locTelNo_1": "061",
+      "locTelNo_2": "901",
+      "locTelNo_3": "0096",
+      "longTermAdminSym": "34615000255",
+      "longTermPeribRgtDt": "20160825",
+      "riCd": "00",
+      "roadNmCd": "461503283025",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20160825"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000255",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "43",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000255",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000255",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.naver.com/wlsdnr6197",
+      "longTermAdminSym": "34615000255",
+      "pkngEquip": "* 하나노인복지센터 전용 건물 주차장* 시청 주차장* 동천 공영주차장* 웹툰개발센터 공영주차장* 시민로(센터 건물주변) 11시~14시 주정차 가능",
+      "tfMth": " 순천 시청 도보 2분 거리 순천 시청 옆CGV영화관 건너편 효선빌딩 7,8층 중앙시장 정류장에서 도보 3분 이내 거리 남교오거리 도보 5분 이내 거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000255",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "1800",
+        "prodBase": "식사 1회(점심)",
+        "uptDt": "20260421"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000255",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20260421"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000255",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "간식 1회",
+        "uptDt": "20260421"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34615000256",
+    "name": "남부노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "해룡면",
+    "address": "전라남도 순천시 해룡면 조례못등2길 6",
+    "lat": 34.9508695963827,
+    "lng": 127.528874469039,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "남부노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "gunmulMlno": "6",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "57974",
+      "locTelNo_1": "010",
+      "locTelNo_2": "6232",
+      "locTelNo_3": "3710",
+      "longTermAdminSym": "34615000256",
+      "longTermPeribRgtDt": "20160909",
+      "riCd": "23",
+      "roadNmCd": "461504649956",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20160909"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000256",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000256",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000256",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000256"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000257",
+    "name": "섬김노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "남정동",
+    "address": "전라남도 순천시 남정동 119",
+    "lat": 34.93948478121392,
+    "lng": 127.48817140398637,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "섬김노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "116",
+      "fl": "1",
+      "gunmulMlno": "119",
+      "gunmulSlno": "0",
+      "HDongCd": "590",
+      "hmPostNo": "57958",
+      "locTelNo_1": "061",
+      "locTelNo_2": "746",
+      "locTelNo_3": "1610",
+      "longTermAdminSym": "34615000257",
+      "longTermPeribRgtDt": "20161005",
+      "riCd": "00",
+      "roadNmCd": "461503283021",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20161005"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000257",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000257",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "14",
+      "longTermAdminSym": "34615000257",
+      "maNowPer": "8",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000257",
+      "pkngEquip": "없음",
+      "tfMth": "대중교통(시내버스)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000258",
+    "name": "9988의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "조례동",
+    "address": "전라남도 순천시 조례동 209",
+    "lat": 34.96359883524331,
+    "lng": 127.54115918607994,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "9988의료기",
+      "adminPttnCd": "C06",
+      "BDongCd": "133",
+      "gunmulMlno": "209",
+      "gunmulSlno": "0",
+      "HDongCd": "661",
+      "hmPostNo": "57931",
+      "locTelNo_1": "061",
+      "locTelNo_2": "721",
+      "locTelNo_3": "0890",
+      "longTermAdminSym": "34615000258",
+      "longTermPeribRgtDt": "20161028",
+      "riCd": "00",
+      "roadNmCd": "461503283036",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20161028"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000258",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000258",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34615000258",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000258",
+      "pkngEquip": "*9988의료기 오시는길 자료 참고티맵&gt; 전남 순천시 순광로 209 로 검색후 찾아오시면저희 사무실 옆에 바로 주차공간이 있습니다.주차공간은 넉넉하게 있으니 부담없이 찾아주세요~*주차공간 : 27 장애인주차공간 : 2 ",
+      "tfMth": "1. 버스 : 순천↔광양방면 : 77 ,777 , 990 ,99-1 타고 성가롤로병원에서 하차 후, 성가롤로     장례식장옆 승주약국 옆으로 오시면 9988의료기가 있습니다.2. 자가용 :  전남 순천시 순광로 209  티맵&amp;네비게이션으로 검색후 오시면됩니다.   "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000267",
+    "name": "성현방문간호·요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C05"
+    ],
+    "emdNm": "해룡면",
+    "address": "전라남도 순천시 해룡면 남가1길 18",
+    "lat": 34.9244755987385,
+    "lng": 127.542044069156,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "성현방문간호·요양센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "gunmulMlno": "18",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "58005",
+      "locTelNo_1": "061",
+      "locTelNo_2": "722",
+      "locTelNo_3": "9131",
+      "longTermAdminSym": "34615000267",
+      "longTermPeribRgtDt": "20170313",
+      "riCd": "25",
+      "roadNmCd": "461504649133",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20170313"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000267",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "18",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000267",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000267",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://cafe.naver.com/sunghyuncenter",
+      "longTermAdminSym": "34615000267",
+      "pkngEquip": "센터 마당 및 인근 도로변에 주차가 가능하며, 별도 전용주차시설은 마련되어 있지 않습니다.",
+      "tfMth": "시내버스 32번, 21번, 23번, 34번을 이용하시어남가정류장, 서가정류장 또는 성산정류장에서 하차 후약 도보 5분 이동하시면 됩니다.내비게이션 이용 시에는 성현방문간호요양센터’를 목적지로 설정하여 방문해 주시기 바랍니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000268",
+    "name": "햇살노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "조곡동",
+    "address": "전라남도 순천시 조곡동 22-12",
+    "lat": 34.9499775079493,
+    "lng": 127.50129270030497,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "햇살노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "111",
+      "gunmulMlno": "22",
+      "gunmulSlno": "12",
+      "HDongCd": "560",
+      "hmPostNo": "57954",
+      "locTelNo_1": "061",
+      "locTelNo_2": "745",
+      "locTelNo_3": "7477",
+      "longTermAdminSym": "34615000268",
+      "longTermPeribRgtDt": "20170317",
+      "riCd": "00",
+      "roadNmCd": "461504649885",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20170317"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000268",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "111",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000268",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000268",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.daum.net/psehwa",
+      "longTermAdminSym": "34615000268",
+      "pkngEquip": "사무실 앞에 인도에 주차가능.",
+      "tfMth": "시내버스 77, 777, 56, 59, 990, 55번 타고 근처 버스승강장에 승하차.조곡동 철도운동장 및 철도관사마을 내 골목길쪽."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000269",
+    "name": "순천다솜노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "매곡동",
+    "address": "전라남도 순천시 매곡동 122",
+    "lat": 34.96221817718787,
+    "lng": 127.4852206408005,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "순천다솜노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "107",
+      "gunmulMlno": "122",
+      "gunmulSlno": "0",
+      "HDongCd": "540",
+      "hmPostNo": "57939",
+      "locTelNo_1": "061",
+      "locTelNo_2": "902",
+      "locTelNo_3": "7786",
+      "longTermAdminSym": "34615000269",
+      "longTermPeribRgtDt": "20170327",
+      "riCd": "00",
+      "roadNmCd": "461504649390",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20170327"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000269",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "81",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000269",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "60",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34615000269",
+      "maNowPer": "36",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000269",
+      "pkngEquip": "매곡동 보해마트 이면 도로로 주차하기에 크게 불편함이 없음.",
+      "tfMth": "전남 순천시 북문길 122.(매곡동) : 택시이용시 : 위 주소를 참고하시되 매곡동 보해마트 바로 뒷 길 2층이며,                                                   버스이용시 : 시내버스 이용시 매곡동 삼산 중학교 입구에서 하차하여 건너편 보해마트 뒷편 2층(순천가구백화점2층)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000270",
+    "name": "한광메디칼순천점",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "가곡동",
+    "address": "전라남도 순천시 원가곡2길 17 (가곡동, 가곡동 영무예다음 아파트)",
+    "lat": 34.9865444665106,
+    "lng": 127.484513916478,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "한광메디칼순천점",
+      "adminPttnCd": "C06",
+      "BDongCd": "109",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "550",
+      "hmPostNo": "57924",
+      "locTelNo_1": "010",
+      "locTelNo_2": "4401",
+      "locTelNo_3": "3421",
+      "longTermAdminSym": "34615000270",
+      "longTermPeribRgtDt": "20170404",
+      "riCd": "00",
+      "roadNmCd": "461504649794",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20170404"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000270",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000270",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "fmNowPer": "37",
+      "longTermAdminSym": "34615000270",
+      "maNowPer": "35",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000270",
+      "pkngEquip": "건물 주변 도로 상황에 따라 주차가 가능하며, 방문 전 전화로 전용 주차 공간 확인을 권장합니다.",
+      "tfMth": "주소: 전라남도 순천시 원가곡길 17, 201호(가곡동 210-4), 전화번호: 010-4401-3421대중교통(시내버스): 가곡동 순천제일고등학교 인근에 위치주요 경유 노선: 순천제일고 또는 가곡동 인근을 지나는 시내버스(예: 66번, 960번 등)를 이용할 수 있습니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000271",
+    "name": "더해봄노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "조례동",
+    "address": "전라남도 순천시 조례동 111",
+    "lat": 34.96038714192022,
+    "lng": 127.51215721502398,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "더해봄노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "133",
+      "gunmulMlno": "111",
+      "gunmulSlno": "0",
+      "HDongCd": "661",
+      "hmPostNo": "57944",
+      "locTelNo_1": "061",
+      "locTelNo_2": "905",
+      "locTelNo_3": "9955",
+      "longTermAdminSym": "34615000271",
+      "longTermPeribRgtDt": "20170405",
+      "riCd": "00",
+      "roadNmCd": "461504649380",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20170405"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000271",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "34615000271",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000271",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "blog.naver.com/the-haebom",
+      "longTermAdminSym": "34615000271",
+      "pkngEquip": "본건 앞 주차장 이용 가능 (4대)",
+      "tfMth": "대중교통 이용시시내버스(555번) 석호아파트 정류장 하차 후, 석호가람휘 정문방향으로 도보 이동시내버스(59번) 석호아파트 정류장 하차 후, 석호가람휘 정문방향으로 도보 이동자가용 이용시왕조초등학교 옆길로 도로 끝날때까지 이동봉화터널 진입 전 석호가람휘 아파트 방향으로 우회전 후, 정문쪽으로 이동"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000271",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "이미용컷트무료",
+        "uptDt": "20260221"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000271",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5600",
+        "prodBase": "1식당 2800원",
+        "uptDt": "20260221"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34615000283",
+    "name": "호산나노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "생목동",
+    "address": "전라남도 순천시 생목동 1",
+    "lat": 34.95154990970147,
+    "lng": 127.50815718666851,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "호산나노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "112",
+      "gunmulMlno": "1",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57952",
+      "locTelNo_1": "061",
+      "locTelNo_2": "743",
+      "locTelNo_3": "4363",
+      "longTermAdminSym": "34615000283",
+      "longTermPeribRgtDt": "20180105",
+      "riCd": "00",
+      "roadNmCd": "461504649466",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180105"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000283",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000283",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000283",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://www.longtermcare.or.kr/npbs/r/a/104/selectMyBlog.web?ltcAdminSym=34615000",
+      "longTermAdminSym": "34615000283",
+      "pkngEquip": "아파트 상가내 주차장",
+      "tfMth": "시내버스노선 운행 77번, 59번, 111번 "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000284",
+    "name": "미소노인주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "조례동",
+    "address": "전라남도 순천시 조례동 13-15",
+    "lat": 34.95712344196809,
+    "lng": 127.52001819501787,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "미소노인주간보호센터",
+      "adminPttnCd": "C03",
+      "BDongCd": "133",
+      "gunmulMlno": "13",
+      "gunmulSlno": "15",
+      "HDongCd": "660",
+      "hmPostNo": "57949",
+      "locTelNo_1": "061",
+      "locTelNo_2": "722",
+      "locTelNo_3": "6608",
+      "longTermAdminSym": "34615000284",
+      "longTermPeribRgtDt": "20180115",
+      "riCd": "00",
+      "roadNmCd": "461504649149",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180115"
+    },
+    "staff": {
+      "adminPttnCd": "C03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000284",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C03",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "34615000284",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C03",
+      "fmNowPer": "21",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34615000284",
+      "maNowPer": "3",
+      "totPer": "24"
+    },
+    "etc": {
+      "adminPttnCd": "C03",
+      "hmpgAddr": "blog.naver.com/rlaxodus4048",
+      "longTermAdminSym": "34615000284",
+      "pkngEquip": "--",
+      "tfMth": "버스 77번 59번 100번 101번 56번 99번,  하차 후 도보 10분 삼성홈플러스 맞은편 향토정음식점 방향 골목"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000284",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "1식 3,500원  점심,저녁",
+        "uptDt": "20260225"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000284",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "2200",
+        "prodBase": "오전죽 1,500, 오후간식700",
+        "uptDt": "20260225"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34615000285",
+    "name": "중앙복지용구",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "풍덕동",
+    "address": "전라남도 순천시 풍덕동 55",
+    "lat": 34.946740041845665,
+    "lng": 127.49460732117082,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "중앙복지용구",
+      "adminPttnCd": "C06",
+      "BDongCd": "115",
+      "gunmulMlno": "55",
+      "gunmulSlno": "0",
+      "HDongCd": "580",
+      "hmPostNo": "57960",
+      "locTelNo_1": "061",
+      "locTelNo_2": "742",
+      "locTelNo_3": "0099",
+      "longTermAdminSym": "34615000285",
+      "longTermPeribRgtDt": "20180201",
+      "riCd": "00",
+      "roadNmCd": "461503283029",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180201"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000285",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000285",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34615000285",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34615000285"
+    },
+    "nonBenefit": [],
+    "welfare": [
+      {
+        "itemName": "공중부유세균살균시스템",
+        "longTermAdminSym": "34615000285",
+        "mnfCo": "일본 J.PCLARUSCO,Ltd",
+        "modelNm": "JP103cart",
+        "usage": "공간살균소독기",
+        "witemRptDesc": "A"
+      }
+    ]
+  },
+  {
+    "sym": "34615000288",
+    "name": "조은노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "황전면",
+    "address": "전라남도 순천시 황전면 괴목길 38",
+    "lat": 35.1030104257442,
+    "lng": 127.429938233552,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "조은노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "330",
+      "gunmulMlno": "38",
+      "gunmulSlno": "0",
+      "HDongCd": "330",
+      "hmPostNo": "57902",
+      "locTelNo_1": "061",
+      "locTelNo_2": "755",
+      "locTelNo_3": "8589",
+      "longTermAdminSym": "34615000288",
+      "longTermPeribRgtDt": "20180307",
+      "riCd": "24",
+      "roadNmCd": "461504649067",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180307"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000288",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "40",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000288",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "40",
+      "longTermAdminSym": "34615000288",
+      "maNowPer": "20",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.naver.com/joeunnoin",
+      "longTermAdminSym": "34615000288",
+      "pkngEquip": "주차시설은 없음 ",
+      "tfMth": "순천과 괴목간의 하루에 18회 버스 운행(33.34번)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000289",
+    "name": "해피케어노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "생목동",
+    "address": "전라남도 순천시 생목동 21",
+    "lat": 34.951177215006695,
+    "lng": 127.50412257620192,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "해피케어노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "112",
+      "gunmulMlno": "21",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57953",
+      "locTelNo_1": "061",
+      "locTelNo_2": "742",
+      "locTelNo_3": "3897",
+      "longTermAdminSym": "34615000289",
+      "longTermPeribRgtDt": "20180323",
+      "riCd": "00",
+      "roadNmCd": "461504649558",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180323"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000289",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "53",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000289",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "26",
+      "longTermAdminSym": "34615000289",
+      "maNowPer": "19",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "홈페이지 없음",
+      "longTermAdminSym": "34615000289",
+      "pkngEquip": "조그마한 공원이 위치해 있어 주차공간 넓음",
+      "tfMth": "59. 77, 99번 버스이용, 생목현대아파트정거장 하차"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000297",
+    "name": "남제노인복지센터",
+    "types": [
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C03",
+      "C05"
+    ],
+    "emdNm": "남정동",
+    "address": "전라남도 순천시 남정동 20",
+    "lat": 34.93963924291807,
+    "lng": 127.48721527859635,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "남제노인복지센터",
+      "adminPttnCd": "C03",
+      "BDongCd": "116",
+      "gunmulMlno": "20",
+      "gunmulSlno": "0",
+      "HDongCd": "590",
+      "hmPostNo": "57958",
+      "locTelNo_1": "061",
+      "locTelNo_2": "723",
+      "locTelNo_3": "3451",
+      "longTermAdminSym": "34615000297",
+      "longTermPeribRgtDt": "20180712",
+      "riCd": "00",
+      "roadNmCd": "461504649625",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180712"
+    },
+    "staff": {
+      "adminPttnCd": "C03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000297",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "34615000297",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C03",
+      "fmNowPer": "39",
+      "longTermAdminSym": "34615000297",
+      "maNowPer": "5",
+      "totPer": "45"
+    },
+    "etc": {
+      "adminPttnCd": "C03",
+      "hmpgAddr": "namjecenter.wcw.co.kr",
+      "longTermAdminSym": "34615000297",
+      "pkngEquip": "남제노인복지센터 내 주차장",
+      "tfMth": "순천 시내버스 101번,777번,88번,60번,61번,62번,63번,64번,68번,81번,82번,84번,85번,86번  신흥 정류장 하차 후 190m 도보 "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000297",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 2회 1,000",
+        "uptDt": "20260126"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000297",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1일2식  ( 1식 2,500원 )",
+        "uptDt": "20260126"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34615000298",
+    "name": "늘기쁨노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "조곡동",
+    "address": "전라남도 순천시 조곡동 4",
+    "lat": 34.9485330409958,
+    "lng": 127.50051235861639,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "늘기쁨노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "111",
+      "gunmulMlno": "4",
+      "gunmulSlno": "0",
+      "HDongCd": "560",
+      "hmPostNo": "57954",
+      "locTelNo_1": "061",
+      "locTelNo_2": "742",
+      "locTelNo_3": "9090",
+      "longTermAdminSym": "34615000298",
+      "longTermPeribRgtDt": "20180719",
+      "riCd": "00",
+      "roadNmCd": "461504649885",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180719"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000298",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "90",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000298",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000298",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "hpp71@naver.com",
+      "longTermAdminSym": "34615000298",
+      "pkngEquip": "찾아 오시는 길: 조곡동 철도운동장 부근주차시설: 센터 앞 주차가능         주소: 순천시 자경2길 4",
+      "tfMth": "대중교통: 56, 59, 77, 77-1, 990, 991(송보7차, 중마터미널)광양"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000301",
+    "name": "(수)복지용구의료기(성가롤로앞)",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "해룡면",
+    "address": "전라남도 순천시 해룡면 순광로 218",
+    "lat": 34.9630276792024,
+    "lng": 127.542353674976,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "(수)복지용구의료기(성가롤로앞)",
+      "adminPttnCd": "C06",
+      "BDongCd": "310",
+      "gunmulMlno": "218",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "57972",
+      "locTelNo_1": "061",
+      "locTelNo_2": "727",
+      "locTelNo_3": "0657",
+      "longTermAdminSym": "34615000301",
+      "longTermPeribRgtDt": "20180911",
+      "riCd": "21",
+      "roadNmCd": "461503283036",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20180911"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "1",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000301",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000301",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34615000301",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "www.노인복지용구.com",
+      "longTermAdminSym": "34615000301",
+      "pkngEquip": "사무실 앞 주자가능 / 총 3대",
+      "tfMth": "대중교통 : 77번 버스 (성가롤로병원 앞)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000302",
+    "name": "나눔노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "풍덕동",
+    "address": "전라남도 순천시 풍덕동 58",
+    "lat": 34.94287450562233,
+    "lng": 127.49615807097365,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "나눔노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "115",
+      "gunmulMlno": "58",
+      "gunmulSlno": "0",
+      "HDongCd": "580",
+      "hmPostNo": "57961",
+      "locTelNo_1": "061",
+      "locTelNo_2": "723",
+      "locTelNo_3": "7778",
+      "longTermAdminSym": "34615000302",
+      "longTermPeribRgtDt": "20181001",
+      "riCd": "00",
+      "roadNmCd": "461504650083",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20181001"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000302",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "72",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000302",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "12",
+      "longTermAdminSym": "34615000302",
+      "maNowPer": "5",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000302",
+      "pkngEquip": "사무실 주변 상시 주차 가능",
+      "tfMth": "주소 : 순천시 풍덕2길 58         풍덕행정복지센터 150m 부근,  풍덕 시장주유소 사거리근처, 한신에버빌(빌라) 50m 부근에 위치.         대중교통이용시 남산중학교 앞 승강장 이용(404m)         T-map 이용시 나눔노인복지센터 입력 "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000306",
+    "name": "정원노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "홍내동",
+    "address": "전라남도 순천시 홍내동 176",
+    "lat": 34.913929640544424,
+    "lng": 127.50112763321697,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "정원노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "125",
+      "fl": "1",
+      "gunmulMlno": "176",
+      "gunmulSlno": "0",
+      "HDongCd": "635",
+      "hmPostNo": "58026",
+      "locTelNo_1": "061",
+      "locTelNo_2": "745",
+      "locTelNo_3": "0086",
+      "longTermAdminSym": "34615000306",
+      "longTermPeribRgtDt": "20181113",
+      "riCd": "00",
+      "roadNmCd": "461504649571",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20181113"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000306",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "77",
+      "recuProt_2": "0",
+      "socWel": "5",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000306",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "60",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "34615000306",
+      "maNowPer": "25",
+      "maRsvPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "www.정원노인복지센터.com",
+      "longTermAdminSym": "34615000306",
+      "pkngEquip": "주자장 시설 완비자가용 10대 주차가능 ",
+      "tfMth": "버스 66번  도사초등학교 정류장 하차 도보 2분자가 이용시 : 청암대사거리에서 순천만 습지 방향으로 5분 거리(도사초 옆)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000307",
+    "name": "순천소망재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "연향동",
+    "address": "전라남도 순천시 연향동 42",
+    "lat": 34.94653223735545,
+    "lng": 127.52638627317565,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "순천소망재가노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "114",
+      "gunmulMlno": "42",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57986",
+      "locTelNo_1": "061",
+      "locTelNo_2": "722",
+      "locTelNo_3": "6411",
+      "longTermAdminSym": "34615000307",
+      "longTermPeribRgtDt": "20181116",
+      "riCd": "00",
+      "roadNmCd": "461504649210",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20181116"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000307",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "95",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000307",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "15",
+      "longTermAdminSym": "34615000307",
+      "maNowPer": "5",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "해당없음",
+      "longTermAdminSym": "34615000307",
+      "pkngEquip": "사무실 앞 주차장 이나 도로나 센터 뒤편, 순천산림조합 옆 인근 공영 주차장이 있어 편하게 주차하실 수 있습니다.",
+      "tfMth": "교통편: 가곡동 방면출발: 71번 /// 낙안, 청암대 방면출발 : 68번, 100번, 101번 /// 벌교 방면 출발 : 88번 /// 광양 방면 출발 : 777번 /// 금당 산림조합 (승강장 번호 : 3260391)에서 하차하여, 건너편 약 30m에 순천소망교회 1층 위치하고 있습니다./// 자차 이용시 T-map을 이용하여 순천소망재가노인복지센터(순천시 대석3길 42 (연향동1475-6)검색하시면 오실 수 있습니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000308",
+    "name": "가족사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "인제동",
+    "address": "전라남도 순천시 인제동 45",
+    "lat": 34.944190062958015,
+    "lng": 127.48281005077214,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "가족사랑노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "117",
+      "fl": "1",
+      "gunmulMlno": "45",
+      "gunmulSlno": "0",
+      "HDongCd": "590",
+      "hmPostNo": "57958",
+      "locTelNo_1": "061",
+      "locTelNo_2": "741",
+      "locTelNo_3": "0088",
+      "longTermAdminSym": "34615000308",
+      "longTermPeribRgtDt": "20181128",
+      "riCd": "00",
+      "roadNmCd": "461504649460",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20181128"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000308",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000308",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000308",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000308"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000310",
+    "name": "아름다운노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "서면",
+    "address": "전라남도 순천시 서면 백강로 805",
+    "lat": 34.9920197719495,
+    "lng": 127.49576666581,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "아름다운노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "320",
+      "fl": "2",
+      "gunmulMlno": "805",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "57925",
+      "locTelNo_1": "061",
+      "locTelNo_2": "753",
+      "locTelNo_3": "5557",
+      "longTermAdminSym": "34615000310",
+      "longTermPeribRgtDt": "20181217",
+      "riCd": "28",
+      "roadNmCd": "461503283007",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20181217"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000310",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "52",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000310",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "46",
+      "longTermAdminSym": "34615000310",
+      "maNowPer": "15",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://www.longtermcare.or.kr ",
+      "longTermAdminSym": "34615000310",
+      "pkngEquip": "센터건물 뒷편 주차장  8대센터건물 좌측 주차장 10대",
+      "tfMth": "순천교도소 정류장(3260549) | 센터와의 거리:  117m  |  버스번호 : 101, 51, 52, 53, 56, 56, 99-1  선평삼거리 정류장(3260478) | 센터와의 거리:  166m  |  버스번호 : 30, 52, 56, 56, 99 배들아파트/순천교도소 정류장(3260550) | 센터와의 거리:  200m  |  버스번호 : 100, 51, 52, 53, 56, 99선평삼거리 정류장(3260479) | 센터와의 거리:  245m  |  버스번호 :  1, 101, 111, 15, 16, 18, 30, 31, 32, 33, 34, 35, 51, 52, 53, 56, 99-1서면농협 정류장(3260434) |센터와의 거리:  220m  |  버스번호 :  1, 100, 101, 111, 15, 16, 18, 30, 31, 32, 33, 34, 35, 51, 53"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000312",
+    "name": "순천사랑데이케어센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "용당동",
+    "address": "전라남도 순천시 삼산로 81 (용당동, 용당동 동아아파트)",
+    "lat": 34.9735924021761,
+    "lng": 127.491962600829,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "순천사랑데이케어센터",
+      "adminPttnCd": "C03",
+      "BDongCd": "110",
+      "gunmulMlno": "81",
+      "gunmulSlno": "0",
+      "HDongCd": "550",
+      "hmPostNo": "57936",
+      "locTelNo_1": "061",
+      "locTelNo_2": "755",
+      "locTelNo_3": "7555",
+      "longTermAdminSym": "34615000312",
+      "longTermPeribRgtDt": "20190103",
+      "riCd": "00",
+      "roadNmCd": "461503283009",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20190103"
+    },
+    "staff": {
+      "adminPttnCd": "C03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000312",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "34615000312",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C03",
+      "fmNowPer": "8",
+      "longTermAdminSym": "34615000312",
+      "maNowPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "C03",
+      "hmpgAddr": "blog.naver.com/1030bsy/221465055831",
+      "longTermAdminSym": "34615000312",
+      "pkngEquip": "동아아파트 104동 단지내 주차 가능합니다.",
+      "tfMth": "용당동 동아아파트 에서 하차하신후 도보로 3분거리에 동아아파트 104동 앞에 위치합니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34615000312",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "3,000원 2식",
+        "uptDt": "20251022"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34615000316",
+    "name": "기쁨샘복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "장천동",
+    "address": "전라남도 순천시 장천동 25",
+    "lat": 34.94770491326747,
+    "lng": 127.49027016820591,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "기쁨샘복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "119",
+      "gunmulMlno": "25",
+      "gunmulSlno": "0",
+      "HDongCd": "610",
+      "hmPostNo": "57960",
+      "locTelNo_1": "061",
+      "locTelNo_2": "742",
+      "locTelNo_3": "2717",
+      "longTermAdminSym": "34615000316",
+      "longTermPeribRgtDt": "20190322",
+      "riCd": "00",
+      "roadNmCd": "461504649219",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20190322"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000316",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "22",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000316",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "11",
+      "longTermAdminSym": "34615000316",
+      "maNowPer": "7",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.naver.com/PostList.naver?blogId=beepas",
+      "longTermAdminSym": "34615000316",
+      "pkngEquip": "터미널주차장. 노랑극장주차장",
+      "tfMth": "대중교통(버스) : 종합버스터미널승강장 하차 후 터미널 택시 승강장 쪽 도보로 5분  기쁨샘복지센터"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000317",
+    "name": "고은마음노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "생목동",
+    "address": "전라남도 순천시 생목동 37",
+    "lat": 34.94794587309818,
+    "lng": 127.5047947676494,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "고은마음노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "112",
+      "gunmulMlno": "37",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57965",
+      "locTelNo_1": "061",
+      "locTelNo_2": "745",
+      "locTelNo_3": "1400",
+      "longTermAdminSym": "34615000317",
+      "longTermPeribRgtDt": "20190328",
+      "riCd": "00",
+      "roadNmCd": "461504649865",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20190328"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000317",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "56",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000317",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "32",
+      "fmRsvPer": "4",
+      "longTermAdminSym": "34615000317",
+      "maNowPer": "5",
+      "maRsvPer": "2",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "cafe.daum.net/kindcare11",
+      "longTermAdminSym": "34615000317",
+      "pkngEquip": "버스정류장 건너편 대로변 이면 주차 가능",
+      "tfMth": "시내버스)56,59,59-1,77-991 경유.버스정류장 이수중학교 맞은편."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000318",
+    "name": "동원의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "연향동",
+    "address": "전라남도 순천시 연향동 61",
+    "lat": 34.948855269887865,
+    "lng": 127.51304034186992,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "동원의료기",
+      "adminPttnCd": "C06",
+      "BDongCd": "114",
+      "gunmulMlno": "61",
+      "gunmulSlno": "0",
+      "HDongCd": "570",
+      "hmPostNo": "57966",
+      "locTelNo_1": "061",
+      "locTelNo_2": "743",
+      "locTelNo_3": "9019",
+      "longTermAdminSym": "34615000318",
+      "longTermPeribRgtDt": "20190415",
+      "riCd": "00",
+      "roadNmCd": "461503283005",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20190415"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000318",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000318",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34615000318",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34615000318",
+      "pkngEquip": "주차장 있음",
+      "tfMth": "시내버스 : 55번(덕연동 사무소 하차)도보 : 한국 병원옆 사거리 신호등 옆차량 : 한국병원에서 5분거리"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000319",
+    "name": "행복지원센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "풍덕동",
+    "address": "전라남도 순천시 풍덕동 55",
+    "lat": 34.94215412397791,
+    "lng": 127.50332545638899,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "행복지원센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "115",
+      "fl": "2",
+      "gunmulMlno": "55",
+      "gunmulSlno": "0",
+      "HDongCd": "580",
+      "hmPostNo": "57963",
+      "locTelNo_1": "061",
+      "locTelNo_2": "906",
+      "locTelNo_3": "0199",
+      "longTermAdminSym": "34615000319",
+      "longTermPeribRgtDt": "20190422",
+      "riCd": "00",
+      "roadNmCd": "461504650096",
+      "siDoCd": "46",
+      "siGunGuCd": "150",
+      "stpRptDt": "20190422"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34615000319",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34615000319",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000319",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34615000319",
+      "pkngEquip": "주변시설 이용",
+      "tfMth": "역전 시장에서 풍덕동 금호아파트 방향 도보 5분(풍덕동 금호아파트에서 역전 시장 방향 도보 5분)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000322",
+    "name": "풍덕늘봄노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000325",
+    "name": "새날재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000326",
+    "name": "노인복지센터나눔",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000327",
+    "name": "행복복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000328",
+    "name": "우리집25시재가방문요양보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000329",
+    "name": "드림노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000331",
+    "name": "한가족노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000332",
+    "name": "푸르미재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000337",
+    "name": "신대주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000344",
+    "name": "보건의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000050",
+    "name": "좋은이웃노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000057",
+    "name": "낙안생수노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000061",
+    "name": "실버사랑노인복지센터",
+    "types": [
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000062",
+    "name": "해바라기 노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000070",
+    "name": "순천남산복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000072",
+    "name": "보원복지용구센터",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000073",
+    "name": "희망복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000075",
+    "name": "창의복지용구센터",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000104",
+    "name": "선한노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000106",
+    "name": "별량노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000108",
+    "name": "남순천노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000131",
+    "name": "효자노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000148",
+    "name": "용봉노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000151",
+    "name": "참소망주야간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000157",
+    "name": "내부모노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000159",
+    "name": "보석의료기(성가롤로병원앞)",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000162",
+    "name": "순천노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000168",
+    "name": "주암노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000187",
+    "name": "우리가족노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000118",
+    "name": "우리노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000119",
+    "name": "평화노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000120",
+    "name": "하늘노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34615000040",
+    "name": "삼광복지용구사업소",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000200",
+    "name": "효부사랑요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000202",
+    "name": "주암햇빛마을",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000211",
+    "name": "즐거운실버홈",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000223",
+    "name": "별량요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000234",
+    "name": "순천만요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000261",
+    "name": "한솔요양원",
+    "types": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000276",
+    "name": "순천노인전문요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000292",
+    "name": "로뎀요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000299",
+    "name": "상사실버홈",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000311",
+    "name": "순천사랑노인복지시설",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000321",
+    "name": "행복한요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000368",
+    "name": "우리들요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000371",
+    "name": "평화의집노인요양원",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000380",
+    "name": "섬돌요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000383",
+    "name": "왕지실버타운요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000390",
+    "name": "정담요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000395",
+    "name": "미소요양원",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000399",
+    "name": "행복하우스",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000409",
+    "name": "사랑실버빌",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000417",
+    "name": "인휴마을",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000418",
+    "name": "순천삼성요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000420",
+    "name": "다올요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000421",
+    "name": "행복한실버홈",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000425",
+    "name": "승주요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000441",
+    "name": "셀라요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000448",
+    "name": "로얄실버빌",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000003",
+    "name": "성산요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000005",
+    "name": "순천향림실버빌",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000006",
+    "name": "은빛마을",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000099",
+    "name": "인송참살이터",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000134",
+    "name": "낙안효자실버빌",
+    "types": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000152",
+    "name": "효자노인복지센터",
+    "types": [
+      "A03",
+      "G31"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000161",
+    "name": "햇빛실버빌",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000167",
+    "name": "좋은이웃노인요양공동생활가정",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14615000179",
+    "name": "송광실버하우스",
+    "types": [
+      "A03",
+      "G31"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000404",
+    "name": "팔팔재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000406",
+    "name": "하늘빛노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000407",
+    "name": "섬기는노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000410",
+    "name": "더 행복한 복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000411",
+    "name": "품싹방문요양센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000412",
+    "name": "한마음재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000414",
+    "name": "더나눔노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000415",
+    "name": "꽃피는재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000416",
+    "name": "아리랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000419",
+    "name": "더편한데이케어",
+    "types": [
+      "방문요양",
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03",
+      "H31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000422",
+    "name": "순천효재가노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000423",
+    "name": "미래재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000424",
+    "name": "기쁘미노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000426",
+    "name": "신대온정주간보호",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000427",
+    "name": "창성노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000428",
+    "name": "신우의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000429",
+    "name": "사랑모아노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000430",
+    "name": "비타민노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000431",
+    "name": "더편한노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000432",
+    "name": "준 복지용구",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000433",
+    "name": "행복노인복지센터",
+    "types": [
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B03",
+      "B05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000435",
+    "name": "금과은노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000436",
+    "name": "늘함께 재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000437",
+    "name": "순천맘편한노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000438",
+    "name": "민들레재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000439",
+    "name": "바로노인복지용구",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000440",
+    "name": "순천다누리노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000442",
+    "name": "마실주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000443",
+    "name": "참편한노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000445",
+    "name": "참조은의료기복지용구",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000446",
+    "name": "순천큰사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000447",
+    "name": "종가노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000449",
+    "name": "오손도손재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000450",
+    "name": "순천만재가복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000451",
+    "name": "새소망재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000452",
+    "name": "(유)웃음꽃재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000453",
+    "name": "고려노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000454",
+    "name": "효심노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000456",
+    "name": "양지재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000457",
+    "name": "백년사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000458",
+    "name": "순천노인주야간보호센터",
+    "types": [
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000008",
+    "name": "순천린제노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000010",
+    "name": "순천조례노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000060",
+    "name": "실버사랑노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000175",
+    "name": "새순천노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000262",
+    "name": "밝은생각노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000293",
+    "name": "실버베이복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000294",
+    "name": "보금자리재활노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000295",
+    "name": "벧엘재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000309",
+    "name": "해드림노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000333",
+    "name": "은빛사랑채노인복지주식회사",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000345",
+    "name": "가곡재가노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000348",
+    "name": "순천행복노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000349",
+    "name": "한아름주야간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000350",
+    "name": "송광희망노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000354",
+    "name": "마음애노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000357",
+    "name": "덕암노인사랑복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000358",
+    "name": "순천다모아노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000359",
+    "name": "간호재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000361",
+    "name": "서면주야간노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000362",
+    "name": "세빛재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000364",
+    "name": "동행재가복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000365",
+    "name": "에덴노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000366",
+    "name": "다솜노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000367",
+    "name": "라온노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000369",
+    "name": "우리들노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000370",
+    "name": "새가족재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000373",
+    "name": "마륜노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000374",
+    "name": "사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000377",
+    "name": "감나무협동조합재가복지센터순천점",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000381",
+    "name": "휴데이케어센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000385",
+    "name": "재단법인 전라남도사회서비스원 순천시 실버주야간보호센터",
+    "types": [
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000386",
+    "name": "한빛케어노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000387",
+    "name": "연향꽃주야간케어센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000388",
+    "name": "예원방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000391",
+    "name": "정담주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000392",
+    "name": "맘모스노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000393",
+    "name": "코끼리방문간호센터",
+    "types": [
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000394",
+    "name": "명품노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000396",
+    "name": "정다운노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000397",
+    "name": "봄날애재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24615000400",
+    "name": "새순천목욕센터",
+    "types": [
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]
