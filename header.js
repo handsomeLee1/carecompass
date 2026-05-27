@@ -1,3 +1,4 @@
+document.head.insertAdjacentHTML("beforeend","<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-40800KBJ8Y\"></"+"script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag(\"js\",new Date());gtag(\"config\",\"G-40800KBJ8Y\");</"+"script>");
 document.head.insertAdjacentHTML("beforeend","<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5551838339309079\" crossorigin=\"anonymous\"></"+"script>");
 (function(){
   var path=window.location.pathname;
