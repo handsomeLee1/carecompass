@@ -1,0 +1,8104 @@
+[
+  {
+    "sym": "34713000033",
+    "name": "다사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000034",
+    "name": "소망노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000058",
+    "name": "다소미노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000062",
+    "name": "서라벌노인방문센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000063",
+    "name": "큰나무노인돌봄지원센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000066",
+    "name": "우리노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000071",
+    "name": "경주의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000072",
+    "name": "효방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000073",
+    "name": "청심노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000074",
+    "name": "살구꽃노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000083",
+    "name": "대안노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000087",
+    "name": "건강노인재가센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000173",
+    "name": "숲속노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000178",
+    "name": "산내노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000181",
+    "name": "푸른노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000183",
+    "name": "도움마루노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000191",
+    "name": "가온재활주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000192",
+    "name": "제일노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000193",
+    "name": "성심노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000194",
+    "name": "스마일노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000196",
+    "name": "은혜노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000198",
+    "name": "효사랑재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000200",
+    "name": "천일재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000202",
+    "name": "월산사랑복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000204",
+    "name": "감포노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000212",
+    "name": "시관재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000213",
+    "name": "안강제일재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000217",
+    "name": "새굿모닝노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000219",
+    "name": "새미노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000221",
+    "name": "경주노인사랑복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000222",
+    "name": "정담은재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000223",
+    "name": "청우노인재가종합복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000226",
+    "name": "경주어르신종합돌봄센터 1호점",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000230",
+    "name": "경북재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000233",
+    "name": "한사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000234",
+    "name": "유경어르신종합복지센터",
+    "types": [
+      "방문요양",
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C03",
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000237",
+    "name": "문화방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000238",
+    "name": "금송재가방문요양센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000175",
+    "name": "월성복지마을",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000239",
+    "name": "경주어르신종합돌봄센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "방문간호",
+      "I31"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03",
+      "C05",
+      "I31"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000241",
+    "name": "중앙노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000242",
+    "name": "효심노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000243",
+    "name": "명가재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000246",
+    "name": "효산노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000247",
+    "name": "예향복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000248",
+    "name": "아란재활주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000251",
+    "name": "누리노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000255",
+    "name": "산내노인주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000256",
+    "name": "가안어르신종합복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000257",
+    "name": "호민복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000258",
+    "name": "도연종합복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000260",
+    "name": "신라복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000262",
+    "name": "건천노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000263",
+    "name": "보람노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000266",
+    "name": "경주충효주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03",
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000267",
+    "name": "정다운재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000269",
+    "name": "양남재가방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000094",
+    "name": "미래노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000096",
+    "name": "대성노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000097",
+    "name": "외동노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000109",
+    "name": "행복노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000110",
+    "name": "예사랑노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000122",
+    "name": "유정재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000138",
+    "name": "제일의료기복지용구",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000139",
+    "name": "효감노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C06"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000144",
+    "name": "둥지재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000147",
+    "name": "100세방문간호요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000152",
+    "name": "천사주야간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000159",
+    "name": "청안노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000160",
+    "name": "늘푸른재가복지센터",
+    "types": [
+      "방문요양",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000161",
+    "name": "드림노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000162",
+    "name": "다정재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000163",
+    "name": "안강노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000166",
+    "name": "섬김노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000003",
+    "name": "천우전문요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000004",
+    "name": "은화의 집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000005",
+    "name": "천우요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000011",
+    "name": "명화의집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000012",
+    "name": "민제의 집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000016",
+    "name": "사랑의보금자리",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000101",
+    "name": "참사랑의집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000102",
+    "name": "낮은둥지공동체",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000104",
+    "name": "공영노인전문요양시설 사랑원",
+    "types": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000107",
+    "name": "안강사랑요양원",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000123",
+    "name": "하나요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000134",
+    "name": "경주따뜻한집",
+    "types": [
+      "S41"
+    ],
+    "typeCodes": [
+      "S41"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000164",
+    "name": "경주황성요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000168",
+    "name": "굿모닝요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000214",
+    "name": "불국성림원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000215",
+    "name": "늘푸른요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000261",
+    "name": "예그린요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000307",
+    "name": "충효소망의집",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000357",
+    "name": "경주안심실버타운",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000370",
+    "name": "네스트빌요양원",
+    "types": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000381",
+    "name": "경주나눔의집",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000388",
+    "name": "안강무지개요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000393",
+    "name": "보문숲향기공동생활가정",
+    "types": [
+      "A04"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14713000397",
+    "name": "귀빈요양원",
+    "types": [
+      "A03"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000373",
+    "name": "수경노인재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000384",
+    "name": "오늘방문간호요양센터",
+    "types": [
+      "방문요양",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B05"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000387",
+    "name": "수정재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000390",
+    "name": "경주효재가노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000401",
+    "name": "용황노인주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000407",
+    "name": "성실주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000410",
+    "name": "늘사랑재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000410",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "25",
+      "longTermAdminSym": "24713000410",
+      "maNowPer": "8",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000410",
+      "pkngEquip": "&lt;자가용 이용시&gt;1.경주시 경주중앙시장 제1공영주차장 주차2. 경주중앙시장 내 전용 주차장 주차3. 경주중앙시장 내 지하주차장 주차",
+      "tfMth": "&lt;대중교통 이용시&gt;경북 경주시 금성로 295(성건동) 경주중앙시장 8동 2층일반버스 : 11, 206,210,212, 216,217,230,232,273,276,41,50,502,505,51,60,61,70번 버스정류장에서 도보로 2~3분죄석버스 : 10,100,100-1, 11, 150,150-1, 208,260, 350,500,506, 508,600,603,605,609번 버스정류장에서 도보로 2~3분거리&lt;자가용 이용시&gt;1.경주시 경주중앙시장 제1공영주차장 주차2. 경주중앙시장 내 전용 주차장 주차3. 경주중앙시장 내 지하주차장 주차"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000414",
+    "name": "경주더웰주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 14-9",
+    "lat": 35.84964791032268,
+    "lng": 129.22814497159735,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "경주더웰주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "126",
+      "gunmulMlno": "14",
+      "gunmulSlno": "9",
+      "HDongCd": "630",
+      "hmPostNo": "38108",
+      "locTelNo_1": "054",
+      "locTelNo_2": "775",
+      "locTelNo_3": "5060",
+      "longTermAdminSym": "24713000414",
+      "longTermPeribRgtDt": "20231206",
+      "riCd": "00",
+      "roadNmCd": "471304715353",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20231206"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000414",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "4",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000414",
+      "medRoomreal": "0",
+      "ofce": "10",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "29",
+      "longTermAdminSym": "24713000414",
+      "maNowPer": "9",
+      "totPer": "47"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://경주더웰주간복지센터.com",
+      "longTermAdminSym": "24713000414",
+      "pkngEquip": "- 승용차 2대 주차 (건물 뒤편)",
+      "tfMth": "- 버스 70번 (시민교회 하차): 동천초 정문으로 이동 50m 거리- 승용차 : 동천초등학교 정문에서 북쪽 방향에 위치 30m 거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000414",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전 / 오후",
+        "uptDt": "20260430"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000414",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "1일",
+        "uptDt": "20260430"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000415",
+    "name": "민지효사랑주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "문무대왕면",
+    "address": "경상북도 경주시 문무대왕면 기림로 19",
+    "lat": 35.803104978649,
+    "lng": 129.421450905878,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "민지효사랑주간보호센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "315",
+      "gunmulMlno": "19",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "38120",
+      "locTelNo_1": "054",
+      "locTelNo_2": "776",
+      "locTelNo_3": "2322",
+      "longTermAdminSym": "24713000415",
+      "longTermPeribRgtDt": "20231206",
+      "riCd": "33",
+      "roadNmCd": "471303018002",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20231206"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000415",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000415",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "2",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "24713000415",
+      "maNowPer": "0",
+      "maRsvPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/jungminji79",
+      "longTermAdminSym": "24713000415",
+      "pkngEquip": "주차시설 완비 차량 10대 가량 주차가능",
+      "tfMth": "버스 150.100번 탑승 후 안동.기림사.골굴사 입구에서 하차안동 삼거리, 삼거리 식당 뒤 편 위치"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000415",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "uptDt": "20240509"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000415",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "100",
+        "uptDt": "20240509"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000415",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20240509"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000416",
+    "name": "튼튼장수주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 409-1",
+    "lat": 35.84264903505964,
+    "lng": 129.2415189367154,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "튼튼장수주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "126",
+      "gunmulMlno": "409",
+      "gunmulSlno": "1",
+      "HDongCd": "630",
+      "hmPostNo": "38101",
+      "locTelNo_1": "054",
+      "locTelNo_2": "777",
+      "locTelNo_3": "5776",
+      "longTermAdminSym": "24713000416",
+      "longTermPeribRgtDt": "20231206",
+      "riCd": "00",
+      "roadNmCd": "471303305039",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20231206"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000416",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000416",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "31",
+      "longTermAdminSym": "24713000416",
+      "maNowPer": "3",
+      "totPer": "46"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/anje817",
+      "longTermAdminSym": "24713000416",
+      "pkngEquip": "센터 앞 주차공간 사용",
+      "tfMth": "- 윗동천 보문가는길 샤브마니아 식당안쪽- 주소 : 경주시 알천북로 409-1"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000416",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "uptDt": "20231216"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000416",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20231216"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000423",
+    "name": "천수재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "충효동",
+    "address": "경상북도 경주시 충효동 22-5",
+    "lat": 35.84152336076702,
+    "lng": 129.19116541581445,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "천수재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "114",
+      "gunmulMlno": "22",
+      "gunmulSlno": "5",
+      "HDongCd": "590",
+      "hmPostNo": "38062",
+      "locTelNo_1": "054",
+      "locTelNo_2": "774",
+      "locTelNo_3": "5942",
+      "longTermAdminSym": "24713000423",
+      "longTermPeribRgtDt": "20240126",
+      "riCd": "00",
+      "roadNmCd": "471304716174",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240126"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000423",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "64",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000423",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "35",
+      "longTermAdminSym": "24713000423",
+      "maNowPer": "28",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog. naver.com/css5913",
+      "longTermAdminSym": "24713000423",
+      "pkngEquip": "1대 주차공간 있음",
+      "tfMth": "시내버스  경주 충효 신라고등학교  앞 하차 도보로 5분거리  삼정아파트 101동 옆 상가 104-c호"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000427",
+    "name": "내남주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "내남면",
+    "address": "경상북도 경주시 내남면 이조중앙길 38-27",
+    "lat": 35.7499934220218,
+    "lng": 129.200806869358,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "내남주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "330",
+      "fl": "1",
+      "gunmulMlno": "38",
+      "gunmulSlno": "27",
+      "HDongCd": "330",
+      "hmPostNo": "38193",
+      "locTelNo_1": "054",
+      "locTelNo_2": "746",
+      "locTelNo_3": "0365",
+      "longTermAdminSym": "24713000427",
+      "longTermPeribRgtDt": "20240221",
+      "riCd": "24",
+      "roadNmCd": "471304716006",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240221"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000427",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "6",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000427",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "19",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000427",
+      "maNowPer": "11",
+      "maRsvPer": "0",
+      "totPer": "48"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/jinhee4414/223370119752",
+      "longTermAdminSym": "24713000427",
+      "pkngEquip": "건물지상 주차장",
+      "tfMth": "경북 경주시 내남면 이조중앙길 38-27  1층"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000427",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500*2회",
+        "uptDt": "20250826"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000427",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "(점심,저녁)2500*2",
+        "uptDt": "20250826"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000428",
+    "name": "양남실버복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "양남면",
+    "address": "경상북도 경주시 양남면 동해안로 557-73",
+    "lat": 35.6936900284595,
+    "lng": 129.472164808947,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "양남실버복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "320",
+      "gunmulMlno": "557",
+      "gunmulSlno": "73",
+      "HDongCd": "320",
+      "hmPostNo": "38219",
+      "locTelNo_1": "070",
+      "locTelNo_2": "7313",
+      "locTelNo_3": "3673",
+      "longTermAdminSym": "24713000428",
+      "longTermPeribRgtDt": "20240221",
+      "riCd": "28",
+      "roadNmCd": "471303000101",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240221"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000428",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000428",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "5",
+      "longTermAdminSym": "24713000428",
+      "maNowPer": "4",
+      "totPer": "21"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "경북 경주시 양남면 동해안로 557-73",
+      "longTermAdminSym": "24713000428",
+      "pkngEquip": "무료주차",
+      "tfMth": "경북 경주시 양남면 동해안로 557-73경상북도 경주시 양남면 동해안로 557-73"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000428",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "과일외빵. 차등음료",
+        "uptDt": "20240417"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000428",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "1일식대2500원",
+        "uptDt": "20240417"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000431",
+    "name": "엄지노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 안강중앙로 141 (경주안강엘에이치아파트)",
+    "lat": 35.9944892159418,
+    "lng": 129.215537177002,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "엄지노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "gunmulMlno": "141",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "38010",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "2004",
+      "longTermAdminSym": "24713000431",
+      "longTermPeribRgtDt": "20240426",
+      "riCd": "32",
+      "roadNmCd": "471303305036",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240426"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000431",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "50",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000431",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "16",
+      "longTermAdminSym": "24713000431",
+      "maNowPer": "19",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://m.cafe.naver.com/ca-fe/purpleuclns",
+      "longTermAdminSym": "24713000431",
+      "pkngEquip": "경상북도 경주시 안강읍 안강중앙로 141 (경주안강엘에이치아파트) 상가101호 주차장",
+      "tfMth": "38010경상북도 경주시 안강읍 안강중앙로 141 (경주안강엘에이치아파트) 상가 101호"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000432",
+    "name": "보문숲노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "보문동",
+    "address": "경상북도 경주시 보문동 22-8",
+    "lat": 35.8308653905733,
+    "lng": 129.2574151326193,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "보문숲노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "123",
+      "gunmulMlno": "22",
+      "gunmulSlno": "8",
+      "HDongCd": "605",
+      "hmPostNo": "38175",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "1005",
+      "longTermAdminSym": "24713000432",
+      "longTermPeribRgtDt": "20240614",
+      "riCd": "00",
+      "roadNmCd": "471304715493",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240614"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000432",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000432",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "5",
+      "longTermAdminSym": "24713000432",
+      "maNowPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "홈페이지 주소 없음",
+      "longTermAdminSym": "24713000432",
+      "pkngEquip": "5대",
+      "tfMth": "대중교통 이용시 : 경주시외버스터미널 - 16번, 17번 탑승 → 보문마을 정류장 하차 후 도보로 5분                            암곡 - 18번 탑승 → 보문마을 정류장 하차 후 도보로 5분자차 이용시 : 경주 IC에서 15분 소요"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000436",
+    "name": "신기의료기 동경주",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "양남면",
+    "address": "경상북도 경주시 양남면 동해안로 466",
+    "lat": 35.6844728469451,
+    "lng": 129.472262477324,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "신기의료기 동경주",
+      "adminPttnCd": "B06",
+      "BDongCd": "320",
+      "gunmulMlno": "466",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "38219",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "0847",
+      "longTermAdminSym": "24713000436",
+      "longTermPeribRgtDt": "20240830",
+      "riCd": "28",
+      "roadNmCd": "471303000101",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240830"
+    },
+    "staff": {
+      "adminPttnCd": "B06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000436",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000436",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B06",
+      "longTermAdminSym": "24713000436",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B06",
+      "hmpgAddr": "https://singymall.kr/",
+      "longTermAdminSym": "24713000436",
+      "pkngEquip": "매장앞 주차 가능",
+      "tfMth": "&lt;주소&gt;경상북도 경주시 양남면 동해안로 466,나동 1층&lt;버스이용시&gt;경주에서 150번 버스탑승 →주상절리 하차→더킹카페 방면 도보 5분 "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000440",
+    "name": "케어링방문요양센터 경주점",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "용강동",
+    "address": "경상북도 경주시 용강동 110",
+    "lat": 35.88218972027312,
+    "lng": 129.22962110543452,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "케어링방문요양센터 경주점",
+      "adminPttnCd": "B01",
+      "BDongCd": "125",
+      "fl": "2",
+      "gunmulMlno": "110",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38069",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "9998",
+      "longTermAdminSym": "24713000440",
+      "longTermPeribRgtDt": "20240925",
+      "riCd": "00",
+      "roadNmCd": "471303305087",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240925"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000440",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000440",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "25",
+      "longTermAdminSym": "24713000440",
+      "maNowPer": "18",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://caring.co.kr",
+      "longTermAdminSym": "24713000440",
+      "pkngEquip": "건물 뒤쪽 주차 가능",
+      "tfMth": "신리마을 버스정류장에서 다이소 방향 도보 169m협성휴포레입구 버스정류장에서 도보 178m"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000441",
+    "name": "황성어버이집",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 42-6",
+    "lat": 35.86245202009693,
+    "lng": 129.217169108425,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "황성어버이집",
+      "adminPttnCd": "B03",
+      "BDongCd": "124",
+      "fl": "1",
+      "gunmulMlno": "42",
+      "gunmulSlno": "6",
+      "HDongCd": "621",
+      "hmPostNo": "38087",
+      "locTelNo_1": "054",
+      "locTelNo_2": "743",
+      "locTelNo_3": "1727",
+      "longTermAdminSym": "24713000441",
+      "longTermPeribRgtDt": "20240925",
+      "riCd": "00",
+      "roadNmCd": "471303305082",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20240925"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000441",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000441",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "19",
+      "longTermAdminSym": "24713000441",
+      "maNowPer": "6",
+      "totPer": "29"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": " https://blog.naver.com/hsph1761",
+      "longTermAdminSym": "24713000441",
+      "pkngEquip": "기관내 300미터 근방 공영주차장을 이용해주시길 바랍니다.(계림중학교 뒷편)",
+      "tfMth": "1. 황성주공1차 정류장(황성공원,시립도서관 방면)에 내려 횡단보도를 건넌 후 주공1차 입구에 서면 바로 보임-30,40,60,210,216,230,231,232,234,273,276,301,306,333-12,210,300,300-1,300-2,6032. 황성주공1차 정류장(계림중학교 방면)에 내려 계림중학교 방향으로 50m 직진 후 주공1차 입구에 서면 바로 보임-31,41,61,210,216,222,230,231,232,234,273,276,301,306-210,300,300-1,300-2"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000441",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전,오후간식:1000(단위:원)",
+        "uptDt": "20240928"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000441",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "점심:2,000 / 저녁:1,000 (단위:원)",
+        "uptDt": "20240928"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000445",
+    "name": "선한노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "서부동",
+    "address": "경상북도 경주시 서부동 50",
+    "lat": 35.84740508004075,
+    "lng": 129.2073213640766,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "선한노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "102",
+      "gunmulMlno": "50",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "38144",
+      "locTelNo_1": "070",
+      "locTelNo_2": "4186",
+      "locTelNo_3": "2155",
+      "longTermAdminSym": "24713000445",
+      "longTermPeribRgtDt": "20241030",
+      "riCd": "00",
+      "roadNmCd": "471303305026",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20241030"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000445",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "9",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000445",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "1",
+      "longTermAdminSym": "24713000445",
+      "maNowPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/sunhan7428",
+      "longTermAdminSym": "24713000445",
+      "pkngEquip": "사무실 앞 1대 주차 가능",
+      "tfMth": "중앙시장네거리 북편 하차 후 도보 2분"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000449",
+    "name": "든든재활주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 51",
+    "lat": 35.88259185486141,
+    "lng": 129.22369350983615,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "든든재활주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "124",
+      "fl": "3",
+      "gunmulMlno": "51",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38069",
+      "locTelNo_1": "070",
+      "locTelNo_2": "5220",
+      "locTelNo_3": "1119",
+      "longTermAdminSym": "24713000449",
+      "longTermPeribRgtDt": "20241126",
+      "riCd": "00",
+      "roadNmCd": "471304715107",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20241126"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000449",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000449",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "27",
+      "longTermAdminSym": "24713000449",
+      "maNowPer": "16",
+      "totPer": "43"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/ddjh0711",
+      "longTermAdminSym": "24713000449",
+      "pkngEquip": "센터 지하 주차장  및 주변 골목 주차 가능",
+      "tfMth": "대중교통 이용 시 ①시내버스 50, 51, 271, 275 : 경주 시외버스터미널 승차   → 광중마을 하차  → 센터까지 도보로 90m ②시내버스 61 : 서라벌 사거리 승차   → 현진에버빌 아파트 하차 → 센터까지 도보로 280m ③자차이용 시 : 광중마을 네비에 입력하고 오시면 근처 골목 주차 가능하며 센터 지하 주차장 이용가능함."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000449",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전, 오후(1일 2회 * 500원)",
+        "uptDt": "20241223"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000449",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1일 2식(한끼 2,500원*2식)",
+        "uptDt": "20241223"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000450",
+    "name": "고결재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 49-14",
+    "lat": 35.86893177281388,
+    "lng": 129.21177472250608,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "고결재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "124",
+      "gunmulMlno": "49",
+      "gunmulSlno": "14",
+      "HDongCd": "621",
+      "hmPostNo": "38081",
+      "locTelNo_1": "054",
+      "locTelNo_2": "624",
+      "locTelNo_3": "8855",
+      "longTermAdminSym": "24713000450",
+      "longTermPeribRgtDt": "20241126",
+      "riCd": "00",
+      "roadNmCd": "471304715898",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20241126"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000450",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "24",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000450",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "16",
+      "longTermAdminSym": "24713000450",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://cafe.naver.com/0546248855",
+      "longTermAdminSym": "24713000450",
+      "pkngEquip": "주차 시설이 협소하오니 대중교통을 이용해 주시길 바랍니다.2~3대 주차 가능",
+      "tfMth": "이편한세상 정문 옆/ 가온자리한의원 옆 민트색 문버스 이용 시● 황성주공2차, 계림고 정류장(금장삼성아파트 방면) - 31, 41, 50, 51, 200, 210, 216, 222, 230, 231, 232, 234● 황성주공2차, 계림고 정류장(계림중학교 방면) - 30, 40, 51, 200, 210, 216, 222, 230, 231, 232, 234, 333, 603● 럭키아파트 정류장 - 51, 61, 273"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000456",
+    "name": "사회적협동조합 이웃사랑주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "충효동",
+    "address": "경상북도 경주시 충효동 28",
+    "lat": 35.84282143675525,
+    "lng": 129.1735148185384,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "사회적협동조합 이웃사랑주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "114",
+      "detailAddr": "산",
+      "gunmulMlno": "28",
+      "gunmulSlno": "0",
+      "HDongCd": "590",
+      "hmPostNo": "38057",
+      "locTelNo_1": "054",
+      "locTelNo_2": "775",
+      "locTelNo_3": "6896",
+      "longTermAdminSym": "24713000456",
+      "longTermPeribRgtDt": "20250327",
+      "riCd": "00",
+      "roadNmCd": "471304716181",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250327"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000456",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000456",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "13",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000456",
+      "maNowPer": "2",
+      "maRsvPer": "0",
+      "totPer": "24"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/nhlove24",
+      "longTermAdminSym": "24713000456",
+      "pkngEquip": "주차 8대 가능 (장애인 전용 주차장 있음)",
+      "tfMth": "승용차 이용시: 충효동 스타벅스 옆 골목길 위로 약 1분간 직진대중교통 이용시 선도동 행정복지센터 버스정류장에서 도보 3분거리           "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000456",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "점심, 저녁(1일 2식)",
+        "uptDt": "20251202"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000456",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오후간식(1일 1회)",
+        "uptDt": "20251202"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000461",
+    "name": "행복한노인주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 용담로92번길 8",
+    "lat": 35.86439846691812,
+    "lng": 129.21197436318755,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "행복한노인주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "124",
+      "fl": "1",
+      "gunmulMlno": "8",
+      "gunmulSlno": "0",
+      "HDongCd": "621",
+      "hmPostNo": "38084",
+      "locTelNo_1": "054",
+      "locTelNo_2": "771",
+      "locTelNo_3": "5288",
+      "longTermAdminSym": "24713000461",
+      "longTermPeribRgtDt": "20250424",
+      "riCd": "00",
+      "roadNmCd": "471304715900",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250424"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000461",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "6",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000461",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "22",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000461",
+      "maNowPer": "10",
+      "maRsvPer": "0",
+      "totPer": "31"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/365happycare",
+      "longTermAdminSym": "24713000461",
+      "pkngEquip": "센터 뒤편 주차장 보유",
+      "tfMth": "주소 : 경주시 용담로 92번길 8 1층 (서라벌정형외과 뒤편 위치)버스(시외버스터미널 출발 기준 : 210, 216, 230, 231 계림중학교 역 하차 후 도보 3분 / 51 황성주공2차, 계림고 역 하차 후 도보 5분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000461",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전간식 500원 /  오후간식 500원",
+        "uptDt": "20250428"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000461",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "점심 2,000원 / 저녁 2,000원",
+        "uptDt": "20250428"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000465",
+    "name": "선도재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "충효동",
+    "address": "경상북도 경주시 충효동 22-10",
+    "lat": 35.841231232233525,
+    "lng": 129.19145598512068,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "선도재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "114",
+      "gunmulMlno": "22",
+      "gunmulSlno": "10",
+      "HDongCd": "590",
+      "hmPostNo": "38062",
+      "locTelNo_1": "054",
+      "locTelNo_2": "705",
+      "locTelNo_3": "3689",
+      "longTermAdminSym": "24713000465",
+      "longTermPeribRgtDt": "20250529",
+      "riCd": "00",
+      "roadNmCd": "471304716174",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250529"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000465",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000465",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "5",
+      "longTermAdminSym": "24713000465",
+      "maNowPer": "5",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "경주방문요양.한국",
+      "longTermAdminSym": "24713000465",
+      "pkngEquip": "주변 주차 가능",
+      "tfMth": "1. 자차 이용 : 경상북도 경주시 충효 1길 22-10, 201동 106-B호(충효동.  삼정 그린뷰 아파트 상가) 2. 대중 교통 이용 시 : 70번, 51번, 50번 등 경주초등학교 앞 하차 -&gt; 우회전 -&gt; 신원아침도시 -&gt;경주초등학교 방향으로 직진 -&gt;삼정그린뷰 아파트 상가(한양마트 맞은편 위치)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000467",
+    "name": "늘봄방문간호센터",
+    "types": [
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B05"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 11-2",
+    "lat": 35.864674960395575,
+    "lng": 129.21312815094697,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "늘봄방문간호센터",
+      "adminPttnCd": "B05",
+      "BDongCd": "124",
+      "fl": "1",
+      "gunmulMlno": "11",
+      "gunmulSlno": "2",
+      "HDongCd": "621",
+      "hmPostNo": "38084",
+      "locTelNo_1": "054",
+      "locTelNo_2": "621",
+      "locTelNo_3": "0007",
+      "longTermAdminSym": "24713000467",
+      "longTermPeribRgtDt": "20250529",
+      "riCd": "00",
+      "roadNmCd": "471304716324",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250529"
+    },
+    "staff": {
+      "adminPttnCd": "B05",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000467",
+      "mgmtPrsn": "0",
+      "nur": "3",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B05",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000467",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B05",
+      "longTermAdminSym": "24713000467",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B05",
+      "hmpgAddr": "m.blog.naver.com/nbcare69",
+      "longTermAdminSym": "24713000467",
+      "pkngEquip": "황성공원주차장을 이용해주세요.",
+      "tfMth": "경주시 황성동 수협 뒷편에 위치하고 있으며 황성동으로 오는 버스 40,41,50,51번 등을 이용하시면 됩니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000473",
+    "name": "가람재활주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "외동읍",
+    "address": "경상북도 경주시 외동읍 산업로 2530",
+    "lat": 35.7365030371303,
+    "lng": 129.319633881176,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "가람재활주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "259",
+      "fl": "3",
+      "gunmulMlno": "2530",
+      "gunmulSlno": "0",
+      "HDongCd": "259",
+      "hmPostNo": "38211",
+      "locTelNo_1": "054",
+      "locTelNo_2": "771",
+      "locTelNo_3": "1002",
+      "longTermAdminSym": "24713000473",
+      "longTermPeribRgtDt": "20250630",
+      "riCd": "28",
+      "roadNmCd": "471303000104",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250630"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000473",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000473",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "20",
+      "longTermAdminSym": "24713000473",
+      "maNowPer": "10",
+      "totPer": "100"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/garam-daycare",
+      "longTermAdminSym": "24713000473",
+      "pkngEquip": "넓은 주차장에 주차하시고 건물을 끼고 왼쪽으로 오시면 엘리베이트가 있습니다.",
+      "tfMth": "경주시 산업로 2530, 3층남경주IC에서 울산방면으로 2Km 가량 오시면 개곡2리마을회관 맞은편에 위치하고 있으면 주차공간이 엄청 넓게 있습니다.대중교통이용시 외동휴게소(개곡2리마을회관)에서 하차하시면 가람재활주간보호센터 앞에 하차가능합니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000473",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "1500",
+        "prodBase": "점심 1,500원, 저녁1,500원(선택적 사항)",
+        "uptDt": "20260225"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000473",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전간식(죽or마시는 종류) 500원 오후간식 500원",
+        "uptDt": "20260225"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000476",
+    "name": "한결노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "용강동",
+    "address": "경상북도 경주시 용강동 5-3",
+    "lat": 35.87698682046059,
+    "lng": 129.2289820494265,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "한결노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "125",
+      "fl": "2",
+      "gunmulMlno": "5",
+      "gunmulSlno": "3",
+      "HDongCd": "615",
+      "hmPostNo": "38090",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "3290",
+      "longTermAdminSym": "24713000476",
+      "longTermPeribRgtDt": "20250731",
+      "riCd": "00",
+      "roadNmCd": "471304715729",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250731"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000476",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "21",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000476",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "0",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "24713000476",
+      "maNowPer": "0",
+      "maRsvPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000476"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000480",
+    "name": "한마음재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 비화중로3길 11-4",
+    "lat": 35.9909805783092,
+    "lng": 129.220080070477,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "한마음재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "fl": "1",
+      "gunmulMlno": "11",
+      "gunmulSlno": "4",
+      "HDongCd": "253",
+      "hmPostNo": "38021",
+      "locTelNo_1": "054",
+      "locTelNo_2": "762",
+      "locTelNo_3": "2736",
+      "longTermAdminSym": "24713000480",
+      "longTermPeribRgtDt": "20250924",
+      "riCd": "34",
+      "roadNmCd": "471304715569",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250924"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000480",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000480",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "18",
+      "longTermAdminSym": "24713000480",
+      "maNowPer": "3",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "홈페이지 미운영",
+      "longTermAdminSym": "24713000480",
+      "pkngEquip": "건물 내 주차 가능(소형 3-4대), 인근 주차 이용 가능",
+      "tfMth": "시내버스   포항 터미널 600번 시내버스 33분- 안강 제일 초등학교 정류장 하차 후 도보 5분                경주 고용 센터 210번, 206번, 203번, 202번 (35분~38분) - 안강 제일 초등학교 하차 후 도보 5분 자동차     경주 시청- 21km 26분                포항 시청 -14km 19분               안강 제일 초등학교 - 319m 1분"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000483",
+    "name": "동광노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "서면",
+    "address": "경상북도 경주시 서면 다락골길 37",
+    "lat": 35.876030244983,
+    "lng": 129.067020795127,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "동광노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "350",
+      "gunmulMlno": "37",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "38053",
+      "locTelNo_1": "054",
+      "locTelNo_2": "751",
+      "locTelNo_3": "3453",
+      "longTermAdminSym": "24713000483",
+      "longTermPeribRgtDt": "20250924",
+      "riCd": "23",
+      "roadNmCd": "471304715254",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20250924"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000483",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "21",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000483",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000483",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000483"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000493",
+    "name": "수경어르신복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "천북면",
+    "address": "경상북도 경주시 천북면 신당대밑길 42-74",
+    "lat": 35.887595819597,
+    "lng": 129.239443434779,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "수경어르신복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "380",
+      "fl": "1",
+      "gunmulMlno": "42",
+      "gunmulSlno": "74",
+      "HDongCd": "380",
+      "hmPostNo": "38043",
+      "locTelNo_1": "054",
+      "locTelNo_2": "777",
+      "locTelNo_3": "4554",
+      "longTermAdminSym": "24713000493",
+      "longTermPeribRgtDt": "20260129",
+      "riCd": "29",
+      "roadNmCd": "471304715749",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20260129"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000493",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000493",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "6",
+      "longTermAdminSym": "24713000493",
+      "maNowPer": "2",
+      "totPer": "24"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "longTermAdminSym": "24713000493"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000493",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "식사비",
+        "uptDt": "20260324"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000493",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전, 오후",
+        "uptDt": "20260324"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000499",
+    "name": "효담주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 16-2",
+    "lat": 35.88209135813714,
+    "lng": 129.2198156712759,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "효담주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "124",
+      "fl": "2",
+      "gunmulMlno": "16",
+      "gunmulSlno": "2",
+      "HDongCd": "621",
+      "hmPostNo": "38069",
+      "locTelNo_1": "054",
+      "locTelNo_2": "774",
+      "locTelNo_3": "8801",
+      "longTermAdminSym": "24713000499",
+      "longTermPeribRgtDt": "20260324",
+      "riCd": "00",
+      "roadNmCd": "471303305087",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20260324"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000499",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000499",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "3",
+      "longTermAdminSym": "24713000499",
+      "maNowPer": "1",
+      "totPer": "34"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/hyodam8801",
+      "longTermAdminSym": "24713000499",
+      "pkngEquip": "센터 건물 뒷편 주차가능",
+      "tfMth": "61번,200번 버스 국민체육센터 하차 후 도보 5분 / 12번,271번,273번,275번 버스 코지하우스 하차 후 도보 5분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000499",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1회:500원 (2회제공)",
+        "uptDt": "20260403"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000499",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1식:2,500원 (2회제공)",
+        "uptDt": "20260403"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000501",
+    "name": "포도나무노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "구정동",
+    "address": "경상북도 경주시 구정동 26",
+    "lat": 35.77638466794521,
+    "lng": 129.30083660771487,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "포도나무노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "131",
+      "fl": "2",
+      "gunmulMlno": "26",
+      "gunmulSlno": "0",
+      "HDongCd": "650",
+      "hmPostNo": "38129",
+      "locTelNo_1": "054",
+      "locTelNo_2": "705",
+      "locTelNo_3": "0097",
+      "longTermAdminSym": "24713000501",
+      "longTermPeribRgtDt": "20260428",
+      "riCd": "00",
+      "roadNmCd": "471304715563",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20260428"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000501",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000501",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000501",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000501"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000146",
+    "name": "나눔노인재가센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "충효동",
+    "address": "경상북도 경주시 충효동 13-9",
+    "lat": 35.84310157825426,
+    "lng": 129.1775870807857,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "나눔노인재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "114",
+      "gunmulMlno": "13",
+      "gunmulSlno": "9",
+      "HDongCd": "590",
+      "hmPostNo": "38057",
+      "locTelNo_1": "054",
+      "locTelNo_2": "777",
+      "locTelNo_3": "7991",
+      "longTermAdminSym": "24713000146",
+      "longTermPeribRgtDt": "20130527",
+      "riCd": "00",
+      "roadNmCd": "471304716180",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20130527"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000146",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "58",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000146",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000146",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/gjnanumwelfare",
+      "longTermAdminSym": "24713000146",
+      "pkngEquip": "10여대 이상 주차 가능",
+      "tfMth": "버스편충효동 정보고등학교, 국민건강보험공단 정류장 하차 후 도보 120M203, 210, 270, 30, 301, 41, 50, 505, 51, 70, 30, 300, 502, 305, 334, 337, 338, 304, 350, 303"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000146",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "점심, 저녁 2식 제공",
+        "uptDt": "20260410"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000146",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "없음",
+        "uptDt": "20260410"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000184",
+    "name": "참사랑종합재가센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 32-5",
+    "lat": 35.865316322386846,
+    "lng": 129.21944139798399,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "참사랑종합재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "124",
+      "gunmulMlno": "32",
+      "gunmulSlno": "5",
+      "HDongCd": "621",
+      "hmPostNo": "38078",
+      "locTelNo_1": "054",
+      "locTelNo_2": "774",
+      "locTelNo_3": "8820",
+      "longTermAdminSym": "24713000184",
+      "longTermPeribRgtDt": "20160627",
+      "riCd": "00",
+      "roadNmCd": "471304715931",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20160627"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000184",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "30",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000184",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "17",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000184",
+      "maNowPer": "5",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "www.chammedical.kr",
+      "longTermAdminSym": "24713000184",
+      "pkngEquip": "☞전용주차장확보☞센터 내 주차장이 협소하여 인근 길가 이용 가능",
+      "tfMth": "☞자가용이용시 : 경주IC → 경주역방향 → 경주세무서앞 직진 → 황성지하도 건너서 유턴 → 용황유치원 정문 방향으로 직진 → 하나님의 교회보이면 좌회전 →  참사랑종합재가센터(주간센터)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000184",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "점심 1회  \\ 2,500원",
+        "uptDt": "20250620"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000184",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "1일 1회",
+        "uptDt": "20250620"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000184",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "1500",
+        "prodBase": "저녁 1회  \\1,500원",
+        "uptDt": "20250620"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000186",
+    "name": "하나종합재가센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 구부랑두림길 131",
+    "lat": 36.004940640066,
+    "lng": 129.199751526956,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "하나종합재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "gunmulMlno": "131",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "38002",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "1186",
+      "longTermAdminSym": "24713000186",
+      "longTermPeribRgtDt": "20161005",
+      "riCd": "32",
+      "roadNmCd": "471304715128",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20161005"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000186",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "17",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000186",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "32",
+      "longTermAdminSym": "24713000186",
+      "maNowPer": "8",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://www.ha-na.or.kr",
+      "longTermAdminSym": "24713000186",
+      "pkngEquip": "- 주차시설 완비",
+      "tfMth": "[대중교통 이용]경주시내 출발 : 시내버스 200번(풍산금속네거리 하차)시내버스 210번(안강 우방아파트 하차)포항시내 출발 : 시내버스 600번(안강 우방아파트 하차)[자가차량 이용]경주시 안강읍(진입) → 풍산금속 사거리(육교) → 우방아파트 방면 직진 → 백조어린이집 및 대한스크린골프 연습장 부근"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000186",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "3,000원*2회",
+        "uptDt": "20260425"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000186",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원*1회",
+        "uptDt": "20260425"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000207",
+    "name": "예담주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 호계길 3-11",
+    "lat": 36.0050621472918,
+    "lng": 129.192685484804,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "예담주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "253",
+      "gunmulMlno": "3",
+      "gunmulSlno": "11",
+      "HDongCd": "253",
+      "hmPostNo": "38002",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "7381",
+      "longTermAdminSym": "24713000207",
+      "longTermPeribRgtDt": "20171013",
+      "riCd": "32",
+      "roadNmCd": "471304716282",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20171013"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000207",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000207",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "1",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "13",
+      "longTermAdminSym": "24713000207",
+      "maNowPer": "4",
+      "totPer": "24"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "예담주간복지센터.com",
+      "longTermAdminSym": "24713000207",
+      "pkngEquip": "넓은 주차공간 있음(10대 정도 가능)",
+      "tfMth": "1. 대중교통이용시    1) 경주노선: 경주시외버스터미널 - 일반버스 210번 - 에덴아파트 정류장에서 하차    2) 포항노선: 포항시외버스터미널 - 좌석버스 600번 - 에덴아파트 정류장에서 하차2. 자가용이용시    1) 경주 출발 시: 경주시외버스터미널에서 출발하여 금장을 지나 자동차전용도로를 이용하여         안강우회도로 진입하여 풍산금속네거리를 지나고 &quot;산대고디탕&quot;에서        우회전하여 에덴아파트 버스정류장 맞은편 골목 열린교회 뒷길로 들어오시면 됩니다.    2) 포항 출발 시: 시외버스터미널에서 출발하여 안강방면으로 진입해 안강우회도로를 타고         풍산금속 네거리를 지나 &quot;산대고디탕&quot;에서 우회전하여         에덴아파트 버스정류장 맞은편 골목 열린교회 뒷길로 들어오시면 됩니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000207",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 2회",
+        "uptDt": "20260309"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000207",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "1식",
+        "uptDt": "20260309"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000207",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20260309"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000235",
+    "name": "보금자리노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "산내면",
+    "address": "경상북도 경주시 산내면 대현길 436-14",
+    "lat": 35.6981647140232,
+    "lng": 129.076526779726,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "보금자리노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "340",
+      "gunmulMlno": "436",
+      "gunmulSlno": "14",
+      "HDongCd": "340",
+      "hmPostNo": "38187",
+      "locTelNo_1": "054",
+      "locTelNo_2": "751",
+      "locTelNo_3": "4967",
+      "longTermAdminSym": "24713000235",
+      "longTermPeribRgtDt": "20190502",
+      "riCd": "29",
+      "roadNmCd": "471304715287",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20190502"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000235",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000235",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "21",
+      "longTermAdminSym": "24713000235",
+      "maNowPer": "4",
+      "totPer": "25"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://cafe.naver.com/house4966",
+      "longTermAdminSym": "24713000235",
+      "pkngEquip": "주차시설완비, 장애인주차가능",
+      "tfMth": "대중교통: 363(울산,언양),355(경주)울산방향-&gt; 언양-&gt;상북-&gt;궁근정-&gt;정상휴게소-&gt;소호마을-&gt;태종마을-&gt;보금자리노인복지센터경주방향-&gt;건천-&gt;산내-&gt;대현리-&gt;서편상회-&gt;시다마을-&gt;보금자리노인복지센터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000235",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "1식2,000원",
+        "uptDt": "20260504"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000245",
+    "name": "초록주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 405",
+    "lat": 35.84252569301742,
+    "lng": 129.24109302206864,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "초록주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "126",
+      "gunmulMlno": "405",
+      "gunmulSlno": "0",
+      "HDongCd": "630",
+      "hmPostNo": "38101",
+      "locTelNo_1": "054",
+      "locTelNo_2": "743",
+      "locTelNo_3": "1001",
+      "longTermAdminSym": "24713000245",
+      "longTermPeribRgtDt": "20190805",
+      "riCd": "00",
+      "roadNmCd": "471303305039",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20190805"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000245",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "13",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "2",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000245",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "38",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000245",
+      "maNowPer": "15",
+      "maRsvPer": "0",
+      "totPer": "66"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/green7431001",
+      "longTermAdminSym": "24713000245",
+      "pkngEquip": "- 센터 앞 주차 공간 사용 넉넉함",
+      "tfMth": "대중교통 : 70번 버스에서 삼성1차아파트 하차 후 윗동천 보문가는 방향으로 도보 10분자차이용 : 경주시 알천북로 405 번지"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000245",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "오전 간식 : 500원, 오후 간식 : 500원, 점심 : 2,000원, 저녁 : 2,000원",
+        "uptDt": "20241101"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000270",
+    "name": "자인효주간보호재가센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "용강동",
+    "address": "경상북도 경주시 용강동 24",
+    "lat": 35.88069660318772,
+    "lng": 129.2251842549569,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "자인효주간보호재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "125",
+      "gunmulMlno": "24",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38070",
+      "locTelNo_1": "054",
+      "locTelNo_2": "777",
+      "locTelNo_3": "4555",
+      "longTermAdminSym": "24713000270",
+      "longTermPeribRgtDt": "20200122",
+      "riCd": "00",
+      "roadNmCd": "471304715107",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200122"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000270",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000270",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "0",
+      "longTermAdminSym": "24713000270",
+      "maNowPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "www.자인효주간보호센터.kr",
+      "longTermAdminSym": "24713000270",
+      "pkngEquip": "지하주차장 또는 야외주차장 이용",
+      "tfMth": "용강동 우리마트(천마자동차학원)옆 스타타워 건물 5층 ( 1층에는 투썸커피숍/ 2층 대경관이 있습니다.)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000270",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "3,000원/식(점심,저녁)",
+        "uptDt": "20250116"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000270",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20250116"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000276",
+    "name": "안강노인주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 안강중앙로 234",
+    "lat": 35.9917986958687,
+    "lng": 129.225631410051,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "안강노인주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "253",
+      "gunmulMlno": "234",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "38023",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "0500",
+      "longTermAdminSym": "24713000276",
+      "longTermPeribRgtDt": "20200722",
+      "riCd": "33",
+      "roadNmCd": "471303305036",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200722"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000276",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000276",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "26",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "24713000276",
+      "maNowPer": "8",
+      "maRsvPer": "3",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://blog.naver.com/dksrkd15",
+      "longTermAdminSym": "24713000276",
+      "pkngEquip": "최대 주차시설  5대",
+      "tfMth": "대중 교통 이용좌석 203 (우체국에서 고향 사진관으로 100m)좌석 202 (우체국에서 고향 사진관으로 100m)일반 201 (우체국에서 고향 사진관으로 100m)일반 206(우체국에서 고향  사진관으로 100m)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000276",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "간식비",
+        "uptDt": "20231122"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000276",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "식대비",
+        "uptDt": "20231122"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000278",
+    "name": "등대노인주야간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 칠평남길 23",
+    "lat": 35.9857219158233,
+    "lng": 129.224170093468,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "등대노인주야간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "253",
+      "gunmulMlno": "23",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "38026",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "5800",
+      "longTermAdminSym": "24713000278",
+      "longTermPeribRgtDt": "20200820",
+      "riCd": "25",
+      "roadNmCd": "471304716187",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200820"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000278",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "2",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000278",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "28",
+      "longTermAdminSym": "24713000278",
+      "maNowPer": "11",
+      "totPer": "44"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://blog.naver.com/lighthouse486",
+      "longTermAdminSym": "24713000278",
+      "pkngEquip": "건물 앞 옆 주차장(7대이상,장애인전용1대)",
+      "tfMth": "안강버스터미널에서 자동차로4분거리근계1교 지나서 "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000278",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2600",
+        "prodBase": "1300*2식",
+        "uptDt": "20260112"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000278",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "400",
+        "prodBase": "400",
+        "uptDt": "20260112"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000279",
+    "name": "조은의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 388-1",
+    "lat": 35.855085354863405,
+    "lng": 129.2190594046864,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "조은의료기",
+      "adminPttnCd": "B06",
+      "BDongCd": "126",
+      "fl": "1",
+      "gunmulMlno": "388",
+      "gunmulSlno": "1",
+      "HDongCd": "630",
+      "hmPostNo": "38104",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "9513",
+      "longTermAdminSym": "24713000279",
+      "longTermPeribRgtDt": "20200820",
+      "riCd": "00",
+      "roadNmCd": "471303305047",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200820"
+    },
+    "staff": {
+      "adminPttnCd": "B06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "2",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000279",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B06",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000279",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B06",
+      "fmNowPer": "0",
+      "longTermAdminSym": "24713000279",
+      "maNowPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B06",
+      "hmpgAddr": "조은의료기.com",
+      "longTermAdminSym": "24713000279",
+      "pkngEquip": "없음",
+      "tfMth": "자가용 및 버스"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000280",
+    "name": "둥지사랑 재가방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "용강동",
+    "address": "경상북도 경주시 용강동 13",
+    "lat": 35.86261211449544,
+    "lng": 129.22486954189162,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "둥지사랑 재가방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "125",
+      "fl": "3",
+      "gunmulMlno": "13",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38095",
+      "locTelNo_1": "054",
+      "locTelNo_2": "743",
+      "locTelNo_3": "5991",
+      "longTermAdminSym": "24713000280",
+      "longTermPeribRgtDt": "20200820",
+      "riCd": "00",
+      "roadNmCd": "471304715834",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200820"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000280",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "40",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000280",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "30",
+      "longTermAdminSym": "24713000280",
+      "maNowPer": "10",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/smilesenior79",
+      "longTermAdminSym": "24713000280",
+      "pkngEquip": "주차장소유 4대 주차 가능",
+      "tfMth": "버스이용시50번, 200번, 206번, 212번, 217번, 271번, 277번  경주역승차 → 대신아파트.르노삼성경주전시장 하차60번, 260번 경주역승차 → 청강사삼거리 하차택시이용시경주역에서 6분 소요됨도보이용시경주역에서 37분 소요됨"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000285",
+    "name": "세민주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "현곡면",
+    "address": "경상북도 경주시 현곡면 용담로 535-9",
+    "lat": 35.888120163811,
+    "lng": 129.17396657121,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "세민주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "360",
+      "gunmulMlno": "535",
+      "gunmulSlno": "9",
+      "HDongCd": "360",
+      "hmPostNo": "38048",
+      "locTelNo_1": "054",
+      "locTelNo_2": "746",
+      "locTelNo_3": "9333",
+      "longTermAdminSym": "24713000285",
+      "longTermPeribRgtDt": "20200911",
+      "riCd": "23",
+      "roadNmCd": "471303305082",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200911"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000285",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000285",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "44",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000285",
+      "maNowPer": "7",
+      "maRsvPer": "0",
+      "totPer": "47"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/semin9333",
+      "longTermAdminSym": "24713000285",
+      "pkngEquip": "지상1층 넉넉함",
+      "tfMth": "자차 이용시 경주시 현곡면 용담로 535-9 / 현곡 푸르지오 동편에 있는 참뼈 뒷건물에 위치"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000285",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "저녁",
+        "uptDt": "20260416"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000285",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "오후간식",
+        "uptDt": "20260416"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000285",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "점심",
+        "uptDt": "20260416"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000285",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "오전간식",
+        "uptDt": "20260416"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000286",
+    "name": "밀알노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "천북면",
+    "address": "경상북도 경주시 천북면 광중길 150",
+    "lat": 35.8879721529485,
+    "lng": 129.231373667704,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "밀알노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "380",
+      "gunmulMlno": "150",
+      "gunmulSlno": "0",
+      "HDongCd": "380",
+      "hmPostNo": "38069",
+      "locTelNo_1": "054",
+      "locTelNo_2": "772",
+      "locTelNo_3": "8772",
+      "longTermAdminSym": "24713000286",
+      "longTermPeribRgtDt": "20200911",
+      "riCd": "29",
+      "roadNmCd": "471304715107",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20200911"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000286",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000286",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "18",
+      "longTermAdminSym": "24713000286",
+      "maNowPer": "6",
+      "totPer": "27"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/milal201005",
+      "longTermAdminSym": "24713000286",
+      "pkngEquip": "넓은 주차공간이 준비되어있습니다.",
+      "tfMth": "대중교통 이용 시 : 50번,51번,60번,61번 탑승 후 KCC스위첸 정류장에 하차 후 스위첸 정문을 지나 경주경찰서 신축부지 옆자가용 이용 시 : 경북 경주시 천북면 광중길 150 네비검색 (에일린의뜰 아파트 남쪽방향 신화씽크공장 옆 골목으로 따라 들어오시면 됩니다.)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000286",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "점심:2,000원/저녁:2,000원",
+        "uptDt": "20241031"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000286",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20241031"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000288",
+    "name": "실버재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 28",
+    "lat": 35.84841880195936,
+    "lng": 129.22901466439416,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "실버재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "126",
+      "gunmulMlno": "28",
+      "gunmulSlno": "0",
+      "HDongCd": "630",
+      "hmPostNo": "38110",
+      "locTelNo_1": "054",
+      "locTelNo_2": "774",
+      "locTelNo_3": "9695",
+      "longTermAdminSym": "24713000288",
+      "longTermPeribRgtDt": "20201208",
+      "riCd": "00",
+      "roadNmCd": "471303305060",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20201208"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000288",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000288",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000288",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24713000288",
+      "pkngEquip": "상가 주차장 이용",
+      "tfMth": "동천 초등학교 후문에서 60m버스 70번 이용"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000289",
+    "name": "초당재가노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "내남면",
+    "address": "경상북도 경주시 내남면 이조3길 16-1",
+    "lat": 35.7513306376519,
+    "lng": 129.195219674637,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "초당재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "330",
+      "gunmulMlno": "16",
+      "gunmulSlno": "1",
+      "HDongCd": "330",
+      "hmPostNo": "38193",
+      "locTelNo_1": "054",
+      "locTelNo_2": "777",
+      "locTelNo_3": "7749",
+      "longTermAdminSym": "24713000289",
+      "longTermPeribRgtDt": "20201208",
+      "riCd": "24",
+      "roadNmCd": "471304716005",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20201208"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000289",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "11",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000289",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "5",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000289",
+      "maNowPer": "5",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "팩스번호 0303-3445-7749",
+      "longTermAdminSym": "24713000289",
+      "pkngEquip": "이면도로 주차가능",
+      "tfMth": "경주시 시내버스 550번/505번/506번/507번/508번 이조리[04182] 승강장 하차 도보 1분거리"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000291",
+    "name": "노인사랑주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 현진앞2길 6",
+    "lat": 35.88444426914265,
+    "lng": 129.2239121998024,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "노인사랑주간보호센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "124",
+      "fl": "3",
+      "gunmulMlno": "6",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38069",
+      "locTelNo_1": "054",
+      "locTelNo_2": "771",
+      "locTelNo_3": "6869",
+      "longTermAdminSym": "24713000291",
+      "longTermPeribRgtDt": "20210310",
+      "riCd": "00",
+      "roadNmCd": "471304730213",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20210310"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000291",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000291",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000291",
+      "totPer": "16"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/noinlove6869",
+      "longTermAdminSym": "24713000291",
+      "pkngEquip": "건물 뒤편 주차장 장애인 주차공간 1개 주차공간 9개",
+      "tfMth": "경주시 현진앞2길 6 3층 303호경주 현진에버빌 1차 맞은편 도보 5분 이내경주 용황 협성휴포레 도보 10분 이내 "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000291",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "점심-3,000원/저녁-3,000원",
+        "uptDt": "20251224"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000291",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "0",
+        "prodBase": "0",
+        "uptDt": "20251224"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000292",
+    "name": "최장수주간노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "시래동",
+    "address": "경상북도 경주시 시래동 35-6",
+    "lat": 35.773554373570576,
+    "lng": 129.30751102460772,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "최장수주간노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "130",
+      "gunmulMlno": "35",
+      "gunmulSlno": "6",
+      "HDongCd": "650",
+      "hmPostNo": "38130",
+      "locTelNo_1": "054",
+      "locTelNo_2": "745",
+      "locTelNo_3": "2007",
+      "longTermAdminSym": "24713000292",
+      "longTermPeribRgtDt": "20210417",
+      "riCd": "00",
+      "roadNmCd": "471304715118",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20210417"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000292",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "12",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "4",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000292",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "41",
+      "longTermAdminSym": "24713000292",
+      "maNowPer": "18",
+      "totPer": "61"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://blog.naver.com/choijangsoo2021",
+      "longTermAdminSym": "24713000292",
+      "pkngEquip": "촟9대 주차가능",
+      "tfMth": "버스 600번 불국중학교 하차 도보5분버스 607번 국태그린빌 하차 도보 2분자가용 국태아파트 뒤편"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000292",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5600",
+        "prodBase": "1식 2800원(점심,저녁)",
+        "uptDt": "20260330"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000292",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "1일 2회(오전,오후)",
+        "uptDt": "20260330"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000293",
+    "name": "다온재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "황성동",
+    "address": "경상북도 경주시 황성동 30-28",
+    "lat": 35.865744584593784,
+    "lng": 129.21991164219781,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "다온재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "124",
+      "fl": "1",
+      "gunmulMlno": "30",
+      "gunmulSlno": "28",
+      "HDongCd": "621",
+      "hmPostNo": "38078",
+      "locTelNo_1": "054",
+      "locTelNo_2": "741",
+      "locTelNo_3": "1515",
+      "longTermAdminSym": "24713000293",
+      "longTermPeribRgtDt": "20210416",
+      "riCd": "00",
+      "roadNmCd": "471304716327",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20210416"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000293",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "43",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000293",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000293",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/daon2021416",
+      "longTermAdminSym": "24713000293",
+      "pkngEquip": "사무실 앞 주차, 건물 주차장 사용 가능",
+      "tfMth": "버스이용: 용황초등학교 하차 후 용황초등학교 지나 150m 직진, 성호 마루한 정문 앞자가용 이용: 용황초등학교 에서 현대5차아파트 방향으로 직진, 중간지점 황성 할인마트 앞 우회전(성호마루한) 50m 성호마루한 정문 앞"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000295",
+    "name": "진주노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "건천읍",
+    "address": "경상북도 경주시 건천읍 작원1길 69-10",
+    "lat": 35.8514967236989,
+    "lng": 129.104017558358,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "진주노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "256",
+      "fl": "1",
+      "gunmulMlno": "69",
+      "gunmulSlno": "10",
+      "HDongCd": "256",
+      "hmPostNo": "38178",
+      "locTelNo_1": "054",
+      "locTelNo_2": "753",
+      "locTelNo_3": "3075",
+      "longTermAdminSym": "24713000295",
+      "longTermPeribRgtDt": "20210614",
+      "riCd": "31",
+      "roadNmCd": "471304716023",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20210614"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000295",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "32",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000295",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000295",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/jinju3075",
+      "longTermAdminSym": "24713000295",
+      "pkngEquip": "센터 주변 주차 공간 여유 있음",
+      "tfMth": "버스이용시▶ 금호아파트 정류장 하차 후 청우아파트 후문 방향 도보 2분▶건천시장 정류장 하차 후 청우아파트 후문 방향 도보 7분"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000296",
+    "name": "THE드림노인돌봄센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "양남면",
+    "address": "경상북도 경주시 양남면 양남로 351",
+    "lat": 35.6761646043727,
+    "lng": 129.461790601613,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "THE드림노인돌봄센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "320",
+      "gunmulMlno": "351",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "38220",
+      "locTelNo_1": "054",
+      "locTelNo_2": "744",
+      "locTelNo_3": "0033",
+      "longTermAdminSym": "24713000296",
+      "longTermPeribRgtDt": "20210614",
+      "riCd": "21",
+      "roadNmCd": "471303305040",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20210614"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000296",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "30",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000296",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "18",
+      "longTermAdminSym": "24713000296",
+      "maNowPer": "16",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/hermes840608",
+      "longTermAdminSym": "24713000296",
+      "pkngEquip": "The드림노인돌봄센터 앞 승용차 2대 가능.The드림노인돌봄센터 건너 공용 주차장 5대 가능.",
+      "tfMth": "130번, 150번, 150-1번, 153번, 154번, 701번(양남면사무소.소방서 하차)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000299",
+    "name": "행복나눔재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 구부랑길 68-7",
+    "lat": 36.0034599697985,
+    "lng": 129.197801762018,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "행복나눔재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "gunmulMlno": "68",
+      "gunmulSlno": "7",
+      "HDongCd": "253",
+      "hmPostNo": "38012",
+      "locTelNo_1": "054",
+      "locTelNo_2": "761",
+      "locTelNo_3": "9171",
+      "longTermAdminSym": "24713000299",
+      "longTermPeribRgtDt": "20211129",
+      "riCd": "32",
+      "roadNmCd": "471304715127",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20211129"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000299",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "25",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000299",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "19",
+      "longTermAdminSym": "24713000299",
+      "maNowPer": "2",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24713000299",
+      "pkngEquip": "상가 앞 주차가능",
+      "tfMth": "경주 터미널 -&gt; 우방방면 (210번)안강 우방 아파트 2차 앞 산대초등학교 후문쪽"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000308",
+    "name": "두담노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "건천읍",
+    "address": "경상북도 경주시 건천읍 대곡용명길 20",
+    "lat": 35.846424991895,
+    "lng": 129.108693533138,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "두담노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "256",
+      "gunmulMlno": "20",
+      "gunmulSlno": "0",
+      "HDongCd": "256",
+      "hmPostNo": "38182",
+      "locTelNo_1": "054",
+      "locTelNo_2": "705",
+      "locTelNo_3": "1207",
+      "longTermAdminSym": "24713000308",
+      "longTermPeribRgtDt": "20220208",
+      "riCd": "31",
+      "roadNmCd": "471304715265",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220208"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000308",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "59",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000308",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "28",
+      "longTermAdminSym": "24713000308",
+      "maNowPer": "19",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/dudam1207",
+      "longTermAdminSym": "24713000308",
+      "pkngEquip": "두담노인복지센터 입구 주차장",
+      "tfMth": "&lt;대중교통 이용시&gt;- 335번건천휴먼시아 하차- 300번, 300-1번,  301번, 302번, 303번, 335번, 337번, 338번, 350번 대곡입구 하차 후 건천휴먼시아 방면으로 도보 3분&lt;자차 이용시&gt;- 건천읍 대곡용명길 20- 카카오네비 및 네이버길찾기로 두담노인복지센터 검색"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000309",
+    "name": "세화노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "성건동",
+    "address": "경상북도 경주시 북성로18번길 4",
+    "lat": 35.84722587404091,
+    "lng": 129.20365929517007,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "세화노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "108",
+      "fl": "1",
+      "gunmulMlno": "4",
+      "gunmulSlno": "0",
+      "HDongCd": "550",
+      "hmPostNo": "38143",
+      "locTelNo_1": "054",
+      "locTelNo_2": "745",
+      "locTelNo_3": "2315",
+      "longTermAdminSym": "24713000309",
+      "longTermPeribRgtDt": "20220208",
+      "riCd": "00",
+      "roadNmCd": "471304715538",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220208"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000309",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "39",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000309",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000309",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://blog.naver.com/hwa9626",
+      "longTermAdminSym": "24713000309",
+      "pkngEquip": "사무실앞 2대보유 인근도로 주차가능함 ",
+      "tfMth": "중앙시장(북편)31.200.201.202.203.205.206.207.208.210.212.216.217.230.231.232.234.260.270271.272.273.275.276.277.306.500.502.505.506.507.508.235중앙시장(하행)10.11.15.16.18.100.100-1.150.150-1.200.201.202.203.205.206.207.208.210.212.216.217.230.231.232.234.260.270.271.272.273.275.277.276.500.502.505.506.507.508.600.601.602.603.604.605.607.609"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000311",
+    "name": "청우산대주간보호센터",
+    "types": [
+      "주간보호",
+      "H31",
+      "H32"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31",
+      "H32"
+    ],
+    "emdNm": "안강읍",
+    "address": "경상북도 경주시 안강읍 구부랑두림길 126-9",
+    "lat": 36.0040427054192,
+    "lng": 129.199175341336,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "청우산대주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "253",
+      "gunmulMlno": "126",
+      "gunmulSlno": "9",
+      "HDongCd": "253",
+      "hmPostNo": "38011",
+      "locTelNo_1": "054",
+      "locTelNo_2": "761",
+      "locTelNo_3": "7500",
+      "longTermAdminSym": "24713000311",
+      "longTermPeribRgtDt": "20220208",
+      "riCd": "32",
+      "roadNmCd": "471304715128",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220208"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000311",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "7",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "2",
+      "longTermAdminSym": "24713000311",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "37",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000311",
+      "maNowPer": "11",
+      "maRsvPer": "0",
+      "totPer": "50"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/cheongwoo_sandae",
+      "longTermAdminSym": "24713000311",
+      "pkngEquip": "주차시설 완비 15대 주차가능",
+      "tfMth": "대중교통 이용201번 (경주시외버스터미널 출발-사방-안강-산대초등학교 하차 - 순복음교회 골목으로 50m)210번 (경주시외버스터미널 출발-사방-안강-산대초등학교 하차 - 순복음교회 골목으로 50m)222번 (안강동부터미널 출발-안강-육통-산대-산대초등학교 하차 -순복음교회 골목으로 50m)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "H32",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500원 x 2식",
+        "uptDt": "20260331"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "2500원 x 2식",
+        "uptDt": "20260331"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500원x2식",
+        "uptDt": "20260331"
+      },
+      {
+        "adminPttnCd": "H32",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "2500x2식",
+        "uptDt": "20260331"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20260401"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000311",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "uptDt": "20260401"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000314",
+    "name": "가족사랑노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "외동읍",
+    "address": "경상북도 경주시 외동읍 산업로 2681",
+    "lat": 35.7497316789714,
+    "lng": 129.315450463819,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "가족사랑노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "259",
+      "gunmulMlno": "2681",
+      "gunmulSlno": "0",
+      "HDongCd": "259",
+      "hmPostNo": "38211",
+      "locTelNo_1": "054",
+      "locTelNo_2": "774",
+      "locTelNo_3": "1222",
+      "longTermAdminSym": "24713000314",
+      "longTermPeribRgtDt": "20220304",
+      "riCd": "31",
+      "roadNmCd": "471303000104",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220304"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000314",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "12",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000314",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000314",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000314"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000319",
+    "name": "모서놀자학교어르신돌봄센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "강동면",
+    "address": "경상북도 경주시 강동면 모서안길 99-16",
+    "lat": 35.9507100819775,
+    "lng": 129.252849190281,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "모서놀자학교어르신돌봄센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "370",
+      "gunmulMlno": "99",
+      "gunmulSlno": "16",
+      "HDongCd": "370",
+      "hmPostNo": "38032",
+      "locTelNo_1": "054",
+      "locTelNo_2": "771",
+      "locTelNo_3": "7366",
+      "longTermAdminSym": "24713000319",
+      "longTermPeribRgtDt": "20220325",
+      "riCd": "21",
+      "roadNmCd": "471304715420",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220325"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "1",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000319",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000319",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "34",
+      "longTermAdminSym": "24713000319",
+      "maNowPer": "15",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/im7747519",
+      "longTermAdminSym": "24713000319",
+      "pkngEquip": "본 센터는 폐교된 초등학교를 리모델링하여 운영중으로 학교 운동장 전체에 승용차 약 100여대 주차 가능합니다. ",
+      "tfMth": "승용차 이용시: 포항-경주간 7번 국도 이용 강동면 모서리 강동가구백화점 앞 진입 또는 모서가구 앞에서 진입 모서2리 경로당                       옆에 위치하고 있으며 네비게이션 검색시 모서놀자학교어르신돌봄센터 검색해 오시면 됩니다. "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000319",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전간식,오후간식",
+        "uptDt": "20260128"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000319",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": " 일반식점심2,500원, 일반식저녁2,500원 당뇨식(추가500원)",
+        "uptDt": "20260128"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000321",
+    "name": "문무복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "문무대왕면",
+    "address": "경상북도 경주시 문무대왕면 어일중앙길 17",
+    "lat": 35.7914959433237,
+    "lng": 129.442101523032,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "문무복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "315",
+      "fl": "1",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "38121",
+      "locTelNo_1": "054",
+      "locTelNo_2": "746",
+      "locTelNo_3": "1533",
+      "longTermAdminSym": "24713000321",
+      "longTermPeribRgtDt": "20220325",
+      "riCd": "21",
+      "roadNmCd": "471304715851",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220325"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000321",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "67",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000321",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "77",
+      "longTermAdminSym": "24713000321",
+      "maNowPer": "22",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/munmu1533",
+      "longTermAdminSym": "24713000321",
+      "pkngEquip": "주차장 있음",
+      "tfMth": "150번, 150-1번 문무복지센터 사무실 앞 하차100번, 100-1번 (양북 농협 앞 하차 후 도보로 문무행정복지센터앞)자차 - 경주시 문무대왕면 어일중앙길17, 1층 문무복지센터 앞 주차"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000324",
+    "name": "건천노인주간보호센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "건천읍",
+    "address": "경상북도 경주시 건천읍 천포뒷길 50",
+    "lat": 35.845800213847,
+    "lng": 129.094473286069,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "건천노인주간보호센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "256",
+      "gunmulMlno": "50",
+      "gunmulSlno": "0",
+      "HDongCd": "256",
+      "hmPostNo": "38179",
+      "locTelNo_1": "054",
+      "locTelNo_2": "751",
+      "locTelNo_3": "2229",
+      "longTermAdminSym": "24713000324",
+      "longTermPeribRgtDt": "20220415",
+      "riCd": "25",
+      "roadNmCd": "471304716137",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220415"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000324",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000324",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000324",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": " band.us/@88037276",
+      "longTermAdminSym": "24713000324",
+      "pkngEquip": "시설 내 주차장 (10 여대)시설 주변 공터 (10 여대)",
+      "tfMth": "건천 천포초등학교 뒷길"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000324",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "uptDt": "20260225"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000324",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20260225"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000327",
+    "name": "터온복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "강동면",
+    "address": "경상북도 경주시 강동면 천강로 1002-7",
+    "lat": 35.9715947307479,
+    "lng": 129.290257482002,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "터온복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "370",
+      "gunmulMlno": "1002",
+      "gunmulSlno": "7",
+      "HDongCd": "370",
+      "hmPostNo": "38033",
+      "locTelNo_1": "054",
+      "locTelNo_2": "763",
+      "locTelNo_3": "4427",
+      "longTermAdminSym": "24713000327",
+      "longTermPeribRgtDt": "20220415",
+      "riCd": "29",
+      "roadNmCd": "471303305054",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220415"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000327",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "41",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000327",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "28",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24713000327",
+      "maNowPer": "13",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/theonart",
+      "longTermAdminSym": "24713000327",
+      "pkngEquip": "10대 ",
+      "tfMth": "경주시 강동면 천강로 1002-7   강동면에서 걸어서 15분  차로 5분 소요  "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24713000330",
+    "name": "경주안심실버주간보호센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "동천동",
+    "address": "경상북도 경주시 동천동 294",
+    "lat": 35.85903215005862,
+    "lng": 129.2244885946508,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "경주안심실버주간보호센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "126",
+      "fl": "2,4",
+      "gunmulMlno": "294",
+      "gunmulSlno": "0",
+      "HDongCd": "630",
+      "hmPostNo": "38099",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "4110",
+      "longTermAdminSym": "24713000330",
+      "longTermPeribRgtDt": "20220513",
+      "riCd": "00",
+      "roadNmCd": "471303305041",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220513"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000330",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000330",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000330",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/ansim00330",
+      "longTermAdminSym": "24713000330",
+      "pkngEquip": "센터 앞 주차 가능보건소 뒷편 공영주차장 또는 공영주차장 근처 공터 이용",
+      "tfMth": "황성초등학교 맞은 편, 경주시 보건소 바로 옆 위치버스 노선 60, 260번 하차 후 도보로 1분 이내 소요"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000330",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "아침",
+        "uptDt": "20260204"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000330",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "저녁",
+        "uptDt": "20260204"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000330",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오후간식",
+        "uptDt": "20260204"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000330",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2500",
+        "prodBase": "점심",
+        "uptDt": "20260204"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000334",
+    "name": "사랑채노인주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "천북면",
+    "address": "경상북도 경주시 천북면 동산3길 23-19",
+    "lat": 35.8972991655837,
+    "lng": 129.268901764108,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "사랑채노인주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "380",
+      "gunmulMlno": "23",
+      "gunmulSlno": "19",
+      "HDongCd": "380",
+      "hmPostNo": "38035",
+      "locTelNo_1": "054",
+      "locTelNo_2": "705",
+      "locTelNo_3": "0331",
+      "longTermAdminSym": "24713000334",
+      "longTermPeribRgtDt": "20220617",
+      "riCd": "25",
+      "roadNmCd": "471304715342",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220617"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000334",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "9",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000334",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "31",
+      "longTermAdminSym": "24713000334",
+      "maNowPer": "5",
+      "maRsvPer": "0",
+      "totPer": "36"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/love0331_",
+      "longTermAdminSym": "24713000334",
+      "pkngEquip": "지상주차장 5대 주차가능,전기차 주차 1대 가능",
+      "tfMth": "대중교통 271,275,276  (천북 농협 창고 앞 정류장 하차), 272 (동산 1리 정류장 하차)  휴엔하임퍼스트아파트 101 동 앞 5분 도보 이동 "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000334",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 2식 1000원",
+        "uptDt": "20260414"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000334",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "1일 2식 4000원",
+        "uptDt": "20260414"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000337",
+    "name": "예쁜재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "건천읍",
+    "address": "경상북도 경주시 건천읍 내서로 1088-9",
+    "lat": 35.850753311223,
+    "lng": 129.101178288155,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "예쁜재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "256",
+      "gunmulMlno": "1088",
+      "gunmulSlno": "9",
+      "HDongCd": "256",
+      "hmPostNo": "38178",
+      "locTelNo_1": "054",
+      "locTelNo_2": "753",
+      "locTelNo_3": "5525",
+      "longTermAdminSym": "24713000337",
+      "longTermPeribRgtDt": "20220617",
+      "riCd": "31",
+      "roadNmCd": "471303305071",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220617"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000337",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000337",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24713000337",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://노인복지센터.com/",
+      "longTermAdminSym": "24713000337",
+      "pkngEquip": "양호",
+      "tfMth": "건천우체국 옆"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000337",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "점심-3000원  저녁-2000원",
+        "uptDt": "20250612"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000337",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전500원오후500원",
+        "uptDt": "20250612"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000337",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "점심-3000원 저녁-2000원",
+        "uptDt": "20250612"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000342",
+    "name": "서면어르신종합복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "서면",
+    "address": "경상북도 경주시 서면 내서로 450",
+    "lat": 35.8919362078226,
+    "lng": 129.051751794592,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "서면어르신종합복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "350",
+      "gunmulMlno": "450",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "38053",
+      "locTelNo_1": "054",
+      "locTelNo_2": "753",
+      "locTelNo_3": "7700",
+      "longTermAdminSym": "24713000342",
+      "longTermPeribRgtDt": "20220713",
+      "riCd": "22",
+      "roadNmCd": "471303305071",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220713"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000342",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "3",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24713000342",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "18",
+      "longTermAdminSym": "24713000342",
+      "maNowPer": "6",
+      "totPer": "32"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/bone999",
+      "longTermAdminSym": "24713000342",
+      "pkngEquip": "시설 내 주차장 5~6대",
+      "tfMth": "아화초등학교 맞은편서면 행정복지센터에서 북쪽으로 도보 1분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000342",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20240306"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000342",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "uptDt": "20240306"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000344",
+    "name": "굿실버노인주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "천북면",
+    "address": "경상북도 경주시 천북면 산업로 4934-21",
+    "lat": 35.9161713007565,
+    "lng": 129.24612221774,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "굿실버노인주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "380",
+      "gunmulMlno": "4934",
+      "gunmulSlno": "21",
+      "HDongCd": "380",
+      "hmPostNo": "38039",
+      "locTelNo_1": "054",
+      "locTelNo_2": "773",
+      "locTelNo_3": "6066",
+      "longTermAdminSym": "24713000344",
+      "longTermPeribRgtDt": "20220812",
+      "riCd": "28",
+      "roadNmCd": "471303000104",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20220812"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000344",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "2",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000344",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "35",
+      "longTermAdminSym": "24713000344",
+      "maNowPer": "6",
+      "totPer": "60"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "www.굿실버노인주간복지센터.com",
+      "longTermAdminSym": "24713000344",
+      "pkngEquip": "센터 건물앞 주차장",
+      "tfMth": "주소 : 경주시 천북면 산업로 4934-21  나동경주 천북면 모아리  모다아울렛내 밀레매장 뒷편에 위치하고 있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000344",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "2500원/식(중,석식)",
+        "uptDt": "20251216"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000344",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원",
+        "uptDt": "20251216"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000351",
+    "name": "함비주간복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "용강동",
+    "address": "경상북도 경주시 용강동 65",
+    "lat": 35.86550806309292,
+    "lng": 129.22397367464885,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "함비주간복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "125",
+      "gunmulMlno": "65",
+      "gunmulSlno": "0",
+      "HDongCd": "615",
+      "hmPostNo": "38095",
+      "locTelNo_1": "054",
+      "locTelNo_2": "771",
+      "locTelNo_3": "3303",
+      "longTermAdminSym": "24713000351",
+      "longTermPeribRgtDt": "20221028",
+      "riCd": "00",
+      "roadNmCd": "471304715682",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20221028"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000351",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "6",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000351",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "20",
+      "longTermAdminSym": "24713000351",
+      "maNowPer": "7",
+      "totPer": "31"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "blog.naver.com/hambi1101",
+      "longTermAdminSym": "24713000351",
+      "pkngEquip": "센터내 넓은 앞마당에 다수의 차량주차가 가능하며, 송영 시 센터 출입구 앞에서 어르신이 천천히 안전하게 승하자가 가능합니다.",
+      "tfMth": "소금강로 61번길65는  대중교통을 이용하면 용강동 하이마트 앞에서 하차하여 도보 2분 내이며  어르신 무료택시를 이용하시면 침례교회 비전홀에서 10여미터 거리에 있으며 아시아나드림빌 앞에 하차하시면 센터가 바로 위치하고 있습니다. "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000351",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "점심 식대 2,500원 / 저녁 식대 2,500원",
+        "uptDt": "20240402"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24713000351",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "오전 간식 1000 / 오후 간식 1000",
+        "uptDt": "20240402"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24713000368",
+    "name": "사랑방재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "서부동",
+    "address": "경상북도 경주시 서부동 59",
+    "lat": 35.84762713225301,
+    "lng": 129.20824017089615,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "사랑방재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "102",
+      "gunmulMlno": "59",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "38141",
+      "locTelNo_1": "054",
+      "locTelNo_2": "741",
+      "locTelNo_3": "0077",
+      "longTermAdminSym": "24713000368",
+      "longTermPeribRgtDt": "20230127",
+      "riCd": "00",
+      "roadNmCd": "471303305026",
+      "siDoCd": "47",
+      "siGunGuCd": "130",
+      "stpRptDt": "20230127"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24713000368",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "34",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24713000368",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "23",
+      "longTermAdminSym": "24713000368",
+      "maNowPer": "14",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/sarang-0077",
+      "longTermAdminSym": "24713000368",
+      "pkngEquip": "사무실 앞, 사무실 뒤 주차가능",
+      "tfMth": "법원 . 동산병원 앞 : 좌석버스 - 100, 150, 200, 206, 230, 276, 502, 506, 600, 603, 700                              입석버스 - 10, 11, 51, 61, 70          경동노회 앞 : 좌석버스 - 210, 506, 507, 508                              입석버스 - 40, 51                             "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  }
+]
