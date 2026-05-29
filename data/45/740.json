@@ -1,1 +1,1925 @@
-[]
+[
+  {
+    "sym": "34574000025",
+    "name": "장수평화의집",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "산서면",
+    "address": "전북특별자치도 장수군 산서면 비행로 22",
+    "lat": 35.584838700531144,
+    "lng": 127.39488917224392,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "장수평화의집",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "detailAddr": "182번지 2호 ",
+      "gunmulMlno": "22",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "55647",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "4547",
+      "longTermAdminSym": "34574000025",
+      "longTermPeribRgtDt": "20100423",
+      "riCd": "34",
+      "roadNmCd": "527403276015",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20100423"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34574000025",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "39",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34574000025",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "63",
+      "longTermAdminSym": "34574000025",
+      "maNowPer": "34",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "홈페이지주소 없음",
+      "longTermAdminSym": "34574000025",
+      "pkngEquip": "사무실에서50M지나 공용주차장 완비",
+      "tfMth": "찾아오시는길장수--산서(20분정도소요)오수--산서(10분정도소요)남원--보절--산서(20분정도소요)전주--오수--산서(40분정도소요)장수군 산서면 파출소 옆"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34574000026",
+    "name": "효사랑복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "산서면",
+    "address": "전북특별자치도 장수군 산서면 신덕길 3",
+    "lat": 35.58381965697091,
+    "lng": 127.39568197656175,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "효사랑복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "detailAddr": "120번지 2호 ",
+      "gunmulMlno": "3",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "55647",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "8700",
+      "longTermAdminSym": "34574000026",
+      "longTermPeribRgtDt": "20100628",
+      "riCd": "34",
+      "roadNmCd": "527404628174",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20100628"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34574000026",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "15",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34574000026",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34574000026",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34574000026",
+      "pkngEquip": "사무실 앞 산서 공용주차장 40대이상 주차시설완비",
+      "tfMth": "찾아오시는 길 안내장수 에서 산서 (약20분 정도 소요)오수에서 산서 (약10분 정도 소요)보절에서 산서 (약10분 정도 소요)전주임실(성수) 에서 산서 (약40분 정도 소요)위치= 장수군 산서면사무소 앞"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34574000027",
+    "name": "번암노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "번암면",
+    "address": "전북특별자치도 장수군 번암면 노단신기길 5",
+    "lat": 35.532278067619146,
+    "lng": 127.5461349090457,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "번암노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "320",
+      "detailAddr": "1221번지 1호 ",
+      "gunmulMlno": "5",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "55659",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "3800",
+      "longTermAdminSym": "34574000027",
+      "longTermPeribRgtDt": "20100730",
+      "riCd": "28",
+      "roadNmCd": "527404628045",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20100730"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34574000027",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34574000027",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "33",
+      "longTermAdminSym": "34574000027",
+      "maNowPer": "3",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34574000027",
+      "pkngEquip": "주차시설완비",
+      "tfMth": "장수군 번암면 노단신기길5  번암교회 내 번암노인복지센터시내버스 : 군내버스 번암.시외버스 : 번암. 장수. 무주가는 버스자동차 : 동남원 IC 로 들어와 번암면사무소 지나 번암교회 내 "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34574000037",
+    "name": "장수사회서비스센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "장수읍",
+    "address": "전북특별자치도 장수군 장수읍 장수북동길 17",
+    "lat": 35.64786696124579,
+    "lng": 127.51657818736251,
+    "general": {
+      "adminFdatType": "5",
+      "adminNm": "장수사회서비스센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55632",
+      "locTelNo_1": "063",
+      "locTelNo_2": "352",
+      "locTelNo_3": "7911",
+      "longTermAdminSym": "34574000037",
+      "longTermPeribRgtDt": "20150129",
+      "riCd": "21",
+      "roadNmCd": "527404628278",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20150129"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34574000037",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "29",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34574000037",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "14",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34574000037",
+      "maNowPer": "9",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "www.cafe.daum.net/jsssc1004",
+      "longTermAdminSym": "34574000037",
+      "pkngEquip": "1대",
+      "tfMth": "장수공용버스터미널 뒷편 도보 3분"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34574000043",
+    "name": "장수행복드림재가센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "장수읍",
+    "address": "전북특별자치도 장수군 장수읍 교촌로 25",
+    "lat": 35.64628615380013,
+    "lng": 127.52075245165592,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "장수행복드림재가센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "25",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55633",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "9995",
+      "longTermAdminSym": "34574000043",
+      "longTermPeribRgtDt": "20191122",
+      "riCd": "21",
+      "roadNmCd": "527403276003",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20191122"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34574000043",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "42",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34574000043",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "0",
+      "longTermAdminSym": "34574000043",
+      "maNowPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "blog.naver.com/happy3519995",
+      "longTermAdminSym": "34574000043",
+      "pkngEquip": "-도보 2분거리에 장수군 주차타워 공용주차장 -센터앞도로 우측에 노면주차",
+      "tfMth": "장수읍 중동마을에 위치장수군청에서 천변쪽에 위치  도보로 3분거리장수교회 맞은 편 현대옥 식당 옆"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14574000002",
+    "name": "장수노인전문요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "천천면",
+    "address": "전북특별자치도 장수군 천천면 장천로 486-26",
+    "lat": 35.67505121424651,
+    "lng": 127.52386697307698,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "장수노인전문요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "340",
+      "detailAddr": "52번지 1호 ",
+      "gunmulMlno": "486",
+      "gunmulSlno": "26",
+      "HDongCd": "340",
+      "hmPostNo": "55609",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "6533",
+      "longTermAdminSym": "14574000002",
+      "longTermPeribRgtDt": "20080616",
+      "riCd": "21",
+      "roadNmCd": "527403276033",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20080616"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14574000002",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "21",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14574000002",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "31",
+      "longTermAdminSym": "14574000002",
+      "maNowPer": "11",
+      "totPer": "48"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "장수노인전문요양원.com",
+      "longTermAdminSym": "14574000002",
+      "pkngEquip": "승용차 15대 이상 주차 가능대형버스 4대 주차가능",
+      "tfMth": "대중교통을 이용하실 경우 - 장수읍 터미널에서 하차 -&gt; 장수노인전문요양원(훈훈한동네)로 택시를 이용(5분거리)자가용을 이용하실 경우- 전주 -&gt; 천천면 -&gt; 타루비 -&gt; 장수노인전문요양원(훈훈한동네)(약 50분소요)- 장수IC -&gt; 장수읍 -&gt; 타루비 -&gt; 장수노인전문요양원(훈훈한동네)(약 10분 소요)- 남장수IC -&gt; 장수읍 -&gt; 타루비 -&gt; 장수노인전문요양원(훈훈한동네) (약 15분소요)소요시간 :  전주 -&gt; 장수노인전문요양원(훈훈한동네) (약 50분)  장수 -&gt; 장수노인전문요양원(훈훈한동네) (약 5분)  광주 -&gt; 장수노인전문요양원(훈훈한동네) (약 1시간 30분)  남원 -&gt; 장수노인전문요양원(훈훈한동네) (약 40분)  대구 -&gt; 장수노인전문요양원(훈훈한동네) (약 1시간 30분)자세한 문의는 전화 063-351-6533 번으로 전화 주시면 자세히 안내해 드립니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14574000002",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "670",
+        "prodBase": "670원 * 30일 = 20,000원",
+        "uptDt": "20250729"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14574000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4500",
+        "prodBase": "1끼 1,500원 *3끼 =4,500원 * 30일",
+        "uptDt": "20250729"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14574000006",
+    "name": "밀알 그룹 홈",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "장계면",
+    "address": "전북특별자치도 장수군 장계면 장무로 461-6",
+    "lat": 35.74887023646569,
+    "lng": 127.59391331315254,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "밀알 그룹 홈",
+      "adminPttnCd": "A03",
+      "BDongCd": "335",
+      "detailAddr": "81번지 17호 13통 1반 ",
+      "gunmulMlno": "461",
+      "gunmulSlno": "6",
+      "HDongCd": "335",
+      "hmPostNo": "55618",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "1925",
+      "longTermAdminSym": "14574000006",
+      "longTermPeribRgtDt": "20080618",
+      "riCd": "24",
+      "roadNmCd": "527403276056",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20080613"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14574000006",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "9",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "4",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14574000006",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "3",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "16",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14574000006",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "16"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "14574000006",
+      "pkngEquip": "주차공간 넓음 : 승용차 20대 이상",
+      "tfMth": "대중교통 : 장계면 소제지 버스정류장에서 계북방향으로 1.2km승용차 :  장수 I.C에서  장계면 소제지경유 - 계북방향 (무주 19번도로)으로 5km전주에서 50분거리남원에서 1시간무주에서 40분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14574000006",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "1일 3식",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14574000006",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "우유, 요크르트등 ",
+        "uptDt": "20260504"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14574000030",
+    "name": "백세동안요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "천천면",
+    "address": "전북특별자치도 장수군 천천면 진장로 1526-8",
+    "lat": 35.75040508493555,
+    "lng": 127.54257632227595,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "백세동안요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "340",
+      "gunmulMlno": "1526",
+      "gunmulSlno": "8",
+      "HDongCd": "340",
+      "hmPostNo": "55606",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "7179",
+      "longTermAdminSym": "14574000030",
+      "longTermPeribRgtDt": "20120306",
+      "riCd": "28",
+      "roadNmCd": "527403274046",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20120306"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14574000030",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "12",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "4",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14574000030",
+      "medRoomreal": "1",
+      "ofce": "2",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "5",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "22",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14574000030",
+      "maNowPer": "6",
+      "maRsvPer": "0",
+      "totPer": "28"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://bakse001.tnaru.net/web/index",
+      "longTermAdminSym": "14574000030",
+      "pkngEquip": "사무실쪽 5대 ,인근공터 10대 이상 주차가능.",
+      "tfMth": "찾아 오시는길...◈ 전주 → 진안 → 천천(10분정도소요)→ 천천 용광리(용광가든옆 백세동안요양원)    전주 → 남원(장수까지 40분소요 → 장수(기관까지 20분소요) → 백세동안요양원       전주 → 임실 → 산서(장수까지 30분소요) → 장수 → 천천 용광리 백세동안요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14574000030",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "2500원*3끼*30일",
+        "uptDt": "20260109"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14574000035",
+    "name": "장수밀알공동생활가정",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "장수읍",
+    "address": "전북특별자치도 장수군 장수읍 교촌로 17",
+    "lat": 35.646433051256516,
+    "lng": 127.51993593506444,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "장수밀알공동생활가정",
+      "adminPttnCd": "A04",
+      "BDongCd": "250",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55633",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "9797",
+      "longTermAdminSym": "14574000035",
+      "longTermPeribRgtDt": "20140418",
+      "riCd": "21",
+      "roadNmCd": "527403276003",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20140418"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14574000035",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14574000035",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "longTermAdminSym": "14574000035",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "https://band.us/n/a6a228m0m50b2",
+      "longTermAdminSym": "14574000035",
+      "pkngEquip": "밀알노인복지센터 앞 공용 주차장 있음",
+      "tfMth": "장수읍 버스터미널에서 도보로 5분 장수교회 맞은편장수군청 앞 하천변"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14574000035",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 1,000원",
+        "uptDt": "20251023"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14574000035",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "3,000",
+        "uptDt": "20251023"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24574000054",
+    "name": "산서아가페재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "산서면",
+    "address": "전북특별자치도 장수군 산서면 비행로 17-12",
+    "lat": 35.58535502180906,
+    "lng": 127.39577581539673,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "산서아가페재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "310",
+      "gunmulMlno": "17",
+      "gunmulSlno": "12",
+      "HDongCd": "310",
+      "hmPostNo": "55647",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "3700",
+      "longTermAdminSym": "24574000054",
+      "longTermPeribRgtDt": "20221005",
+      "riCd": "34",
+      "roadNmCd": "527403276015",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20221005"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000054",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000054",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "2",
+      "longTermAdminSym": "24574000054",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "1",
+      "longTermAdminSym": "24574000054",
+      "pkngEquip": "주차장은 스타렉스 기준으로 6대 주차 할 수 있습니다.",
+      "tfMth": "오수-산서  버스 7:30분 ~18:20 까지 남원-산서  버스 6:00분~ 18:55 까지장수-산서  버스 7:20분~ 19:00 까지산서터미널에서 하차후 파출소 앞 다리 건너서 왼쪽 산서교회 방향으로 50m에 위치해 있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000054",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "중식,석식",
+        "uptDt": "20250625"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000054",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "회당500원 * 2회",
+        "uptDt": "20250625"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24574000056",
+    "name": "더사랑 재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "장계면",
+    "address": "전북특별자치도 장수군 장계면 한들4길 5-1",
+    "lat": 35.73189993605621,
+    "lng": 127.58641789436405,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "더사랑 재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "335",
+      "gunmulMlno": "5",
+      "gunmulSlno": "1",
+      "HDongCd": "335",
+      "hmPostNo": "55615",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "8845",
+      "longTermAdminSym": "24574000056",
+      "longTermPeribRgtDt": "20221230",
+      "riCd": "21",
+      "roadNmCd": "527404628335",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20221229"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000056",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "13",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000056",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "42",
+      "longTermAdminSym": "24574000056",
+      "maNowPer": "8",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://d4m0911.cafe24.com/",
+      "longTermAdminSym": "24574000056",
+      "pkngEquip": "주차장 구비 (4대 주차 가능)센터 부근 주차 용이",
+      "tfMth": "주소  : 전북특별자치도  장수군 장계면 한들4길 5-1전주(진안반향) - 장계(국도50분, 고속도로 30분소요)-장계사거리우회전(300m)직진구) 장계제재소 뒤"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000056",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "2,000원*1끼=2,000원, 2,000원*2끼=4,000원 ",
+        "uptDt": "20260415"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "25274000059",
+    "name": "베리굿노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "장계면",
+    "address": "전북특별자치도 장수군 장계면 한들로 145",
+    "lat": 35.73155996793694,
+    "lng": 127.58789775549859,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "베리굿노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "335",
+      "fl": "1",
+      "gunmulMlno": "145",
+      "gunmulSlno": "0",
+      "HDongCd": "335",
+      "hmPostNo": "55615",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "9931",
+      "longTermAdminSym": "25274000059",
+      "longTermPeribRgtDt": "20240312",
+      "riCd": "21",
+      "roadNmCd": "527403276042",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20240312"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25274000059",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "11",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25274000059",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "19",
+      "longTermAdminSym": "25274000059",
+      "maNowPer": "4",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://blog.naver.com/verygood9931/223392898045",
+      "longTermAdminSym": "25274000059",
+      "pkngEquip": "https://naver.me/xQ80xCyg",
+      "tfMth": "장수군 장계터미널에서 5분걸리...장계면 노인복지관 앞 아남빌라 상가 1층 104호(베리굿노인복지센터)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25274000060",
+    "name": "장수사랑재활주간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "장수읍",
+    "address": "전북특별자치도 장수군 장수읍 시장로 8-15",
+    "lat": 35.65086330017647,
+    "lng": 127.51831969985031,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "장수사랑재활주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "250",
+      "gunmulMlno": "8",
+      "gunmulSlno": "15",
+      "HDongCd": "250",
+      "hmPostNo": "55631",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "3377",
+      "longTermAdminSym": "25274000060",
+      "longTermPeribRgtDt": "20250529",
+      "riCd": "21",
+      "roadNmCd": "527403276021",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20250529"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25274000060",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "6",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "25274000060",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "20",
+      "longTermAdminSym": "25274000060",
+      "maNowPer": "15",
+      "totPer": "70"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://lcs3326@naver.com",
+      "longTermAdminSym": "25274000060",
+      "pkngEquip": "주차장구비(6대 주차가능), 센터 부근 주차용이",
+      "tfMth": "장수 하나로 마트 뒤편장수 터미널 5분거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "25274000060",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "2000원 *2식(점심, 저녁)",
+        "uptDt": "20250606"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24574000031",
+    "name": "백세동안재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "천천면",
+    "address": "전북특별자치도 장수군 천천면 진장로 1526-8",
+    "lat": 35.75040508493555,
+    "lng": 127.54257632227595,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "백세동안재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "340",
+      "gunmulMlno": "1526",
+      "gunmulSlno": "8",
+      "HDongCd": "340",
+      "hmPostNo": "55606",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "7179",
+      "longTermAdminSym": "24574000031",
+      "longTermPeribRgtDt": "20120306",
+      "riCd": "28",
+      "roadNmCd": "527403274046",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20120306"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000031",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "23",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000031",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24574000031"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://bakse001.tnaru.net/",
+      "longTermAdminSym": "24574000031",
+      "pkngEquip": "사무실쪽에 5~7대 주차가능, 인근 넓은 공터에 40대이상 주차가능",
+      "tfMth": "찾아 오시는길...◈ 전주 → 진안 → 천천(10분정도소요)→ 천천 진장로(용광가든 옆 백세동안 요양원, 백세동안재가노인복지센터)   남원(장수까지 40분소요) → 장수(기관까지 20분소요) → 백세동안 요양원, 백세동안재가노인복지센터   임실 → 산서(장수까지 30분소요) → 장수 → 천천 진장로 백세동안 요양원, 백세동안재가노인보깆센터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000031",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "2500원*2식(점심, 저녁)",
+        "uptDt": "20251223"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24574000036",
+    "name": "밀알노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "장수읍",
+    "address": "전북특별자치도 장수군 장수읍 교촌로 17",
+    "lat": 35.646433051256516,
+    "lng": 127.51993593506444,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "밀알노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "17",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55633",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "9797",
+      "longTermAdminSym": "24574000036",
+      "longTermPeribRgtDt": "20140418",
+      "riCd": "21",
+      "roadNmCd": "527403276003",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20140418"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000036",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000036",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "28",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "24574000036",
+      "maNowPer": "8",
+      "maRsvPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://band.us/n/a6a228m0m50b2",
+      "longTermAdminSym": "24574000036",
+      "pkngEquip": "주차시설완비",
+      "tfMth": "장수 터미널에서 걸어서 5분거리 장수 교회 맞은편.장수 군청에서 도보 3분거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000036",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000/31",
+        "uptDt": "20250709"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24574000036",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "2000/31",
+        "uptDt": "20250709"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24574000047",
+    "name": "그린의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "B06"
+    ],
+    "emdNm": "장계면",
+    "address": "전북특별자치도 장수군 장계면 장무로 204",
+    "lat": 35.729214828271026,
+    "lng": 127.58346789647297,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "그린의료기",
+      "adminPttnCd": "B06",
+      "BDongCd": "335",
+      "gunmulMlno": "204",
+      "gunmulSlno": "0",
+      "HDongCd": "335",
+      "hmPostNo": "55616",
+      "locTelNo_1": "063",
+      "locTelNo_2": "353",
+      "locTelNo_3": "7000",
+      "longTermAdminSym": "24574000047",
+      "longTermPeribRgtDt": "20210726",
+      "riCd": "21",
+      "roadNmCd": "527403276056",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20210726"
+    },
+    "staff": {
+      "adminPttnCd": "B06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000047",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000047",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B06",
+      "longTermAdminSym": "24574000047",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24574000047",
+      "pkngEquip": "시설 뒤 400M 공영주차장",
+      "tfMth": "장수IC-&gt;장계면 방면(차량이동 5분)-&gt;좌측 장계면 농협주유소 맞은편"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24574000053",
+    "name": "가족사랑 노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "번암면",
+    "address": "전북특별자치도 장수군 번암면 장수로 491",
+    "lat": 35.53241823211051,
+    "lng": 127.54396755985374,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "가족사랑 노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "320",
+      "gunmulMlno": "491",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "55659",
+      "locTelNo_1": "063",
+      "locTelNo_2": "351",
+      "locTelNo_3": "8301",
+      "longTermAdminSym": "24574000053",
+      "longTermPeribRgtDt": "20220701",
+      "riCd": "28",
+      "roadNmCd": "527403276030",
+      "siDoCd": "52",
+      "siGunGuCd": "740",
+      "stpRptDt": "20220627"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24574000053",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "26",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24574000053",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "12",
+      "longTermAdminSym": "24574000053",
+      "maNowPer": "3",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "장수방문요양.kr",
+      "longTermAdminSym": "24574000053",
+      "pkngEquip": "사무실 근처 마트 주차장주차시설이 협소하오니 대중교통을 이용해주시기 바랍니다.",
+      "tfMth": "버스 이용시번암면사무소 앞 하차 도보 100m정육점 옆 가족사랑노인복지센터"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34511000127",
+    "name": "비전재가복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34511000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "prodBase": "1일 : 점심",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34511000127",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "700",
+        "prodBase": "1일 간식(오전, 오후) 2회",
+        "uptDt": "20260505"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34513000063",
+    "name": "가정노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34513000130",
+    "name": "민들레노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34518000034",
+    "name": "손길노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34519000079",
+    "name": "참조은노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "800",
+        "prodBase": "1일2회",
+        "uptDt": "20251230"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20251230"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3700",
+        "prodBase": "1일 2회",
+        "uptDt": "20251230"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34577000024",
+    "name": "GIP홈케어(순창)",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24511000012",
+    "name": "성예노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24571000007",
+    "name": "구이노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24571000007",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "1식 2,700원, 1일 점심 및 저녁 2식 제공",
+        "uptDt": "20260105"
+      }
+    ],
+    "welfare": []
+  }
+]

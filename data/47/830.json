@@ -9,7 +9,7 @@
       "C01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 65",
+    "address": "경상북도 고령군 대가야읍 왕릉로 65",
     "lat": 35.72610652083857,
     "lng": 128.26474412528586,
     "general": {
@@ -105,7 +105,7 @@
       "C03"
     ],
     "emdNm": "쌍림면",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -212,7 +212,7 @@
       "C02"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 9",
+    "address": "경상북도 고령군 대가야읍 시장길 9",
     "lat": 35.72894272721465,
     "lng": 128.26856870516798,
     "general": {
@@ -302,7 +302,7 @@
       "C02"
     ],
     "emdNm": "덕곡면",
-    "address": "경상북도 봉화군 덕곡면 583",
+    "address": "경상북도 고령군 덕곡면 덕운로 583",
     "lat": 35.77920500337391,
     "lng": 128.2314856200733,
     "general": {
@@ -391,7 +391,7 @@
       "C01"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -480,7 +480,7 @@
       "C01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -571,7 +571,7 @@
       "C02"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군 다산면 52",
+    "address": "경상북도 고령군 다산면 호촌길 52",
     "lat": 35.82816206899435,
     "lng": 128.45723648747898,
     "general": {
@@ -662,7 +662,7 @@
       "C01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -751,7 +751,7 @@
       "C01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 6",
+    "address": "경상북도 고령군 대가야읍 연조5길 6",
     "lat": 35.73169144726542,
     "lng": 128.26861109094125,
     "general": {
@@ -845,7 +845,7 @@
       "C03"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 6-1",
+    "address": "경상북도 고령군 대가야읍 덕경길 6-1",
     "lat": 35.71340931632677,
     "lng": 128.25863292280263,
     "general": {
@@ -948,13 +948,13 @@
     "sym": "14783000021",
     "name": "대창요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "쌍림면",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -1064,13 +1064,13 @@
     "sym": "14783000023",
     "name": "고령영생요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 1342",
+    "address": "경상북도 고령군 대가야읍 대가야로 1342",
     "lat": 35.72807371450737,
     "lng": 128.2713611957079,
     "general": {
@@ -1183,13 +1183,13 @@
     "sym": "14783000031",
     "name": "대가야요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "운수면",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -1293,13 +1293,13 @@
     "sym": "14783000043",
     "name": "대진덕곡요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "덕곡면",
-    "address": "경상북도 봉화군",
+    "address": "경상북도 양평군",
     "lat": null,
     "lng": null,
     "general": {
@@ -1411,13 +1411,13 @@
     "sym": "14783000052",
     "name": "고령요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 7-11",
+    "address": "경상북도 고령군 대가야읍 지산길 7-11",
     "lat": 35.726129560455824,
     "lng": 128.2640904563597,
     "general": {
@@ -1529,13 +1529,13 @@
     "sym": "14783000057",
     "name": "동산실버요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군 다산면 128-6",
+    "address": "경상북도 고령군 다산면 다산중앙길 128-6",
     "lat": 35.82940831765316,
     "lng": 128.44838845400554,
     "general": {
@@ -1652,7 +1652,7 @@
       "B01"
     ],
     "emdNm": "성산면",
-    "address": "경상북도 봉화군 성산면 1015-1",
+    "address": "경상북도 고령군 성산면 성산로 1015-1",
     "lat": 35.75180579203,
     "lng": 128.37284779036642,
     "general": {
@@ -1746,7 +1746,7 @@
       "B03"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군 다산면 685-8",
+    "address": "경상북도 고령군 다산면 다산로 685-8",
     "lat": 35.823063665126654,
     "lng": 128.45244642712007,
     "general": {
@@ -1848,7 +1848,7 @@
       "B03"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군 다산면 23-10",
+    "address": "경상북도 고령군 다산면 호촌길 23-10",
     "lat": 35.82791020059292,
     "lng": 128.45512150495068,
     "general": {
@@ -1961,7 +1961,7 @@
       "B03"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 10",
+    "address": "경상북도 고령군 대가야읍 연조5길 10",
     "lat": 35.73176204752537,
     "lng": 128.2681988601906,
     "general": {
@@ -2072,7 +2072,7 @@
       "B03"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 52",
+    "address": "경상북도 고령군 대가야읍 주산순환길 52",
     "lat": 35.7269693835994,
     "lng": 128.25948051865134,
     "general": {
@@ -2181,7 +2181,7 @@
       "B01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 60",
+    "address": "경상북도 고령군 대가야읍 우륵로 60",
     "lat": 35.734857799145374,
     "lng": 128.27086058011778,
     "general": {
@@ -2271,7 +2271,7 @@
       "B06"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 43",
+    "address": "경상북도 고령군 대가야읍 월기길 43",
     "lat": 35.725453355946264,
     "lng": 128.2666305894036,
     "general": {
@@ -2362,7 +2362,7 @@
       "B02"
     ],
     "emdNm": "운수면",
-    "address": "경상북도 봉화군 운수면 88",
+    "address": "경상북도 고령군 운수면 운용로 88",
     "lat": 35.7674442070946,
     "lng": 128.28949087829554,
     "general": {
@@ -2455,7 +2455,7 @@
       "B02"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 7-11",
+    "address": "경상북도 고령군 대가야읍 지산길 7-11",
     "lat": 35.726129560455824,
     "lng": 128.2640904563597,
     "general": {
@@ -2547,7 +2547,7 @@
       "B06"
     ],
     "emdNm": "다산면",
-    "address": "경상북도 봉화군 다산면 84",
+    "address": "경상북도 고령군 다산면 다산중앙길 84",
     "lat": 35.82717903731284,
     "lng": 128.44749674418682,
     "general": {
@@ -2635,7 +2635,7 @@
       "B03"
     ],
     "emdNm": "성산면",
-    "address": "경상북도 봉화군 성산면 1007",
+    "address": "경상북도 고령군 성산면 성산로 1007",
     "lat": 35.751749712617645,
     "lng": 128.37176460083592,
     "general": {
@@ -2744,7 +2744,7 @@
       "B01"
     ],
     "emdNm": "대가야읍",
-    "address": "경상북도 봉화군 대가야읍 3-1",
+    "address": "경상북도 고령군 대가야읍 중앙로 3-1",
     "lat": 35.73065910049338,
     "lng": 128.26813206335265,
     "general": {
@@ -2821,6 +2821,200 @@
       "pkngEquip": "대가야 역사 공원 공영 주차장 2시간 무료가능",
       "tfMth": "고령 시외 버스 터미널 북쪽 300m 도로 우측, 궁전 맨션 상가"
     },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34729028689",
+    "name": "신세계재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34729028689",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "컷트 1회당 5,000원",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028713",
+    "name": "안심재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34711000054",
+    "name": "동국 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000123",
+    "name": "친절간호사의집",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000127",
+    "name": "장수노인복지마을",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4600",
+        "prodBase": "끼니당 2,300원 2회 4,600원",
+        "uptDt": "20251118"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "18000",
+        "prodBase": "비급여 주간보호 이용",
+        "uptDt": "20251118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34793000005",
+    "name": "울진돌봄사회서비스센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34717000001",
+    "name": "어르신이행복한세상",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   }

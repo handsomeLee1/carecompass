@@ -1,1 +1,1484 @@
-[]
+[
+  {
+    "sym": "14279000001",
+    "name": "임마누엘요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "사내면",
+    "address": "강원특별자치도 화천군 사내면 명월리 412",
+    "lat": 38.0998587163986,
+    "lng": 127.52877723889219,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "임마누엘요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "340",
+      "gunmulMlno": "412",
+      "gunmulSlno": "45",
+      "HDongCd": "340",
+      "hmPostNo": "24149",
+      "locTelNo_1": "033",
+      "locTelNo_2": "441",
+      "locTelNo_3": "2848",
+      "longTermAdminSym": "14279000001",
+      "longTermPeribRgtDt": "20080620",
+      "riCd": "23",
+      "roadNmCd": "517903013046",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20060120"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14279000001",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "5",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14279000001",
+      "medRoomreal": "1",
+      "ofce": "2",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "1",
+      "prsnRoomreal2": "17",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "5",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "21",
+      "longTermAdminSym": "14279000001",
+      "maNowPer": "8",
+      "totPer": "29"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.rothemhouse.co.kr",
+      "longTermAdminSym": "14279000001",
+      "pkngEquip": "주차시설있음(약 20대)",
+      "tfMth": "동서울버스터미널, 춘천시외버스  이용시 강원도 화천군 사내면 사창리 에서 명월삼거리 9초소에서 하차  참조(약도 사진) "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14279000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9500",
+        "prodBase": "1일×3회×3,167원(1일 3식/간식비 포함)",
+        "uptDt": "20260506"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14279000002",
+    "name": "화천 원광 보은의 집",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "하남면",
+    "address": "강원특별자치도 화천군 하남면 춘화로 2601",
+    "lat": 38.0423785045174,
+    "lng": 127.71002893788238,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "화천 원광 보은의 집",
+      "adminPttnCd": "A03",
+      "BDongCd": "320",
+      "detailAddr": "14번지 3호 4반 ",
+      "gunmulMlno": "2601",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "24142",
+      "locTelNo_1": "033",
+      "locTelNo_2": "441",
+      "locTelNo_3": "9940",
+      "longTermAdminSym": "14279000002",
+      "longTermPeribRgtDt": "20080620",
+      "riCd": "28",
+      "roadNmCd": "517903013004",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20030826"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "2",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14279000002",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "26",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "19",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14279000002",
+      "medRoomreal": "2",
+      "ofce": "1",
+      "pgmRoomreal": "3",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "23",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "2"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "40",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14279000002",
+      "maNowPer": "12",
+      "maRsvPer": "1",
+      "totPer": "70"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://cafe.naver.com/bo9941",
+      "longTermAdminSym": "14279000002",
+      "pkngEquip": "일반 20대 (넓은 주차 공간으로 불편함이 없음)",
+      "tfMth": "자가용 - 화천읍에서 춘천 방향 407번 지방도로 (10분소요)           - 춘천에서 화천 방향 춘천댐 전 우회전 407번 지방도로 (20분소요)버스 - 시외버스 : 춘천에서 화천행 버스 30분마다 있음. (50분 소요)       - 시내버스 : 거례리행 버스 하루 4회 운행 (07:40 11:00 14:10 19:10)                         SK광바위 주유소에서 하차 (15분소요)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14279000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "1식 3,500원*3식",
+        "uptDt": "20260225"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14279000002",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "0",
+        "prodBase": "1일 1회",
+        "uptDt": "20260225"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14279000017",
+    "name": "다온요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "상서면",
+    "address": "강원특별자치도 화천군 상서면 장촌리길 81-1",
+    "lat": 38.14241100057863,
+    "lng": 127.64860704407667,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "다온요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "330",
+      "gunmulMlno": "81",
+      "gunmulSlno": "1",
+      "HDongCd": "330",
+      "hmPostNo": "24108",
+      "locTelNo_1": "033",
+      "locTelNo_2": "441",
+      "locTelNo_3": "7860",
+      "longTermAdminSym": "14279000017",
+      "longTermPeribRgtDt": "20130226",
+      "riCd": "24",
+      "roadNmCd": "517904493099",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20130213"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14279000017",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14279000017",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "1",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14279000017",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://cafe.daum.net/daon9",
+      "longTermAdminSym": "14279000017",
+      "pkngEquip": "주차시설 [유]장애인주차장시설 [유]",
+      "tfMth": "[승용차/고속도로]춘천: 춘천시청 → 중앙로터리 → 캠페이지 입구 → 호반사거리(국도 제56호선) → 사우사거리 → 강원도교육청 → 신동삼거리 → 102 보충대 → 407번 지방도로 → 고탄 부다리 터널 → 용암리 헌병초소 → 화천대교 → 화천터널 → 561번 지방도로 → 상서면 장촌리 → 다온요양원 (네비게이션 이용시 화천중학교을 먼저 검색해 도착 후 다시 다온요양원을 검색하면 빠르고 좋은 길로 안내하니 참조하세요.)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14279000017",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1100",
+        "uptDt": "20260206"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14279000017",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3300",
+        "uptDt": "20260206"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14279000018",
+    "name": "부모사랑요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "사내면",
+    "address": "강원특별자치도 화천군 사내면 수피령로 930-38",
+    "lat": 38.1468737987176,
+    "lng": 127.53310764252015,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "부모사랑요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "340",
+      "gunmulMlno": "930",
+      "gunmulSlno": "38",
+      "HDongCd": "340",
+      "hmPostNo": "24148",
+      "locTelNo_1": "033",
+      "locTelNo_2": "441",
+      "locTelNo_3": "7775",
+      "longTermAdminSym": "14279000018",
+      "longTermPeribRgtDt": "20140623",
+      "riCd": "23",
+      "roadNmCd": "517903013046",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20140623"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14279000018",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "3",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14279000018",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "3",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "2",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "6",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14279000018",
+      "maNowPer": "3",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "홈페이지없음",
+      "longTermAdminSym": "14279000018",
+      "pkngEquip": "요양원 주차장",
+      "tfMth": "1. 동서울터미넝-사창리터미널- 와수리방향버스이용 -명월리 복지식품앞에서 하차 2. 동서울터미널-춘천-사창리터미널-와수리방향버스이용-명월리 복지식품앞에서 하차 3. 경춘선-춘천-사창리터미널-와수리방향버스이용-명월리 복지식품앞에서 하차"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14279000018",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "3500*3",
+        "uptDt": "20250121"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14279000022",
+    "name": "해안의집",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "화천읍",
+    "address": "강원특별자치도 화천군 화천읍 백암산로 158-53",
+    "lat": 38.176009244855884,
+    "lng": 127.75138014679536,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "해안의집",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "158",
+      "gunmulSlno": "53",
+      "HDongCd": "250",
+      "hmPostNo": "24109",
+      "locTelNo_1": "070",
+      "locTelNo_2": "8836",
+      "locTelNo_3": "2801",
+      "longTermAdminSym": "14279000022",
+      "longTermPeribRgtDt": "20160601",
+      "riCd": "26",
+      "roadNmCd": "517903354884",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20160601"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14279000022",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "5",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14279000022",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "1",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "5",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "13",
+      "longTermAdminSym": "14279000022",
+      "maNowPer": "2",
+      "totPer": "16"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "blog.daum.net/houseofhaean",
+      "longTermAdminSym": "14279000022",
+      "pkngEquip": "10대 이상 주차 가능",
+      "tfMth": "화천농어촌버스터미널에서 버스 운행중"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14279000022",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9600",
+        "prodBase": "3,200원 * 3식",
+        "uptDt": "20260306"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14279000022",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1200",
+        "prodBase": "1,200원 * 1회",
+        "uptDt": "20260306"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14279000023",
+    "name": "카네이션요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "상서면",
+    "address": "강원특별자치도 화천군 상서면 구둔지길 27",
+    "lat": 38.11576457736226,
+    "lng": 127.68026207798994,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "카네이션요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "330",
+      "gunmulMlno": "27",
+      "gunmulSlno": "0",
+      "HDongCd": "330",
+      "hmPostNo": "24122",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "2487",
+      "longTermAdminSym": "14279000023",
+      "longTermPeribRgtDt": "20170801",
+      "riCd": "21",
+      "roadNmCd": "517904493017",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20170801"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14279000023",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14279000023",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "2",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "7",
+      "longTermAdminSym": "14279000023",
+      "maNowPer": "2",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://blog.naver.com/carnationcare",
+      "longTermAdminSym": "14279000023",
+      "pkngEquip": "주차시설 6대.",
+      "tfMth": "춘천 : 춘천시외버스터미널 → 중앙로터리 → 호반사거리(국도 제56호선) → 사우사거리 → 강원도교육청 → 102 보충대 → 407번 지방도로 → 고탄 부다리 터널 → 화천대교 → 화천터널 → 561번 지방도로 → 상서면 신풍리 → 노인요양공동생활가정 카네이션 요양원화천 : 화천시내버스터미널 → 화천터널 → 561번 지방도로 → 상서면 신풍리 → 노인요양공동생활가정 카네이션요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14279000023",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "12000",
+        "prodBase": "4,000원*3식",
+        "uptDt": "20260309"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14279000023",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원*1식",
+        "uptDt": "20260309"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "15179000032",
+    "name": "화천군 치매전담형 종합노인요양시설 공동생활가정",
+    "types": [
+      "S41"
+    ],
+    "typeCodes": [
+      "S41"
+    ],
+    "emdNm": "사내면",
+    "address": "강원특별자치도 화천군 사내면 포화로 1137-32",
+    "lat": 38.068616733900406,
+    "lng": 127.52068437517701,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "화천군 치매전담형 종합노인요양시설 공동생활가정",
+      "adminPttnCd": "S41",
+      "BDongCd": "340",
+      "fl": "2",
+      "gunmulMlno": "1137",
+      "gunmulSlno": "32",
+      "HDongCd": "340",
+      "hmPostNo": "24156",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "1470",
+      "longTermAdminSym": "15179000032",
+      "longTermPeribRgtDt": "20250818",
+      "riCd": "21",
+      "roadNmCd": "517903000135",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20250730"
+    },
+    "staff": {
+      "adminPttnCd": "S41",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "15179000032",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "7",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "S41",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "15179000032",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "3",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "S41",
+      "fmNowPer": "3",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "15179000032",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "S41",
+      "hmpgAddr": "https://blog.naver.com/hwacheon-care/224008392186",
+      "longTermAdminSym": "15179000032",
+      "pkngEquip": "전용주차장",
+      "tfMth": "사내면사무소 200미터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "S41",
+        "longTermAdminSym": "15179000032",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "3500*3",
+        "uptDt": "20260114"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24279000026",
+    "name": "화천재가노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "하남면",
+    "address": "강원특별자치도 화천군 하남면 춘화로 3370",
+    "lat": 38.09818992245732,
+    "lng": 127.70842386093625,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "화천재가노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "320",
+      "gunmulMlno": "3370",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "24140",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "2174",
+      "longTermAdminSym": "24279000026",
+      "longTermPeribRgtDt": "20181224",
+      "riCd": "25",
+      "roadNmCd": "517903013004",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20181221"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24279000026",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24279000026",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "13",
+      "fmRsvPer": "7",
+      "longTermAdminSym": "24279000026",
+      "maNowPer": "2",
+      "maRsvPer": "3",
+      "totPer": "30"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "www.pungik.org",
+      "longTermAdminSym": "24279000026",
+      "pkngEquip": "주차시설 완비 (대형차량 가능)",
+      "tfMth": "주소 : 강원 특별자치도 화천군 하남면 춘화로 3370시내버스: 시내버스터미널 ~ 화천중고등학교 앞 하차 (2분거리)자가용: 화천시내에서 춘천방면 화천대교 건너 화천고등학교 정문 좌측 (위라리 7층석탑)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24279000026",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "3,000원 X 1식 =3,000원",
+        "uptDt": "20250804"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24279000026",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000원 x 1일 = 500원",
+        "uptDt": "20250804"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "25179000028",
+    "name": "동행재가복지센터 사내지점",
+    "types": [
+      "방문요양",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B05"
+    ],
+    "emdNm": "사내면",
+    "address": "강원특별자치도 화천군 사내면 사내로4길 28",
+    "lat": 38.07214315362456,
+    "lng": 127.52261392106223,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "동행재가복지센터 사내지점",
+      "adminPttnCd": "B01",
+      "BDongCd": "340",
+      "gunmulMlno": "28",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "24154",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "2589",
+      "longTermAdminSym": "25179000028",
+      "longTermPeribRgtDt": "20231106",
+      "riCd": "21",
+      "roadNmCd": "517904493051",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20231106"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25179000028",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "28",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25179000028",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "28",
+      "longTermAdminSym": "25179000028",
+      "maNowPer": "10",
+      "totPer": "42"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25179000028",
+      "pkngEquip": "사무실앞 공영주차장 무료사용가능",
+      "tfMth": "화천군 사내면 버스터미널에서 도보로3분 이내 도착."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25179000029",
+    "name": "동행재가복지센터 화천점",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "화천읍",
+    "address": "강원특별자치도 화천군 화천읍 산수화로1길 22-9",
+    "lat": 38.10670810508506,
+    "lng": 127.70712584916087,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "동행재가복지센터 화천점",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "22",
+      "gunmulSlno": "9",
+      "HDongCd": "250",
+      "hmPostNo": "24125",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "2586",
+      "longTermAdminSym": "25179000029",
+      "longTermPeribRgtDt": "20241121",
+      "riCd": "21",
+      "roadNmCd": "517904493055",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20241121"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25179000029",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25179000029",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "24",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "25179000029",
+      "maNowPer": "9",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25179000029",
+      "pkngEquip": " 2대",
+      "tfMth": "화천시내버스터미널에서 도보로 5분(경찰서 후문 부근)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25179000030",
+    "name": "강원화천지역자활센터 부설 화천통합돌봄지원센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "화천읍",
+    "address": "강원특별자치도 화천군 화천읍 산수화로 45-30",
+    "lat": 38.11141385678968,
+    "lng": 127.70723661808293,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "강원화천지역자활센터 부설 화천통합돌봄지원센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "45",
+      "gunmulSlno": "30",
+      "HDongCd": "250",
+      "hmPostNo": "24116",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "0284",
+      "longTermAdminSym": "25179000030",
+      "longTermPeribRgtDt": "20250101",
+      "riCd": "24",
+      "roadNmCd": "517903231010",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20250101"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "1",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25179000030",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "47",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25179000030",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "34",
+      "longTermAdminSym": "25179000030",
+      "maNowPer": "23",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25179000030",
+      "pkngEquip": "주차 시설 있음.",
+      "tfMth": "차량 또는 도보 이용 시 : 춘천지방법원 화천등기소  우회전 250M, 아트빌에서 우회전 70M                                   공무원아파트와 화천군의용소방대 사이 길 (입간판 보임)대중교통 이용 시 : 하나로마트 앞 하차 , 아트빌 쪽으로 이동, 우회전70M ( 간판있음)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25179000031",
+    "name": "예재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "간동면",
+    "address": "강원특별자치도 화천군 간동면 파로호로 1177",
+    "lat": 38.055613910305354,
+    "lng": 127.81666452672805,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "예재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "310",
+      "gunmulMlno": "1177",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "24137",
+      "locTelNo_1": "033",
+      "locTelNo_2": "441",
+      "locTelNo_3": "5502",
+      "longTermAdminSym": "25179000031",
+      "longTermPeribRgtDt": "20250319",
+      "riCd": "24",
+      "roadNmCd": "517903231017",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20250319"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25179000031",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "35",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25179000031",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "32",
+      "longTermAdminSym": "25179000031",
+      "maNowPer": "10",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "홈페이지 없음",
+      "longTermAdminSym": "25179000031",
+      "pkngEquip": "사무실 옆 공영주차장 주차 가능",
+      "tfMth": "화천버스터미널 -&gt; 화천 간동면 오음리 방면 버스 -&gt; 간동농협 앞에서 하차 -&gt; 아래쪽으로 걸어와서 영원마트 앞에서 부대찌개집 방향으로 직진 -&gt; 부대찌개집과 공용주차장 사이에 위치함"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25179000033",
+    "name": "화천군 치매전담형 종합노인요양시설 주간보호센터",
+    "types": [
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31"
+    ],
+    "emdNm": "사내면",
+    "address": "강원특별자치도 화천군 사내면 포화로 1137-32",
+    "lat": 38.068616733900406,
+    "lng": 127.52068437517701,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "화천군 치매전담형 종합노인요양시설 주간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "340",
+      "fl": "1",
+      "gunmulMlno": "1137",
+      "gunmulSlno": "32",
+      "HDongCd": "340",
+      "hmPostNo": "24156",
+      "locTelNo_1": "033",
+      "locTelNo_2": "442",
+      "locTelNo_3": "1470",
+      "longTermAdminSym": "25179000033",
+      "longTermPeribRgtDt": "20250818",
+      "riCd": "21",
+      "roadNmCd": "517903000135",
+      "siDoCd": "51",
+      "siGunGuCd": "790",
+      "stpRptDt": "20250730"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25179000033",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "6",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "25179000033",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "6",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "25179000033",
+      "maNowPer": "3",
+      "maRsvPer": "0",
+      "totPer": "19"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "https://blog.naver.com/hwacheon-care",
+      "longTermAdminSym": "25179000033",
+      "pkngEquip": "지상 주차장",
+      "tfMth": "사내면사무소에서 도보로 6분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "25179000033",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "3500*2",
+        "uptDt": "20250929"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "25179000033",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500*2",
+        "uptDt": "20250929"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "25179000033",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "3500*2",
+        "uptDt": "20251010"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "25179000033",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500*2",
+        "uptDt": "20251010"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

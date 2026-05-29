@@ -1,0 +1,1974 @@
+[
+  {
+    "sym": "34792000007",
+    "name": "봉화의료용품전문점",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 봉화로 1129",
+    "lat": 36.89122032193051,
+    "lng": 128.73342954878285,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "봉화의료용품전문점",
+      "adminPttnCd": "C06",
+      "BDongCd": "250",
+      "gunmulMlno": "1129",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36239",
+      "locTelNo_1": "054",
+      "locTelNo_2": "673",
+      "locTelNo_3": "9388",
+      "longTermAdminSym": "34792000007",
+      "longTermPeribRgtDt": "20080707",
+      "riCd": "31",
+      "roadNmCd": "479203309081",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20080626"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000007",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000007",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34792000007"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34792000007",
+      "pkngEquip": "가게 앞 도로 변 주차할수 있음",
+      "tfMth": "시외버스터미널 경우 봉화역방향으로 200m (봉화해성병원 앞 도로변 건물에 위치)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34792000036",
+    "name": "봉화종합의료기",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 내성로1길 51-1",
+    "lat": 36.890339643966044,
+    "lng": 128.73944645831543,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "봉화종합의료기",
+      "adminPttnCd": "C06",
+      "BDongCd": "250",
+      "gunmulMlno": "51",
+      "gunmulSlno": "1",
+      "HDongCd": "250",
+      "hmPostNo": "36238",
+      "locTelNo_1": "054",
+      "locTelNo_2": "672",
+      "locTelNo_3": "4123",
+      "longTermAdminSym": "34792000036",
+      "longTermPeribRgtDt": "20140402",
+      "riCd": "31",
+      "roadNmCd": "479204772067",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20140402"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000036",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000036",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34792000036",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "https://blog.naver.com/ansoni4141",
+      "longTermAdminSym": "34792000036",
+      "pkngEquip": "봉화읍 내성대교 밑 주차시설 이용도보로 1분거리",
+      "tfMth": "봉화군 버스터미널에서 구시장방향 걸어서 5분거리영주 봉화 33번 버스 봉화군농협에서 하차봉화읍 군농협에서 걸어서 1분 거리"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34792000039",
+    "name": "햇살찬재가복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "춘양면",
+    "address": "경상북도 봉화군 춘양면 한티로 226",
+    "lat": 36.927330644631034,
+    "lng": 128.9099501786745,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "햇살찬재가복지센터",
+      "adminPttnCd": "C03",
+      "BDongCd": "340",
+      "gunmulMlno": "226",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "36217",
+      "locTelNo_1": "054",
+      "locTelNo_2": "672",
+      "locTelNo_3": "5151",
+      "longTermAdminSym": "34792000039",
+      "longTermPeribRgtDt": "20161110",
+      "riCd": "29",
+      "roadNmCd": "479203314008",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20161110"
+    },
+    "staff": {
+      "adminPttnCd": "C03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000039",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000039",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C03",
+      "fmNowPer": "21",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34792000039",
+      "maNowPer": "3",
+      "maRsvPer": "0",
+      "totPer": "24"
+    },
+    "etc": {
+      "adminPttnCd": "C03",
+      "hmpgAddr": "http://햇살찬요양원.kr",
+      "longTermAdminSym": "34792000039",
+      "pkngEquip": "대형버스 및 일반승용차 다량 주차가능함",
+      "tfMth": "◈ 자가용 이용시 ※ 서울 출발(중앙고속도로 하행선) 풍기IC 하차 → 영주(봉화)방면으로 진입(봉화 구도로) → 상망교차로(원당로 봉화방면 우회전) → 소지교차로(한티로 소지리 춘양방면 우측)→ 한티로 춘양(영월) 방면 좌회전 → 햇살찬재가복지센터(한티재 정상) 도착※ 대구/부산 출발(중앙고속도로 상행선) 영주IC 하차 → 영주(봉화)방면으로 진입(봉화 구도로) → 상망교차로(원당로 봉화방면 우회전) → 소지교차로(한티로 소지리 춘양방면 우측)→ 한티로 춘양(영월) 방면 좌회전 → 햇살찬재가복지센터(한티재 정상) 도착◈ 대중교통 이용시※ 동서울 출발- 봉화직행 : 아침 7시 40분 ~ 오후 6시 10분 사이 2시간정도 배차 시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분) → 햇살찬재가복지센터(한티재 정상) 도착- 영주직행 : 아침 6시 30분 ~ 오후 9시 45분 사이 30분 정도 배차시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분)→ 햇살찬재가복지센터(한티재 정상) 도착※ 동대구 출발 - 중앙고속 영주행 고속버스 이용 → 영주시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분) → 햇살찬재가복지센터(한티재 정상) 도착◈ 기차 이용시※ 기차 : 춘양역 → 택시이용 (봉화방향, 도보 20분) → 햇살찬재가복지센터(한티재 정상) 도착 ="
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34792000039",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3400",
+        "prodBase": "1,700원(1식)*2식",
+        "uptDt": "20251119"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34792000039",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "600",
+        "prodBase": "300원(1회)*2회",
+        "uptDt": "20251119"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34792000042",
+    "name": "경북노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "춘양면",
+    "address": "경상북도 봉화군 춘양면 의양로 48-1",
+    "lat": 36.93729756029418,
+    "lng": 128.9134563755848,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "경북노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "340",
+      "gunmulMlno": "48",
+      "gunmulSlno": "1",
+      "HDongCd": "340",
+      "hmPostNo": "36216",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "3330",
+      "longTermAdminSym": "34792000042",
+      "longTermPeribRgtDt": "20180601",
+      "riCd": "21",
+      "roadNmCd": "479203324019",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20180601"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000042",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "15",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000042",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34792000042",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34792000042",
+      "pkngEquip": "■ 사무실 뒤편에 파출소 주차장과 춘양면 공용주차장 무료이용 가능함.사무실앞 노상주차장도 무료이용 가능합니다. ",
+      "tfMth": "■ 춘양면 시내,외버스터미널▶애당,서벽방향으로 200M직진후 춘양파출소옆 좌측30Μ 지점.▶2층건물 1층에 경북노인복지센터가 위치하고 있습니다. ▶방문해주셔서고맙습니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34792000043",
+    "name": "혜원재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 내성로 10",
+    "lat": 36.88351753421945,
+    "lng": 128.74003680392963,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "혜원재가복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "10",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36238",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "2288",
+      "longTermAdminSym": "34792000043",
+      "longTermPeribRgtDt": "20190114",
+      "riCd": "31",
+      "roadNmCd": "479203324003",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20190114"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000043",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "70",
+      "recuProt_2": "0",
+      "socWel": "5",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000043",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "110",
+      "longTermAdminSym": "34792000043",
+      "maNowPer": "18",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34792000043",
+      "pkngEquip": "사무실 좌우측 주차장 이용가능 (주차공간 협소)",
+      "tfMth": " - 봉화 ↔ 영주 신도로 이동 시 4차선 입구 근방 - 라이온스클럽 3층짜리 건물 1층 좌측 혜원재가복지센터1. 대중교통 이용-버스편: 동서울-봉화 버스 일일 6회 운행봉화 - 대구 버스 일일 4회 운행 / 봉화 - 안동 일일 3회 운행  / 봉화 시외버스터미널 하차, 도보로 20분거리-철도편: 청량리-영주(환승) - 봉화 중앙선 일일 1회 운행 / 봉화역 하차, 도보로 30분거리2. 자가용 이용-서울방면 : 중앙고속도로 진입 풍기IC에서 봉화방향-대구방면 : 중앙고속도로 진입 영주IC에서 봉화방향"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34792000044",
+    "name": "효심재가센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 보밑길 21",
+    "lat": 36.89228433264825,
+    "lng": 128.73478471290304,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "효심재가센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "21",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36239",
+      "locTelNo_1": "054",
+      "locTelNo_2": "672",
+      "locTelNo_3": "8898",
+      "longTermAdminSym": "34792000044",
+      "longTermPeribRgtDt": "20190121",
+      "riCd": "31",
+      "roadNmCd": "479204772160",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20190121"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34792000044",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "59",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34792000044",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "75",
+      "longTermAdminSym": "34792000044",
+      "maNowPer": "17",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34792000044",
+      "pkngEquip": "주변 주차장 이용가능",
+      "tfMth": "주소 : 경북 봉화군 봉화읍 보밑길21, 201호 (1014M)전화 : (054)672-8898, FAX  :(054)674-0606대중교통 이용시1. 동서울(버스터미널) 출발  봉화직행 : (배차시간) 7:10, 11:50,  16:10  영주직행 : (배차시간)10:45, 15:30  2. 동대구 출발, 중앙고속 영주행 고속버스 이용  3. 기차 이용시: 봉화역(택시 이용 5분 내외 도착)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14792000001",
+    "name": "봉화요양원",
+    "types": [
+      "노인요양시설",
+      "G31",
+      "G32",
+      "G33",
+      "G34"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32",
+      "G33",
+      "G34"
+    ],
+    "emdNm": "법전면",
+    "address": "경상북도 봉화군 법전면 갈방길 33-15",
+    "lat": 36.91326709196549,
+    "lng": 128.8460214586462,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "봉화요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "330",
+      "detailAddr": "751번지 ",
+      "gunmulMlno": "33",
+      "gunmulSlno": "15",
+      "HDongCd": "330",
+      "hmPostNo": "36218",
+      "locTelNo_1": "054",
+      "locTelNo_2": "673",
+      "locTelNo_3": "4654",
+      "longTermAdminSym": "14792000001",
+      "longTermPeribRgtDt": "20080522",
+      "riCd": "22",
+      "roadNmCd": "479204772006",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "19980728"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "2",
+      "longTermAdminSym": "14792000001",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "38",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14792000001",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "27",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "6",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "13",
+      "longTermAdminSym": "14792000001",
+      "maNowPer": "3",
+      "maRsvPer": "0",
+      "totPer": "20"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://bongyo.jangsumaeul.kr/",
+      "longTermAdminSym": "14792000001",
+      "pkngEquip": "승용차15대,  버스 2대 주차 가능",
+      "tfMth": "&lt;승용차이용시&gt; 영주,풍기IC하차 - 봉화방면(20분정도소요) - 봉화에서 울진,태백방면(10분정도소요) - 창평터널지나 다덕약수터 지나면서 풍정리 방면으로 하차(우회전) - 춘봉주유소 지나서 좌회전&lt;대중교통이용시&gt; 봉화버스터미널 하차 - 터미널에서 다시 법전,갈방 방면 시내버스 이용갈방에서 하차 - 걸어서 5분"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "G33",
+        "longTermAdminSym": "14792000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000원*3회*1일",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "G34",
+        "longTermAdminSym": "14792000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000원*3회*1일",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "G32",
+        "longTermAdminSym": "14792000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000*3회*1일",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14792000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000*3회*1일",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000*3회*1일",
+        "uptDt": "20260102"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14792000016",
+    "name": "봉화유리요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 문수로 60",
+    "lat": 36.90139423392663,
+    "lng": 128.73369462463708,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "봉화유리요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "detailAddr": "134번지 ",
+      "gunmulMlno": "60",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36240",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "3000",
+      "longTermAdminSym": "14792000016",
+      "longTermPeribRgtDt": "20090703",
+      "riCd": "22",
+      "roadNmCd": "479203324008",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20090629"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "2",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14792000016",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "36",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "1"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "6",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14792000016",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "22",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "65",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14792000016",
+      "maNowPer": "14",
+      "maRsvPer": "0",
+      "totPer": "93"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://bonghwa.andongyuri.com/",
+      "longTermAdminSym": "14792000016",
+      "pkngEquip": "대형버스, 승용차 등 20여대 주차 가능",
+      "tfMth": "대구방면: 영주 톨게이트에서 봉화방면(20분거리)으로 진입, 봉화군청을 지나 삼계4거리에서 물야방면으로 좌회전 봉화119안전센터 옆에 위치.서울 방면: 풍기(북영주) 톨게이트에서 영주시에 진입하여 봉화방면(20분거리)으로 향하며 봉화군청을 지나 삼계4거리에서 물야방면으로 좌회전 봉화119안전센터 옆에 위치."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000016",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "1끼니당2,500원",
+        "uptDt": "20250421"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14792000023",
+    "name": "봉화노인복지센터",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 솔안2길 23",
+    "lat": 36.89385707829542,
+    "lng": 128.727047168769,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "봉화노인복지센터",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "detailAddr": "58번지 ",
+      "gunmulMlno": "23",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36236",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "3435",
+      "longTermAdminSym": "14792000023",
+      "longTermPeribRgtDt": "20100723",
+      "riCd": "26",
+      "roadNmCd": "479204772234",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20081110"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14792000023",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "23",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "8",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14792000023",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "3",
+      "prsnRoomreal4": "8",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "3",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "35",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14792000023",
+      "maNowPer": "12",
+      "maRsvPer": "0",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://bongno.jangsumaeul.kr/",
+      "longTermAdminSym": "14792000023",
+      "pkngEquip": "◆주차장 현황◆(1) 일반주차 : 20면(2) 장애인주차 : 2면",
+      "tfMth": "◆찾아오시는 길◆(1)중앙고속도로(영주IC)-(울진방면36번국도)-(봉화IC좌회전)-봉화군청(진입후좌회전)-(500m)봉화노인복지센터(2)버스편:-영주터미널-(봉화방면 30분 )-봉화터미널-택시(5분)-봉화노인복지센터(3)열차편:봉화역-택시(3분)-(도보10분)-봉화노인복지센터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000023",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "0",
+        "prodBase": "2인실 무료",
+        "uptDt": "20260105"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000023",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원(1회)*1회      (1일)",
+        "uptDt": "20260105"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000023",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5100",
+        "prodBase": "1,700원(1식)*3식",
+        "uptDt": "20260105"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000023",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20260105"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000023",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5100",
+        "prodBase": "경관영양유동식비용:5,100원(1일)",
+        "uptDt": "20260105"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14792000032",
+    "name": "봉화효심요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 봉화로 1133",
+    "lat": 36.891448606938475,
+    "lng": 128.73421793367578,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "봉화효심요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "1133",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36239",
+      "locTelNo_1": "054",
+      "locTelNo_2": "673",
+      "locTelNo_3": "3939",
+      "longTermAdminSym": "14792000032",
+      "longTermPeribRgtDt": "20120209",
+      "riCd": "31",
+      "roadNmCd": "479203309081",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20120209"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14792000032",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "22",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "16",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14792000032",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "5",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "18",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "43",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14792000032",
+      "maNowPer": "1",
+      "maRsvPer": "0",
+      "totPer": "52"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.bh3939.kr",
+      "longTermAdminSym": "14792000032",
+      "pkngEquip": "마트주차장 이용가능하며, 요양원 후방 20대 주차가능 공간 확보.",
+      "tfMth": "◈ 자가용 이용시        ※ 서울 출발(중앙고속도로 하행선) 풍기IC 하차             → 영주(봉화)방면으로 진입(봉화 구도로)             → 봉화혜성병원 옆/ 봉화풀마트 위 2 층 3층 (봉화효심요양원)        ※ 대구/부산 출발(중앙고속도로 상행선) 영주IC 하차             → 영주(봉화)방면으로 진입(봉화 구도로)             → 봉화혜성병원 옆/ 봉화풀마트 위 2층,  3층 (봉화효심요양원)     ◈ 대중교통 이용시        ※ 동서울 출발           - 봉화직행 : 아침 7시 40분 ~ 오후 6시 10분 사이 2시간정도 배차                        시외버스터미널 → 봉화풀마트 위 2?3층 (봉화효심요양원)           - 영주직행 : 아침 6시 30분 ~ 오후 9시 45분 사이 30분 정도 배차                         → 봉화풀마트 위 2층 3층 (봉화효심요양원)           - 동대구 출발 : 중앙고속 영주행 고속버스 이용     ◈ 기차 이용시         ※ 기차 : 봉화역 → 택시이용 (봉화시내 방향, 도보 10분)                               봉화풀마트 위 2층 3층 (봉화효심요양원)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000032",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "800",
+        "prodBase": "1일1회 제공 1회800원",
+        "uptDt": "20240101"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000032",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5350",
+        "prodBase": "1캔 * 1,070원(제공양에 따라 1일금액이 달라짐)",
+        "uptDt": "20240101"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000032",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "1식 2,000원",
+        "uptDt": "20240101"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000032",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20240101"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14792000038",
+    "name": "햇살찬요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "춘양면",
+    "address": "경상북도 봉화군 춘양면 한티로 226",
+    "lat": 36.927330644631034,
+    "lng": 128.9099501786745,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "햇살찬요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "340",
+      "gunmulMlno": "226",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "36217",
+      "locTelNo_1": "054",
+      "locTelNo_2": "672",
+      "locTelNo_3": "5500",
+      "longTermAdminSym": "14792000038",
+      "longTermPeribRgtDt": "20161110",
+      "riCd": "29",
+      "roadNmCd": "479203314008",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20161110"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14792000038",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14792000038",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "32",
+      "longTermAdminSym": "14792000038",
+      "maNowPer": "13",
+      "totPer": "59"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://햇살찬요양원.kr",
+      "longTermAdminSym": "14792000038",
+      "pkngEquip": "대형버스 및 일반승용차 다량 주차가능함",
+      "tfMth": "◈ 자가용 이용시※ 서울 출발(중앙고속도로 하행선) 풍기IC 하차 → 영주(봉화)방면으로 진입(봉화 구도로) → 상망교차로(원당로 봉화방면 우회전) → 소지교차로(한티로 소지리 춘양방면 우측)→ 한티로 춘양(영월) 방면 좌회전 → 햇살찬요양원(한티재 정상) 도착※ 대구/부산 출발(중앙고속도로 상행선) 영주IC 하차 → 영주(봉화)방면으로 진입(봉화 구도로) → 상망교차로(원당로 봉화방면 우회전) → 소지교차로(한티로 소지리 춘양방면 우측)→ 한티로 춘양(영월) 방면 좌회전 → 햇살찬요양원(한티재 정상) 도착◈ 대중교통 이용시※ 동서울 출발- 봉화직행 : 아침 7시 40분 ~ 오후 6시 10분 사이 2시간정도 배차 시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분) → 햇살찬요양원(한티재 정상) 도착- 영주직행 : 아침 6시 30분 ~ 오후 9시 45분 사이 30분 정도 배차시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분)→ 햇살찬요양원(한티재 정상) 도착※ 동대구 출발 - 중앙고속 영주행 고속버스 이용 → 영주시외버스터미널 → 춘양버스터미널 → 택시이용 (봉화방향, 도보 15분) → 햇살찬요양원(한티재 정상) 도착◈ 기차 이용시※ 기차 : 춘양역 → 택시이용 (봉화방향, 도보 20분) → 햇살찬요양원(한티재 정상) 도착 "
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000038",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20260116"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000038",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20260116"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000038",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "0",
+        "prodBase": "없음",
+        "uptDt": "20260116"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000038",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "경관영양유동식비용 :6000원(1일)",
+        "uptDt": "20260116"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14792000038",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6500",
+        "prodBase": "2000원(1식)*3 -간식포함(500원)",
+        "uptDt": "20260116"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24792000025",
+    "name": "봉화노인복지센터",
+    "types": [
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 솔안2길 23",
+    "lat": 36.89385707829542,
+    "lng": 128.727047168769,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "봉화노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "250",
+      "detailAddr": "58번지 ",
+      "gunmulMlno": "23",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36236",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "3435",
+      "longTermAdminSym": "24792000025",
+      "longTermPeribRgtDt": "20100723",
+      "riCd": "26",
+      "roadNmCd": "479204772234",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20081016"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000025",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000025",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "longTermAdminSym": "24792000025",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http://bongno.jangsumaeul.kr/",
+      "longTermAdminSym": "24792000025",
+      "pkngEquip": "◆주차장 현황◆(1) 일반주차 : 20면(2) 장애인주차 : 2면",
+      "tfMth": "◆찾아오시는 길◆(1)중앙고속도로(영주IC)-(울진방면36번국도)-(봉화IC좌회전)-봉화군청(진입후좌회전)-(500m)봉화노인복지센터(2)버스편:-영주터미널-(봉화방면 30분 )-봉화터미널-택시(5분)-봉화노인복지센터(3)열차편:봉화역-택시(3분)-(도보10분)-봉화노인복지센터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24792000025",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3400",
+        "prodBase": "1,700원 X 2회 = 3,400원",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24792000025",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원 X 1회 = 900",
+        "uptDt": "20260102"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24792000025",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3400",
+        "prodBase": "1,700원(1식)*2식",
+        "uptDt": "20260306"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24792000025",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원(1회)*1회",
+        "uptDt": "20260306"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24792000045",
+    "name": "봉화돌봄센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 교촌길 9",
+    "lat": 36.8859297421634,
+    "lng": 128.73365008436764,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "봉화돌봄센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "9",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36238",
+      "locTelNo_1": "054",
+      "locTelNo_2": "673",
+      "locTelNo_3": "4184",
+      "longTermAdminSym": "24792000045",
+      "longTermPeribRgtDt": "20200901",
+      "riCd": "31",
+      "roadNmCd": "479204772042",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20200901"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000045",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "53",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000045",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "64",
+      "longTermAdminSym": "24792000045",
+      "maNowPer": "23",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "bhjhcare@daum.net",
+      "longTermAdminSym": "24792000045",
+      "pkngEquip": "건물주차장 이용 가능",
+      "tfMth": "버스정류장봉화군청(3710038) | 245m 일반  133(삽제-도촌-봉성-명호)|233(삽제-도촌-삼계-물야)|33(삽제-도촌-적덕)농어촌 29(봉화-해저로-샘실-해저로-봉화)해저리(3710048) | 278m일반  133(명호-봉성-도촌-삽제)|233(물야-북지-적덕-삽제)|33(적덕-도촌-삽제)농어촌 29(봉화-해저로-샘실-해저로-봉화)해저리(3710037) | 292m일반  133(삽제-도촌-봉성-명호)|233(삽제-도촌-삼계-물야)|33(삽제-도촌-적덕)농어촌 29(봉화-해저로-샘실-해저로-봉화)자동차 이용시출발 봉화군청94m 직진 좌회전 후 91m 이동우회전 후 58m 이동봉화로 좌회전 후 173m 이동봉화로 봉화 방면으로 좌회전 후 317m 이동신시장길 우회전 후 217m 이동내성천2길 우회전 후 299m 이동예봉로 영주 안동 방면으로 좌회전 후 442m 이동교촌길 좌회전 후 100m 이동좌회전 후 45m 이동좌회전 후 16m 이동도착"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24792000047",
+    "name": "명진재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "춘양면",
+    "address": "경북 봉화군 춘양면 소로리 881-16",
+    "lat": 36.932206099291314,
+    "lng": 128.91337313264785,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "명진재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "340",
+      "fl": "1",
+      "gunmulMlno": "106",
+      "gunmulSlno": "1",
+      "HDongCd": "340",
+      "hmPostNo": "36217",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "1238",
+      "longTermAdminSym": "24792000047",
+      "longTermPeribRgtDt": "20220106",
+      "riCd": "29",
+      "roadNmCd": "479203324019",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20220106"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000047",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "45",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000047",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "53",
+      "longTermAdminSym": "24792000047",
+      "maNowPer": "21",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://명진재가.kr/",
+      "longTermAdminSym": "24792000047",
+      "pkngEquip": "* 명진재가복지센터 앞 주차 가능, 건너편 도로 주차 가능",
+      "tfMth": "◈ 자가용 이용시▷ 봉화읍 출발1. 봉화교차로에서 예봉로 현동 울진 방면으로 좌회전 후  18.7km 이동2. 춘양교차로에서 소천로 춘양 영월 방면으로 우측도로 198m 이동3. 소천로 좌회전 후 282m 이동4. 춘양로 국립백두대간수목원 방면으로 좌회전 후 915m 이동5. 의양로 춘양 방면으로 좌회전 후 378m 이동6. 봉화춘양 LH아파트 정문 건너편 명진재가복지센터▷ 이외 지역에서 출발시  - 경북 봉화군 춘양면 의양로 106-1 네비게이션 이용◈ 대중교통 이용 1. 춘양공용버스터미널 하차후 도보2. 성도농약 종묘사까지 64m 이동(의양로5길)3. 성도농약 종묘사 앞에서 왼쪽길로 17m 이동4. 춘양농협까지 횡단보도 이용5. 춘양농협 앞에서 328m 이동6. 봉화 춘양 LH 아파트 건너편 명진재가복지센터 도착◈ 기차 이용시기차 : 춘양역 → 택시이용 (봉화방향, 도보 21분) → 명진재가복지센터 도착"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24792000048",
+    "name": "명성재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "춘양면",
+    "address": "경북 봉화군 춘양면 소로리 987-2",
+    "lat": 36.93318066246771,
+    "lng": 128.91302465131332,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "명성재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "340",
+      "gunmulMlno": "96",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "36217",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "9987",
+      "longTermAdminSym": "24792000048",
+      "longTermPeribRgtDt": "20220323",
+      "riCd": "29",
+      "roadNmCd": "479203324019",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20220323"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000048",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "40",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000048",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "27",
+      "longTermAdminSym": "24792000048",
+      "maNowPer": "16",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24792000048",
+      "pkngEquip": "주차가능함.(사랑의원 옆 주차장 이용 가능)",
+      "tfMth": "봉화군 춘양면 의양로 96대중교통 이용시: 춘양 LH아파트 앞 하차 (건너편 위치)승용차 이용시: 봉화군 춘양면 사랑의원 건너편 위치"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24792000049",
+    "name": "효자재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 내성로 105",
+    "lat": 36.891710535053754,
+    "lng": 128.7401035250366,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "효자재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "fl": "2",
+      "gunmulMlno": "105",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "36238",
+      "locTelNo_1": "054",
+      "locTelNo_2": "672",
+      "locTelNo_3": "2121",
+      "longTermAdminSym": "24792000049",
+      "longTermPeribRgtDt": "20230406",
+      "riCd": "31",
+      "roadNmCd": "479203324003",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20230406"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000049",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "25",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000049",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "30",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24792000049",
+      "maNowPer": "2",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24792000049",
+      "pkngEquip": "주차시설이 협소하오니 대중교통을 이용 바랍니다.주차 4대 가능",
+      "tfMth": "봉화군보건소 사거리에서 봉화초등학교 방면으로 200m봉화초등학교 맞은 편 아트광고기획 2층"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24792000050",
+    "name": "경북사랑방문간호센터",
+    "types": [
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B05"
+    ],
+    "emdNm": "봉화읍",
+    "address": "경상북도 봉화군 봉화읍 신시장1길 11-7",
+    "lat": 36.89050099673449,
+    "lng": 128.73631629660122,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "경북사랑방문간호센터",
+      "adminPttnCd": "B05",
+      "BDongCd": "250",
+      "fl": "1",
+      "gunmulMlno": "11",
+      "gunmulSlno": "7",
+      "HDongCd": "250",
+      "hmPostNo": "36239",
+      "locTelNo_1": "054",
+      "locTelNo_2": "674",
+      "locTelNo_3": "8627",
+      "longTermAdminSym": "24792000050",
+      "longTermPeribRgtDt": "20240523",
+      "riCd": "31",
+      "roadNmCd": "479204772248",
+      "siDoCd": "47",
+      "siGunGuCd": "920",
+      "stpRptDt": "20240523"
+    },
+    "staff": {
+      "adminPttnCd": "B05",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24792000050",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B05",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24792000050",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B05",
+      "longTermAdminSym": "24792000050",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B05",
+      "hmpgAddr": "https://ok114.co.kr/0546748627",
+      "longTermAdminSym": "24792000050",
+      "pkngEquip": "봉화읍 내성천2길 주차장",
+      "tfMth": "봉화읍 우체국 옆 2번째 골목"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34729028689",
+    "name": "신세계재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34729028689",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "컷트 1회당 5,000원",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028713",
+    "name": "안심재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34711000054",
+    "name": "동국 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000123",
+    "name": "친절간호사의집",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000127",
+    "name": "장수노인복지마을",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4600",
+        "prodBase": "끼니당 2,300원 2회 4,600원",
+        "uptDt": "20251118"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "18000",
+        "prodBase": "비급여 주간보호 이용",
+        "uptDt": "20251118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34793000005",
+    "name": "울진돌봄사회서비스센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34717000001",
+    "name": "어르신이행복한세상",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

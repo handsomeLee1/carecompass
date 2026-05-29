@@ -1,1 +1,1086 @@
-[]
+[
+  {
+    "sym": "34282000031",
+    "name": "벧엘의집 주간보호 센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C03"
+    ],
+    "emdNm": "죽왕면",
+    "address": "강원특별자치도 가평군",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "5",
+      "adminNm": "벧엘의집 주간보호 센터",
+      "adminPttnCd": "C03",
+      "BDongCd": "320",
+      "gunmulMlno": "6645",
+      "gunmulSlno": "10",
+      "HDongCd": "320",
+      "hmPostNo": "24743",
+      "locTelNo_1": "033",
+      "locTelNo_2": "681",
+      "locTelNo_3": "3826",
+      "longTermAdminSym": "34282000031",
+      "longTermPeribRgtDt": "20141215",
+      "riCd": "00",
+      "roadNmCd": "518202000023",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20141215"
+    },
+    "staff": {
+      "adminPttnCd": "C03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34282000031",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34282000031",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "C03",
+      "fmNowPer": "13",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34282000031",
+      "maNowPer": "4",
+      "maRsvPer": "0",
+      "totPer": "20"
+    },
+    "etc": {
+      "adminPttnCd": "C03",
+      "hmpgAddr": "http://cafe.daum.net/0336813826",
+      "longTermAdminSym": "34282000031",
+      "pkngEquip": "주차시설 완비 (개인차량 6대분)",
+      "tfMth": "(고성에서 속초방면) 간성읍.터미널 - 7번국도 - 향목농공단지(장례식장) - 속초방면으로 300미터 직진후 (우회전)- 벧엘의집 시설간판 확인후 진행.(속초에서 고성방면)속초.고성방면(7번국도) - 죽왕면사무소(7번국도 간성방면) - 향목농공단지(고성장례식장)- U턴 - 속초방면 으로 300미터 직진 ( 우회전) - 시설간판 확인후 진행."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34282000031",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일* 2회(오전.오후) *20일",
+        "uptDt": "20260204"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34282000031",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "1일 * 식사(점심1식 ) *20일",
+        "uptDt": "20260204"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14282000001",
+    "name": "고성소망노인요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "거진읍",
+    "address": "강원특별자치도 고성군 거진읍 남강로 650",
+    "lat": 38.41910265489077,
+    "lng": 128.43383285552812,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "고성소망노인요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "253",
+      "detailAddr": "11번지 3호 ",
+      "gunmulMlno": "650",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "24724",
+      "locTelNo_1": "033",
+      "locTelNo_2": "682",
+      "locTelNo_3": "7751",
+      "longTermAdminSym": "14282000001",
+      "longTermPeribRgtDt": "20080617",
+      "riCd": "28",
+      "roadNmCd": "518203234007",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20080609"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14282000001",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "21",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "33",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14282000001",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "6",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "24",
+      "prsnRoomreal4": "10",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "6",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "35",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "14282000001",
+      "maNowPer": "10",
+      "maRsvPer": "1",
+      "totPer": "120"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "www.gosomang.net",
+      "longTermAdminSym": "14282000001",
+      "pkngEquip": "차량 50대 주차완비",
+      "tfMth": "대중교통 : 속초에서  1번 또는 1-1번 버스로 간성터미널에서 하차하여 석문리마을 버스를 타고 석문리버스종점에서 하차 도보로 20분거리에 있음.자가용 : 속초-간성-대대리삼거리에서 거진방향으로 오시다가 대대리 마을로 좌회전해서 초계리와 석문리 방향으로 직진하고 석문리 교회에서 송정방향으로 5분거리에있음."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000001",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000001",
+        "nonpayKind": "4",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3,000 * 3 = 9,000",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000001",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20240103"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14282000002",
+    "name": "까리따스마태오요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "토성면",
+    "address": "강원특별자치도 고성군 토성면 용촌리 2-1",
+    "lat": 38.23016617890937,
+    "lng": 128.5839970873518,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "까리따스마태오요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "330",
+      "detailAddr": "2번지 1호 ",
+      "gunmulMlno": "42",
+      "gunmulSlno": "0",
+      "HDongCd": "330",
+      "hmPostNo": "24770",
+      "locTelNo_1": "033",
+      "locTelNo_2": "638",
+      "locTelNo_3": "6004",
+      "longTermAdminSym": "14282000002",
+      "longTermPeribRgtDt": "20080617",
+      "riCd": "34",
+      "roadNmCd": "518204502416",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20080609"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14282000002",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "1",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "19",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "22",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14282000002",
+      "medRoomreal": "1",
+      "ofce": "2",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "16",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "5",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "2"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "37",
+      "fmRsvPer": "5",
+      "longTermAdminSym": "14282000002",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.caritasmateo.com",
+      "longTermAdminSym": "14282000002",
+      "pkngEquip": "요양원 내 42대 주차가능.요양원 밖에도 주차가능.",
+      "tfMth": "대중교통 이용시버스(동해상사) NO.1, 1-1, 1-2 속초에서 고성방면 시 - 용촌리 정류장(장사동 고개 넘자마자)에서 하차 후  바다정원 카페방향으로 5분정도 도보. 고성에서 속초방면 시 - 용촌리 정류장(장사동 고개 바로 직전)에서 하차 후   건널목으로 건너 바다정원 카페방향으로 5분정도 도보."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000002",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "1613",
+        "prodBase": "2인실 사용료 월 50,000",
+        "uptDt": "20260410"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "1식 3,000원/ 간식비 1일 1,000원",
+        "uptDt": "20260410"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14282000028",
+    "name": "고성연화마을",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "간성읍",
+    "address": "강원특별자치도 가평군",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "고성연화마을",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "388",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24726",
+      "locTelNo_1": "033",
+      "locTelNo_2": "682",
+      "locTelNo_3": "8500",
+      "longTermAdminSym": "14282000028",
+      "longTermPeribRgtDt": "20110810",
+      "riCd": "00",
+      "roadNmCd": "518203234005",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20110810"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14282000028",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "17",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14282000028",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "19",
+      "spcAcupRoomreal": "2",
+      "taxPageLong": "12",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "32",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14282000028",
+      "maNowPer": "6",
+      "maRsvPer": "0",
+      "totPer": "80"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.yhmaul.com/",
+      "longTermAdminSym": "14282000028",
+      "pkngEquip": "장애인차량   2대일반차량     15대 이상",
+      "tfMth": "○서울출발 대중교통 이용시   동서울터미널에서 간성행 버스승차 →간성터미널에서 택시 이용○서울출발 자가용 이용시   서울→춘천→동홍천(고속도로)→인제→원통→진부령→건봉사방면○속초출발 대중교통 이용시        1번, 1-1번 승차 → 간성터미널 하차 → 택시 승차(10분소요)○속초출발 자가용 이용시   간성방향→대대삼거리에서 진부령방면 좌회전→ 건봉사방면→건봉다시마장 지나서 우회전"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000028",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3,000원*3식*31일( 기준 ) = 279,000원",
+        "uptDt": "20250717"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14282000028",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "월 1회 이상 무료제공",
+        "uptDt": "20250717"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24282000005",
+    "name": "까리따스노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "토성면",
+    "address": "강원특별자치도 고성군 토성면 버리깨길 40",
+    "lat": 38.23065222090837,
+    "lng": 128.58401087652211,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "까리따스노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "330",
+      "gunmulMlno": "40",
+      "gunmulSlno": "0",
+      "HDongCd": "330",
+      "hmPostNo": "24770",
+      "locTelNo_1": "033",
+      "locTelNo_2": "638",
+      "locTelNo_3": "6012",
+      "longTermAdminSym": "24282000005",
+      "longTermPeribRgtDt": "20080617",
+      "riCd": "34",
+      "roadNmCd": "518204502416",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20080609"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24282000005",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "19",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24282000005",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "32",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24282000005",
+      "maNowPer": "3",
+      "maRsvPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://까리따스노인복지센터.kr",
+      "longTermAdminSym": "24282000005",
+      "pkngEquip": "주차시설 완비",
+      "tfMth": "-속초 시외버스터미널 맞은 편(한국전력 앞) 정류소에서 1번 버스를 타고 용촌리에서 하차(5-10분 정도 소요)-속초시외버스터미널에서 택시로 5분 소요(할증료 있음)-장사항에서 걸어서 15분 거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24282000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "uptDt": "20260118"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24282000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "uptDt": "20260118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24282000037",
+    "name": "고성노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "거진읍",
+    "address": "강원특별자치도 고성군 거진읍 수외길 9-1",
+    "lat": 38.44013608051072,
+    "lng": 128.45203751110807,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "고성노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "gunmulMlno": "9",
+      "gunmulSlno": "1",
+      "HDongCd": "253",
+      "hmPostNo": "24718",
+      "locTelNo_1": "033",
+      "locTelNo_2": "681",
+      "locTelNo_3": "8830",
+      "longTermAdminSym": "24282000037",
+      "longTermPeribRgtDt": "20191210",
+      "riCd": "21",
+      "roadNmCd": "518204502185",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20191210"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24282000037",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "31",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24282000037",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24282000037",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24282000037",
+      "pkngEquip": "고성노인복지센터 앞 주차 ",
+      "tfMth": "버스이용 NO 1, 1-1, 1-2 , 버스하차시 거진종고앞 에서 하차하시면 됩니다.버스 승하차구간이 센터 주변에 있어 교통편이 편리합니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24282000037",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "prodBase": "1식",
+        "uptDt": "20260112"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24282000037",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "1회",
+        "uptDt": "20260112"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24282000038",
+    "name": "새암재가노인센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "죽왕면",
+    "address": "강원특별자치도 고성군 죽왕면 동해대로 6495-11",
+    "lat": 38.37570086436082,
+    "lng": 128.49917528368613,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "새암재가노인센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "320",
+      "gunmulMlno": "6495",
+      "gunmulSlno": "11",
+      "HDongCd": "320",
+      "hmPostNo": "24744",
+      "locTelNo_1": "033",
+      "locTelNo_2": "632",
+      "locTelNo_3": "2121",
+      "longTermAdminSym": "24282000038",
+      "longTermPeribRgtDt": "20220422",
+      "riCd": "23",
+      "roadNmCd": "518202000023",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20220330"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24282000038",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24282000038",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24282000038",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24282000038",
+      "pkngEquip": "새암재가노인센터 사무실 앞,건물주차장",
+      "tfMth": "속초발-간성,거진 현내행 버스이용 / 죽왕면 동해대로 6495-11 간성에서출발 5분정도 소요"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24282000039",
+    "name": "성광노인재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "거진읍",
+    "address": "강원특별자치도 고성군 거진읍 거탄진로 165-2",
+    "lat": 38.44881239591104,
+    "lng": 128.45822151484577,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "성광노인재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "253",
+      "gunmulMlno": "165",
+      "gunmulSlno": "2",
+      "HDongCd": "253",
+      "hmPostNo": "24714",
+      "locTelNo_1": "033",
+      "locTelNo_2": "682",
+      "locTelNo_3": "5175",
+      "longTermAdminSym": "24282000039",
+      "longTermPeribRgtDt": "20220422",
+      "riCd": "21",
+      "roadNmCd": "518203234003",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20220330"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24282000039",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "55",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24282000039",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "59",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24282000039",
+      "maNowPer": "26",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://skcare.nasoft.kr/",
+      "longTermAdminSym": "24282000039",
+      "pkngEquip": "없음",
+      "tfMth": "버스 : 고성군청 앞 (1,1-1) → 금강지구대 하차 → 도보 1분거리"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25182000042",
+    "name": "늘품재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "토성면",
+    "address": "강원특별자치도 고성군 토성면 광포1길 7",
+    "lat": 38.24846079681933,
+    "lng": 128.5659426811303,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "늘품재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "330",
+      "gunmulMlno": "7",
+      "gunmulSlno": "0",
+      "HDongCd": "330",
+      "hmPostNo": "24765",
+      "locTelNo_1": "033",
+      "locTelNo_2": "633",
+      "locTelNo_3": "5255",
+      "longTermAdminSym": "25182000042",
+      "longTermPeribRgtDt": "20230713",
+      "riCd": "35",
+      "roadNmCd": "518204502377",
+      "siDoCd": "51",
+      "siGunGuCd": "820",
+      "stpRptDt": "20230613"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25182000042",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "25",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25182000042",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "2",
+      "longTermAdminSym": "25182000042",
+      "maNowPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "nplongtermcare.or.kr",
+      "longTermAdminSym": "25182000042",
+      "pkngEquip": "아파트 내 주차 이용 가능",
+      "tfMth": "버스 이용 가능"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

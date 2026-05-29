@@ -11,7 +11,7 @@
       "C02"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 35",
+    "address": "경상북도 영양군 영양읍 영양창수로 35",
     "lat": 36.66427891936609,
     "lng": 129.11780379678055,
     "general": {
@@ -103,7 +103,7 @@
       "C02"
     ],
     "emdNm": "입암면",
-    "address": "경상북도 영덕군 입암면 85",
+    "address": "경상북도 영양군 입암면 입암로 85",
     "lat": 36.59251366182597,
     "lng": 129.08930064834684,
     "general": {
@@ -198,7 +198,7 @@
       "C02"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 126",
+    "address": "경상북도 영양군 영양읍 중앙로 126",
     "lat": 36.664533623731586,
     "lng": 129.11401336519654,
     "general": {
@@ -292,7 +292,7 @@
       "C02"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 1-1",
+    "address": "경상북도 영양군 영양읍 지역골2길 1-1",
     "lat": 36.666556451255815,
     "lng": 129.1102808593809,
     "general": {
@@ -383,7 +383,7 @@
       "C01"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 71",
+    "address": "경상북도 영양군 영양읍 낙원로 71",
     "lat": 36.663982434197024,
     "lng": 129.10903921985852,
     "general": {
@@ -468,13 +468,13 @@
     "sym": "14776000001",
     "name": "영양군립요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 644",
+    "address": "경상북도 영양군 영양읍 영양창수로 644",
     "lat": 36.63962840936007,
     "lng": 129.17421974703862,
     "general": {
@@ -587,13 +587,13 @@
     "sym": "14776000016",
     "name": "영양사랑노인전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 282-14",
+    "address": "경상북도 영양군 영양읍 중앙로 282-14",
     "lat": 36.676651761076954,
     "lng": 129.12042903277558,
     "general": {
@@ -690,13 +690,13 @@
     "sym": "14776000018",
     "name": "고은노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "입암면",
-    "address": "경상북도 영덕군 입암면 148",
+    "address": "경상북도 영양군 입암면 입암로 148",
     "lat": 36.597868261978284,
     "lng": 129.08826170640023,
     "general": {
@@ -793,13 +793,13 @@
     "sym": "14776000028",
     "name": "벧엘노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 345",
+    "address": "경상북도 영양군 영양읍 팔수로 345",
     "lat": 36.66779643651785,
     "lng": 129.09296811661676,
     "general": {
@@ -911,7 +911,7 @@
       "H31"
     ],
     "emdNm": "청기면",
-    "address": "경상북도 영덕군 청기면 1141",
+    "address": "경상북도 영양군 청기면 청기로 1141",
     "lat": 36.66107498248999,
     "lng": 129.06384641518486,
     "general": {
@@ -1039,7 +1039,7 @@
       "B02"
     ],
     "emdNm": "입암면",
-    "address": "경상북도 영덕군 입암면 128",
+    "address": "경상북도 영양군 입암면 입암로 128",
     "lat": 36.59627517938028,
     "lng": 129.08929752256824,
     "general": {
@@ -1129,7 +1129,7 @@
       "B02"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 132-26",
+    "address": "경상북도 영양군 영양읍 중앙로 132-26",
     "lat": 36.66458088527929,
     "lng": 129.1145707826661,
     "general": {
@@ -1227,7 +1227,7 @@
       "B03"
     ],
     "emdNm": "수비면",
-    "address": "경상북도 영덕군 수비면 541-3",
+    "address": "경상북도 영양군 수비면 한티로 541-3",
     "lat": 36.76434995968488,
     "lng": 129.20688369567895,
     "general": {
@@ -1327,7 +1327,7 @@
       "B02"
     ],
     "emdNm": "일월면",
-    "address": "경상북도 영덕군 일월면 504-4",
+    "address": "경상북도 영양군 일월면 오리길 504-4",
     "lat": 36.77633046997079,
     "lng": 129.11604905767967,
     "general": {
@@ -1413,7 +1413,7 @@
       "B03"
     ],
     "emdNm": "영양읍",
-    "address": "경상북도 영덕군 영양읍 401-6",
+    "address": "경상북도 영양군 영양읍 영양창수로 401-6",
     "lat": 36.652019462383386,
     "lng": 129.15403016872213,
     "general": {
@@ -1526,6 +1526,200 @@
         "uptDt": "20251226"
       }
     ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028689",
+    "name": "신세계재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34729028689",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "컷트 1회당 5,000원",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028713",
+    "name": "안심재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34711000054",
+    "name": "동국 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000123",
+    "name": "친절간호사의집",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000127",
+    "name": "장수노인복지마을",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4600",
+        "prodBase": "끼니당 2,300원 2회 4,600원",
+        "uptDt": "20251118"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "18000",
+        "prodBase": "비급여 주간보호 이용",
+        "uptDt": "20251118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34793000005",
+    "name": "울진돌봄사회서비스센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34717000001",
+    "name": "어르신이행복한세상",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   }
 ]

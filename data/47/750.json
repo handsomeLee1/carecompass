@@ -105,7 +105,7 @@
       "C02"
     ],
     "emdNm": "안덕면",
-    "address": "경상북도 영양군 안덕면 1719",
+    "address": "경상북도 청송군 안덕면 성덕댐로 1719",
     "lat": 36.28291973545214,
     "lng": 128.9549206644743,
     "general": {
@@ -198,7 +198,7 @@
       "C03"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 36",
+    "address": "경상북도 청송군 청송읍 휴양단지길 36",
     "lat": 36.44368518040179,
     "lng": 129.07191303468096,
     "general": {
@@ -308,13 +308,13 @@
     "sym": "14775000001",
     "name": "경북작은자의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "현동면",
-    "address": "경상북도 영양군 현동면 351",
+    "address": "경상북도 청송군 현동면 개일월매길 351",
     "lat": 36.24982371571993,
     "lng": 129.02598315849357,
     "general": {
@@ -409,13 +409,13 @@
     "sym": "14775000008",
     "name": "아름다운실버타운",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 1692-29",
+    "address": "경상북도 청송군 청송읍 길안청송로 1692-29",
     "lat": 36.43213678667272,
     "lng": 129.0484340648122,
     "general": {
@@ -520,13 +520,13 @@
     "sym": "14775000016",
     "name": "청송보현요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "안덕면",
-    "address": "경상북도 영양군 안덕면 654",
+    "address": "경상북도 청송군 안덕면 안현로 654",
     "lat": 36.31669054723776,
     "lng": 128.98728566360978,
     "general": {
@@ -631,13 +631,13 @@
     "sym": "14775000022",
     "name": "청송국민노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 179",
+    "address": "경상북도 청송군 청송읍 논시골로 179",
     "lat": 36.45700432175676,
     "lng": 129.0721834593922,
     "general": {
@@ -734,7 +734,7 @@
     "sym": "14775000030",
     "name": "태양의집",
     "types": [
-      "A03",
+      "노인요양시설",
       "G31"
     ],
     "typeCodes": [
@@ -742,7 +742,7 @@
       "G31"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 7-286",
+    "address": "경상북도 청송군 청송읍 주왕산로 7-286",
     "lat": 36.39924856345397,
     "lng": 129.07307319510892,
     "general": {
@@ -851,7 +851,7 @@
       "B03"
     ],
     "emdNm": "현동면",
-    "address": "경상북도 영양군 현동면 351",
+    "address": "경상북도 청송군 현동면 개일월매길 351",
     "lat": 36.24982371571993,
     "lng": 129.02598315849357,
     "general": {
@@ -952,7 +952,7 @@
       "B01"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 179",
+    "address": "경상북도 청송군 청송읍 논시골로 179",
     "lat": 36.45700432175676,
     "lng": 129.0721834593922,
     "general": {
@@ -1045,7 +1045,7 @@
       "B03"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 1692-29",
+    "address": "경상북도 청송군 청송읍 길안청송로 1692-29",
     "lat": 36.43213678667272,
     "lng": 129.0484340648122,
     "general": {
@@ -1154,7 +1154,7 @@
       "B03"
     ],
     "emdNm": "안덕면",
-    "address": "경상북도 영양군 안덕면 654",
+    "address": "경상북도 청송군 안덕면 안현로 654",
     "lat": 36.31669054723776,
     "lng": 128.98728566360978,
     "general": {
@@ -1255,7 +1255,7 @@
       "B01"
     ],
     "emdNm": "청송읍",
-    "address": "경상북도 영양군 청송읍 240",
+    "address": "경상북도 청송군 청송읍 중앙로 240",
     "lat": 36.433829259395864,
     "lng": 129.05515715622994,
     "general": {
@@ -1346,7 +1346,7 @@
       "B06"
     ],
     "emdNm": "부남면",
-    "address": "경상북도 영양군 부남면 173",
+    "address": "경상북도 청송군 부남면 대전로 173",
     "lat": 36.348976196293656,
     "lng": 129.06301572949462,
     "general": {
@@ -1437,7 +1437,7 @@
       "B02"
     ],
     "emdNm": "진보면",
-    "address": "경상북도 영양군 진보면 118-3",
+    "address": "경상북도 청송군 진보면 진보로 118-3",
     "lat": 36.52832243833344,
     "lng": 129.0449342082149,
     "general": {
@@ -1532,7 +1532,7 @@
       "B03"
     ],
     "emdNm": "현서면",
-    "address": "경상북도 영양군 현서면 2481",
+    "address": "경상북도 청송군 현서면 금성현서로 2481",
     "lat": 36.27381346996936,
     "lng": 128.89136032821085,
     "general": {
@@ -1636,6 +1636,200 @@
         "uptDt": "20250522"
       }
     ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028689",
+    "name": "신세계재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34729028689",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "컷트 1회당 5,000원",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028713",
+    "name": "안심재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34711000054",
+    "name": "동국 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000123",
+    "name": "친절간호사의집",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000127",
+    "name": "장수노인복지마을",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4600",
+        "prodBase": "끼니당 2,300원 2회 4,600원",
+        "uptDt": "20251118"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "18000",
+        "prodBase": "비급여 주간보호 이용",
+        "uptDt": "20251118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34793000005",
+    "name": "울진돌봄사회서비스센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34717000001",
+    "name": "어르신이행복한세상",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   }
 ]

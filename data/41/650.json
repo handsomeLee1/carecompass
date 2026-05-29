@@ -11,7 +11,7 @@
       "C03"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 1049",
+    "address": "경기도 포천시 호국로 1049",
     "lat": 37.85812251865811,
     "lng": 127.16893812692908,
     "general": {
@@ -520,7 +520,7 @@
       "C06"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 1599",
+    "address": "경기도 포천시 포천로 1599",
     "lat": 37.89951859283821,
     "lng": 127.20185389364124,
     "general": {
@@ -703,7 +703,7 @@
       "C03"
     ],
     "emdNm": "설운동",
-    "address": "경기도 포천시 설운동 901",
+    "address": "경기도 포천시 호국로 901",
     "lat": 37.84690771495082,
     "lng": 127.1603932988113,
     "general": {
@@ -893,7 +893,7 @@
       "C03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 249-5",
+    "address": "경기도 포천시 왕방로 249-5",
     "lat": 37.9022132857717,
     "lng": 127.2017089640059,
     "general": {
@@ -1095,7 +1095,7 @@
       "C06"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 159",
+    "address": "경기도 포천시 왕방로 159",
     "lat": 37.89714377084173,
     "lng": 127.19446805988161,
     "general": {
@@ -1186,7 +1186,7 @@
       "C03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 39",
+    "address": "경기도 포천시 학동로 39",
     "lat": 37.902637935079596,
     "lng": 127.20289836803508,
     "general": {
@@ -1383,7 +1383,7 @@
       "C03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 159",
+    "address": "경기도 포천시 왕방로 159",
     "lat": 37.89714377084173,
     "lng": 127.19446805988161,
     "general": {
@@ -1584,7 +1584,7 @@
       "C03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 39",
+    "address": "경기도 포천시 학동로 39",
     "lat": 37.902637935079596,
     "lng": 127.20289836803508,
     "general": {
@@ -1916,7 +1916,7 @@
       "C03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 1632",
+    "address": "경기도 포천시 포천로 1632",
     "lat": 37.90199287019489,
     "lng": 127.199611733204,
     "general": {
@@ -2292,7 +2292,7 @@
       "C02"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 66",
+    "address": "경기도 포천시 호국로1145번길 66",
     "lat": 37.86370345369826,
     "lng": 127.16810741027965,
     "general": {
@@ -2651,7 +2651,7 @@
       "C02"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 26",
+    "address": "경기도 포천시 중앙로110번길 26",
     "lat": 37.89789724809265,
     "lng": 127.20427744617871,
     "general": {
@@ -2911,7 +2911,7 @@
     "sym": "14165000160",
     "name": "샬롬하우스요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3037,7 +3037,7 @@
     "sym": "14165000164",
     "name": "믿음의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3161,7 +3161,7 @@
     "sym": "14165000168",
     "name": "광릉수목요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3295,7 +3295,7 @@
     "sym": "14165000174",
     "name": "엘림요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -3405,13 +3405,13 @@
     "sym": "14165000182",
     "name": "선단동산돌노인요양공동생활가정",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 2055-53",
+    "address": "경기도 포천시 삼육사로 2055-53",
     "lat": 37.86163399946566,
     "lng": 127.14991731127543,
     "general": {
@@ -3507,7 +3507,7 @@
     "sym": "14165000191",
     "name": "로뎀요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -3609,7 +3609,7 @@
     "sym": "14165000201",
     "name": "마음과마음노인전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3727,7 +3727,7 @@
     "sym": "14165000203",
     "name": "웰케어노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3851,7 +3851,7 @@
     "sym": "14165000206",
     "name": "천사의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3959,7 +3959,7 @@
     "sym": "14165000220",
     "name": "포천삼부요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4085,13 +4085,13 @@
     "sym": "14165000227",
     "name": "햇빛요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 959",
+    "address": "경기 포천시 선단동 498-1",
     "lat": 37.85117940690973,
     "lng": 127.16319897742585,
     "general": {
@@ -4203,13 +4203,13 @@
     "sym": "14165000237",
     "name": "휴사랑요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "자작동",
-    "address": "경기도 포천시 자작동 25-14",
+    "address": "경기도 포천시 자작로2길 25-14",
     "lat": 37.86787475718073,
     "lng": 127.1720733291327,
     "general": {
@@ -4311,7 +4311,7 @@
     "sym": "14165000239",
     "name": "노블레스 요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4419,7 +4419,7 @@
     "sym": "14165000245",
     "name": "유황수목원요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4547,7 +4547,7 @@
     "sym": "14165000251",
     "name": "행복의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4665,7 +4665,7 @@
     "sym": "14165000265",
     "name": "사랑요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4773,7 +4773,7 @@
     "sym": "14165000271",
     "name": "연세실버전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4881,13 +4881,13 @@
     "sym": "14165000276",
     "name": "조은요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 45",
+    "address": "경기도 포천시 중앙로 45",
     "lat": 37.89157421899504,
     "lng": 127.19831590507017,
     "general": {
@@ -4991,7 +4991,7 @@
     "sym": "14165000283",
     "name": "더 편한 요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5117,7 +5117,7 @@
     "sym": "14165000303",
     "name": "초록마을요양센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5224,7 +5224,7 @@
     "sym": "14165000333",
     "name": "한울요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5347,7 +5347,7 @@
     "sym": "14165000335",
     "name": "서울베스트케어",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5471,7 +5471,7 @@
     "sym": "14165000338",
     "name": "축복VIP요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5595,7 +5595,7 @@
     "sym": "14165000339",
     "name": "드림시니어케어",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5721,7 +5721,7 @@
     "sym": "14165000346",
     "name": "진달래요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5829,13 +5829,13 @@
     "sym": "14165000347",
     "name": "쉼터한울요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "자작동",
-    "address": "경기도 포천시 자작동 67",
+    "address": "경기도 포천시 자작로2길 67",
     "lat": 37.8658107698612,
     "lng": 127.1707921934519,
     "general": {
@@ -5945,7 +5945,7 @@
     "sym": "14165000350",
     "name": "포천무지개요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -6047,7 +6047,7 @@
     "sym": "14165000351",
     "name": "낙원의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6163,7 +6163,7 @@
     "sym": "14165000354",
     "name": "한마음재활요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6269,7 +6269,7 @@
     "sym": "14165000356",
     "name": "에이원요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6386,7 +6386,7 @@
     "sym": "14165000357",
     "name": "루디아요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -6496,7 +6496,7 @@
     "sym": "14165000360",
     "name": "포천VIP요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6620,7 +6620,7 @@
     "sym": "14165000368",
     "name": "늘샘요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6746,7 +6746,7 @@
     "sym": "14165000369",
     "name": "간호전문한결요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6873,7 +6873,7 @@
     "sym": "14165000370",
     "name": "재활플러스요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7000,7 +7000,7 @@
     "sym": "14165000377",
     "name": "평화의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7118,7 +7118,7 @@
     "sym": "14165000378",
     "name": "포천효경원요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7236,7 +7236,7 @@
     "sym": "14165000379",
     "name": "솔모루요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7362,7 +7362,7 @@
     "sym": "14165000380",
     "name": "우리가족요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7496,7 +7496,7 @@
     "sym": "14165000383",
     "name": "다올재활실버케어",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7638,7 +7638,7 @@
     "sym": "14165000384",
     "name": "다올건강실버케어",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7794,7 +7794,7 @@
     "sym": "14165000392",
     "name": "예담요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7917,7 +7917,7 @@
     "sym": "14165000393",
     "name": "서울굿케어힐링센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -8067,7 +8067,7 @@
     "sym": "14165000394",
     "name": "서울굿케어힐링하우스",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -8199,7 +8199,7 @@
     "sym": "14165000401",
     "name": "행복한요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -8307,7 +8307,7 @@
     "sym": "14165000403",
     "name": "늘기쁨요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -8415,7 +8415,7 @@
     "sym": "14165000412",
     "name": "햇살가득요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -8541,7 +8541,7 @@
     "sym": "14165000413",
     "name": "우리요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -8667,7 +8667,7 @@
     "sym": "14165000414",
     "name": "프렌즈",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -8781,7 +8781,7 @@
     "sym": "14165000425",
     "name": "포천해봄요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -8867,13 +8867,13 @@
     "sym": "14165000426",
     "name": "참조은요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 17",
+    "address": "경기도 포천시 중앙로197번길 17",
     "lat": 37.90298522144907,
     "lng": 127.20601444613706,
     "general": {
@@ -8976,7 +8976,7 @@
     "sym": "14165000427",
     "name": "효원요양원1호점",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -9076,7 +9076,7 @@
     "sym": "14165000428",
     "name": "효원요양원2호점",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -9177,7 +9177,7 @@
     "sym": "14165000435",
     "name": "천사마을요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9284,7 +9284,7 @@
     "sym": "14165000436",
     "name": "산정호수노인요양센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9384,7 +9384,7 @@
     "sym": "14165000437",
     "name": "미소실버요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9508,7 +9508,7 @@
     "sym": "14165000439",
     "name": "벧엘실버요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9650,13 +9650,13 @@
     "sym": "14165000440",
     "name": "안다미로요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 58",
+    "address": "경기도 포천시 원모루로2길 58",
     "lat": 37.89461065849922,
     "lng": 127.19643435077171,
     "general": {
@@ -9774,7 +9774,7 @@
     "sym": "14165000441",
     "name": "에이스케어요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9860,7 +9860,7 @@
     "sym": "14165000443",
     "name": "정혜요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -9978,13 +9978,13 @@
     "sym": "14165000449",
     "name": "송우해오름요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "동교동",
-    "address": "경기도 포천시 동교동 15-30",
+    "address": "경기도 포천시 동교로 15-30",
     "lat": 37.84293107027859,
     "lng": 127.12976927928078,
     "general": {
@@ -10085,7 +10085,7 @@
     "sym": "14165000451",
     "name": "실버트리요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -10202,7 +10202,7 @@
     "sym": "14165000454",
     "name": "효인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -10289,7 +10289,7 @@
     "sym": "14165000457",
     "name": "바른나무요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -10408,7 +10408,7 @@
     "sym": "14165000461",
     "name": "마루요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -10510,7 +10510,7 @@
     "sym": "14165000463",
     "name": "축석요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -10626,7 +10626,7 @@
     "sym": "14165000465",
     "name": "사임당요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -10743,7 +10743,7 @@
     "sym": "14165000009",
     "name": "가족처럼노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -10862,13 +10862,13 @@
     "sym": "14165000010",
     "name": "포천분도마을",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "자작동",
-    "address": "경기도 포천시 자작동 71",
+    "address": "경기 포천시 자작동 583-2",
     "lat": 37.87308045080506,
     "lng": 127.16456067406037,
     "general": {
@@ -10988,7 +10988,7 @@
     "sym": "14165000011",
     "name": "사회복지법인 효담전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -11098,13 +11098,13 @@
     "sym": "14165000018",
     "name": "모현노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 210",
+    "address": "경기도 포천시 왕방로 210",
     "lat": 37.899284365474784,
     "lng": 127.19943010634978,
     "general": {
@@ -11217,7 +11217,7 @@
     "sym": "14165000021",
     "name": "우리집",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -11335,7 +11335,7 @@
     "sym": "14165000035",
     "name": "소망의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -11460,7 +11460,7 @@
     "sym": "14165000043",
     "name": "선혜원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -11579,7 +11579,7 @@
     "sym": "14165000056",
     "name": "샬롬의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -11689,7 +11689,7 @@
     "sym": "14165000059",
     "name": "에덴동산요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -11800,7 +11800,7 @@
     "sym": "14165000126",
     "name": "사랑의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -11910,7 +11910,7 @@
     "sym": "14165000128",
     "name": "사랑가득요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -12044,7 +12044,7 @@
     "sym": "14165000143",
     "name": "포천사랑마루",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -12154,13 +12154,13 @@
     "sym": "14165000148",
     "name": "소망공동체요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
     ],
     "emdNm": "동교동",
-    "address": "경기도 포천시 동교동 58",
+    "address": "경기도 포천시 화합로262번길 58",
     "lat": 37.83963736032245,
     "lng": 127.1338363634266,
     "general": {
@@ -13252,7 +13252,7 @@
       "B03"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 2154-19",
+    "address": "경기도 포천시 삼육사로 2154-19",
     "lat": 37.85587788040514,
     "lng": 127.15702767776078,
     "general": {
@@ -13356,7 +13356,7 @@
       "B03"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 1631",
+    "address": "경기도 포천시 포천로 1631",
     "lat": 37.90161829252653,
     "lng": 127.19930040980911,
     "general": {
@@ -13928,7 +13928,7 @@
       "B01"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 964",
+    "address": "경기도 포천시 호국로 964",
     "lat": 37.85106863396769,
     "lng": 127.16471626286503,
     "general": {
@@ -14130,7 +14130,7 @@
       "B02"
     ],
     "emdNm": "선단동",
-    "address": "경기도 포천시 선단동 922",
+    "address": "경기도 포천시 호국로 922",
     "lat": 37.847963424793235,
     "lng": 127.16212437987443,
     "general": {
@@ -14508,7 +14508,7 @@
       "B02"
     ],
     "emdNm": "자작동",
-    "address": "경기도 포천시 자작동 1164",
+    "address": "경기도 포천시 호국로 1164",
     "lat": 37.86680882026666,
     "lng": 127.17575070404477,
     "general": {
@@ -14599,7 +14599,7 @@
       "B02"
     ],
     "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 29-6",
+    "address": "경기도 포천시 호병로 29-6",
     "lat": 37.89371856653111,
     "lng": 127.19965175226771,
     "general": {
@@ -14688,54 +14688,12 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "내촌면",
-    "address": "경기도 포천시 내촌면 금강로 2243",
-    "lat": 37.7788775893179,
-    "lng": 127.226051830558,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "행복한 주야간보호센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "320",
-      "gunmulMlno": "2243",
-      "gunmulSlno": "0",
-      "HDongCd": "320",
-      "hmPostNo": "11192",
-      "locTelNo_1": "031",
-      "locTelNo_2": "532",
-      "locTelNo_3": "2553",
-      "longTermAdminSym": "24165000402",
-      "longTermPeribRgtDt": "20230801",
-      "riCd": "23",
-      "roadNmCd": "416503000121",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20230801"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000402",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "1",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
     "facility": {
       "adminPttnCd": "B03",
       "batRoom": "0",
@@ -14798,103 +14756,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "이동면",
-    "address": "경기도 포천시 이동면 화동로1724번길 3",
-    "lat": 38.0027373288606,
-    "lng": 127.365481277314,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "소망시니어주간보호센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "380",
-      "gunmulMlno": "3",
-      "gunmulSlno": "0",
-      "HDongCd": "380",
-      "hmPostNo": "11113",
-      "locTelNo_1": "031",
-      "locTelNo_2": "535",
-      "locTelNo_3": "1009",
-      "longTermAdminSym": "24165000405",
-      "longTermPeribRgtDt": "20230901",
-      "riCd": "23",
-      "roadNmCd": "416504439851",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20230901"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000405",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "33",
-      "recuProt_2": "0",
-      "socWel": "2",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000405",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "23",
-      "longTermAdminSym": "24165000405",
-      "maNowPer": "7",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "cafe.naver.com/somangsenior",
-      "longTermAdminSym": "24165000405",
-      "pkngEquip": "센터 입구에 배치되어 있습니다.",
-      "tfMth": "버스: 7-1, 12,3"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000405",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "4000",
-        "prodBase": "2000*2회제공",
-        "uptDt": "20241130"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000405",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "500*2회 제공",
-        "uptDt": "20241130"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -14908,94 +14779,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "영중면",
-    "address": "경기도 포천시 영중면 양문로4길 35",
-    "lat": 38.0032298838532,
-    "lng": 127.240715014475,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "한가족노인주간돌봄센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "360",
-      "gunmulMlno": "35",
-      "gunmulSlno": "0",
-      "HDongCd": "360",
-      "hmPostNo": "11129",
-      "locTelNo_1": "031",
-      "locTelNo_2": "533",
-      "locTelNo_3": "1414",
-      "longTermAdminSym": "24165000407",
-      "longTermPeribRgtDt": "20230901",
-      "riCd": "21",
-      "roadNmCd": "416504439375",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20230901"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000407",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "38",
-      "recuProt_2": "0",
-      "socWel": "2",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000407",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "20",
-      "longTermAdminSym": "24165000407",
-      "maNowPer": "6",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "https://blog.naver.com/leejongsoo129",
-      "longTermAdminSym": "24165000407",
-      "pkngEquip": "주간돌봄센터앞에 주차공간이 있음",
-      "tfMth": "의정부1386번 타고 양문하차운천행버스타시고 양문하차.의정부에서 철원가는 직행타고 양문하차포천에서 53번, 59번, 60-1번타고 양문하차"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000407",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "4000",
-        "uptDt": "20260224"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -15009,85 +14802,15 @@
       "B01",
       "B02"
     ],
-    "emdNm": "영중면",
-    "address": "경기도 포천시 영중면 양문로 90",
-    "lat": 38.0007882141971,
-    "lng": 127.242807299337,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "신세계방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "360",
-      "gunmulMlno": "90",
-      "gunmulSlno": "0",
-      "HDongCd": "360",
-      "hmPostNo": "11129",
-      "locTelNo_1": "031",
-      "locTelNo_2": "531",
-      "locTelNo_3": "2500",
-      "longTermAdminSym": "24165000409",
-      "longTermPeribRgtDt": "20231101",
-      "riCd": "21",
-      "roadNmCd": "416503213029",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20231101"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000409",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "33",
-      "recuProt_2": "0",
-      "socWel": "2",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000409",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "21",
-      "longTermAdminSym": "24165000409",
-      "maNowPer": "8",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "https://longtermcare.or.kr/npbs/r/a/201/selectLtcoSrchDetail.web?ltcAdminSym=241",
-      "longTermAdminSym": "24165000409",
-      "pkngEquip": "자동차 2대정도 세울 수 있습니다.",
-      "tfMth": "경기도 포천시 영중면 양문로90"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -15100,88 +14823,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 송우로 118",
-    "lat": 37.8319667915675,
-    "lng": 127.137025393853,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "하와이재가방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "fl": "1",
-      "gunmulMlno": "118",
-      "gunmulSlno": "0",
-      "HDongCd": "250",
-      "hmPostNo": "11171",
-      "locTelNo_1": "031",
-      "locTelNo_2": "541",
-      "locTelNo_3": "2094",
-      "longTermAdminSym": "24165000415",
-      "longTermPeribRgtDt": "20240201",
-      "riCd": "21",
-      "roadNmCd": "416503213024",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240201"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000415",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "24",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000415",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "18",
-      "fmRsvPer": "0",
-      "longTermAdminSym": "24165000415",
-      "maNowPer": "4",
-      "maRsvPer": "0",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "없음",
-      "longTermAdminSym": "24165000415",
-      "pkngEquip": "승용차 5대 이상 주차가능",
-      "tfMth": "시내버스 2, 2-1,63번 신봉초교 앞, 혹은 솔모루 성당앞 하차 도보로 3분, 3500 버스 포천세무서 앞 하차 이동교리 투마위고개 방향 도보로 5~10분"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -15196,107 +14846,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "일동면",
-    "address": "경기도 포천시 일동면 화동로 850",
-    "lat": 37.9408080572254,
-    "lng": 127.309446364195,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "일동노인복지센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "370",
-      "gunmulMlno": "850",
-      "gunmulSlno": "0",
-      "HDongCd": "370",
-      "hmPostNo": "11119",
-      "locTelNo_1": "031",
-      "locTelNo_2": "531",
-      "locTelNo_3": "0309",
-      "longTermAdminSym": "24165000416",
-      "longTermPeribRgtDt": "20240201",
-      "riCd": "23",
-      "roadNmCd": "416503213050",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240201"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000416",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "7",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000416",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "3",
-      "longTermAdminSym": "24165000416",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "https://blog.naver.com/ouk4869",
-      "longTermAdminSym": "24165000416",
-      "pkngEquip": "주차장 3면",
-      "tfMth": "버스 7,7-1,11-1,66-1,90 기산1리 괸돌 하차"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000416",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "600",
-        "uptDt": "20251125"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000416",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "4000",
-        "uptDt": "20251125"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000416",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "1500",
-        "uptDt": "20251125"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -15308,110 +14867,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "내촌면",
-    "address": "경기도 포천시 내촌면 금강로 2239",
-    "lat": 37.7787134570299,
-    "lng": 127.226180735174,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "내촌자매주간보호센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "320",
-      "gunmulMlno": "2239",
-      "gunmulSlno": "0",
-      "HDongCd": "320",
-      "hmPostNo": "11192",
-      "locTelNo_1": "031",
-      "locTelNo_2": "534",
-      "locTelNo_3": "7330",
-      "longTermAdminSym": "24165000417",
-      "longTermPeribRgtDt": "20240301",
-      "riCd": "23",
-      "roadNmCd": "416503000121",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240301"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000417",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "2",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "5",
-      "recuProt_2": "0",
-      "socWel": "2",
-      "suppPrsn": "1",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000417",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "9",
-      "longTermAdminSym": "24165000417",
-      "maNowPer": "15",
-      "totPer": "29"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "https://band.us/n/aba090J9e0C6n",
-      "longTermAdminSym": "24165000417",
-      "pkngEquip": "주차 공간 7대 가능(승합 및 승용 차량)",
-      "tfMth": "버스 88번(경동 시장-광릉 내) 23번(오남리-하남-광릉 내 운행 11번(강변에서 광릉내 방향 운행88,23 버스 이용 시 내 촌 센터 앞 차고지 하차,승용차는 내 촌 중학교 앞 육교 앞에서 좌회전 후 50미터 거리 네 비 설정 시 내촌자매주간보호센터 오시면 됨 "
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000417",
-        "nonpayKind": "7",
-        "nonpayTgtAmt": "4000",
-        "prodBase": "등외   ",
-        "uptDt": "20260228"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000417",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "3000",
-        "uptDt": "20260228"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000417",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "간식 500월*2회 =1000",
-        "uptDt": "20260228"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -15425,110 +14890,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 162",
-    "lat": 37.899960073634226,
-    "lng": 127.20609697384069,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "해바라기노인주간돌봄센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "101",
-      "fl": "2",
-      "gunmulMlno": "162",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11144",
-      "locTelNo_1": "031",
-      "locTelNo_2": "535",
-      "locTelNo_3": "1188",
-      "longTermAdminSym": "24165000418",
-      "longTermPeribRgtDt": "20240601",
-      "riCd": "00",
-      "roadNmCd": "416503213059",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240601"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000418",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "2",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000418",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "2",
-      "longTermAdminSym": "24165000418",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "없음",
-      "longTermAdminSym": "24165000418",
-      "pkngEquip": "지상주차8대가능",
-      "tfMth": "포천우체국 건너편, 버스 60-2번, 67번, 72번, 73번, 77번, 87-1번, 138번135-5번, 10-2번, 53번, 55-2번,60-1번,63번, 66-1번, 73-1번, 73-2번, 77-1번, 88번, 89번, 89-1번, 89-2번, 3006번,1386번"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000418",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "6000",
-        "prodBase": "점심 1식 3000원, 석식 1식 3000원",
-        "uptDt": "20240606"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000418",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "간식 1식",
-        "uptDt": "20240606"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000418",
-        "nonpayKind": "3",
-        "nonpayTgtAmt": "0",
-        "uptDt": "20240606"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -15542,86 +14913,15 @@
       "B01",
       "B02"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 29-10",
-    "lat": 37.89620182750883,
-    "lng": 127.1989114500534,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "똑똑재가노인복지센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "101",
-      "fl": "1",
-      "gunmulMlno": "29",
-      "gunmulSlno": "10",
-      "HDongCd": "510",
-      "hmPostNo": "11147",
-      "locTelNo_1": "031",
-      "locTelNo_2": "533",
-      "locTelNo_3": "2333",
-      "longTermAdminSym": "24165000419",
-      "longTermPeribRgtDt": "20240601",
-      "riCd": "00",
-      "roadNmCd": "416504439590",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240601"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000419",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "23",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000419",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "6",
-      "longTermAdminSym": "24165000419",
-      "maNowPer": "1",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "포천시 중앙로 105번길 29-10 (1층) 우준빌딩",
-      "longTermAdminSym": "24165000419",
-      "pkngEquip": "주차가능  : 5대 가능",
-      "tfMth": "1. 대중교통 : 포천시청 하차후 시청 주차장에서 1분 거리2. 자가용이용 : 포천시 중앙로 105번길 29-10 (1층) 우준빌딩"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -15634,86 +14934,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "창수면",
-    "address": "경기도 포천시 창수면 창동로29번길 20",
-    "lat": 38.023862073649,
-    "lng": 127.187528177498,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "시온방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "350",
-      "fl": "1",
-      "gunmulMlno": "20",
-      "gunmulSlno": "0",
-      "HDongCd": "350",
-      "hmPostNo": "11133",
-      "locTelNo_1": "031",
-      "locTelNo_2": "532",
-      "locTelNo_3": "4103",
-      "longTermAdminSym": "24165000422",
-      "longTermPeribRgtDt": "20240801",
-      "riCd": "24",
-      "roadNmCd": "416504439641",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20240801"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000422",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "13",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000422",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "1",
-      "fmRsvPer": "2",
-      "longTermAdminSym": "24165000422",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "www.sionbm2024.com",
-      "longTermAdminSym": "24165000422",
-      "pkngEquip": "시온감리교회 주차장에 30대 주차가능",
-      "tfMth": "포천시청에서 창수면사무소 방향으로 100번 버스 탑승 후 오가2리 보건진료소 정류장에서 하차하여 오가2리 마을회관 방향 도보로 5분 이동."
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -15728,95 +14957,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 송우로 73",
-    "lat": 37.8296638387276,
-    "lng": 127.140938200246,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "효원재가방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "fl": "7",
-      "gunmulMlno": "73",
-      "gunmulSlno": "0",
-      "HDongCd": "250",
-      "hmPostNo": "11177",
-      "locTelNo_1": "031",
-      "locTelNo_2": "541",
-      "locTelNo_3": "5095",
-      "longTermAdminSym": "24165000429",
-      "longTermPeribRgtDt": "20241001",
-      "riCd": "21",
-      "roadNmCd": "416503213024",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000429",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "23",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000429",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "12",
-      "longTermAdminSym": "24165000429",
-      "maNowPer": "4",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000429",
-      "pkngEquip": "차리프트구비",
-      "tfMth": "포천세무서 버스정류장 하차 66번버스송우6리시장앞 버스정류장 하차 도보5분"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000429",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "6000",
-        "prodBase": "1끼3000원",
-        "uptDt": "20250712"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -15830,80 +14980,15 @@
       "B01",
       "B02"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 호국로287번길 9-45",
-    "lat": 37.7998974676382,
-    "lng": 127.125484665725,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "한걸음방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "gunmulMlno": "9",
-      "gunmulSlno": "45",
-      "HDongCd": "250",
-      "hmPostNo": "11184",
-      "locTelNo_1": "031",
-      "locTelNo_2": "542",
-      "locTelNo_3": "1119",
-      "longTermAdminSym": "24165000430",
-      "longTermPeribRgtDt": "20241001",
-      "riCd": "22",
-      "roadNmCd": "416504439789",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000430",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000430",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000430",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000430"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -15918,87 +15003,15 @@
       "B01",
       "B02"
     ],
-    "emdNm": "내촌면",
-    "address": "경기도 포천시 내촌면 내촌로 82",
-    "lat": 37.7868106624925,
-    "lng": 127.229073167592,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "가족사랑재가노인복지센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "320",
-      "fl": "1",
-      "gunmulMlno": "82",
-      "gunmulSlno": "0",
-      "HDongCd": "320",
-      "hmPostNo": "11189",
-      "locTelNo_1": "031",
-      "locTelNo_2": "536",
-      "locTelNo_3": "8004",
-      "longTermAdminSym": "24165000431",
-      "longTermPeribRgtDt": "20241001",
-      "riCd": "24",
-      "roadNmCd": "416503213009",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000431",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "24",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000431",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "8",
-      "longTermAdminSym": "24165000431",
-      "maNowPer": "7",
-      "maRsvPer": "1",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": " http://ok114.co.kr/0315368004",
-      "longTermAdminSym": "24165000431",
-      "pkngEquip": "주차공간이 협소하여 상가 주차시 2대가량 가능문화센터 뒷편으로 공영주차장(도보 5분이내)",
-      "tfMth": " 오시는길 : https://sm.ok114.kr/map/go/1C336네이버플레이스 : https://naver.me/FoE30usw버스노선의정부, 송우리(33번버스)-농협하차, 내촌초등학교방향으로 도보5분이내 진접방향11번버스-농협하자.내촌초등학교방향으로 도보5분이내23번버스-축협옆 정거장하자,내촌초등학교방향으로 도보5분이내광릉내방향(7번버스,7-1번버스, 광릉내에서 마명리 경유 내촌하차, 내촌초등학교방향 도보5분이내"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -16011,105 +15024,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 17",
-    "lat": 37.90298522144907,
-    "lng": 127.20601444613706,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "참조은주야간보호센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "101",
-      "fl": "3",
-      "gunmulMlno": "17",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11144",
-      "locTelNo_1": "031",
-      "locTelNo_2": "533",
-      "locTelNo_3": "2742",
-      "longTermAdminSym": "24165000432",
-      "longTermPeribRgtDt": "20241001",
-      "riCd": "00",
-      "roadNmCd": "416504439597",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241001"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "2",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000432",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "5",
-      "recuProt_2": "0",
-      "socWel": "3",
-      "suppPrsn": "2",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000432",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "20",
-      "fmRsvPer": "0",
-      "longTermAdminSym": "24165000432",
-      "maNowPer": "4",
-      "totPer": "30"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "http://참조은주야간보호센타.kr",
-      "longTermAdminSym": "24165000432",
-      "pkngEquip": "센터 앞 주차 5대   그 외 주차 4대 가능함 ",
-      "tfMth": "어르신들 송영시  이동 서비스 차량 이용함 1.카니발   67우8439  ((9인승)2 .k5       305수7272 (5인승)3.스파크 46조1832   (5인승)4.스타리아200허1372(9인승)"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000432",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "1회500*2",
-        "uptDt": "20241030"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000432",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "6000",
-        "prodBase": "1식당3000",
-        "uptDt": "20241030"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -16121,86 +15045,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "일동면",
-    "address": "경기도 포천시 일동면 소야길 16-9",
-    "lat": 37.9565346737566,
-    "lng": 127.314744421826,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "정다운재가노인복지센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "370",
-      "fl": "1",
-      "gunmulMlno": "16",
-      "gunmulSlno": "9",
-      "HDongCd": "370",
-      "hmPostNo": "11120",
-      "locTelNo_1": "031",
-      "locTelNo_2": "531",
-      "locTelNo_3": "1131",
-      "longTermAdminSym": "24165000433",
-      "longTermPeribRgtDt": "20241001",
-      "riCd": "23",
-      "roadNmCd": "416504439295",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "1",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000433",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "8",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000433",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "1",
-      "fmRsvPer": "1",
-      "longTermAdminSym": "24165000433",
-      "maNowPer": "4",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "-",
-      "longTermAdminSym": "24165000433",
-      "tfMth": "1. 경기도 포천시 일동면 소야길 16-9 1층2. 대중교통 : 버스 의정부에서 138-5 타고 일동초등학교 앞에서 하차후 일동체육문화센터 쪽으로 도보10거리 미래 피아노 미술학원 건물 1층                           동서울에서 와수리가는 강원고속을 타고 일동터미널에서 하차 후 일동체육문화센터 쪽으로 도보 10분거리 미래 피아노 미술학원 건물                            1층"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -16215,83 +15068,15 @@
       "B01",
       "B02"
     ],
-    "emdNm": "군내면",
-    "address": "경기도 포천시 군내면 청성로 74-1",
-    "lat": 37.8994003601613,
-    "lng": 127.212947327928,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "다옴방문요양재가센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "310",
-      "gunmulMlno": "74",
-      "gunmulSlno": "1",
-      "HDongCd": "310",
-      "hmPostNo": "11151",
-      "locTelNo_1": "010",
-      "locTelNo_2": "4720",
-      "locTelNo_3": "6204",
-      "longTermAdminSym": "24165000434",
-      "longTermPeribRgtDt": "20241101",
-      "riCd": "28",
-      "roadNmCd": "416503213042",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241101"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "2",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000434",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "13",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000434",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000434",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "없음",
-      "longTermAdminSym": "24165000434",
-      "pkngEquip": "10대이상 가능",
-      "tfMth": "일반버스 72-3, 코버월드 하차  후 도보로 5분거리"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -16304,84 +15089,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "신북면",
-    "address": "경기도 포천시 신북면 중앙로207번길 30",
-    "lat": 37.905449333927,
-    "lng": 127.205884558775,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "미소재가센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "340",
-      "gunmulMlno": "30",
-      "gunmulSlno": "0",
-      "HDongCd": "340",
-      "hmPostNo": "11140",
-      "locTelNo_1": "031",
-      "locTelNo_2": "536",
-      "locTelNo_3": "2013",
-      "longTermAdminSym": "24165000438",
-      "longTermPeribRgtDt": "20241201",
-      "riCd": "21",
-      "roadNmCd": "416504439598",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20241201"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000438",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "3",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000438",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "3",
-      "longTermAdminSym": "24165000438",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "www.alth.com",
-      "longTermAdminSym": "24165000438",
-      "pkngEquip": "건물밖 주차공간이 충분히 확보되어 있습니다",
-      "tfMth": "버스88-1,1386,138,72,72-3 타시고 포천 면암 중앙도서관 정류장에서 하차해서 오시면 됩니다"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -16394,103 +15110,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 38",
-    "lat": 37.89370647500844,
-    "lng": 127.19523130747467,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "새봄노인주간돌봄센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "101",
-      "gunmulMlno": "38",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11148",
-      "locTelNo_1": "031",
-      "locTelNo_2": "531",
-      "locTelNo_3": "4545",
-      "longTermAdminSym": "24165000442",
-      "longTermPeribRgtDt": "20250201",
-      "riCd": "00",
-      "roadNmCd": "416504439487",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250201"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000442",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "2",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "2",
-      "crmnyPrst": "1",
-      "funcTrnRoomreal": "1",
-      "longTermAdminSym": "24165000442",
-      "medRoomreal": "0",
-      "ofce": "1",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "8",
-      "longTermAdminSym": "24165000442",
-      "maNowPer": "2",
-      "totPer": "16"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "없음",
-      "longTermAdminSym": "24165000442",
-      "pkngEquip": "주차장 상가 7대",
-      "tfMth": " 3200번 광역버스 극동2차아파트 정류장하차 72번 138번 등기소 앞 하차 500m 극동아파트 1차 정문앞 상가 2층"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000442",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "1일 1000원*1회",
-        "uptDt": "20260413"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000442",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "7600",
-        "prodBase": "3800*2회",
-        "uptDt": "20260413"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -16502,80 +15131,15 @@
     "typeCodes": [
       "B02"
     ],
-    "emdNm": "관인면",
-    "address": "경기도 포천시 관인면 관인로35번길 6",
-    "lat": 38.1582372354007,
-    "lng": 127.248060145541,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "관인한마음재가복지센터",
-      "adminPttnCd": "B02",
-      "BDongCd": "400",
-      "gunmulMlno": "6",
-      "gunmulSlno": "0",
-      "HDongCd": "400",
-      "hmPostNo": "11101",
-      "locTelNo_1": "010",
-      "locTelNo_2": "4912",
-      "locTelNo_3": "0048",
-      "longTermAdminSym": "24165000444",
-      "longTermPeribRgtDt": "20250408",
-      "riCd": "23",
-      "roadNmCd": "416504439035",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250408"
-    },
-    "staff": {
-      "adminPttnCd": "B02",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000444",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B02",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000444",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B02",
-      "longTermAdminSym": "24165000444",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B02",
-      "longTermAdminSym": "24165000444"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -16590,103 +15154,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 261",
-    "lat": 37.90333050429612,
-    "lng": 127.20262746163868,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "봄의정원주간보호센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "101",
-      "fl": "3",
-      "gunmulMlno": "261",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11142",
-      "locTelNo_1": "031",
-      "locTelNo_2": "535",
-      "locTelNo_3": "6665",
-      "longTermAdminSym": "24165000446",
-      "longTermPeribRgtDt": "20250401",
-      "riCd": "00",
-      "roadNmCd": "416503213033",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250401"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000446",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000446",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "1",
-      "fmRsvPer": "0",
-      "longTermAdminSym": "24165000446",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "springdaycare0401@naver.com 블로그(봄의정원주간보호센터)",
-      "longTermAdminSym": "24165000446",
-      "pkngEquip": "10대 주차 가능",
-      "tfMth": "포천중학교입구역에서 도보2분"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000446",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "7000",
-        "prodBase": "한끼3,500",
-        "uptDt": "20260112"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000446",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "uptDt": "20260112"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -16698,103 +15175,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "동교동",
-    "address": "경기도 포천시 동교동 15-30",
-    "lat": 37.84293107027859,
-    "lng": 127.12976927928078,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "송우해오름재가센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "106",
-      "gunmulMlno": "15",
-      "gunmulSlno": "30",
-      "HDongCd": "520",
-      "hmPostNo": "11163",
-      "locTelNo_1": "031",
-      "locTelNo_2": "541",
-      "locTelNo_3": "5655",
-      "longTermAdminSym": "24165000447",
-      "longTermPeribRgtDt": "20250408",
-      "riCd": "00",
-      "roadNmCd": "416503213011",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250408"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "2",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000447",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "1",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "7",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "1",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000447",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "20",
-      "longTermAdminSym": "24165000447",
-      "maNowPer": "8",
-      "totPer": "42"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "https://blog.naver.com/haeoreum5655",
-      "longTermAdminSym": "24165000447",
-      "pkngEquip": "-건물 내 10여대 주차 가능",
-      "tfMth": " 1. 승용차 이용    -  경기도 포천시 소흘읍 동교로 15-30         ( 투바위 인접, 차의과대학교 진입 방향)  2. 교통편 안내   - 버스 3500번  동교동 하차 후 도보 5분     - 버스 62번 샛터 또는 동교동 하차 후 도보 10분 내외  "
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000447",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "5000",
-        "prodBase": "점심,저녁식사",
-        "uptDt": "20250803"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000447",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "오전 오후 간식",
-        "uptDt": "20250803"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -16806,102 +15196,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 광릉수목원로 1129-38",
-    "lat": 37.7754896120309,
-    "lng": 127.121177432906,
-    "general": {
-      "adminFdatType": "3",
-      "adminNm": "케어링 데이케어 수목원점",
-      "adminPttnCd": "B03",
-      "BDongCd": "250",
-      "gunmulMlno": "1129",
-      "gunmulSlno": "38",
-      "HDongCd": "250",
-      "hmPostNo": "11184",
-      "locTelNo_1": "031",
-      "locTelNo_2": "8080",
-      "locTelNo_3": "2500",
-      "longTermAdminSym": "24165000448",
-      "longTermPeribRgtDt": "20250401",
-      "riCd": "22",
-      "roadNmCd": "416503012038",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250401"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000448",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "2",
-      "nut": "0",
-      "ofceEmp": "1",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "4",
-      "recuProt_2": "0",
-      "socWel": "3",
-      "suppPrsn": "1",
-      "wrkMTret": "1"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000448",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "4",
-      "longTermAdminSym": "24165000448",
-      "maNowPer": "2",
-      "totPer": "42"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "http://caringstay.co.kr/",
-      "longTermAdminSym": "24165000448",
-      "pkngEquip": "12대 정도 주차 가능",
-      "tfMth": "민락IC에서 5분, 소흘IC에서 5분국립수목원 인접의정부경전철 효자역 10분거리1호선 의정부역 15분 거리"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000448",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "5000",
-        "prodBase": "(1식)2500원",
-        "uptDt": "20250517"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000448",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "uptDt": "20250517"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -16919,102 +15223,16 @@
       "B03",
       "B05"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 송우로 65",
-    "lat": 37.8293940148441,
-    "lng": 127.141604121829,
-    "general": {
-      "adminFdatType": "3",
-      "adminNm": "실버트리주간보호센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "fl": "8",
-      "gunmulMlno": "65",
-      "gunmulSlno": "0",
-      "HDongCd": "250",
-      "hmPostNo": "11177",
-      "locTelNo_1": "031",
-      "locTelNo_2": "544",
-      "locTelNo_3": "1555",
-      "longTermAdminSym": "24165000450",
-      "longTermPeribRgtDt": "20250601",
-      "riCd": "21",
-      "roadNmCd": "416503213024",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250601"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000450",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000450",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000450",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "blog.naver.com/silvertree2025",
-      "longTermAdminSym": "24165000450",
-      "pkngEquip": "공영주차장 이용",
-      "tfMth": "72,3006,3005"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000450",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "3000",
-        "prodBase": "점심+저녁",
-        "uptDt": "20250611"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000450",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "아침+점심",
-        "uptDt": "20250611"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -17032,81 +15250,15 @@
       "B03",
       "B05"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 17",
-    "lat": 37.90298522144907,
-    "lng": 127.20601444613706,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "가나다 방문간호 재가센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "101",
-      "fl": "3",
-      "gunmulMlno": "17",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11144",
-      "locTelNo_1": "010",
-      "locTelNo_2": "2841",
-      "locTelNo_3": "0431",
-      "longTermAdminSym": "24165000452",
-      "longTermPeribRgtDt": "20250701",
-      "riCd": "00",
-      "roadNmCd": "416504439597",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250701"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000452",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "24",
-      "recuProt_2": "2",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000452",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000452",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000452"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17119,104 +15271,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 송우로 101-11",
-    "lat": 37.8306187314567,
-    "lng": 127.138609444021,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "사임당주간보호센터",
-      "adminPttnCd": "B03",
-      "BDongCd": "250",
-      "fl": "2",
-      "gunmulMlno": "101",
-      "gunmulSlno": "11",
-      "HDongCd": "250",
-      "hmPostNo": "11176",
-      "locTelNo_1": "010",
-      "locTelNo_2": "8971",
-      "locTelNo_3": "4252",
-      "longTermAdminSym": "24165000453",
-      "longTermPeribRgtDt": "20250701",
-      "riCd": "21",
-      "roadNmCd": "416503213024",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250701"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000453",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "1",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "8",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "2",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000453",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "39",
-      "longTermAdminSym": "24165000453",
-      "maNowPer": "17",
-      "totPer": "70"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "blog.naver.com/yangjjuu77",
-      "longTermAdminSym": "24165000453",
-      "pkngEquip": "주차장이용가능, 공영주차장 이용가능",
-      "tfMth": "주변버스정류소 : 신봉초교 / 신봉초,솔모루성당 / 고운마을 / 포천세무서이용가능 버스 : 2-1, 63, 78, 2, 9, 87-5, 1, 87-3, 86-1번신봉초 맞은편, 송추가마골 옆 파스쿠찌 2층"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000453",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "3500",
-        "prodBase": "3,500원 * 1식",
-        "uptDt": "20260416"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000453",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "700",
-        "prodBase": "700원 * 2식",
-        "uptDt": "20260416"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -17232,109 +15296,16 @@
       "B03",
       "B06"
     ],
-    "emdNm": "일동면",
-    "address": "경기도 포천시 일동면 새낭로 56",
-    "lat": 37.9837865113919,
-    "lng": 127.335462908455,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "사랑가득 노인복지센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "370",
-      "gunmulMlno": "56",
-      "gunmulSlno": "0",
-      "HDongCd": "370",
-      "hmPostNo": "11118",
-      "locTelNo_1": "010",
-      "locTelNo_2": "8332",
-      "locTelNo_3": "7650",
-      "longTermAdminSym": "24165000456",
-      "longTermPeribRgtDt": "20250801",
-      "riCd": "25",
-      "roadNmCd": "416503213017",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20250801"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000456",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "31",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000456",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "fmNowPer": "16",
-      "longTermAdminSym": "24165000456",
-      "maNowPer": "7",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000456",
-      "pkngEquip": "시설내 주차공간이 넓으며 주변에도 주차 할 수 있는 공간이 확보되어 있습니다.",
-      "tfMth": "47번 국도를 이용하여 이동방면으로 오시다가 수입교차로에서 우회전, 200m 직진후 운담초 방향으로 좌회전한후 직진합니다. 사직삼거리에서 좌회전하여 산정호수 방향으로 100m정도 오시면 길가에 사랑가득 건물이 보입니다.버스로는 일동시외버스 터미널에서 138-7번, 7번을 이용하시어 새터 1리에서 내리시면 됩니다."
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000456",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "prodBase": "1000원*일1회*31",
-        "uptDt": "20250806"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000456",
-        "nonpayKind": "3",
-        "nonpayTgtAmt": "7000",
-        "uptDt": "20250806"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000456",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "2000",
-        "prodBase": "1식 2000원*31",
-        "uptDt": "20250806"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -17346,80 +15317,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "관인면",
-    "address": "경기도 포천시 관인면 관인로 27-1",
-    "lat": 38.1580784742473,
-    "lng": 127.249177085693,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "조은방문요양재가센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "400",
-      "gunmulMlno": "27",
-      "gunmulSlno": "1",
-      "HDongCd": "400",
-      "hmPostNo": "11101",
-      "locTelNo_1": "010",
-      "locTelNo_2": "8331",
-      "locTelNo_3": "3554",
-      "longTermAdminSym": "24165000458",
-      "longTermPeribRgtDt": "20251001",
-      "riCd": "24",
-      "roadNmCd": "416503213003",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000458",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "15",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000458",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000458",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000458"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17432,81 +15338,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 송우로 101-11",
-    "lat": 37.8306187314567,
-    "lng": 127.138609444021,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "마루재가방문요양센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "fl": "3",
-      "gunmulMlno": "101",
-      "gunmulSlno": "11",
-      "HDongCd": "250",
-      "hmPostNo": "11176",
-      "locTelNo_1": "010",
-      "locTelNo_2": "8954",
-      "locTelNo_3": "5144",
-      "longTermAdminSym": "24165000459",
-      "longTermPeribRgtDt": "20251001",
-      "riCd": "21",
-      "roadNmCd": "416503213024",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000459",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000459",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000459",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000459"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17521,81 +15361,15 @@
       "B01",
       "B06"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 솔모루로 15",
-    "lat": 37.8247976754074,
-    "lng": 127.142074319905,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "보듬케어",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "gunmulMlno": "15",
-      "gunmulSlno": "0",
-      "HDongCd": "250",
-      "hmPostNo": "11178",
-      "locTelNo_1": "031",
-      "locTelNo_2": "8089",
-      "locTelNo_3": "7942",
-      "longTermAdminSym": "24165000460",
-      "longTermPeribRgtDt": "20251001",
-      "riCd": "21",
-      "roadNmCd": "416503213022",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251001"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000460",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "26",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000460",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000460",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000460",
-      "pkngEquip": "건물 내 주차장 30대 주차가능"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17608,97 +15382,16 @@
     "typeCodes": [
       "B03"
     ],
-    "emdNm": "영북면",
-    "address": "경기도 포천시 영북면 호국로 3574",
-    "lat": 38.0557438058768,
-    "lng": 127.271277901385,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "야미리데이케어",
-      "adminPttnCd": "B03",
-      "BDongCd": "390",
-      "fl": "3",
-      "gunmulMlno": "3574",
-      "gunmulSlno": "0",
-      "HDongCd": "390",
-      "hmPostNo": "11109",
-      "locTelNo_1": "010",
-      "locTelNo_2": "3348",
-      "locTelNo_3": "0675",
-      "longTermAdminSym": "24165000462",
-      "longTermPeribRgtDt": "20251001",
-      "riCd": "24",
-      "roadNmCd": "416503000136",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251001"
-    },
-    "staff": {
-      "adminPttnCd": "B03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000462",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "1",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B03",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000462",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B03",
-      "fmNowPer": "1",
-      "fmRsvPer": "1",
-      "longTermAdminSym": "24165000462",
-      "maNowPer": "3",
-      "maRsvPer": "0",
-      "totPer": "9"
-    },
-    "etc": {
-      "adminPttnCd": "B03",
-      "hmpgAddr": "https://blog.naver.com/jjd0612777",
-      "longTermAdminSym": "24165000462",
-      "pkngEquip": "주차 5대가능",
-      "tfMth": "광역버스 1386 야미리 보건소앞 / 기아오토큐 영북지점 건물 뒷편 "
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000462",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "6000",
-        "uptDt": "20251226"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -17710,81 +15403,15 @@
     "typeCodes": [
       "B06"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 19",
-    "lat": 37.891729648285,
-    "lng": 127.19926522555653,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "연세덴마크보청기&amp;복지용구센터",
-      "adminPttnCd": "B06",
-      "BDongCd": "101",
-      "fl": "1",
-      "gunmulMlno": "19",
-      "gunmulSlno": "0",
-      "HDongCd": "510",
-      "hmPostNo": "11149",
-      "locTelNo_1": "010",
-      "locTelNo_2": "6223",
-      "locTelNo_3": "1820",
-      "longTermAdminSym": "24165000464",
-      "longTermPeribRgtDt": "20251101",
-      "riCd": "00",
-      "roadNmCd": "416504439601",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251101"
-    },
-    "staff": {
-      "adminPttnCd": "B06",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000464",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B06",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000464",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B06",
-      "longTermAdminSym": "24165000464",
-      "totPer": "2"
-    },
-    "etc": {
-      "adminPttnCd": "B06",
-      "longTermAdminSym": "24165000464"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17797,81 +15424,15 @@
     "typeCodes": [
       "B01"
     ],
-    "emdNm": "가산면",
-    "address": "경기도 포천시 가산면 가산로147번길 23-125",
-    "lat": 37.8443361293501,
-    "lng": 127.165143935068,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "예담방문요양재가센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "330",
-      "fl": "1",
-      "gunmulMlno": "23",
-      "gunmulSlno": "125",
-      "HDongCd": "330",
-      "hmPostNo": "11168",
-      "locTelNo_1": "010",
-      "locTelNo_2": "5063",
-      "locTelNo_3": "2778",
-      "longTermAdminSym": "24165000466",
-      "longTermPeribRgtDt": "20251201",
-      "riCd": "23",
-      "roadNmCd": "416504439002",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20251201"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000466",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "1",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000466",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000466",
-      "totPer": "6"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000466"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -17886,100 +15447,16 @@
       "B01",
       "B03"
     ],
-    "emdNm": "소흘읍",
-    "address": "경기도 포천시 소흘읍 솔모루로 114",
-    "lat": 37.8310067370468,
-    "lng": 127.149255070162,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "써미트재활주야간방문센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "250",
-      "fl": "3",
-      "gunmulMlno": "114",
-      "gunmulSlno": "0",
-      "HDongCd": "250",
-      "hmPostNo": "11174",
-      "locTelNo_1": "031",
-      "locTelNo_2": "544",
-      "locTelNo_3": "1525",
-      "longTermAdminSym": "24165000467",
-      "longTermPeribRgtDt": "20260101",
-      "riCd": "21",
-      "roadNmCd": "416503213022",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20260101"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000467",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "14",
-      "recuProt_2": "0",
-      "socWel": "1",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000467",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000467",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "hmpgAddr": "jung7845@naver.com",
-      "longTermAdminSym": "24165000467",
-      "pkngEquip": "건물뒤편 주차장 -20대이상건물 앞 공용주차장-10대이상",
-      "tfMth": "포천송우리 우체국건너편 도미노피자건물 3층위치포천방향: 3006, 138-5,138,1403, 3003,72-3, 72, 56-1번 버스 탑승 주공2단지 석향마을 하차해서 200m도보 의정부방향: 33, 138, 3006, 138-5,1403, 3003,72-3, 72, 56-1번 버스 탑승 주공2단지 석향마을 하차해서 200m도보 "
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000467",
-        "nonpayKind": "5",
-        "nonpayTgtAmt": "1000",
-        "uptDt": "20260120"
-      },
-      {
-        "adminPttnCd": "B03",
-        "longTermAdminSym": "24165000467",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "4000",
-        "uptDt": "20260120"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -17991,80 +15468,15 @@
     "typeCodes": [
       "B06"
     ],
-    "emdNm": "군내면",
-    "address": "경기도 포천시 군내면 포천로 1052",
-    "lat": 37.8596782979681,
-    "lng": 127.201194772887,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "의료창고복지용구",
-      "adminPttnCd": "B06",
-      "BDongCd": "310",
-      "gunmulMlno": "1052",
-      "gunmulSlno": "0",
-      "HDongCd": "310",
-      "hmPostNo": "11157",
-      "locTelNo_1": "010",
-      "locTelNo_2": "7141",
-      "locTelNo_3": "4681",
-      "longTermAdminSym": "24165000468",
-      "longTermPeribRgtDt": "20260101",
-      "riCd": "23",
-      "roadNmCd": "416503213046",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20260101"
-    },
-    "staff": {
-      "adminPttnCd": "B06",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "1",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000468",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B06",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000468",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B06",
-      "longTermAdminSym": "24165000468",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B06",
-      "longTermAdminSym": "24165000468"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -18079,81 +15491,15 @@
       "B01",
       "B03"
     ],
-    "emdNm": "영북면",
-    "address": "경기도 포천시 영북면 영북로114번길 17",
-    "lat": 38.0847712680825,
-    "lng": 127.276904578293,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "은혜주간보호센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "390",
-      "fl": "1",
-      "gunmulMlno": "17",
-      "gunmulSlno": "0",
-      "HDongCd": "390",
-      "hmPostNo": "11104",
-      "locTelNo_1": "031",
-      "locTelNo_2": "532",
-      "locTelNo_3": "0821",
-      "longTermAdminSym": "24165000469",
-      "longTermPeribRgtDt": "20260323",
-      "riCd": "21",
-      "roadNmCd": "416504439396",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20260323"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000469",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000469",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000469",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000469"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -18168,80 +15514,162 @@
       "B01",
       "B03"
     ],
-    "emdNm": "신읍동",
-    "address": "경기도 포천시 신읍동 249-5",
-    "lat": 37.9022132857717,
-    "lng": 127.2017089640059,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "처음처럼 노인주간돌봄센터",
-      "adminPttnCd": "B01",
-      "BDongCd": "101",
-      "gunmulMlno": "249",
-      "gunmulSlno": "5",
-      "HDongCd": "510",
-      "hmPostNo": "11142",
-      "locTelNo_1": "031",
-      "locTelNo_2": "531",
-      "locTelNo_3": "1914",
-      "longTermAdminSym": "24165000470",
-      "longTermPeribRgtDt": "20260430",
-      "riCd": "00",
-      "roadNmCd": "416503213033",
-      "siDoCd": "41",
-      "siGunGuCd": "650",
-      "stpRptDt": "20260430"
-    },
-    "staff": {
-      "adminPttnCd": "B01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "0",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "24165000470",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "0",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "B01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "24165000470",
-      "medRoomreal": "0",
-      "ofce": "0",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000470",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "B01",
-      "longTermAdminSym": "24165000470"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000043",
+    "name": "선한이웃복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000065",
+    "name": "효사랑 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000115",
+    "name": "&quot;&quot;참소망노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000153",
+    "name": "&quot;&quot;(A+)효심청노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34119000161",
+    "name": "성해노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34182000051",
+    "name": "다사랑노인요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34117000050",
+    "name": "사랑샘재가장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   }

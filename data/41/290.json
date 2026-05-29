@@ -11,7 +11,7 @@
       "C02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 53",
+    "address": "경기도 과천시 희망4길 53",
     "lat": 37.43388436349172,
     "lng": 126.99113539982933,
     "general": {
@@ -100,7 +100,7 @@
       "C01"
     ],
     "emdNm": "문원동",
-    "address": "경기도 과천시 문원동 50",
+    "address": "경기도 과천시 문원청계2길 50",
     "lat": 37.422153503664745,
     "lng": 127.00933864624933,
     "general": {
@@ -191,7 +191,7 @@
       "C02"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 14",
+    "address": "경기도 과천시 별양상가2로 14",
     "lat": 37.42733137444274,
     "lng": 126.99299937212307,
     "general": {
@@ -279,13 +279,13 @@
     "sym": "14129000001",
     "name": "구세군과천요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 194",
+    "address": "경기도 과천시 관악산길 194",
     "lat": 37.43241532820574,
     "lng": 126.98740927379161,
     "general": {
@@ -390,13 +390,13 @@
     "sym": "14129000003",
     "name": "구세군승리요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 188",
+    "address": "경기도 과천시 관악산길 188",
     "lat": 37.43280168160995,
     "lng": 126.98758970554022,
     "general": {
@@ -517,7 +517,7 @@
     "sym": "14129000041",
     "name": "과천시립요양원",
     "types": [
-      "A03",
+      "노인요양시설",
       "G31",
       "G32"
     ],
@@ -527,7 +527,7 @@
       "G32"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 101",
+    "address": "경기도 과천시 교육원로 101",
     "lat": 37.42309804073781,
     "lng": 126.9781240875695,
     "general": {
@@ -691,7 +691,7 @@
       "B03"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 53",
+    "address": "경기도 과천시 희망4길 53",
     "lat": 37.43388436349172,
     "lng": 126.99113539982933,
     "general": {
@@ -802,7 +802,7 @@
       "B03"
     ],
     "emdNm": "문원동",
-    "address": "경기도 과천시 문원동 57",
+    "address": "경기도 과천시 문원로 57",
     "lat": 37.428021808919205,
     "lng": 127.00418004102552,
     "general": {
@@ -913,7 +913,7 @@
       "B03"
     ],
     "emdNm": "문원동",
-    "address": "경기도 과천시 문원동 50",
+    "address": "경기도 과천시 문원청계2길 50",
     "lat": 37.422153503664745,
     "lng": 127.00933864624933,
     "general": {
@@ -1023,7 +1023,7 @@
       "B03"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 18-9",
+    "address": "경기도 과천시 향촌6길 18-9",
     "lat": 37.42395901385238,
     "lng": 126.9972978892443,
     "general": {
@@ -1143,7 +1143,7 @@
       "B02"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 20",
+    "address": "경기도 과천시 별양상가2로 20",
     "lat": 37.4268280783853,
     "lng": 126.99255623690928,
     "general": {
@@ -1241,7 +1241,7 @@
       "B05"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 18",
+    "address": "경기도 과천시 별양상가1로 18",
     "lat": 37.42752582219007,
     "lng": 126.9925153640683,
     "general": {
@@ -1335,7 +1335,7 @@
       "B02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 130",
+    "address": "경기도 과천시 관문로 130",
     "lat": 37.432809172384424,
     "lng": 126.9926154198232,
     "general": {
@@ -1431,7 +1431,7 @@
       "B02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 36",
+    "address": "경기도 과천시 새술막길 36",
     "lat": 37.42911845551034,
     "lng": 126.9912343236553,
     "general": {
@@ -1524,7 +1524,7 @@
       "B02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 92",
+    "address": "경기도 과천시 관문로 92",
     "lat": 37.42985721880789,
     "lng": 126.98999143381121,
     "general": {
@@ -1617,7 +1617,7 @@
       "B06"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 92",
+    "address": "경기도 과천시 관문로 92",
     "lat": 37.42985721880789,
     "lng": 126.98999143381121,
     "general": {
@@ -1708,7 +1708,7 @@
       "B02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 92",
+    "address": "경기도 과천시 관문로 92",
     "lat": 37.42985721880789,
     "lng": 126.98999143381121,
     "general": {
@@ -1801,7 +1801,7 @@
       "B02"
     ],
     "emdNm": "중앙동",
-    "address": "경기도 과천시 중앙동 131",
+    "address": "경기도 과천시 중앙로 131",
     "lat": 37.42838470488392,
     "lng": 126.99134228413992,
     "general": {
@@ -1893,7 +1893,7 @@
       "B06"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 14",
+    "address": "경기도 과천시 별양상가2로 14",
     "lat": 37.42733137444274,
     "lng": 126.99299937212307,
     "general": {
@@ -1985,7 +1985,7 @@
       "B02"
     ],
     "emdNm": "별양동",
-    "address": "경기도 과천시 별양동 8",
+    "address": "경기도 과천시 별양상가3로 8",
     "lat": 37.42610750921094,
     "lng": 126.99067392675721,
     "general": {
@@ -2077,7 +2077,7 @@
       "B02"
     ],
     "emdNm": "부림동",
-    "address": "경기도 과천시 부림동 182-2",
+    "address": "경기도 과천시 별양로 182-2",
     "lat": 37.43410010299488,
     "lng": 126.99816207232581,
     "general": {
@@ -2155,6 +2155,153 @@
       "pkngEquip": "ㅇ 자동차 주차가 매우 어려우니 가급적 대중교통 이용하시거나, 과천농협 본점 지하에 주차   - 과천시 관문체육공원 주차장에 주차후 양재천을 따라 500m 걸어오시면 편리해요",
       "tfMth": "ㅇ 지하철 : 4호선 과천역 2번출구로 나오시면 정면 1시방향 시대빌딩 3층 305호,  과천농협 본점 정면ㅇ 버스 : 서울에서 과천으로 오실때는 10단지 앞 정류장 하차 후 과천농협 정면으로 이동,              과천에서 서울로 나가는 방향일때 8,9단지 앞 정류장 하차후 과천농협 본점 정면 이동ㅇ 자동차 : 과천시 부림동 시대빌딩 또는 과천농협 본점 "
     },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000043",
+    "name": "선한이웃복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000065",
+    "name": "효사랑 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000115",
+    "name": "&quot;&quot;참소망노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000153",
+    "name": "&quot;&quot;(A+)효심청노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34119000161",
+    "name": "성해노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34182000051",
+    "name": "다사랑노인요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34117000050",
+    "name": "사랑샘재가장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   }

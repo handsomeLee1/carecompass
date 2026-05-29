@@ -1,1 +1,2696 @@
-[]
+[
+  {
+    "sym": "34572000063",
+    "name": "에덴재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진용로 16-1",
+    "lat": 35.79257748259975,
+    "lng": 127.42651794464707,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "에덴재가복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "16",
+      "gunmulSlno": "1",
+      "HDongCd": "250",
+      "hmPostNo": "55428",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "0088",
+      "longTermAdminSym": "34572000063",
+      "longTermPeribRgtDt": "20191219",
+      "riCd": "21",
+      "roadNmCd": "527203274045",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20191219"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000063",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000063",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "48",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34572000063",
+      "maNowPer": "13",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.naver.com/a4330088",
+      "longTermAdminSym": "34572000063",
+      "pkngEquip": "전북특별자치도 진안군 진안읍 군상리 507-5 공영주차장",
+      "tfMth": "전북특별자치도 진안군 진안읍 진용로 16-1진안시외버스터미널 도보 10분거리"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34572000015",
+    "name": "새힘복지용구사업소",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 시장길 70",
+    "lat": 35.792843356900114,
+    "lng": 127.43037359072287,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "새힘복지용구사업소",
+      "adminPttnCd": "C06",
+      "BDongCd": "250",
+      "detailAddr": "450번지 11호 ",
+      "gunmulMlno": "70",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55430",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "8050",
+      "longTermAdminSym": "34572000015",
+      "longTermPeribRgtDt": "20080728",
+      "riCd": "21",
+      "roadNmCd": "527204622200",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20080728"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000015",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000015",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34572000015"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34572000015",
+      "tfMth": "진안시외버스터미널 삼거리앞에서 학천다리옆"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34572000023",
+    "name": "마이재가요양기관",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 용지동길 16",
+    "lat": 35.773558982604364,
+    "lng": 127.38527349409215,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "마이재가요양기관",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "detailAddr": "616번지 23호 ",
+      "gunmulMlno": "16",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55425",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "5523",
+      "longTermAdminSym": "34572000023",
+      "longTermPeribRgtDt": "20090420",
+      "riCd": "32",
+      "roadNmCd": "527204622255",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20090413"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000023",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000023",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34572000023"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "https://blog.daum.net/jinan-myhome",
+      "longTermAdminSym": "34572000023",
+      "pkngEquip": "용지마을회관 앞 광장에서  10미터  거리에 마이재가요양기관이 위치하고 있어 주차하기에 매우 양호하며주차 대수는 10대 정도임.",
+      "tfMth": "진안에서 전주가는 방향으로 자동차로 약10분 거리이며  진안산업단지 옆 용지마을에 위치하고 있고 용지마을회관 앞 광장에서 마이재가요양기관이 바로 보여서 자동차 및 도보로  접근하기가 편리하고 찾아오기 쉽다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34572000056",
+    "name": "한누리재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "안천면",
+    "address": "전북특별자치도 진안군 안천면 진무로 2993",
+    "lat": 35.89750670735098,
+    "lng": 127.55185459261381,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "한누리재가복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "320",
+      "gunmulMlno": "2993",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "55407",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "1117",
+      "longTermAdminSym": "34572000056",
+      "longTermPeribRgtDt": "20190415",
+      "riCd": "21",
+      "roadNmCd": "527203274057",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20190415"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000056",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "26",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000056",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "65",
+      "fmRsvPer": "4",
+      "longTermAdminSym": "34572000056",
+      "maNowPer": "15",
+      "maRsvPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "http://www.hannuricare.com",
+      "longTermAdminSym": "34572000056",
+      "pkngEquip": "센터정문앞 주차장 이용안천체련공원 주차장 이용 도보 2분",
+      "tfMth": "진안지역에서 공용터미널이용 버스이동이나 택시이동가능 약15분 소요안천지역관내에서 행복버스이용 약5분 소요"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34572000058",
+    "name": "사랑가득재가센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "부귀면",
+    "address": "전북특별자치도 진안군 부귀면 부귀로 302-1",
+    "lat": 35.83595611519869,
+    "lng": 127.36091564302372,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "사랑가득재가센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "380",
+      "gunmulMlno": "302",
+      "gunmulSlno": "1",
+      "HDongCd": "380",
+      "hmPostNo": "55416",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "0022",
+      "longTermAdminSym": "34572000058",
+      "longTermPeribRgtDt": "20190901",
+      "riCd": "21",
+      "roadNmCd": "527203274021",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20190901"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000058",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000058",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "9",
+      "longTermAdminSym": "34572000058",
+      "totPer": "12"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "www.ok114.co.kr/0634330022/",
+      "longTermAdminSym": "34572000058",
+      "pkngEquip": "센터 앞을 지나다 보면 무료 공영 주자장이 있어서 주차는 얼마든지 가능합니다",
+      "tfMth": "부귀면 사무소 앞에 부귀면 버스 정류장이 있습니다 모든 방면의 버스들이 수시로 버스정류장을 입,출입합니다"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34572000062",
+    "name": "냉천노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02",
+      "C03"
+    ],
+    "emdNm": "성수면",
+    "address": "전북특별자치도 진안군 성수면 용포로 172",
+    "lat": 35.70681990862597,
+    "lng": 127.30548976447427,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "냉천노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "360",
+      "fl": "1",
+      "gunmulMlno": "172",
+      "gunmulSlno": "0",
+      "HDongCd": "360",
+      "hmPostNo": "55457",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "1397",
+      "longTermAdminSym": "34572000062",
+      "longTermPeribRgtDt": "20191128",
+      "riCd": "25",
+      "roadNmCd": "527203274034",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20191128"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34572000062",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "55",
+      "recuProt_2": "0",
+      "socWel": "4",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34572000062",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "86",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "34572000062",
+      "maNowPer": "32",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "blog.naver.com/naengcheon2019",
+      "longTermAdminSym": "34572000062",
+      "pkngEquip": "차량 여러대 사용할 수 있음.",
+      "tfMth": "성수면사무소에서 안평.외궁 정류장 8-2번 버스 승차, 반용 정류장 하차. 냉천노인복지센터까지 도보 약 8분자차 이용시 진안군에서 15분소요"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34572000062",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "700",
+        "uptDt": "20260106"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34572000062",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "2300",
+        "uptDt": "20260106"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14572000004",
+    "name": "반월노인사랑의집",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 원반월안길 39-9",
+    "lat": 35.76131798270929,
+    "lng": 127.44096961787417,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "반월노인사랑의집",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "detailAddr": "639번지 4호 18통 1반 ",
+      "gunmulMlno": "39",
+      "gunmulSlno": "9",
+      "HDongCd": "250",
+      "hmPostNo": "55442",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "6888",
+      "longTermAdminSym": "14572000004",
+      "longTermPeribRgtDt": "20080610",
+      "riCd": "25",
+      "roadNmCd": "527204622274",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20060119"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "3",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14572000004",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "7",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14572000004",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "5",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "19",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14572000004",
+      "maNowPer": "6",
+      "maRsvPer": "0",
+      "totPer": "28"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "blog.naver.com/bwold",
+      "longTermAdminSym": "14572000004",
+      "pkngEquip": "시설내 주차장 완비",
+      "tfMth": "진안발 [산암, 원반월]방면오전 8:00,  9:20,  11:20오후 1:00,  2:50,   4:10,  5:00,  6:40- 약 7~8분 소요"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "개별적 희망에 의한 외부 프로그램 이용 시 - 실비지급",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "500",
+        "prodBase": "의료비(진료약제비) -  실비지급",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "- 1일(3식) 7,500×30일",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "요양원에서 제공되는 일상용품외에 개인적인 일상용품 구입 시 - 실비지급",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "커트,  파마, 염색 - 실비지급",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "원거리 외출(개인적인 용무)시 차량이용 지급 - 실비지급",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000004",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "3226",
+        "prodBase": "- 1인실 (개인의 요청에 의할시)",
+        "uptDt": "20240308"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14572000006",
+    "name": "백운노인선교원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "백운면",
+    "address": "전북특별자치도 진안군 백운면 윤기길 4-35",
+    "lat": 35.692399878881226,
+    "lng": 127.38531933286625,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "백운노인선교원",
+      "adminPttnCd": "A03",
+      "BDongCd": "350",
+      "detailAddr": "235번지 2호 ",
+      "gunmulMlno": "4",
+      "gunmulSlno": "35",
+      "HDongCd": "350",
+      "hmPostNo": "55454",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "8515",
+      "longTermAdminSym": "14572000006",
+      "longTermPeribRgtDt": "20080613",
+      "riCd": "23",
+      "roadNmCd": "527204622295",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20061101"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "2",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14572000006",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "9",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "5",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14572000006",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "5",
+      "prsnRoomreal4": "4",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "4",
+      "taxRoom": "2"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "13",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14572000006",
+      "maNowPer": "5",
+      "maRsvPer": "0",
+      "totPer": "28"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "백운노인선교원.kr",
+      "longTermAdminSym": "14572000006",
+      "pkngEquip": "승용, 승합 약10대 주차가능",
+      "tfMth": "- 고속도로이용시 : 익산-장수간 고속도로이용 진안 T.G에서 임실.남원방향 약 20분                             거리에 위치(백운면 소재지에서 확인)- 일반국도이용시 : 진안읍내 방면에서 - 고속도로이용시와 동일                            남원, 전주방면에서 - 임실관촌에서 백운면소재지로"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000006",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "1일  6,000원(오전,오후 간식포함)",
+        "uptDt": "20260126"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14572000043",
+    "name": "믿음의 집",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 원반월안길 39-7",
+    "lat": 35.7614630751783,
+    "lng": 127.44079820012936,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "믿음의 집",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "39",
+      "gunmulSlno": "7",
+      "HDongCd": "250",
+      "hmPostNo": "55442",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "6880",
+      "longTermAdminSym": "14572000043",
+      "longTermPeribRgtDt": "20121224",
+      "riCd": "25",
+      "roadNmCd": "527204622274",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20121224"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "2",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14572000043",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14572000043",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "4",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "17",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14572000043",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "21"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://blog.naver.com/meoldhome",
+      "longTermAdminSym": "14572000043",
+      "pkngEquip": "시설내 주차장 완비",
+      "tfMth": "진안발 [산암, 원반월]방면오전 8:00,  9:20,  11:20오후 1:00,  2:50,   4:10,  5:00,  6:40- 약 7~8분 소요"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000043",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "(식비 1식 * 2,500원",
+        "uptDt": "20251023"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000043",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비지급",
+        "uptDt": "20251023"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000043",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비지급",
+        "uptDt": "20251023"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000043",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비지급",
+        "uptDt": "20251023"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14572000047",
+    "name": "햇살어울림",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "마령면",
+    "address": "전북특별자치도 진안군 마령면 널티로 86-62",
+    "lat": 35.76655629968283,
+    "lng": 127.35871190174223,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "햇살어울림",
+      "adminPttnCd": "A04",
+      "BDongCd": "370",
+      "gunmulMlno": "86",
+      "gunmulSlno": "62",
+      "HDongCd": "370",
+      "hmPostNo": "55448",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "6630",
+      "longTermAdminSym": "14572000047",
+      "longTermPeribRgtDt": "20140101",
+      "riCd": "24",
+      "roadNmCd": "527203274007",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20140101"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14572000047",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14572000047",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "5",
+      "longTermAdminSym": "14572000047",
+      "maNowPer": "4",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://sunshinefou.com/",
+      "longTermAdminSym": "14572000047",
+      "pkngEquip": "상시 주차 가능합니다.",
+      "tfMth": "자가용으로 오시는 길:전주,진안에서 30호국도로 오시다 49호 지방도로 들어옵니다.남원,관촌,마령방면으로 오시면 우측에 우드사이로가 있고 우회전해서 아래쪽 굴다리로들어오시면 왼쪽 황토기와집으로 지어진 햇살어울림이 있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14572000047",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "7,500원* 1일",
+        "uptDt": "20251016"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14572000050",
+    "name": "진안군복합노인복지타운 노인요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 마이산로 82",
+    "lat": 35.77994695667899,
+    "lng": 127.4179852632139,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "진안군복합노인복지타운 노인요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "82",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55438",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "8800",
+      "longTermAdminSym": "14572000050",
+      "longTermPeribRgtDt": "20150301",
+      "riCd": "22",
+      "roadNmCd": "527203274014",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20150301"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14572000050",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "2",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "32",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "26",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14572000050",
+      "medRoomreal": "4",
+      "ofce": "1",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "17",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "3",
+      "taxRoom": "2"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "47",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "14572000050",
+      "maNowPer": "17",
+      "maRsvPer": "3",
+      "totPer": "80"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.jinantown.or.kr/main1",
+      "longTermAdminSym": "14572000050",
+      "pkngEquip": "20대 가능( 제2주차장 가능)",
+      "tfMth": "진안군 동부병원옆위치-자가용진안시외버스정류장 마이산방면 차량(1일 12회운행) 소요시간 13분-대중교통"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000050",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "컷트1회x0원",
+        "uptDt": "20260423"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14572000050",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "1식2500",
+        "uptDt": "20260423"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "15272000075",
+    "name": "아몬드나무요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 하평길 24",
+    "lat": 35.76588340213019,
+    "lng": 127.37263428483416,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "아몬드나무요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "24",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55441",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "9022",
+      "longTermAdminSym": "15272000075",
+      "longTermPeribRgtDt": "20251001",
+      "riCd": "32",
+      "roadNmCd": "527204622368",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20250905"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "15272000075",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "15272000075",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "longTermAdminSym": "15272000075",
+      "totPer": "20"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "jin101610.tistory.com/",
+      "longTermAdminSym": "15272000075"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25272000074",
+    "name": "실로암재가노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "용담면",
+    "address": "전북특별자치도 진안군 용담면 안용로 1062",
+    "lat": 35.96915921547672,
+    "lng": 127.51691393587316,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "실로암재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "310",
+      "gunmulMlno": "1062",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "55405",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "4471",
+      "longTermAdminSym": "25272000074",
+      "longTermPeribRgtDt": "20250325",
+      "riCd": "25",
+      "roadNmCd": "527203274028",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20250203"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25272000074",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "8",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25272000074",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "5",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "25272000074",
+      "maNowPer": "2",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25272000074",
+      "pkngEquip": "센터내 주차시설 ",
+      "tfMth": "자가이용및 대중교통가능"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25272000077",
+    "name": "중앙재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진무로 1175",
+    "lat": 35.79611909009594,
+    "lng": 127.43442195765861,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "중앙재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "fl": "2",
+      "gunmulMlno": "1175",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55422",
+      "locTelNo_1": "070",
+      "locTelNo_2": "4887",
+      "locTelNo_3": "0255",
+      "longTermAdminSym": "25272000077",
+      "longTermPeribRgtDt": "20260201",
+      "riCd": "21",
+      "roadNmCd": "527203274057",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20260106"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25272000077",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "17",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25272000077",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25272000077",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25272000077"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24572000002",
+    "name": "(사)농촌복지센터(진안노인복지센터)",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "마령면",
+    "address": "전북특별자치도 진안군 마령면 임진로 2083",
+    "lat": 35.732263302920416,
+    "lng": 127.37126649078662,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "(사)농촌복지센터(진안노인복지센터)",
+      "adminPttnCd": "B01",
+      "BDongCd": "370",
+      "detailAddr": "581번지 4호 ",
+      "gunmulMlno": "2083",
+      "gunmulSlno": "0",
+      "HDongCd": "370",
+      "hmPostNo": "55451",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "9939",
+      "longTermAdminSym": "24572000002",
+      "longTermPeribRgtDt": "20080610",
+      "riCd": "21",
+      "roadNmCd": "527203274053",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20080609"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000002",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "18",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000002",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24572000002"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://cafe.daum.net/jinanwelfare",
+      "longTermAdminSym": "24572000002",
+      "pkngEquip": "진안노인복지센터 건물앞,  마령중학교(주차장), 마령고등학교(주차장)",
+      "tfMth": "센터 위치 : 마령면 소재지(마령중학교 앞)진안읍공용터미널-마령간이정류소(약 15분 배차시간 30분-1시간 간격)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24572000046",
+    "name": "믿음의집 병설 밀알재가노인복지센터",
+    "types": [
+      "방문요양",
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03",
+      "H31"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 원반월안길 39-7",
+    "lat": 35.7614630751783,
+    "lng": 127.44079820012936,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "믿음의집 병설 밀알재가노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "39",
+      "gunmulSlno": "7",
+      "HDongCd": "250",
+      "hmPostNo": "55442",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "6877",
+      "longTermAdminSym": "24572000046",
+      "longTermPeribRgtDt": "20130301",
+      "riCd": "25",
+      "roadNmCd": "527204622274",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20130301"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000046",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000046",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "0",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24572000046",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://blog.naver.com/milal6877",
+      "longTermAdminSym": "24572000046",
+      "pkngEquip": ". 센터 앞 5대 주차 가능. 인근 30대 이상 주차 가능",
+      "tfMth": "자가용  .전주→진안→마령방면 (3분 소요)→ 원반월마을(왼편 OK레미콘)→반월교회 옆  .전주 톨게이트→호남고속도로 →익산포항고속도로→원반월길→반월교회 옆대중교통(군내버스)  .진안발→(산암,원반월)방면 →반월리 마을회관 하차→반월교회 옆"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24572000046",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "2,500원*2회",
+        "uptDt": "20260108"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000046",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "(식비 2식 * 2,500원)",
+        "uptDt": "20260320"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24572000048",
+    "name": "진안단양노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진무로 969-7",
+    "lat": 35.7821308347826,
+    "lng": 127.42430178780364,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "진안단양노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "969",
+      "gunmulSlno": "7",
+      "HDongCd": "250",
+      "hmPostNo": "55438",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "2843",
+      "longTermAdminSym": "24572000048",
+      "longTermPeribRgtDt": "20140301",
+      "riCd": "23",
+      "roadNmCd": "527203274057",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20140301"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000048",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "11",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000048",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "2",
+      "longTermAdminSym": "24572000048",
+      "maNowPer": "0",
+      "totPer": "20"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "진안단양노인복지센터.com",
+      "longTermAdminSym": "24572000048",
+      "pkngEquip": "진안단양노인복지센터 주차장",
+      "tfMth": "진안읍 로터리에서  진안IC방향으로 200m 새마을마을( 진안군마을만들기 지나 옆 공터) 진안터미널에서 마령방면, 백운방면 버스이용시 진안로터리에서 1번째 정류장 (새마을정류장)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000048",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "4000",
+        "uptDt": "20251208"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000048",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000",
+        "uptDt": "20251208"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24572000059",
+    "name": "나눔재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진무로 1193",
+    "lat": 35.79782311918356,
+    "lng": 127.43534198314335,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "나눔재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "1193",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55422",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "5160",
+      "longTermAdminSym": "24572000059",
+      "longTermPeribRgtDt": "20191101",
+      "riCd": "21",
+      "roadNmCd": "527203274057",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20191101"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000059",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "57",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000059",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "57",
+      "longTermAdminSym": "24572000059",
+      "maNowPer": "19",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "http://나눔재가복지센터.kr",
+      "longTermAdminSym": "24572000059",
+      "pkngEquip": "대지 683평위에 녹지공간 및 많은 차량를 주차할 수 있는 공간이 준비 되어있습니다.",
+      "tfMth": "주소 : 진안군 진안읍 진무로 1193(군상리 96-1) 진안읍보건소뒤   터미널에서 무주방면 으로 300M거리(터미널-&gt;진안의료원-&gt;119 소방서-&gt;보건소)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000059",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1일 2식 간식비 포함",
+        "uptDt": "20240411"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000059",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "필요시,  업체 가격기준",
+        "uptDt": "20240411"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24572000060",
+    "name": "금강복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "주천면",
+    "address": "전북특별자치도 진안군 주천면 동상주천로 2221",
+    "lat": 35.97548552257454,
+    "lng": 127.4261392850629,
+    "general": {
+      "adminFdatType": "5",
+      "adminNm": "금강복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "400",
+      "gunmulMlno": "2221",
+      "gunmulSlno": "0",
+      "HDongCd": "400",
+      "hmPostNo": "55402",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "9998",
+      "longTermAdminSym": "24572000060",
+      "longTermPeribRgtDt": "20191108",
+      "riCd": "21",
+      "roadNmCd": "527203273020",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20191108"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000060",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "22",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000060",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "45",
+      "longTermAdminSym": "24572000060",
+      "maNowPer": "10",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "kumkang.onmam.com ",
+      "longTermAdminSym": "24572000060",
+      "pkngEquip": "주차시설 없음/ 면사무소 주차장 이용가능",
+      "tfMth": "진안읍 무진장여객 터미널 -&gt; 주천 방면 버스 이용 (무거,주천,내처사,무릉리 행 버스 이용/ 하루 8대) -&gt; 주천면사무소 하차 -&gt; 진안소방서 주천119지역대 바로 옆 (현대철물점, 낙원식당 맞은편 / 구 주천현대마트)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24572000065",
+    "name": "행복한노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진장로 51-13",
+    "lat": 35.793629403267325,
+    "lng": 127.4359303112594,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "행복한노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "250",
+      "gunmulMlno": "51",
+      "gunmulSlno": "13",
+      "HDongCd": "250",
+      "hmPostNo": "55431",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "3388",
+      "longTermAdminSym": "24572000065",
+      "longTermPeribRgtDt": "20200401",
+      "riCd": "21",
+      "roadNmCd": "527203274046",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20200401"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000065",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24572000065",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "24",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "24572000065",
+      "maNowPer": "7",
+      "maRsvPer": "0",
+      "totPer": "31"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "www.행복한노인복지센터.kr",
+      "longTermAdminSym": "24572000065",
+      "pkngEquip": "정문 앞 주차장에 7대 주차 가능후문 앞 진안제일교회 주차장 이용가능(무료)",
+      "tfMth": "- 전북 진안군 진안읍 진장로 51-13 (구 군상리 267-19번지) / 고향마을아파트 맞은편 위치 - 문의 전화 : 063) 432-3388 / 010-5388-7862 (센터장)- 팩스 번호 : 063) 432-3387- 오시는 길   진안버스터미널에서 도보로 5분 거리   고향마을아파트 건너편"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000065",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1식 2,500원, 간식은 무료제공",
+        "uptDt": "20251029"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24572000067",
+    "name": "진무장재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "성수면",
+    "address": "전북특별자치도 진안군 성수면 관진로 778-11",
+    "lat": 35.70728957196316,
+    "lng": 127.32608908949331,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "진무장재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "360",
+      "gunmulMlno": "778",
+      "gunmulSlno": "11",
+      "HDongCd": "360",
+      "hmPostNo": "55459",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "1913",
+      "longTermAdminSym": "24572000067",
+      "longTermPeribRgtDt": "20210204",
+      "riCd": "21",
+      "roadNmCd": "527203016053",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20210125"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000067",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "23",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000067",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24572000067",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "www.longtermcare.or.kr/npbs/r/a/104/selectMyBlog.web?ltcAdminSym=24572000067",
+      "longTermAdminSym": "24572000067",
+      "pkngEquip": "20대 주차 가능",
+      "tfMth": "1. 자가용 이용 : 전북특별자치도 진안군 성수면 관진로 778-112. 버스이용시 버스정류장안평.외궁(3130032) | 246m농어촌22-6|27-1|28-4|3-4|37-5|4-6|4-9|7-2|8-2|8-4|9-2성수면사무소(3130057) | 289m16-3|21-1|22-6|3-3|3-4|37-5|4-6|4-9|8-2|8-4|9-2"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24572000068",
+    "name": "진안군의료원 방문간호센터",
+    "types": [
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B05"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 진무로 1145",
+    "lat": 35.79447108458658,
+    "lng": 127.43272966424558,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "진안군의료원 방문간호센터",
+      "adminPttnCd": "B05",
+      "BDongCd": "250",
+      "gunmulMlno": "1145",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55422",
+      "locTelNo_1": "063",
+      "locTelNo_2": "430",
+      "locTelNo_3": "7111",
+      "longTermAdminSym": "24572000068",
+      "longTermPeribRgtDt": "20211007",
+      "riCd": "21",
+      "roadNmCd": "527203274057",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20210720"
+    },
+    "staff": {
+      "adminPttnCd": "B05",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000068",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B05",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000068",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B05",
+      "fmNowPer": "2",
+      "longTermAdminSym": "24572000068",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B05",
+      "hmpgAddr": "http://www.jgmc.kr",
+      "longTermAdminSym": "24572000068",
+      "pkngEquip": "의료원 제 1 주차장(일반인) : 59대의료원 제 1 주차장(장애인) : 4대의료원 제 2 주차장(일반인) : 22대의료원 제 2 주차장(장애인) : 1대의료원 제 2 주차장(임산부) : 2대장례식장 주차장(일반인) : 37대장례식장 주차장(장애인) : 2대",
+      "tfMth": "&lt;자동차 이용시 찾아오시는길&gt; 진안IC → 진안군의료원- 익산포항고속도로(16.5km) → 장무로(3.7km) → 익산포항고속도로(18.6km) 진안시외버스공용정류장 → 진안군의료원- 진안 시외버스터미널 8m 이동 → 우회전 → 진무로를 따라 28m 이동 → '무주, 안천' 방면으로 좌회전 → 진무로를 따라 303m 이동 → 진안군의료원 진안군청 → 진안군의료원- 중앙로(0.7km) → 진무로(0.1km)&lt;대중교통 이용시 찾아오시는길&gt; 진안시외버스공용정류장 → 진안군의료원- 출발지와 도착지 약 300m의 거리, 도보 약 10분 소요- 군내(무진장여객) 시내버스 이용(정기 무료 운행) 진안군청 → 진안군의료원- 정천-진안(노계2동) → 터미널 정류장 하차 (약21분 소요)- 진안-부귀(월평)(터미널) → 노계2동 정류장 하차 (약 22분 소요)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24572000069",
+    "name": "진안군복합노인복지타운 노인주야간보호센터",
+    "types": [
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B03",
+      "H31"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 마이산로 76",
+    "lat": 35.78058416012599,
+    "lng": 127.41852529029653,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "진안군복합노인복지타운 노인주야간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "250",
+      "gunmulMlno": "76",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "55438",
+      "locTelNo_1": "063",
+      "locTelNo_2": "433",
+      "locTelNo_3": "7799",
+      "longTermAdminSym": "24572000069",
+      "longTermPeribRgtDt": "20211229",
+      "riCd": "22",
+      "roadNmCd": "527203274014",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20211220"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000069",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "2",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "3",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000069",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "10",
+      "longTermAdminSym": "24572000069",
+      "maNowPer": "1",
+      "totPer": "14"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "jinantown.or.kr",
+      "longTermAdminSym": "24572000069",
+      "pkngEquip": "- 지상주차장 차량 30대이내 주차가능",
+      "tfMth": "- 진안군 관내버스로 터미널에서 노인복지관 5분거리- 입구오르막 도보 5분소요(3층 주간보호센터 엘리베이터이용)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000069",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전 간식, 오후 간식",
+        "uptDt": "20260212"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24572000069",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전간식, 오후간식",
+        "uptDt": "20230727"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24572000069",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "중식, 석식",
+        "uptDt": "20230727"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000069",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "중식, 석식",
+        "uptDt": "20260212"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24572000071",
+    "name": "같이 노인주간보호센터",
+    "types": [
+      "방문요양",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03"
+    ],
+    "emdNm": "진안읍",
+    "address": "전북특별자치도 진안군 진안읍 언건1길 5-9",
+    "lat": 35.8167923949368,
+    "lng": 127.46049483243324,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "같이 노인주간보호센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "5",
+      "gunmulSlno": "9",
+      "HDongCd": "250",
+      "hmPostNo": "55418",
+      "locTelNo_1": "063",
+      "locTelNo_2": "432",
+      "locTelNo_3": "5959",
+      "longTermAdminSym": "24572000071",
+      "longTermPeribRgtDt": "20220726",
+      "riCd": "33",
+      "roadNmCd": "527204622225",
+      "siDoCd": "52",
+      "siGunGuCd": "720",
+      "stpRptDt": "20220708"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24572000071",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24572000071",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "0",
+      "longTermAdminSym": "24572000071",
+      "maNowPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "band.us/band/88740153",
+      "longTermAdminSym": "24572000071",
+      "pkngEquip": "주차 공간 넉넉합니다. 최소 10대 주차 가능합니다. 언제든지 방문해 주세요.감사합니다.",
+      "tfMth": "1. 자차 - 진안읍내에서 무주 방면-&gt; 운산 교차로에서 운일암 반일암 방면으로 좌회전 205m 이동-&gt; 언건 1길 우회전 44m이동-&gt; 언건 1길 우회전 57m 이동-&gt; 언건1길 우회전 83m 이동 -&gt; 같이노인주간보호센터2. 버스- 우아 정류장 1-4, 2-1 버스 -&gt; 언건 정류장              진안터미널 2-2, 6-2 버스-&gt; 언건 정류장              제일 미곡상회 정류장 8-5, 9-1 버스 -&gt; 언건 정류장                          자세한 사항은 다음 길찾기를 참고해 주시기 바랍니다.             저희는 어르신의 입퇴소 차량 지원을 하고 있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000071",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "2000*2회",
+        "uptDt": "20250918"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24572000071",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "500*2회",
+        "uptDt": "20250918"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34511000127",
+    "name": "비전재가복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34511000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "prodBase": "1일 : 점심",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34511000127",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "700",
+        "prodBase": "1일 간식(오전, 오후) 2회",
+        "uptDt": "20260505"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34513000063",
+    "name": "가정노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34513000130",
+    "name": "민들레노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34518000034",
+    "name": "손길노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34519000079",
+    "name": "참조은노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "800",
+        "prodBase": "1일2회",
+        "uptDt": "20251230"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20251230"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34519000079",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3700",
+        "prodBase": "1일 2회",
+        "uptDt": "20251230"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34577000024",
+    "name": "GIP홈케어(순창)",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24511000012",
+    "name": "성예노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24571000007",
+    "name": "구이노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24571000007",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "1식 2,700원, 1일 점심 및 저녁 2식 제공",
+        "uptDt": "20260105"
+      }
+    ],
+    "welfare": []
+  }
+]

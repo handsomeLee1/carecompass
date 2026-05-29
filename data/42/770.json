@@ -1,1 +1,2052 @@
-[]
+[
+  {
+    "sym": "34277000012",
+    "name": "영지의료기종합상사",
+    "types": [
+      "복지용구"
+    ],
+    "typeCodes": [
+      "C06"
+    ],
+    "emdNm": "정선읍",
+    "address": "강원특별자치도 770",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "영지의료기종합상사",
+      "adminPttnCd": "C06",
+      "BDongCd": "250",
+      "gunmulMlno": "49",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "26130",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "8302",
+      "longTermAdminSym": "34277000012",
+      "longTermPeribRgtDt": "20090813",
+      "riCd": "00",
+      "roadNmCd": "517704487147",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20090812"
+    },
+    "staff": {
+      "adminPttnCd": "C06",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34277000012",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "0",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C06",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "34277000012",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C06",
+      "longTermAdminSym": "34277000012"
+    },
+    "etc": {
+      "adminPttnCd": "C06",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34277000012",
+      "pkngEquip": "공설운동장내 주차가능",
+      "tfMth": "정선2교사거리  일방통행  정선5일장내 위치. "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34277000015",
+    "name": "정선돌봄서비스센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "C01",
+      "C02"
+    ],
+    "emdNm": "정선읍",
+    "address": "강원특별자치도 정선군 정선읍 애산로 159",
+    "lat": 37.38508978844968,
+    "lng": 128.67328776584193,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "정선돌봄서비스센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "detailAddr": "433번지 4호 ",
+      "gunmulMlno": "159",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "26122",
+      "locTelNo_1": "033",
+      "locTelNo_2": "563",
+      "locTelNo_3": "3124",
+      "longTermAdminSym": "34277000015",
+      "longTermPeribRgtDt": "20100610",
+      "riCd": "24",
+      "roadNmCd": "517703229022",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20100511"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34277000015",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "34",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34277000015",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "63",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "34277000015",
+      "maNowPer": "32",
+      "maRsvPer": "2",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음.",
+      "longTermAdminSym": "34277000015",
+      "pkngEquip": "정선돌봄서비스센터 기관 앞에 주차하시면 되시며, 많은 차량 이용시는 정선국민체육센터 후문 앞 넓은 주차장이 있사오니 주차 이용하시면 됩니다.  저희 기관차량 2대및 방문목욕차량  상시 주차되어 있읍니다.",
+      "tfMth": "정선돌봄서비스센터는 예전 정선 오리명가옆에 위치했던 구-정선노인복지센터가 새로운 유한회사로 설립하여 이전하였습니다. 위치는 정선역전 방향으로 오시다가 우측 금광아파트로 진입하여  바로 옆 정선국민체육센터 후문에서 역전철길쪽으로 직진. (주의: 구-보건소로 가시면 안됩니다) 왼쪽 맨 끝 3층건물 1층에 사무실이 있습니다.시내버스 이용시 정선역 방향 버스 승차 금광아파트 입구에서 하차하시면 됩니다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34277000032",
+    "name": "사랑돌봄재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "정선읍",
+    "address": "강원특별자치도 정선군 정선읍 비봉안길 33",
+    "lat": 37.38218975802381,
+    "lng": 128.6590095749962,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "사랑돌봄재가복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "gunmulMlno": "33",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "26129",
+      "locTelNo_1": "033",
+      "locTelNo_2": "563",
+      "locTelNo_3": "0027",
+      "longTermAdminSym": "34277000032",
+      "longTermPeribRgtDt": "20180816",
+      "riCd": "21",
+      "roadNmCd": "517704487170",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20180816"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34277000032",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "1",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34277000032",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "1",
+      "longTermAdminSym": "34277000032",
+      "maNowPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "34277000032",
+      "pkngEquip": " 센터앞 차량 주차 상시가능",
+      "tfMth": " 정선 초등학교 후문/정선 터미널에서 자가용으로 3~5분 소요.정선병원에서 도보로 2~3분 소요"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "14277000003",
+    "name": "새별이요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "임계면",
+    "address": "강원특별자치도 정선군 임계면 새벼리길 83-27",
+    "lat": 37.49618967518195,
+    "lng": 128.86731671216137,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "새별이요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "350",
+      "gunmulMlno": "83",
+      "gunmulSlno": "27",
+      "HDongCd": "350",
+      "hmPostNo": "26111",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "8995",
+      "longTermAdminSym": "14277000003",
+      "longTermPeribRgtDt": "20080609",
+      "riCd": "25",
+      "roadNmCd": "517704487189",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20080602"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14277000003",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "3",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14277000003",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "5",
+      "prsnRoomreal2": "2",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "8",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14277000003",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://toqufdl2005@naver.com",
+      "longTermAdminSym": "14277000003",
+      "pkngEquip": "10대 정도의 주차가능",
+      "tfMth": "1. 강릉시외버스터미널에서 정선,임계 행 시외버스 승차 후 임계 하차 2. 임계 시내에서 동해방향으로 5분거리3. 동백주유소 앞 첫번재 다리에서 우측, 새별이요양원 안내 표지판 설치를 따라 1분정도 올라오시면 청색 지붕으로 된 2층이&quot;새별이요양원&quot;입니다 -033-562-8995"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "11000",
+        "prodBase": "1일 11,000월*31=341,000",
+        "uptDt": "20260208"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "1식 3,300원*3회 =10000원",
+        "uptDt": "20260208"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9783",
+        "prodBase": "303,266원 (2023년 생계급여) ",
+        "uptDt": "20260208"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "11723",
+        "prodBase": "11,723월*1월(2025년생계급여)",
+        "uptDt": "20260208"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "1식3,500원*31=325,500",
+        "uptDt": "20260208"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000003",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "1일500원*31일=15,500",
+        "uptDt": "20260208"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14277000005",
+    "name": "벧엘동산",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "임계면",
+    "address": "강원특별자치도 정선군 임계면 월루길 446",
+    "lat": 37.49005433773735,
+    "lng": 128.7976075898367,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "벧엘동산",
+      "adminPttnCd": "A03",
+      "BDongCd": "350",
+      "detailAddr": "23번지 8호 ",
+      "gunmulMlno": "446",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "26109",
+      "locTelNo_1": "033",
+      "locTelNo_2": "563",
+      "locTelNo_3": "3843",
+      "longTermAdminSym": "14277000005",
+      "longTermPeribRgtDt": "20080619",
+      "riCd": "32",
+      "roadNmCd": "517704487302",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20080619"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14277000005",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "13",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "18",
+      "crmnyPrst": "3",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14277000005",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "3",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "4",
+      "prsnRoomreal4": "9",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "7",
+      "taxRoom": "5"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "18",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14277000005",
+      "maNowPer": "9",
+      "maRsvPer": "0",
+      "totPer": "28"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "cafe.daum.net/jsbethel",
+      "longTermAdminSym": "14277000005",
+      "pkngEquip": "승용차30대,대형버스 주차가능(주차장 보유) ",
+      "tfMth": "1. 영동고속도로-진부IC에서 정선방향(우회전35km)-나전삼거리(좌회전)-동해,임계,강릉방향25km-큰너근령재정상 우측 벧엘동산입구2. 정선에서42번국도로 임계방향으로 33km지점-큰너그니재정상 임계면 경계지점 우측 벧엘동산 입구3. 강릉에서(35번국도) 임계면 사거리에서 정선방향(42국도)으로7km-큰너근령재정상-좌측 벧엘동산입구"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "12000",
+        "prodBase": "일반식, 죽식 (4,000 * 3회)",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "이미용서비스봉사",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000005",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "12000",
+        "prodBase": "경관급식(유동식) (4,000원*3회) ",
+        "uptDt": "20260504"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14277000010",
+    "name": "정선군노인요양원",
+    "types": [
+      "노인요양시설",
+      "G31",
+      "G32",
+      "G33",
+      "G34",
+      "G35",
+      "G36"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31",
+      "G32",
+      "G33",
+      "G34",
+      "G35",
+      "G36"
+    ],
+    "emdNm": "정선읍",
+    "address": "강원특별자치도 정선군 정선읍 신월리 869-1",
+    "lat": 37.37158089772314,
+    "lng": 128.68066763987602,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "정선군노인요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "1",
+      "gunmulSlno": "77",
+      "HDongCd": "250",
+      "hmPostNo": "26124",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "5566",
+      "longTermAdminSym": "14277000010",
+      "longTermPeribRgtDt": "20080625",
+      "riCd": "25",
+      "roadNmCd": "517704487290",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20070125"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "7",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "2",
+      "hygiPrsn": "2",
+      "longTermAdminSym": "14277000010",
+      "mgmtPrsn": "2",
+      "nur": "0",
+      "nurArticle": "5",
+      "nut": "1",
+      "ofceEmp": "2",
+      "physicalMTret": "2",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "0",
+      "socWel": "5",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "25",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "2",
+      "longTermAdminSym": "14277000010",
+      "medRoomreal": "2",
+      "ofce": "2",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "19",
+      "spcAcupRoomreal": "3",
+      "taxPageLong": "4",
+      "taxRoom": "3"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "49",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14277000010",
+      "maNowPer": "29",
+      "maRsvPer": "0",
+      "totPer": "76"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.jssilver.kr",
+      "longTermAdminSym": "14277000010",
+      "pkngEquip": "*전체(78석) -본원(54석) -치매전담실(23석)",
+      "tfMth": "정선읍 → 사북, 고한 방면 (신길)3km에서 내림 → 신월리 입구 사거리 굴다리를 지나 → 좌회전 → 우회전 → 와전둔치교 → 정선프란치스꼬의집 → 정선군노인요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "G32",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260401"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G36",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회 ",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G35",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G34",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G33",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G33",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G33",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G36",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G35",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G36",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회  ",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G34",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1,100원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G35",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G36",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회  ",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G33",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회 ",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G34",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G34",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G35",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G32",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G32",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "G32",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260109"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "5400",
+        "prodBase": "900원X6회",
+        "uptDt": "20260401"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "900",
+        "prodBase": "900원X1회",
+        "uptDt": "20260401"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000010",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "3,300원X3식",
+        "uptDt": "20260401"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14277000020",
+    "name": "정선효도마을",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "임계면",
+    "address": "강원특별자치도 정선군 임계면 평양마을길 204",
+    "lat": 37.540231609409325,
+    "lng": 128.87124077142164,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "정선효도마을",
+      "adminPttnCd": "A04",
+      "BDongCd": "350",
+      "detailAddr": "1117번지 ",
+      "gunmulMlno": "204",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "26111",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "5463",
+      "longTermAdminSym": "14277000020",
+      "longTermPeribRgtDt": "20110601",
+      "riCd": "24",
+      "roadNmCd": "517704487353",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20110601"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14277000020",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "3",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14277000020",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "1",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "2",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "6",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14277000020",
+      "maNowPer": "3",
+      "maRsvPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "http://cafe.daum.net/93care",
+      "longTermAdminSym": "14277000020",
+      "pkngEquip": "기관주차장 : 8대    주변 공터 : 10대 시골의 한적한 곳이라 주차에는 전혀 문제가 없습니다.기관 진입시 경사 유의 ",
+      "tfMth": "강릉:40분소요(삽달령경유) /  정선:40분소요(너그령경유)동해:30분소요(백봉령경유) / 태백: 50분소요(삼척시 하장면 경유) 임계사거리에서 동해(백봉령)방향으로 5km --- 화천동삼거리에서 좌회전 --- 이정표따라 2.5km   (오시는 길 곳곳에 시설 이정표가 있습니다. )참고사항) 임계면소재지에서 기관으로 오는 대중교통은 1일 2회이며, 대중교통 이용은 상당한 제한을 받습니다. 혹시 자차 이용이 불가하신 경우에는 기관에서 차량도움이 가능하오니 사전에 미리 연락주시기 바랍니다.                기관으로 오시는 길의 마지막 2.5km는 단차선 도로이므로 운행에 세심한 주의가 요구됩니다. 주의)자차 이용시  중간에 백두대간 생태수목원 방향으로 가시면 안됩니다. 문의사항은 033-562-5463 자세히 설명드리겠습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "700",
+        "prodBase": "1일 2회 제공 ",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1인실(1일) : 5,000원 *30일",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "1식3,300원*3회=9,900원",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "203",
+        "prodBase": "계약의사 진료 월 부담금(월2회진료/재진/2025년)",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "자원봉사자 (미용사 소지자)",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "237",
+        "prodBase": "계약의사 진료 월 부담금(월2회진료/초진/2025년)",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "3330",
+        "prodBase": "2인실(1일):3,330원 * 30일",
+        "uptDt": "20260505"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000020",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "11000",
+        "prodBase": "1일 : 11,000원 * 30일 ",
+        "uptDt": "20260505"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14277000026",
+    "name": "정선실버하우스요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "북평면",
+    "address": "강원특별자치도 정선군 북평면 송석길 287-30",
+    "lat": 37.440470466499185,
+    "lng": 128.66543884023866,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "정선실버하우스요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "340",
+      "gunmulMlno": "287",
+      "gunmulSlno": "30",
+      "HDongCd": "340",
+      "hmPostNo": "26103",
+      "locTelNo_1": "033",
+      "locTelNo_2": "563",
+      "locTelNo_3": "3311",
+      "longTermAdminSym": "14277000026",
+      "longTermPeribRgtDt": "20131128",
+      "riCd": "23",
+      "roadNmCd": "517704487224",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20131128"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14277000026",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "36",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "17",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14277000026",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "18",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "57",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "14277000026",
+      "maNowPer": "14",
+      "maRsvPer": "1",
+      "totPer": "76"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.ssjsnh.com/",
+      "longTermAdminSym": "14277000026",
+      "pkngEquip": "일반 및 장애인차량 30대 가능.",
+      "tfMth": "1. 서울방면  서울 &gt; 경부고속도로 신갈IC &gt; 영동고속도로 강릉방면 &gt; 진부IC &gt; 직진 &gt;                   오대교사거리에서 좌회전 정선, 장평방면 좌회전 &gt; 59번국도 직진 &gt;                   나전삼거리 우회전 &gt; 20M 직진후 좌측 다리 건너 &gt; 좌회전 &gt; 직진후                   나전중학교 끼고 우회전 &gt; 직진 &gt; 한국가스공사 정선연수원 정문 우측길 &gt;                   정선실버하우스요양원2. 정선방면  정선 &gt; 여량,임계방면 &gt; 나전삼거리 못미쳐 우측 다리 &gt; 다리건너 좌회전 &gt;                   직진 &gt; 나전중학교 옆 오르막길 &gt; 직진 &gt; 한국가스공사 정선연수원 정문                   우측길  &gt; 정선실버하우스요양원3, 여량,임계방면  여량 &gt; 북평삼거리 좌회전 &gt; 직진후 농협끼고 우회전 &gt; 직진후 다리건너                           &gt; 나전중학교 옆 오르막길 &gt; 직진 &gt; 한국가스공사 정선연수원 정문                           우측길 &gt; 정선실버하우스요양원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000026",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "0",
+        "prodBase": "없음",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000026",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "없음",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000026",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "1,500*4식",
+        "uptDt": "20260504"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14277000026",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "1일 1식 3,000원 * 3식 = 9,000",
+        "uptDt": "20260504"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14277000039",
+    "name": "안심노인통합지원센터",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "고한읍",
+    "address": "강원특별자치도 정선군 고한읍 고한9길 26",
+    "lat": 37.19686596090384,
+    "lng": 128.85987355817701,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "안심노인통합지원센터",
+      "adminPttnCd": "A04",
+      "BDongCd": "253",
+      "gunmulMlno": "26",
+      "gunmulSlno": "0",
+      "HDongCd": "253",
+      "hmPostNo": "26155",
+      "locTelNo_1": "033",
+      "locTelNo_2": "591",
+      "locTelNo_3": "7925",
+      "longTermAdminSym": "14277000039",
+      "longTermPeribRgtDt": "20220330",
+      "riCd": "21",
+      "roadNmCd": "517704487026",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20220307"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14277000039",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "1",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14277000039",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "3",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "5",
+      "longTermAdminSym": "14277000039",
+      "maNowPer": "2",
+      "maRsvPer": "0",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "unwind7925.modoo.at/",
+      "longTermAdminSym": "14277000039",
+      "pkngEquip": "건물 주차장 있음. 주차 가능",
+      "tfMth": "[대중교통]- 버스 : 중갈래 버스정류장 하차 고한성당 방향 도보 100m 이동(버스기사님께 진폐상담소 하차 얘기하셔도 내릴 수 있음)- 기차 : 고한역 하차 후 버스 또는 택시 이용.[주의사항]상갈래 방향 차선은 갈래초교쪽 로터리에서 유턴하여 돌아와야 합니다. 중앙선이 실선으로 되어 있어 좌회전 불가합니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000039",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3000*3",
+        "uptDt": "20220809"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14277000039",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000",
+        "uptDt": "20220809"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "15177000047",
+    "name": "나전요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "북평면",
+    "address": "강원특별자치도 정선군 북평면 서동로 2049",
+    "lat": 37.45016717273028,
+    "lng": 128.66192225625724,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "나전요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "340",
+      "gunmulMlno": "2049",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "26101",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "5670",
+      "longTermAdminSym": "15177000047",
+      "longTermPeribRgtDt": "20250801",
+      "riCd": "22",
+      "roadNmCd": "517703219074",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20250801"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "15177000047",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "15177000047",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "7",
+      "longTermAdminSym": "15177000047",
+      "maNowPer": "2",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "hmpgAddr": "없음.",
+      "longTermAdminSym": "15177000047",
+      "pkngEquip": "공터와 장애인주차시설 1대",
+      "tfMth": "정선군 북평면 서동로 2049입니다.향천사와 프로카센터 중간에 위치합니다.간판이 달려있습니다."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "15177000047",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "500",
+        "prodBase": "1일 500원",
+        "uptDt": "20250801"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "15177000047",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7500",
+        "prodBase": "1식 2,500원(간식제외)",
+        "uptDt": "20250801"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24277000034",
+    "name": "천사의미소 방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "정선읍",
+    "address": "강원특별자치도 정선군 정선읍 애산로 179",
+    "lat": 37.38672054137392,
+    "lng": 128.67233577714788,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "천사의미소 방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "179",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "26122",
+      "locTelNo_1": "033",
+      "locTelNo_2": "563",
+      "locTelNo_3": "8888",
+      "longTermAdminSym": "24277000034",
+      "longTermPeribRgtDt": "20200217",
+      "riCd": "24",
+      "roadNmCd": "517703229022",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20200217"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24277000034",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "40",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24277000034",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "33",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "24277000034",
+      "maNowPer": "5",
+      "totPer": "30"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "oh88888@hanmail.net",
+      "longTermAdminSym": "24277000034",
+      "pkngEquip": "7대 주차가능",
+      "tfMth": "정선역을 바라보며 우측 즉  남쪽 방향으로 악 150m 직진하다 우측의 1층 건물이고 간판이 크게 붙어 있다."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24277000036",
+    "name": "삼육재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "임계면",
+    "address": "강원특별자치도 정선군 임계면 백두대간로 1369",
+    "lat": 37.49580915082867,
+    "lng": 128.8498097099806,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "삼육재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "350",
+      "gunmulMlno": "1369",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "26110",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "3633",
+      "longTermAdminSym": "24277000036",
+      "longTermPeribRgtDt": "20200507",
+      "riCd": "25",
+      "roadNmCd": "517703220058",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20200507"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24277000036",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "37",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24277000036",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24277000036",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "m.blog.daum.net/smmool",
+      "longTermAdminSym": "24277000036",
+      "pkngEquip": " 사무실 옆 공영주차장(임계 감리교회 내)",
+      "tfMth": " 강릉에서 시외 버스(약 1시간 간격)를 이용하여 약 40분이면    임계공용버스 정류장에 도달하며 도보로 3분내의 거리에 위치함. 동해시에서 백복령을 넘어 오면 약 40분 거리에 위치함 정선읍 군청 소재지에서 약 40분 거리에 위치함 태백시에서도 약 1시간 범위내 거리에 위치함 임계면 소재지는 강릉, 정선읍, 동해시, 태백시 중앙에 위치하고 있음."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24277000037",
+    "name": "온누리재가방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "남면",
+    "address": "강원특별자치도 정선군 남면 도원2길 13",
+    "lat": 37.245729555058055,
+    "lng": 128.77440334316464,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "온누리재가방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "320",
+      "gunmulMlno": "13",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "26146",
+      "locTelNo_1": "033",
+      "locTelNo_2": "591",
+      "locTelNo_3": "2157",
+      "longTermAdminSym": "24277000037",
+      "longTermPeribRgtDt": "20210310",
+      "riCd": "22",
+      "roadNmCd": "517704487086",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20210205"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24277000037",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "47",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24277000037",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "60",
+      "longTermAdminSym": "24277000037",
+      "maNowPer": "14",
+      "totPer": "60"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24277000037",
+      "pkngEquip": "사무실맞은편주차가능-장애인주차 1대 , 일반주차 8대 사무실 주변 - 주차 가능한 곳에 주차 가능함.",
+      "tfMth": "버스 이용시 : 민둥산역 아래 버스정거장 - 사북 , 고한 , 정선 버스 이용 가능 - 하차 후 지현마트 골목으로 200미터 정도 걸어 들어오면                    엄마고집 맞은편에 온누리재가방문요양센터 사무실 간판이 보임.자가용이용시 : 남면 도원2길 13  도보 이용시 : 지현마트 골목으로 들어오면 엄마고집 식당 맞은편으로 사무실 있음."
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24277000038",
+    "name": "에덴재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "임계면",
+    "address": "강원특별자치도 정선군 임계면 서동로 4545",
+    "lat": 37.49532126330176,
+    "lng": 128.84909910038616,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "에덴재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "350",
+      "gunmulMlno": "4545",
+      "gunmulSlno": "0",
+      "HDongCd": "350",
+      "hmPostNo": "26110",
+      "locTelNo_1": "070",
+      "locTelNo_2": "4118",
+      "locTelNo_3": "9946",
+      "longTermAdminSym": "24277000038",
+      "longTermPeribRgtDt": "20210617",
+      "riCd": "25",
+      "roadNmCd": "517703219074",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20210512"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24277000038",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "55",
+      "recuProt_2": "1",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24277000038",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "13",
+      "fmRsvPer": "3",
+      "longTermAdminSym": "24277000038",
+      "maNowPer": "1",
+      "totPer": "70"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "eden121@naver.com",
+      "longTermAdminSym": "24277000038",
+      "pkngEquip": "승용5대 동시주차 (도로변에 주차 가능)임계 초등학교 옆 ",
+      "tfMth": "임계면 중심 터미널서 도보 1분거리에 &quot;에덴음악학원&quot; 과 같은 건물에 &quot;에덴재가복지센터&quot;가 있습니다. ----안녕하세요,에덴재가복지방문요양센터입니다.？저희 센터는 어르신을 내 가족처럼 모시며, 따뜻한 마음과 정성으로 함께하고 있습니다.？돌봄은 단순한 서비스가 아니라, 마음과 마음을 잇는 소중한 만남이라 생각합니다.？가족의 마음으로 항상 곁을 지키며, 어르신의 행복한 일상과 건강한 삶을 위해 최선을 다하겠습니다.？앞으로도 많은 관심과 응원 부탁드립니다. 감사합니다.에덴재가복지센터장 이강재드림"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25177000046",
+    "name": "여량방문요양센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "여량면",
+    "address": "강원특별자치도 정선군 여량면 여량3길 69",
+    "lat": 37.47279876428987,
+    "lng": 128.72516715338475,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "여량방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "370",
+      "gunmulMlno": "69",
+      "gunmulSlno": "0",
+      "HDongCd": "370",
+      "hmPostNo": "26106",
+      "locTelNo_1": "010",
+      "locTelNo_2": "2262",
+      "locTelNo_3": "4521",
+      "longTermAdminSym": "25177000046",
+      "longTermPeribRgtDt": "20231208",
+      "riCd": "21",
+      "roadNmCd": "517704487259",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20231113"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25177000046",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "21",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25177000046",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "25",
+      "longTermAdminSym": "25177000046",
+      "maNowPer": "3",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "blog.naver.com/yoh14100",
+      "longTermAdminSym": "25177000046",
+      "pkngEquip": "3대 주차가능",
+      "tfMth": "여량버스터미널에서 자가용이용 2분, 시내버스 이용2분,  도보 5분거리(329m)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25177000048",
+    "name": "수호천사 방문요양센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "북평면",
+    "address": "강원특별자치도 정선군 북평면 서동로 2049",
+    "lat": 37.45016717273028,
+    "lng": 128.66192225625724,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "수호천사 방문요양센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "340",
+      "gunmulMlno": "2049",
+      "gunmulSlno": "0",
+      "HDongCd": "340",
+      "hmPostNo": "26101",
+      "locTelNo_1": "033",
+      "locTelNo_2": "562",
+      "locTelNo_3": "5640",
+      "longTermAdminSym": "25177000048",
+      "longTermPeribRgtDt": "20250801",
+      "riCd": "22",
+      "roadNmCd": "517703219074",
+      "siDoCd": "51",
+      "siGunGuCd": "770",
+      "stpRptDt": "20250801"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25177000048",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "25",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25177000048",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25177000048",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음.",
+      "longTermAdminSym": "25177000048",
+      "pkngEquip": "일반 승용차  10대 주차 가능",
+      "tfMth": "수호천사는 정선읍에서 레일바이크주차장 가는길 도로변에 있습니다북평면 나전주유소 바로 아래집이며 건물벽면에 수호천사 글자가 새겨져 있습니다"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

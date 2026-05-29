@@ -1,1 +1,885 @@
-[]
+[
+  {
+    "sym": "14281000001",
+    "name": "실버홈노인요양원",
+    "types": [
+      "노인요양시설",
+      "G31"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31"
+    ],
+    "emdNm": "남면",
+    "address": "강원특별자치도 인제군 남면 응봉길 26-33",
+    "lat": 37.925495846343146,
+    "lng": 128.0653080484391,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "실버홈노인요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "310",
+      "detailAddr": "577번지 1호 ",
+      "gunmulMlno": "26",
+      "gunmulSlno": "33",
+      "HDongCd": "310",
+      "hmPostNo": "24652",
+      "locTelNo_1": "033",
+      "locTelNo_2": "462",
+      "locTelNo_3": "9111",
+      "longTermAdminSym": "14281000001",
+      "longTermPeribRgtDt": "20080613",
+      "riCd": "23",
+      "roadNmCd": "518104499155",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20040702"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14281000001",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "20",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "43",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14281000001",
+      "medRoomreal": "2",
+      "ofce": "3",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "3",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "21",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "47",
+      "taxRoom": "3"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "30",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14281000001",
+      "maNowPer": "9",
+      "maRsvPer": "0",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "ijsilverhome.co.kr",
+      "longTermAdminSym": "14281000001",
+      "pkngEquip": "* 원내 주차설비완료",
+      "tfMth": " 대중교통 : 신남에서 시내버스 승차 어론(과훈단길)에서 하차 후 도보로 약 5분정도 소요  자가용 : 서울방면출발시-  동홍천ic -&gt; 속초.인제방향→과훈단교차로 응봉길                                           우회전 →(약200M)실버홈노인요양원               속초방면출발시-  용대로→내설악로→과훈단교차로 응봉길 좌회전                                          →(약200M)실버홈노인요양원                     네비 이용시 실버홈노인요양원 명칭이나 주소                    (구주소 : 강원도 인제군 남면 어론리577-1번지 로 검색)                    (신주소 : 강원도 인제군 남면 응봉길 26-33)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "11000",
+        "prodBase": "1식 3,300원 * (1일) 3식 = 9,900원",
+        "uptDt": "20250923"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1회 500원*(1일) 2회",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "1식 3,000 * (1일) 3식 = 9,000원",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9900",
+        "prodBase": "경관식:(1식) 3,300원*(1일) 3식 = 9,900원",
+        "uptDt": "20250923"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "경관식:(1식) 3,000원*(1일) 3식 = 9,000원",
+        "uptDt": "20240103"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14281000001",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1100",
+        "prodBase": "1회 550원* (1일) 2회",
+        "uptDt": "20250923"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "15181000018",
+    "name": "인제요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "인제읍",
+    "address": "강원특별자치도 인제군 인제읍 인제로178번길 52-3",
+    "lat": 38.0641174552593,
+    "lng": 128.17354588181422,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "인제요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "52",
+      "gunmulSlno": "3",
+      "HDongCd": "250",
+      "hmPostNo": "24634",
+      "locTelNo_1": "033",
+      "locTelNo_2": "461",
+      "locTelNo_3": "8899",
+      "longTermAdminSym": "15181000018",
+      "longTermPeribRgtDt": "20231120",
+      "riCd": "21",
+      "roadNmCd": "518104499168",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20231120"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "15181000018",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "25",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "35",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "15181000018",
+      "medRoomreal": "1",
+      "ofce": "5",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "5",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "25",
+      "prsnRoomreal4": "6",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "4",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "28",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "15181000018",
+      "maNowPer": "19",
+      "maRsvPer": "0",
+      "totPer": "80"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "https://www.ok8899co.kr/",
+      "longTermAdminSym": "15181000018",
+      "pkngEquip": "장애인 전용 주차장 2개, 일반 주차장 20개",
+      "tfMth": "인제시외버스터미널에서 도보 5분 거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "15181000018",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "3500*3",
+        "uptDt": "20260113"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "15181000018",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "10000",
+        "prodBase": "1인실 상급병실료",
+        "uptDt": "20260113"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "15181000018",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "2,000*1회",
+        "uptDt": "20260113"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24281000016",
+    "name": "가가호호케어",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03",
+      "B05"
+    ],
+    "emdNm": "북면",
+    "address": "강원특별자치도 인제군 북면 원통로 372",
+    "lat": 38.130923106847796,
+    "lng": 128.2228858098955,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "가가호호케어",
+      "adminPttnCd": "B01",
+      "BDongCd": "320",
+      "gunmulMlno": "372",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "24615",
+      "locTelNo_1": "033",
+      "locTelNo_2": "461",
+      "locTelNo_3": "6700",
+      "longTermAdminSym": "24281000016",
+      "longTermPeribRgtDt": "20210830",
+      "riCd": "21",
+      "roadNmCd": "518103233019",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20210830"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24281000016",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "69",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24281000016",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24281000016",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "gagahohocare.creatorlink.net/",
+      "longTermAdminSym": "24281000016",
+      "pkngEquip": "가가호호 주간보호센터 뒷편 건물공용주차장 주차시설(지상): 18대(장애인전용포함), 노상주차",
+      "tfMth": "■ 자동차이용▷인제터미널 - 인제교차로에서 '속초, 원통'방면으로 좌회전 - 9.6km이동 후 원통교차로에서 '원통리'방면으로 좌회전 - 207m좌회전▷원통버스터미널 - 원통오거리에서'원통고교'방면으로 회전교차로에서 11시 방향 - 1.8km이동 후 우회전■ 버스이용▷원통버스터미널(5번-진부령, 백담사입구버스)승차 - 한림의원 - 원통 중고등학교 - 원통하차(매일9회) 도보 45m"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24281000016",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1500",
+        "prodBase": "1500원(오전간식750원+오후간식750원)",
+        "uptDt": "20260501"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24281000016",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "prodBase": "3500원(중식2500+석식1000)",
+        "uptDt": "20260501"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24281000016",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20260501"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "25181000017",
+    "name": "내린천노인복지센타",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "인제읍",
+    "address": "강원특별자치도 인제군 인제읍 인제로178번길 10",
+    "lat": 38.067455515794386,
+    "lng": 128.1710183240849,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "내린천노인복지센타",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "gunmulMlno": "10",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24632",
+      "locTelNo_1": "033",
+      "locTelNo_2": "461",
+      "locTelNo_3": "5685",
+      "longTermAdminSym": "25181000017",
+      "longTermPeribRgtDt": "20230927",
+      "riCd": "21",
+      "roadNmCd": "518104499168",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20230927"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25181000017",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "38",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25181000017",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25181000017",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25181000017",
+      "pkngEquip": "인근 공영주차장 이용(시설에서 20m내 위치)",
+      "tfMth": "인제시외버스 터미널에서 도보로 7분 (500m)인제군청에서 도보로 4분(300m)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25181000019",
+    "name": "바른재가센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "기린면",
+    "address": "강원특별자치도 인제군 기린면 내린천로 3965-1",
+    "lat": 37.950211048558046,
+    "lng": 128.31533028527238,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "바른재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "330",
+      "gunmulMlno": "3965",
+      "gunmulSlno": "1",
+      "HDongCd": "330",
+      "hmPostNo": "24661",
+      "locTelNo_1": "033",
+      "locTelNo_2": "461",
+      "locTelNo_3": "7888",
+      "longTermAdminSym": "25181000019",
+      "longTermPeribRgtDt": "20250701",
+      "riCd": "21",
+      "roadNmCd": "518103013018",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20250701"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25181000019",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25181000019",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "5",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "25181000019",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25181000019",
+      "pkngEquip": "있음(5대)",
+      "tfMth": "자가이용"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25181000020",
+    "name": "인제행복재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "인제읍",
+    "address": "강원특별자치도 인제군 인제읍 인제로 213",
+    "lat": 38.069987254328005,
+    "lng": 128.17369681018167,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "인제행복재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "fl": "2",
+      "gunmulMlno": "213",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24631",
+      "locTelNo_1": "033",
+      "locTelNo_2": "463",
+      "locTelNo_3": "6222",
+      "longTermAdminSym": "25181000020",
+      "longTermPeribRgtDt": "20251001",
+      "riCd": "21",
+      "roadNmCd": "518103233020",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20251001"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25181000020",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "48",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25181000020",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25181000020",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "25181000020",
+      "pkngEquip": "센터 앞 대로변 주차라인 내길건너 내설악아파트 옆 공영주차장",
+      "tfMth": "도보 이동시 (약10분 소요)인제터미널 → 인제군청사거리 → 인제중학교 방면 대로변에 위치 자가 이동시 (약2분 소요)인제군청사거리 → 인제중학교 방면 "
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "25181000021",
+    "name": "작은공재가돌봄센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "남면",
+    "address": "강원특별자치도 인제군 남면 응봉길 26-33",
+    "lat": 37.925495846343146,
+    "lng": 128.0653080484391,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "작은공재가돌봄센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "310",
+      "gunmulMlno": "26",
+      "gunmulSlno": "33",
+      "HDongCd": "310",
+      "hmPostNo": "24652",
+      "locTelNo_1": "033",
+      "locTelNo_2": "462",
+      "locTelNo_3": "2687",
+      "longTermAdminSym": "25181000021",
+      "longTermPeribRgtDt": "20260309",
+      "riCd": "23",
+      "roadNmCd": "518104499155",
+      "siDoCd": "51",
+      "siGunGuCd": "810",
+      "stpRptDt": "20260309"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "25181000021",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "25181000021",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "4",
+      "longTermAdminSym": "25181000021",
+      "maNowPer": "4",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "25181000021",
+      "pkngEquip": "주차대수: 30대",
+      "tfMth": "대중교통이용: 신남발 홍천행 시내버스이용가가용이용가능"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

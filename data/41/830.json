@@ -2924,7 +2924,7 @@
     "sym": "14183000003",
     "name": "밝은집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3042,7 +3042,7 @@
     "sym": "14183000006",
     "name": "양평안식관 소규모요양센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3145,7 +3145,7 @@
     "sym": "14183000008",
     "name": "라파엘의집",
     "types": [
-      "A03",
+      "노인요양시설",
       "G31",
       "G32"
     ],
@@ -3316,7 +3316,7 @@
     "sym": "14183000009",
     "name": "양평시온의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3426,7 +3426,7 @@
     "sym": "14183000014",
     "name": "원광보은의집",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -3535,7 +3535,7 @@
     "sym": "14183000018",
     "name": "사랑의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3670,7 +3670,7 @@
     "sym": "14183000021",
     "name": "너싱홈해바라기",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3788,7 +3788,7 @@
     "sym": "14183000075",
     "name": "노블원요양센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3906,7 +3906,7 @@
     "sym": "14183000088",
     "name": "양수우리요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4008,7 +4008,7 @@
     "sym": "14183000094",
     "name": "양평요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4126,7 +4126,7 @@
     "sym": "14183000095",
     "name": "무진노인전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4244,7 +4244,7 @@
     "sym": "14183000101",
     "name": "실로암 평화의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4378,7 +4378,7 @@
     "sym": "14183000102",
     "name": "희원요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4504,7 +4504,7 @@
     "sym": "14183000103",
     "name": "희원노인간호센터",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4630,7 +4630,7 @@
     "sym": "14183000104",
     "name": "느티나무요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -4740,7 +4740,7 @@
     "sym": "14183000119",
     "name": "양평청계노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4856,7 +4856,7 @@
     "sym": "14183000122",
     "name": "늘푸른노인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -4966,7 +4966,7 @@
     "sym": "14183000123",
     "name": "양평시니어센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5091,7 +5091,7 @@
     "sym": "14183000124",
     "name": "양평성모원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5191,7 +5191,7 @@
     "sym": "14183000125",
     "name": "양평군노인요양원",
     "types": [
-      "A03",
+      "노인요양시설",
       "G31"
     ],
     "typeCodes": [
@@ -5351,7 +5351,7 @@
     "sym": "14183000128",
     "name": "무지개공동체",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5469,7 +5469,7 @@
     "sym": "14183000129",
     "name": "올리브요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5608,7 +5608,7 @@
     "sym": "14183000136",
     "name": "둥지원 실버타운",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5726,7 +5726,7 @@
     "sym": "14183000138",
     "name": "마리아의집",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5842,7 +5842,7 @@
     "sym": "14183000145",
     "name": "궁을행복요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -5957,7 +5957,7 @@
     "sym": "14183000146",
     "name": "성요셉마을",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -6065,7 +6065,7 @@
     "sym": "14183000158",
     "name": "서종실버타운요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6191,7 +6191,7 @@
     "sym": "14183000165",
     "name": "성요셉의집",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -6307,7 +6307,7 @@
     "sym": "14183000182",
     "name": "주식회사 장수만세 양평실버타운",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6414,7 +6414,7 @@
     "sym": "14183000185",
     "name": "양평행복한요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6522,7 +6522,7 @@
     "sym": "14183000193",
     "name": "양수힐링센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6630,7 +6630,7 @@
     "sym": "14183000203",
     "name": "양평숲요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6748,7 +6748,7 @@
     "sym": "14183000214",
     "name": "청운 행복한요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6840,7 +6840,7 @@
     "sym": "14183000219",
     "name": "가인요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6965,7 +6965,7 @@
     "sym": "14183000224",
     "name": "휴레스트",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7099,7 +7099,7 @@
     "sym": "14183000227",
     "name": "햇빛촌",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7207,7 +7207,7 @@
     "sym": "14183000231",
     "name": "양평네스트요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7333,7 +7333,7 @@
     "sym": "14183000232",
     "name": "행복한 경희요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7441,7 +7441,7 @@
     "sym": "14183000233",
     "name": "사랑채요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7541,7 +7541,7 @@
     "sym": "14183000241",
     "name": "엘림노인재활요양제일선교센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7667,7 +7667,7 @@
     "sym": "14183000243",
     "name": "굿모닝 요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -7776,7 +7776,7 @@
     "sym": "14183000246",
     "name": "늘사랑라파요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -13226,6 +13226,153 @@
       "adminPttnCd": "B01",
       "longTermAdminSym": "24183000269"
     },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000043",
+    "name": "선한이웃복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000065",
+    "name": "효사랑 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000115",
+    "name": "&quot;&quot;참소망노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000153",
+    "name": "&quot;&quot;(A+)효심청노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34119000161",
+    "name": "성해노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34182000051",
+    "name": "다사랑노인요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34117000050",
+    "name": "사랑샘재가장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   }

@@ -1,1 +1,1422 @@
-[]
+[
+  {
+    "sym": "14219000001",
+    "name": "안식의 집",
+    "types": [
+      "노인요양시설",
+      "M31"
+    ],
+    "typeCodes": [
+      "A03",
+      "M31"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 문화로 25",
+    "lat": 37.16707320431856,
+    "lng": 128.9891489091639,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "안식의 집",
+      "adminPttnCd": "A03",
+      "BDongCd": "101",
+      "detailAddr": "59번지 8호 ",
+      "gunmulMlno": "25",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "26017",
+      "locTelNo_1": "033",
+      "locTelNo_2": "553",
+      "locTelNo_3": "5561",
+      "longTermAdminSym": "14219000001",
+      "longTermPeribRgtDt": "20080605",
+      "riCd": "00",
+      "roadNmCd": "511903222005",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20080530"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14219000001",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "26",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "15",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14219000001",
+      "medRoomreal": "1",
+      "ofce": "2",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "1",
+      "prsnRoomreal2": "6",
+      "prsnRoomreal3": "2",
+      "prsnRoomreal4": "10",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "2",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "42",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14219000001",
+      "maNowPer": "9",
+      "maRsvPer": "0",
+      "totPer": "58"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "https://ansichouse.or.kr",
+      "longTermAdminSym": "14219000001",
+      "pkngEquip": "주차공간 시설내 6대황지중학교앞 공터 15대 가능",
+      "tfMth": "1. 태백역에서 택시로 5분 황지중학교앞 노인요양원 안식의 집2. 태백역에서 장성 및 소도 방향 버스타고 고려의원에서 내려 황지중학교 방향 걸어서 5분주변건물: 하늘어린이집, 황지중학교, 부영아파트"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "M31",
+        "longTermAdminSym": "14219000001",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "3400",
+        "prodBase": "월100,000원",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000001",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "2330",
+        "prodBase": "월70000원",
+        "uptDt": "20260319"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "11500",
+        "prodBase": "(1식3,500원*3식)+간식비1,000원=일 11,500원",
+        "uptDt": "20260319"
+      },
+      {
+        "adminPttnCd": "M31",
+        "longTermAdminSym": "14219000001",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "1식3,500원*3식=일 10,500원",
+        "uptDt": "20240308"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000001",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "3400",
+        "prodBase": "월100,000원",
+        "uptDt": "20260319"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14219000002",
+    "name": "태백노인전문요양원",
+    "types": [
+      "노인요양시설",
+      "G31"
+    ],
+    "typeCodes": [
+      "A03",
+      "G31"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 고요숲길 15",
+    "lat": 37.15345872873084,
+    "lng": 128.97857439595467,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "태백노인전문요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "101",
+      "detailAddr": "421번지 11호 ",
+      "gunmulMlno": "15",
+      "gunmulSlno": "0",
+      "HDongCd": "540",
+      "hmPostNo": "26035",
+      "locTelNo_1": "033",
+      "locTelNo_2": "553",
+      "locTelNo_3": "0982",
+      "longTermAdminSym": "14219000002",
+      "longTermPeribRgtDt": "20080605",
+      "riCd": "00",
+      "roadNmCd": "511904466017",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20021017"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "4",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14219000002",
+      "mgmtPrsn": "1",
+      "nur": "3",
+      "nurArticle": "3",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "31",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "25",
+      "crmnyPrst": "2",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14219000002",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "21",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "19",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "61",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "14219000002",
+      "maNowPer": "10",
+      "maRsvPer": "0",
+      "totPer": "78"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "www.tbnoin.or.kr",
+      "longTermAdminSym": "14219000002",
+      "pkngEquip": "◎요양원 앞마당 / 장애인차량 2대, 일반차량 12대주차 가능◎요양원 식당앞(아래마당) / 일반차량 4대주차 가능◎요양원 후문쪽 도로 건너편 / 일반차량 10대주차 가능",
+      "tfMth": "☞ 서울 → 고한, 사북 → 두문동재 → 태백→ 우회도로 따라 직진 → 첫 번째 육교 후  500m지나 → 우회전(도로면에 관광대입구표시) → 철길건널목 지나 좌회전, 100m지점에서 다시 우회전 → 교차로(오투리조트 조형물) 지나  → 1km전방 좌측 산기슭 입구       ☞ 서울→ 영월, 상동 → 어평재 → 당골유원지입구 지나 → 약3km 지점에서 좌회전(함태중학교입구) → 첫 번 교차로지나 작은 언덕길 따라 계속 직진 → 언덕길 넘은 후 교차로(오투리조트조형물)에서 좌회전 → 1km 전방 좌측 산기슭 입구  ☞ 강릉 → 동해, 삼척 → 통리재 → 태백 → 시장입구 교차로에서 좌회전 → 우회도로 따라 직진 → 첫 번째 육교 후 500m지나 우회전(도로면에 강원관광대학 입구표시) → 철길건널목 지나 좌회전, 100m지점에서 다시 우회전 →교차로 (오투리조트 조형물) 지나 → 1km 전방 좌측 산기슭 입구       ☞ 강릉 → 하장, 임계 → 피재 → 태백 →우회도로진입 교차로에서 좌회전→ 우회도로 따라 직진 → 시 장 → 첫번째 육교 후 500m지나 우회전(도로면에 강원관광대학 입구표시) → 철길건널목 지나 좌회전, 100m지점에서 다시 우회전→ 교차로(오투리조트 조형물) 지나  → 1km 전방 좌측 산기슭 입구    ☞ 안동, 대구 → 장성→ 태백 → 태백소방서 위쪽에서 좌회전(강원관광대학입구 표지판) → 철길건널목 지나 좌회전, 100m지점에서 다시 우회전  → 교차로(오투리조트 조형물) 지나  → 1km 전방 좌측 산기슭 입구      ※ 태백버스터미널, 열차역에서 약15분거리 (택시요금 약 5,000원)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000002",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료",
+        "uptDt": "20260325"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "1식*3,500원",
+        "uptDt": "20260325"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000002",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 1,000원",
+        "uptDt": "20260325"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14219000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "3,500원 * 3식",
+        "uptDt": "20260325"
+      },
+      {
+        "adminPttnCd": "G31",
+        "longTermAdminSym": "14219000002",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 1,000원",
+        "uptDt": "20260325"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14219000003",
+    "name": "태백시실버요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "문곡동",
+    "address": "강원특별자치도 태백시 황장목이길 25",
+    "lat": 37.130904960155085,
+    "lng": 129.0031191389582,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "태백시실버요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "105",
+      "gunmulMlno": "25",
+      "gunmulSlno": "0",
+      "HDongCd": "585",
+      "hmPostNo": "26044",
+      "locTelNo_1": "033",
+      "locTelNo_2": "552",
+      "locTelNo_3": "9118",
+      "longTermAdminSym": "14219000003",
+      "longTermPeribRgtDt": "20080605",
+      "riCd": "00",
+      "roadNmCd": "511904466241",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20071221"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14219000003",
+      "mgmtPrsn": "1",
+      "nur": "1",
+      "nurArticle": "3",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "28",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "24",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14219000003",
+      "medRoomreal": "2",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "12",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "12",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "27",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "45",
+      "longTermAdminSym": "14219000003",
+      "maNowPer": "11",
+      "maRsvPer": "1",
+      "totPer": "70"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "http://www.tbsilver.kr",
+      "longTermAdminSym": "14219000003",
+      "pkngEquip": "☞ 요양원 앞으로 일반주차 30개, 장애인주차 3개",
+      "tfMth": "☞ 서울 → 고한, 사북 → 두문동재 → 태백→ 우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 태백시실버요양원으로 표기) ☞ 서울→ 영월, 상동 → 어평재 → 당골유원지입구 지나 → 육교에서 장성방향으로 우회전 → 태백종합경기장 500m지나 → 우회전(도로표지에 태백시실버요양원 표시) ☞ 강릉 → 동해, 삼척 → 통리재 → 태백 → 시장입구 교차로에서 좌회전 →우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 태백시실버요양원 표시) ☞ 강릉 → 하장, 임계 → 피재 → 태백 → 우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 종합실버복지타운 표시) ☞ 안동, 대구 → 장성→ 황지  →우회도로 따라 황지 방향으로 직진 → 우영아파트 1,000m지나 → 좌회전(도로표지에 태백시실버요양원 표시) ※ 태백버스터미널, 열차역에서 약20분거리 (택시요금 약 6,000원)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000003",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "무료지원",
+        "uptDt": "20241206"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000003",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "2000",
+        "prodBase": "1,000원×2회",
+        "uptDt": "20241206"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000003",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "2,000원×4캔",
+        "uptDt": "20241206"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14219000003",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "3,500원×3식",
+        "uptDt": "20241206"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24219000005",
+    "name": "태백노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 황지로 99",
+    "lat": 37.16768548616467,
+    "lng": 128.9917348793777,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "태백노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "101",
+      "fl": "1, 3",
+      "gunmulMlno": "99",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "26015",
+      "locTelNo_1": "033",
+      "locTelNo_2": "553",
+      "locTelNo_3": "9425",
+      "longTermAdminSym": "24219000005",
+      "longTermPeribRgtDt": "20080701",
+      "riCd": "00",
+      "roadNmCd": "511903222013",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20040915"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000005",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "38",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000005",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24219000005"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "tbno9425@daum.net",
+      "longTermAdminSym": "24219000005",
+      "pkngEquip": "건물옆쪽 주차공간 있음건물 뒤쪽 골목에 주차공간 많음",
+      "tfMth": "대중교통이용시-서울공업사 앞 하차서울공업사에서 고려의원 방향 진피부과 맞은편3층"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000019",
+    "name": "햇빛나눔노인복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "H31"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03",
+      "H31"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 서학1길 23-22",
+    "lat": 37.15524112785101,
+    "lng": 128.97960537680183,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "햇빛나눔노인복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "101",
+      "gunmulMlno": "23",
+      "gunmulSlno": "22",
+      "HDongCd": "540",
+      "hmPostNo": "26035",
+      "locTelNo_1": "033",
+      "locTelNo_2": "552",
+      "locTelNo_3": "1272",
+      "longTermAdminSym": "24219000019",
+      "longTermPeribRgtDt": "20150701",
+      "riCd": "00",
+      "roadNmCd": "511904466107",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20150701"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000019",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "30",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000019",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "45",
+      "longTermAdminSym": "24219000019",
+      "maNowPer": "9",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "https://햇빛나눔노인복지센터.kr",
+      "longTermAdminSym": "24219000019",
+      "pkngEquip": "승합차 1대 및 승용차 2대 주차 가능함. ",
+      "tfMth": "태백버스터미널 기준  : 태백터미널에서 서학골 오는 버스를 타고 버스 종점에서 하차하여 오투 리조트 방향으로 150M에 위치함. 승용차 기준 : 태백시청을 지나 원마트에서 오투 리조트 방향으로 1KM에 위치하며 강산막국수를 지나 함평냉면 뒤에 위치함."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24219000019",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "1식 식대(간식포함)",
+        "uptDt": "20260108"
+      },
+      {
+        "adminPttnCd": "H31",
+        "longTermAdminSym": "24219000019",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4000",
+        "prodBase": "1식 식대(간식포함)",
+        "uptDt": "20251029"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24219000021",
+    "name": "다같이효종합복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호",
+      "방문간호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03",
+      "B05"
+    ],
+    "emdNm": "장성동",
+    "address": "강원특별자치도 태백시 보드미길 40",
+    "lat": 37.101453053789996,
+    "lng": 129.00689673306775,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "다같이효종합복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "102",
+      "fl": "2층",
+      "gunmulMlno": "40",
+      "gunmulSlno": "0",
+      "HDongCd": "595",
+      "hmPostNo": "26052",
+      "locTelNo_1": "033",
+      "locTelNo_2": "554",
+      "locTelNo_3": "0708",
+      "longTermAdminSym": "24219000021",
+      "longTermPeribRgtDt": "20150701",
+      "riCd": "00",
+      "roadNmCd": "511904466075",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20150701"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000021",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "32",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000021",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "0",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24219000021",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "다같이효종합복지센터.kr",
+      "longTermAdminSym": "24219000021",
+      "pkngEquip": "장애인주차시설외20대 주차가능",
+      "tfMth": "장성시내방향 시내버스 모두적용장성경찰서뒤 300m 근로자종합복지관2층다같이효종합복지센터"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24219000021",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4500",
+        "prodBase": "4500원(중식)",
+        "uptDt": "20260421"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24219000021",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "2500(석식)",
+        "uptDt": "20260421"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24219000023",
+    "name": "가족희망복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "장성동",
+    "address": "강원특별자치도 태백시 태백로 2120",
+    "lat": 37.095326571115244,
+    "lng": 129.02674945383498,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "가족희망복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "102",
+      "gunmulMlno": "2120",
+      "gunmulSlno": "0",
+      "HDongCd": "605",
+      "hmPostNo": "26047",
+      "locTelNo_1": "033",
+      "locTelNo_2": "552",
+      "locTelNo_3": "7622",
+      "longTermAdminSym": "24219000023",
+      "longTermPeribRgtDt": "20150701",
+      "riCd": "00",
+      "roadNmCd": "511903000156",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20150701"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000023",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "29",
+      "recuProt_2": "1",
+      "socWel": "2",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000023",
+      "medRoomreal": "0",
+      "ofce": "66",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "33",
+      "longTermAdminSym": "24219000023",
+      "maNowPer": "14",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24219000023",
+      "pkngEquip": "*약 10 대 주차 가능",
+      "tfMth": " 대중교통 이용시  메밀뜰에서 하차  시내에서 장성 , 철암을  경유하는 버스 이용 가능. 승용차이용시: 구운전면허학원자리 또는 금강주유소 옆"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000024",
+    "name": "은초롱재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 황지로 93",
+    "lat": 37.167157288595796,
+    "lng": 128.99180960705056,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "은초롱재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "101",
+      "fl": "3",
+      "gunmulMlno": "93",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "26015",
+      "locTelNo_1": "033",
+      "locTelNo_2": "553",
+      "locTelNo_3": "6078",
+      "longTermAdminSym": "24219000024",
+      "longTermPeribRgtDt": "20150702",
+      "riCd": "00",
+      "roadNmCd": "511903222013",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20150702"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000024",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "50",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000024",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "76",
+      "longTermAdminSym": "24219000024",
+      "maNowPer": "19",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "www.은초롱재가복지센터.kr",
+      "longTermAdminSym": "24219000024",
+      "pkngEquip": "◇ 건물뒤편 주차장 이용◇ 건물 앞쪽 노상주차장 이용 가능",
+      "tfMth": "◇ 황지지구대 건너편(태백 문민규 정형외과 앞)   - 국민연금 태백지사 옆"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000029",
+    "name": "다사랑복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 태백로 1198",
+    "lat": 37.15144185801775,
+    "lng": 128.99062672841904,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "다사랑복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "101",
+      "gunmulMlno": "1198",
+      "gunmulSlno": "0",
+      "HDongCd": "540",
+      "hmPostNo": "26039",
+      "locTelNo_1": "033",
+      "locTelNo_2": "552",
+      "locTelNo_3": "3993",
+      "longTermAdminSym": "24219000029",
+      "longTermPeribRgtDt": "20170824",
+      "riCd": "00",
+      "roadNmCd": "511903000156",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20170824"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000029",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "9",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000029",
+      "medRoomreal": "0",
+      "ofce": "32",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "18",
+      "longTermAdminSym": "24219000029",
+      "maNowPer": "8",
+      "totPer": "70"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "24219000029",
+      "pkngEquip": "정문 앞쪽으로 주차가능",
+      "tfMth": "1) 시내버스이용- 터미널에서 10분거리(상장중학교에서 내리셔서 윗쪽으로 30m)2) 개인차량이용- 문곡역앞 맞은편(태백도서관에서 구도로로 차량이동시 2분거리)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000032",
+    "name": "동행재가복지센터",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "황지동",
+    "address": "강원특별자치도 태백시 문화로 67",
+    "lat": 37.166602403976,
+    "lng": 128.99352582126056,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "동행재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "101",
+      "fl": "1",
+      "gunmulMlno": "67",
+      "gunmulSlno": "0",
+      "HDongCd": "515",
+      "hmPostNo": "26014",
+      "locTelNo_1": "033",
+      "locTelNo_2": "552",
+      "locTelNo_3": "3455",
+      "longTermAdminSym": "24219000032",
+      "longTermPeribRgtDt": "20191113",
+      "riCd": "00",
+      "roadNmCd": "511903222005",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20191113"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000032",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "39",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000032",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24219000032",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "태백시 문화로 67, 1층",
+      "longTermAdminSym": "24219000032",
+      "pkngEquip": "건물 우측, 좌측 각각 2면 가능",
+      "tfMth": "버스정류장: 문민규 정형외과에서 내려 200m"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000035",
+    "name": "태백누리재가복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "B01"
+    ],
+    "emdNm": "화전동",
+    "address": "강원특별자치도 태백시 외솔배기길 107",
+    "lat": 37.179672384615465,
+    "lng": 128.97726265154594,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "태백누리재가복지센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "109",
+      "gunmulMlno": "107",
+      "gunmulSlno": "0",
+      "HDongCd": "535",
+      "hmPostNo": "26005",
+      "locTelNo_1": "033",
+      "locTelNo_2": "581",
+      "locTelNo_3": "8400",
+      "longTermAdminSym": "24219000035",
+      "longTermPeribRgtDt": "20220125",
+      "riCd": "00",
+      "roadNmCd": "511904466155",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20220125"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000035",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "15",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000035",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "32",
+      "longTermAdminSym": "24219000035",
+      "maNowPer": "7",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "없음.",
+      "longTermAdminSym": "24219000035",
+      "pkngEquip": "공영주차장 이용",
+      "tfMth": "외솔배기길 107 - 태백버스터미널에서 도보로 900m.- 대중교통 11.12번 버스를 타고 강원연탄에서 하차 (배차간격 평일 8회)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24219000036",
+    "name": "태백시실버주야간보호센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "문곡동",
+    "address": "강원특별자치도 태백시 황장목이길 25-1",
+    "lat": 37.13064262986841,
+    "lng": 129.0030401105325,
+    "general": {
+      "adminFdatType": "2",
+      "adminNm": "태백시실버주야간보호센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "105",
+      "gunmulMlno": "25",
+      "gunmulSlno": "1",
+      "HDongCd": "585",
+      "hmPostNo": "26044",
+      "locTelNo_1": "033",
+      "locTelNo_2": "582",
+      "locTelNo_3": "9118",
+      "longTermAdminSym": "24219000036",
+      "longTermPeribRgtDt": "20220209",
+      "riCd": "00",
+      "roadNmCd": "511904466241",
+      "siDoCd": "51",
+      "siGunGuCd": "190",
+      "stpRptDt": "20220204"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24219000036",
+      "mgmtPrsn": "0",
+      "nur": "1",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "1",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "5",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "2",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "2",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24219000036",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "21",
+      "longTermAdminSym": "24219000036",
+      "maNowPer": "4",
+      "totPer": "40"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http//태백시실버주야간보호센터.kr",
+      "longTermAdminSym": "24219000036",
+      "pkngEquip": "☞ 태백시실버요양원(모기관) 앞으로 일반주차 30개, 장애인주차 3개 ",
+      "tfMth": "☞ 서울 → 고한, 사북 → 두문동재 → 태백→ 우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 종합실버복지타운 표시) ☞ 서울→ 영월, 상동 → 어평재 → 당골유원지입구 지나 → 육교에서 장성방향으로 우회전 → 태백종합경기장 500m지나 → 우회전(도로표지에 종합실버복지타운 표시) ☞ 강릉 → 동해, 삼척 → 통리재 → 태백 → 시장입구 교차로에서 좌회전 →우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 종합실버복지타운 표시) ☞ 강릉 → 하장, 임계 → 피재 → 태백 → 우회도로 따라 장성 방향으로 직진 → 태백종합경기장 500m지나 → 우회전(도로표지에 종합실버복지타운 표시) ☞ 안동, 대구 → 장성→ 황지 →우회도로 따라 황지 방향으로 직진 → 우영아파트 1,000m지나 → 좌회전(도로표지에 종합실버복지타운 표시) ※ 태백버스터미널, 열차역에서 약20분거리 (택시요금 약 6,000원)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24219000036",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원×1회",
+        "uptDt": "20250605"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24219000036",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "8000",
+        "prodBase": "4,000원×1회(중식, 석식-별도 요청시 조식 가능))",
+        "uptDt": "20250605"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

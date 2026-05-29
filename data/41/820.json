@@ -12,85 +12,15 @@
       "C02",
       "C05"
     ],
-    "emdNm": "청평면",
-    "address": "경기도 가평군 청평면 청평중앙로 35",
-    "lat": 37.7373658392937,
-    "lng": 127.418597431776,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "마음자리 방문간호센터",
-      "adminPttnCd": "C01",
-      "BDongCd": "325",
-      "gunmulMlno": "35",
-      "gunmulSlno": "0",
-      "HDongCd": "325",
-      "hmPostNo": "12452",
-      "locTelNo_1": "031",
-      "locTelNo_2": "584",
-      "locTelNo_3": "1407",
-      "longTermAdminSym": "34182000061",
-      "longTermPeribRgtDt": "20140501",
-      "riCd": "00",
-      "roadNmCd": "418203216042",
-      "siDoCd": "41",
-      "siGunGuCd": "820",
-      "stpRptDt": "20140501"
-    },
-    "staff": {
-      "adminPttnCd": "C01",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "0",
-      "dent": "0",
-      "equipLong": "2",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "34182000061",
-      "mgmtPrsn": "0",
-      "nur": "1",
-      "nurArticle": "0",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "98",
-      "recuProt_2": "0",
-      "socWel": "4",
-      "suppPrsn": "0",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "C01",
-      "batRoom": "0",
-      "crmnyPrst": "0",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "34182000061",
-      "medRoomreal": "0",
-      "ofce": "1",
-      "pgmRoomreal": "0",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "0",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "0",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "C01",
-      "fmRsvPer": "0",
-      "longTermAdminSym": "34182000061",
-      "maRsvPer": "0",
-      "totPer": "0"
-    },
-    "etc": {
-      "adminPttnCd": "C01",
-      "hmpgAddr": "https://blog.naver.com/ttengii",
-      "longTermAdminSym": "34182000061",
-      "pkngEquip": "자가용을 이용하여 내원 하시는 경우 1. 셀프빨래방 맞은편 공영주차장 무료주차 가능.2. 센터건물 맞은편 통신사 골목에  무료주차 가능. ",
-      "tfMth": "청평 버스터미널에서 서울 방향 으로 도보 5분 거리 ( 청평파출소 옆 2층 건물 )청평역에서 하차후 청평 농협 방면으로 도보 15분 거리에 위치 ( 청평파추로 옆 2 층 건물 )"
-    },
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
     "nonBenefit": [],
     "welfare": []
   },
@@ -103,96 +33,16 @@
     "typeCodes": [
       "C03"
     ],
-    "emdNm": "상면",
-    "address": "경기도 가평군 상면 기와집길 10",
-    "lat": 37.8055294526606,
-    "lng": 127.355745665196,
-    "general": {
-      "adminFdatType": "4",
-      "adminNm": "생명의빛주간보호센터",
-      "adminPttnCd": "C03",
-      "BDongCd": "330",
-      "gunmulMlno": "10",
-      "gunmulSlno": "0",
-      "HDongCd": "330",
-      "hmPostNo": "12444",
-      "locTelNo_1": "031",
-      "locTelNo_2": "585",
-      "locTelNo_3": "2009",
-      "longTermAdminSym": "34182000063",
-      "longTermPeribRgtDt": "20141103",
-      "riCd": "00",
-      "roadNmCd": "418204448025",
-      "siDoCd": "41",
-      "siGunGuCd": "820",
-      "stpRptDt": "20141103"
-    },
-    "staff": {
-      "adminPttnCd": "C03",
-      "chargeDoc": "0",
-      "chrgDoc": "0",
-      "cook": "1",
-      "dent": "0",
-      "equipLong": "2",
-      "etcPer": "0",
-      "hdOfce": "0",
-      "hygiPrsn": "0",
-      "longTermAdminSym": "34182000063",
-      "mgmtPrsn": "0",
-      "nur": "0",
-      "nurArticle": "1",
-      "nut": "0",
-      "ofceEmp": "0",
-      "physicalMTret": "0",
-      "recuProtDelay": "0",
-      "recuProt_1": "3",
-      "recuProt_2": "0",
-      "socWel": "0",
-      "suppPrsn": "1",
-      "wrkMTret": "0"
-    },
-    "facility": {
-      "adminPttnCd": "C03",
-      "batRoom": "4",
-      "crmnyPrst": "1",
-      "funcTrnRoomreal": "0",
-      "longTermAdminSym": "34182000063",
-      "medRoomreal": "0",
-      "ofce": "1",
-      "pgmRoomreal": "1",
-      "prsnRoomreal1": "0",
-      "prsnRoomreal2": "0",
-      "prsnRoomreal3": "0",
-      "prsnRoomreal4": "1",
-      "spcAcupRoomreal": "0",
-      "taxPageLong": "4",
-      "taxRoom": "0"
-    },
-    "capacity": {
-      "adminPttnCd": "C03",
-      "fmNowPer": "7",
-      "longTermAdminSym": "34182000063",
-      "maNowPer": "2",
-      "maRsvPer": "1",
-      "totPer": "9"
-    },
-    "etc": {
-      "adminPttnCd": "C03",
-      "hmpgAddr": "없음",
-      "longTermAdminSym": "34182000063",
-      "pkngEquip": "일반주차장2대, 장애인1대",
-      "tfMth": "청량리. 청평 1330-4. 1330-44.   춘천-의정부. 춘천-철원 . 연하리에서 하차"
-    },
-    "nonBenefit": [
-      {
-        "adminPttnCd": "C03",
-        "longTermAdminSym": "34182000063",
-        "nonpayKind": "1",
-        "nonpayTgtAmt": "12000",
-        "prodBase": "1식4000",
-        "uptDt": "20260402"
-      }
-    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
     "welfare": []
   },
   {
@@ -1650,7 +1500,7 @@
     "sym": "14182000123",
     "name": "상면효사랑요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -1752,7 +1602,7 @@
     "sym": "14182000136",
     "name": "청평설악요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -1851,7 +1701,7 @@
     "sym": "14182000139",
     "name": "가평효사랑요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -1952,7 +1802,7 @@
     "sym": "14182000146",
     "name": "다일숲속요양원",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -2038,7 +1888,7 @@
     "sym": "14182000006",
     "name": "샘물복지타운",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2148,7 +1998,7 @@
     "sym": "14182000010",
     "name": "백둔리상신노인전문요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2275,7 +2125,7 @@
     "sym": "14182000011",
     "name": "열린복지랜드 웰빙요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2394,7 +2244,7 @@
     "sym": "14182000012",
     "name": "가평꽃동네노인요양시설(평화의집)",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2512,7 +2362,7 @@
     "sym": "14182000014",
     "name": "가평사랑의요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2623,7 +2473,7 @@
     "sym": "14182000018",
     "name": "한솔너싱홈청평센터",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2750,7 +2600,7 @@
     "sym": "14182000046",
     "name": "이레요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -2882,7 +2732,7 @@
     "sym": "14182000062",
     "name": "노인요양 생명의빛",
     "types": [
-      "A04"
+      "노인요양공동생활가정"
     ],
     "typeCodes": [
       "A04"
@@ -2982,7 +2832,7 @@
     "sym": "14182000099",
     "name": "설악양지노인요양원",
     "types": [
-      "A03",
+      "노인요양시설",
       "G31"
     ],
     "typeCodes": [
@@ -3126,7 +2976,7 @@
     "sym": "14182000104",
     "name": "해암요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3244,7 +3094,7 @@
     "sym": "14182000108",
     "name": "정다운요양원",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -3362,7 +3212,7 @@
     "sym": "14182000121",
     "name": "우남 휴 드림케어",
     "types": [
-      "A03"
+      "노인요양시설"
     ],
     "typeCodes": [
       "A03"
@@ -6097,12 +5947,140 @@
     "welfare": []
   },
   {
+    "sym": "34173000043",
+    "name": "선한이웃복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34173000065",
+    "name": "효사랑 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000115",
+    "name": "&quot;&quot;참소망노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34111000153",
+    "name": "&quot;&quot;(A+)효심청노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34119000161",
+    "name": "성해노인복지센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
     "sym": "34182000051",
     "name": "다사랑노인요양센터",
     "types": [
-      "방문요양"
+      null
     ],
-    "typeCodes": [],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34117000050",
+    "name": "사랑샘재가장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
     "emdNm": "",
     "address": "",
     "lat": null,

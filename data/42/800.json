@@ -1,1 +1,1034 @@
-[]
+[
+  {
+    "sym": "14280000011",
+    "name": "아름다운동행요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "국토정중앙면",
+    "address": "강원특별자치도 양구군 국토정중앙면 정중앙로 294",
+    "lat": 38.08288707150179,
+    "lng": 128.02330548258024,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "아름다운동행요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "315",
+      "gunmulMlno": "294",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "24556",
+      "locTelNo_1": "033",
+      "locTelNo_2": "481",
+      "locTelNo_3": "2408",
+      "longTermAdminSym": "14280000011",
+      "longTermPeribRgtDt": "20080630",
+      "riCd": "28",
+      "roadNmCd": "518003232015",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20080630"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14280000011",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "0",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "22",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "6",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14280000011",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "18",
+      "prsnRoomreal3": "3",
+      "prsnRoomreal4": "1",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "31",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14280000011",
+      "maNowPer": "15",
+      "maRsvPer": "1",
+      "totPer": "49"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "https://cafe.naver.com/ygbdh",
+      "longTermAdminSym": "14280000011",
+      "pkngEquip": "20대",
+      "tfMth": "국토정중앙면과 동면으로 왕복하는 버스 1시간마다 이용가능 (요양시설 앞 도로 승하차 가능)삼성화재 배상책임보험 가입가입기간 2026-07-01 ~ 2027-07-01"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000011",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "간식1,000원 * 1일 * 1식 =1,000원",
+        "uptDt": "20260123"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000011",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "6000",
+        "prodBase": "경관유동식 1,500원 * 1일 4식 = 6,000원",
+        "uptDt": "20260123"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000011",
+        "nonpayKind": "4",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20260123"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000011",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "주부식비 3,000원 * 1일 * 3식 = 9,000원",
+        "uptDt": "20260123"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000011",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20260123"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14280000013",
+    "name": "성심노인전문요양원행복한사람들",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "양구읍",
+    "address": "강원특별자치도 연천군",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "성심노인전문요양원행복한사람들",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "gunmulMlno": "160",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24545",
+      "locTelNo_1": "033",
+      "locTelNo_2": "480",
+      "locTelNo_3": "8880",
+      "longTermAdminSym": "14280000013",
+      "longTermPeribRgtDt": "20100204",
+      "riCd": "00",
+      "roadNmCd": "518003232017",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20100203"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "3",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "1",
+      "hygiPrsn": "1",
+      "longTermAdminSym": "14280000013",
+      "mgmtPrsn": "1",
+      "nur": "0",
+      "nurArticle": "2",
+      "nut": "1",
+      "ofceEmp": "1",
+      "physicalMTret": "1",
+      "recuProtDelay": "0",
+      "recuProt_1": "28",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "5",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14280000013",
+      "medRoomreal": "2",
+      "ofce": "1",
+      "pgmRoomreal": "2",
+      "prsnRoomreal1": "1",
+      "prsnRoomreal2": "1",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "14",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "5",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "39",
+      "fmRsvPer": "3",
+      "longTermAdminSym": "14280000013",
+      "maNowPer": "16",
+      "maRsvPer": "2",
+      "totPer": "60"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "www.happysilvers.co.kr",
+      "longTermAdminSym": "14280000013",
+      "pkngEquip": "본원 건물 뒤편에 주차시설 보유하고 있으며, 양구경찰서 주차장 이용할 수 있습니다",
+      "tfMth": "[대중교통]    ※ 서울에서 찾아오실 때       동서울 or 상봉터미널 → 양구터미널 → 양구경찰서 방향으로 도보150m 이동 → 성심노인전문요양원 행복한 사람들    ※ 경춘선(전철)이용시       경춘선을 타고 남춘천 및 춘천역에서 양구 경유 시외버스 이용가능    ※ ITX 청춘열차이용시       경춘선과 같은 경로이나 쾌속으로 운행하여 서울에서 1시간 정도 소요되며  남춘천역이나 춘천역에서 양구경유 시외버스이용    ※ 지방에서 찾아오실 때      각 지역 버스터미널 → 춘천 OR 원주 버스터미널 → 양구터미널 → 성심노인전문요양원 행복한 사람들    [자가용(네비게이션 이용 시)]   ※ 동서울 → 구리시 → 서울춘천고속도로 → 양구방향 → 성심노인전문요양원 행복한 사람들"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000013",
+        "nonpayKind": "2",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "1인실 1일 이용료: 5,000원",
+        "uptDt": "20260406"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000013",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "3600",
+        "prodBase": "경관유동식 1캔 :1,200원×3캔",
+        "uptDt": "20260406"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000013",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일 비용: 1,000원 × 1회",
+        "uptDt": "20260406"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000013",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "10500",
+        "prodBase": "1일 비용: 3,500원 × 3식",
+        "uptDt": "20260406"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14280000017",
+    "name": "사랑의 집",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "양구읍",
+    "address": "강원특별자치도 양구군 양구읍 성곡로 182",
+    "lat": 38.133431308963345,
+    "lng": 127.98883559220127,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "사랑의 집",
+      "adminPttnCd": "A03",
+      "BDongCd": "250",
+      "detailAddr": "476번지 4호 ",
+      "gunmulMlno": "182",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24514",
+      "locTelNo_1": "033",
+      "locTelNo_2": "481",
+      "locTelNo_3": "0945",
+      "longTermAdminSym": "14280000017",
+      "longTermPeribRgtDt": "20101203",
+      "riCd": "34",
+      "roadNmCd": "518003232009",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20101130"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14280000017",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "3",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "6",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14280000017",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "4",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "3",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "16",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14280000017",
+      "maNowPer": "0",
+      "maRsvPer": "0",
+      "totPer": "20"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "없음",
+      "longTermAdminSym": "14280000017",
+      "pkngEquip": "시설주차장 20대가능",
+      "tfMth": "※ 양구시내에서 차로 5분거리 (자차이용) ※ 대중교통은 양구터미널에서 고대리방향 일일4회 운행"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000017",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "1일9,000원",
+        "uptDt": "20260106"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000017",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "오전500원, 오후500원",
+        "uptDt": "20260106"
+      },
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000017",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "1일9,000원",
+        "uptDt": "20260106"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14280000021",
+    "name": "양구노인전문요양원",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "동면",
+    "address": "강원특별자치도 연천군",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "양구노인전문요양원",
+      "adminPttnCd": "A03",
+      "BDongCd": "320",
+      "gunmulMlno": "247",
+      "gunmulSlno": "0",
+      "HDongCd": "320",
+      "hmPostNo": "24511",
+      "locTelNo_1": "033",
+      "locTelNo_2": "481",
+      "locTelNo_3": "8996",
+      "longTermAdminSym": "14280000021",
+      "longTermPeribRgtDt": "20150506",
+      "riCd": "00",
+      "roadNmCd": "518003232010",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20150506"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "1",
+      "chrgDoc": "0",
+      "cook": "2",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14280000021",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "10",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14280000021",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "9",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "11",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "11",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14280000021",
+      "maNowPer": "8",
+      "totPer": "29"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "cafe.naver.com/didshwjs",
+      "longTermAdminSym": "14280000021",
+      "pkngEquip": "주차장 완비",
+      "tfMth": "양구읍 소재지에서 20분 소요.31번 국도에서 5분 소요되는 곳에 위치.(양구 수목원 인근)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14280000021",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "(1식 × 3,000원) × 3식(1일) × 31일",
+        "uptDt": "20260120"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "14280000024",
+    "name": "카네이션요양원",
+    "types": [
+      "노인요양공동생활가정"
+    ],
+    "typeCodes": [
+      "A04"
+    ],
+    "emdNm": "국토정중앙면",
+    "address": "강원특별자치도 양구군 국토정중앙면 정중앙로 195",
+    "lat": 38.07967575666101,
+    "lng": 128.01741918288334,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "카네이션요양원",
+      "adminPttnCd": "A04",
+      "BDongCd": "315",
+      "gunmulMlno": "195",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "24556",
+      "locTelNo_1": "033",
+      "locTelNo_2": "482",
+      "locTelNo_3": "3432",
+      "longTermAdminSym": "14280000024",
+      "longTermPeribRgtDt": "20210101",
+      "riCd": "28",
+      "roadNmCd": "518003232015",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20210101"
+    },
+    "staff": {
+      "adminPttnCd": "A04",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14280000024",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A04",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "14280000024",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "2",
+      "prsnRoomreal2": "2",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A04",
+      "fmNowPer": "7",
+      "fmRsvPer": "2",
+      "longTermAdminSym": "14280000024",
+      "maNowPer": "2",
+      "maRsvPer": "1",
+      "totPer": "9"
+    },
+    "etc": {
+      "adminPttnCd": "A04",
+      "longTermAdminSym": "14280000024",
+      "pkngEquip": "장애인전용주차구역 2대일반차량 20대",
+      "tfMth": "버스 : 양구읍에서 남면 동면발 버스 1시간마다 남면터니널 방향 도촌초등학교 200m자가용 : 양구시내에서 5분거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14280000024",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원*1식",
+        "uptDt": "20260119"
+      },
+      {
+        "adminPttnCd": "A04",
+        "longTermAdminSym": "14280000024",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "9000",
+        "prodBase": "3,000원*3식",
+        "uptDt": "20260119"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24280000001",
+    "name": "사랑의 집",
+    "types": [
+      "방문요양",
+      "방문목욕"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02"
+    ],
+    "emdNm": "양구읍",
+    "address": "강원특별자치도 양구군 양구읍 성곡로 182",
+    "lat": 38.133431308963345,
+    "lng": 127.98883559220127,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "사랑의 집",
+      "adminPttnCd": "B01",
+      "BDongCd": "250",
+      "detailAddr": "476번지 4호 ",
+      "gunmulMlno": "182",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24514",
+      "locTelNo_1": "033",
+      "locTelNo_2": "482",
+      "locTelNo_3": "0230",
+      "longTermAdminSym": "24280000001",
+      "longTermPeribRgtDt": "20080701",
+      "riCd": "34",
+      "roadNmCd": "518003232009",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20061012"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24280000001",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "38",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "1",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24280000001",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24280000001"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "양구사랑나눔복지회(복지법인) http://band/n/a5abz582e121K  밴드명 검색",
+      "longTermAdminSym": "24280000001",
+      "pkngEquip": "공용주차시설 완비",
+      "tfMth": "자가용 또는 버스로춘천에서40분 소요홍천에서 1시간20분 입니다.(재가요양 사무실: 한반도 섬 근처 위치)"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "24280000012",
+    "name": "아름다운동행재가센터",
+    "types": [
+      "방문요양",
+      "방문목욕",
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "emdNm": "국토정중앙면",
+    "address": "강원특별자치도 양구군 국토정중앙면 정중앙로 294",
+    "lat": 38.08288707150179,
+    "lng": 128.02330548258024,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "아름다운동행재가센터",
+      "adminPttnCd": "B01",
+      "BDongCd": "315",
+      "gunmulMlno": "294",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "24556",
+      "locTelNo_1": "033",
+      "locTelNo_2": "481",
+      "locTelNo_3": "2408",
+      "longTermAdminSym": "24280000012",
+      "longTermPeribRgtDt": "20090801",
+      "riCd": "28",
+      "roadNmCd": "518003232015",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20090801"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24280000012",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "27",
+      "recuProt_2": "0",
+      "socWel": "2",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "2",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "24280000012",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "fmNowPer": "50",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "24280000012",
+      "maNowPer": "7",
+      "maRsvPer": "0",
+      "totPer": "100"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "hmpgAddr": "cafe.naver.com/ygbdh",
+      "longTermAdminSym": "24280000012",
+      "pkngEquip": "30대",
+      "tfMth": "버스 : 양구읍에서 국토정중앙면 동면발 버스 1시간마다 남면터미널 방향 도촌초등학교 300m자가용 : 양구시내에서 7분거리"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24280000012",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1,000원 x 1식 = 1,000원",
+        "uptDt": "20260401"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24280000012",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3000",
+        "prodBase": "3,000원 x 1식 = 3,000원",
+        "uptDt": "20260401"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24280000023",
+    "name": "성심재가노인복지센터",
+    "types": [
+      "주간보호"
+    ],
+    "typeCodes": [
+      "B03"
+    ],
+    "emdNm": "양구읍",
+    "address": "강원특별자치도 양구군 양구읍 중심로 160",
+    "lat": 38.10470090231741,
+    "lng": 127.99121468698564,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "성심재가노인복지센터",
+      "adminPttnCd": "B03",
+      "BDongCd": "250",
+      "gunmulMlno": "160",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "24545",
+      "locTelNo_1": "033",
+      "locTelNo_2": "480",
+      "locTelNo_3": "8884",
+      "longTermAdminSym": "24280000023",
+      "longTermPeribRgtDt": "20151101",
+      "riCd": "21",
+      "roadNmCd": "518003232017",
+      "siDoCd": "51",
+      "siGunGuCd": "800",
+      "stpRptDt": "20151101"
+    },
+    "staff": {
+      "adminPttnCd": "B03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24280000023",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "4",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "1",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B03",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24280000023",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B03",
+      "fmNowPer": "13",
+      "fmRsvPer": "1",
+      "longTermAdminSym": "24280000023",
+      "maNowPer": "9",
+      "totPer": "23"
+    },
+    "etc": {
+      "adminPttnCd": "B03",
+      "hmpgAddr": "http:www.happysilvers.co.kr",
+      "longTermAdminSym": "24280000023",
+      "pkngEquip": "완비",
+      "tfMth": "대중교통- 서울에서 찾아오실 때 동서울 or 상봉터미널 -&gt;양구터미널 -&gt; 양구경찰서 방향으로 보도150m 이동 -&gt; 양구성심병원- 지방에서 찾아오실때 각 지역 버스터미널 -&gt; 춘천 or 원주 버스터미널 -&gt; 양구터미널 -&gt; 양구성심병원- 자가용(네비게이션 이용 시) 동서울 -&gt; 구리시 -&gt; 서울춘천고속도로 -&gt; 양구뱡향 -&gt; 양구성심병원"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24280000023",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1000원 x 1일 = 1,000원(2회제공)",
+        "uptDt": "20260318"
+      },
+      {
+        "adminPttnCd": "B03",
+        "longTermAdminSym": "24280000023",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3500",
+        "prodBase": "3,500원 x 1식 = 3,500원 ",
+        "uptDt": "20260318"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34282000012",
+    "name": "새암실버케어",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34272000005",
+    "name": "희망방문센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "3800",
+        "prodBase": "1일-3,800원 (중식) 월~토(24회:91,200원)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "7000",
+        "prodBase": "이미용(이용 원하는 인원에 대해서만 제공)",
+        "uptDt": "20250530"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34272000005",
+        "nonpayKind": "5",
+        "nonpayTgtAmt": "1000",
+        "prodBase": "1일-1,000 월~토(24회:24,000원)",
+        "uptDt": "20250530"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34273000017",
+    "name": "횡성장기요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000001",
+    "name": "행복재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34211000031",
+    "name": "춘천나눔돌봄센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]

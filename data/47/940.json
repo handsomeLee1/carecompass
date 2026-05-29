@@ -1,0 +1,592 @@
+[
+  {
+    "sym": "14794000006",
+    "name": "송담실버타운",
+    "types": [
+      "노인요양시설"
+    ],
+    "typeCodes": [
+      "A03"
+    ],
+    "emdNm": "서면",
+    "address": "경상북도 940",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "송담실버타운",
+      "adminPttnCd": "A03",
+      "BDongCd": "310",
+      "gunmulMlno": "36",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "40203",
+      "locTelNo_1": "054",
+      "locTelNo_2": "791",
+      "locTelNo_3": "6127",
+      "longTermAdminSym": "14794000006",
+      "longTermPeribRgtDt": "20140519",
+      "riCd": "00",
+      "roadNmCd": "479404778065",
+      "siDoCd": "47",
+      "siGunGuCd": "940",
+      "stpRptDt": "20140519"
+    },
+    "staff": {
+      "adminPttnCd": "A03",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "1",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "14794000006",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "1",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "14",
+      "recuProt_2": "0",
+      "socWel": "1",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "A03",
+      "batRoom": "12",
+      "crmnyPrst": "1",
+      "funcTrnRoomreal": "1",
+      "longTermAdminSym": "14794000006",
+      "medRoomreal": "1",
+      "ofce": "1",
+      "pgmRoomreal": "1",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "12",
+      "spcAcupRoomreal": "1",
+      "taxPageLong": "1",
+      "taxRoom": "1"
+    },
+    "capacity": {
+      "adminPttnCd": "A03",
+      "fmNowPer": "20",
+      "fmRsvPer": "0",
+      "longTermAdminSym": "14794000006",
+      "maNowPer": "6",
+      "maRsvPer": "0",
+      "totPer": "60"
+    },
+    "etc": {
+      "adminPttnCd": "A03",
+      "hmpgAddr": "www.lotus0203.com",
+      "longTermAdminSym": "14794000006",
+      "pkngEquip": "1층 사무실 앞 12대 주차 가능/도로에서 바로 진입하여 옥상주차장 주차 가능",
+      "tfMth": "1. 자가용 이용시 : 도동에서 천부방면으로 오시다가 남양을 지나 태하 가기전 학포마을  팻말에서 우회전 하여 아랫길로 내려오세요. 오른쪽 첫번째 오르막길로 올라오시면 송담실버타운입니다.2. 대중교통 이용시 : 도동에서 천부방면 버스를 타시고 학포마을에서 하차하세요. 아래쪽으로 조금만 걸어내려 오시면 송담실버타운 4층과 연결됩니다. 계단을 이용해 1층 사무실로 방문해 주세요."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "A03",
+        "longTermAdminSym": "14794000006",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "6500",
+        "prodBase": "2300원 * 하루 3회 * 30일 기준",
+        "uptDt": "20260327"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "24794000007",
+    "name": "송담재가장기요양기관",
+    "types": [
+      "방문요양",
+      "주간보호",
+      "단기보호"
+    ],
+    "typeCodes": [
+      "B01",
+      "B03",
+      "B04"
+    ],
+    "emdNm": "서면",
+    "address": "경상북도 940",
+    "lat": null,
+    "lng": null,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "송담재가장기요양기관",
+      "adminPttnCd": "B01",
+      "BDongCd": "310",
+      "gunmulMlno": "36",
+      "gunmulSlno": "0",
+      "HDongCd": "310",
+      "hmPostNo": "40203",
+      "locTelNo_1": "054",
+      "locTelNo_2": "791",
+      "locTelNo_3": "1033",
+      "longTermAdminSym": "24794000007",
+      "longTermPeribRgtDt": "20150203",
+      "riCd": "00",
+      "roadNmCd": "479404778065",
+      "siDoCd": "47",
+      "siGunGuCd": "940",
+      "stpRptDt": "20150203"
+    },
+    "staff": {
+      "adminPttnCd": "B01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "0",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "24794000007",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "B01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "24794000007",
+      "medRoomreal": "0",
+      "ofce": "0",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24794000007",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "B01",
+      "longTermAdminSym": "24794000007"
+    },
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34794000002",
+    "name": "울릉노인복지센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "서면",
+    "address": "경상북도 울릉군 서면 학포길 36",
+    "lat": 37.50211073453037,
+    "lng": 130.80789076615724,
+    "general": {
+      "adminFdatType": "3",
+      "adminNm": "울릉노인복지센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "310",
+      "gunmulMlno": "36",
+      "gunmulSlno": "0",
+      "HDongCd": "315",
+      "hmPostNo": "40203",
+      "locTelNo_1": "054",
+      "locTelNo_2": "791",
+      "locTelNo_3": "1033",
+      "longTermAdminSym": "34794000002",
+      "longTermPeribRgtDt": "20080630",
+      "riCd": "26",
+      "roadNmCd": "479404778065",
+      "siDoCd": "47",
+      "siGunGuCd": "940",
+      "stpRptDt": "20080626"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34794000002",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "3",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34794000002",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "1",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34794000002"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "hmpgAddr": ".",
+      "longTermAdminSym": "34794000002",
+      "pkngEquip": "주차가능",
+      "tfMth": "주소 : 울릉군 서면 학포길 36 (공용버스: 도동버스터미널에서 사동방향으로 40분 소요)"
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34794000002",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "0",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34794000004",
+    "name": "울릉노인요양센터",
+    "types": [
+      "방문요양"
+    ],
+    "typeCodes": [
+      "C01"
+    ],
+    "emdNm": "울릉읍",
+    "address": "경상북도 울릉군 울릉읍 도동9길 241",
+    "lat": 37.48554068864012,
+    "lng": 130.88892580996375,
+    "general": {
+      "adminFdatType": "4",
+      "adminNm": "울릉노인요양센터",
+      "adminPttnCd": "C01",
+      "BDongCd": "250",
+      "detailAddr": "354번지 22호 ",
+      "gunmulMlno": "241",
+      "gunmulSlno": "0",
+      "HDongCd": "250",
+      "hmPostNo": "40228",
+      "locTelNo_1": "054",
+      "locTelNo_2": "791",
+      "locTelNo_3": "5020",
+      "longTermAdminSym": "34794000004",
+      "longTermPeribRgtDt": "20080717",
+      "riCd": "26",
+      "roadNmCd": "479404778020",
+      "siDoCd": "47",
+      "siGunGuCd": "940",
+      "stpRptDt": "20080717"
+    },
+    "staff": {
+      "adminPttnCd": "C01",
+      "chargeDoc": "0",
+      "chrgDoc": "0",
+      "cook": "0",
+      "dent": "0",
+      "equipLong": "1",
+      "etcPer": "0",
+      "hdOfce": "0",
+      "hygiPrsn": "0",
+      "longTermAdminSym": "34794000004",
+      "mgmtPrsn": "0",
+      "nur": "0",
+      "nurArticle": "0",
+      "nut": "0",
+      "ofceEmp": "0",
+      "physicalMTret": "0",
+      "recuProtDelay": "0",
+      "recuProt_1": "10",
+      "recuProt_2": "0",
+      "socWel": "0",
+      "suppPrsn": "0",
+      "wrkMTret": "0"
+    },
+    "facility": {
+      "adminPttnCd": "C01",
+      "batRoom": "0",
+      "crmnyPrst": "0",
+      "funcTrnRoomreal": "0",
+      "longTermAdminSym": "34794000004",
+      "medRoomreal": "0",
+      "ofce": "1",
+      "pgmRoomreal": "0",
+      "prsnRoomreal1": "0",
+      "prsnRoomreal2": "0",
+      "prsnRoomreal3": "0",
+      "prsnRoomreal4": "0",
+      "spcAcupRoomreal": "0",
+      "taxPageLong": "0",
+      "taxRoom": "0"
+    },
+    "capacity": {
+      "adminPttnCd": "C01",
+      "fmNowPer": "14",
+      "longTermAdminSym": "34794000004",
+      "maNowPer": "1",
+      "totPer": "0"
+    },
+    "etc": {
+      "adminPttnCd": "C01",
+      "longTermAdminSym": "34794000004",
+      "pkngEquip": "약 10대 주차 가능",
+      "tfMth": "도동에서 성인봉등산로쪽으로 약 2Km 에 있으며 도동과 시설간의 왕복 셔틀 소형버스 운행 중. 필요시 전화 요청 가능."
+    },
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34794000004",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20121231"
+      },
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34794000004",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "0",
+        "prodBase": "실비",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028689",
+    "name": "신세계재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C01",
+        "longTermAdminSym": "34729028689",
+        "nonpayKind": "3",
+        "nonpayTgtAmt": "5000",
+        "prodBase": "컷트 1회당 5,000원",
+        "uptDt": "20121231"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34729028713",
+    "name": "안심재가장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34711000054",
+    "name": "동국 방문요양센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000123",
+    "name": "친절간호사의집",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34719000127",
+    "name": "장수노인복지마을",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "1",
+        "nonpayTgtAmt": "4600",
+        "prodBase": "끼니당 2,300원 2회 4,600원",
+        "uptDt": "20251118"
+      },
+      {
+        "adminPttnCd": "C03",
+        "longTermAdminSym": "34719000127",
+        "nonpayKind": "7",
+        "nonpayTgtAmt": "18000",
+        "prodBase": "비급여 주간보호 이용",
+        "uptDt": "20251118"
+      }
+    ],
+    "welfare": []
+  },
+  {
+    "sym": "34793000005",
+    "name": "울진돌봄사회서비스센터",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34713000057",
+    "name": "가경장기요양기관",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  },
+  {
+    "sym": "34717000001",
+    "name": "어르신이행복한세상",
+    "types": [
+      null
+    ],
+    "typeCodes": [
+      null
+    ],
+    "emdNm": "",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "general": null,
+    "staff": null,
+    "facility": null,
+    "capacity": null,
+    "etc": null,
+    "nonBenefit": [],
+    "welfare": []
+  }
+]
