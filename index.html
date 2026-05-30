@@ -245,7 +245,7 @@ function getFiltered(){
     var types=currentType.split(',');
     filtered=filtered.filter(function(i){
       if(i.typeCodes&&i.typeCodes.length>0){
-        return i.typeCodes.some(function(tc){return types.some(function(t){return tc.startsWith(t);});});
+        return i.typeCodes.some(function(tc){return types.some(function(t){return tc&&tc.startsWith(t);});});
       }
       return false;
     });
