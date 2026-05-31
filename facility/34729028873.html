@@ -236,8 +236,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.9166536896127,128.82161734081),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.9166536896127,128.82161734081),title:'더 기쁨드림 재가장기요양기관'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.91665414846764,128.8216173501281),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.91665414846764,128.8216173501281),title:'더 기쁨드림 재가장기요양기관'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

@@ -21,14 +21,14 @@ function getTypeName(cd){
 
 function getCalcType(typeCodes){
   if(!typeCodes||typeCodes.length===0)return 'home';
-  if(typeCodes.some(c=>c.startsWith('A')))return 'facility';
+  if(typeCodes.some(c=>c&&c.startsWith('A')))return 'facility';
   if(typeCodes.some(c=>['B06','C06','006'].includes(c)))return 'welfare';
   return 'home';
 }
 
 function getContentType(typeCodes){
   if(!typeCodes||typeCodes.length===0)return 'home';
-  if(typeCodes.some(c=>c.startsWith('A')))return 'facility';
+  if(typeCodes.some(c=>c&&c.startsWith('A')))return 'facility';
   if(typeCodes.some(c=>['B03','C03','003'].includes(c)))return 'daycare';
   if(typeCodes.some(c=>['B06','C06','006'].includes(c)))return 'welfare';
   return 'home';

@@ -232,8 +232,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.8388280100225,128.759617120118),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.8388280100225,128.759617120118),title:'영대재가장기요양기관'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.83887797925628,128.75958076691336),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.83887797925628,128.75958076691336),title:'영대재가장기요양기관'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

@@ -239,8 +239,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.9337702364168,128.182984756402),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.9337702364168,128.182984756402),title:'수산방문요양센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.933771213622315,128.1829841472876),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.933771213622315,128.1829841472876),title:'수산방문요양센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

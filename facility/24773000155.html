@@ -232,8 +232,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.3506900039482,128.69687776423),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.3506900039482,128.69687776423),title:'경북 노인복지센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.35069171032086,128.6968785476657),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.35069171032086,128.6968785476657),title:'경북 노인복지센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

@@ -232,8 +232,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.9876765210609,128.865062329157),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.9876765210609,128.865062329157),title:'우천요양센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.98767698726043,128.86506231734919),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.98767698726043,128.86506231734919),title:'우천요양센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

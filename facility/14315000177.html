@@ -243,8 +243,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(37.1771036624946,128.266749237898),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(37.1771036624946,128.266749237898),title:'송학보금자리 요양센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(37.177104114287026,128.2667492645949),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(37.177104114287026,128.2667492645949),title:'송학보금자리 요양센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

@@ -240,8 +240,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.9030518041407,128.821836452503),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.9030518041407,128.821836452503),title:'삼목재가장기요양기관'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.903052264139696,128.82183641093695),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.903052264139696,128.82183641093695),title:'삼목재가장기요양기관'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

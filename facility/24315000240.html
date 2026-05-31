@@ -232,8 +232,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.908931667858,128.166460335422),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.908931667858,128.166460335422),title:'덕산방문요양센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.9089803201085,128.16645723978274),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.9089803201085,128.16645723978274),title:'덕산방문요양센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

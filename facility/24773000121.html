@@ -236,8 +236,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.3515821645644,128.705178848353),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.3515821645644,128.705178848353),title:'장수노인복지센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(36.351582665466594,128.70517881120068),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(36.351582665466594,128.70517881120068),title:'장수노인복지센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>

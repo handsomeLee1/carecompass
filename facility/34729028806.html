@@ -236,8 +236,8 @@ renderFacilityCalc('facilityCalc','home');
 
 window.addEventListener('load',function(){
   if(typeof kakao==='undefined')return;
-  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.8425623786973,128.758390688697),level:4});
-  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.8425623786973,128.758390688697),title:'한결재가장기요양센터'});
+  var map=new kakao.maps.Map(document.getElementById('facilityMap'),{center:new kakao.maps.LatLng(35.84256280001178,128.7583906442653),level:4});
+  new kakao.maps.Marker({map:map,position:new kakao.maps.LatLng(35.84256280001178,128.7583906442653),title:'한결재가장기요양센터'});
   setTimeout(function(){map.relayout();},500);
 });
 </script>
